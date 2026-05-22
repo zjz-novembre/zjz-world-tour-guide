@@ -138,7 +138,7 @@ extension DineCity {
         let center = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
         return DineCity(
             id: id,
-            label: "\(cityName) · \(province) · 中国",
+            label: cityName,
             cityName: cityName,
             province: province,
             country: "中国",
@@ -190,7 +190,7 @@ struct Restaurant: Identifiable, Equatable, Decodable {
     }
 
     var cityLabel: String {
-        "\(cityName) · \(province) · \(country)"
+        cityName
     }
 
     static func == (lhs: Restaurant, rhs: Restaurant) -> Bool {

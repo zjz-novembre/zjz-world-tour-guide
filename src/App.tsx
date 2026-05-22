@@ -264,7 +264,7 @@ function buildCityOptions(restaurants: Restaurant[]): CityOption[] {
 
     return {
       value: cityCode,
-      label: `${first.cityName} · ${first.province} · ${first.country}`,
+      label: first.cityName,
       cityName: first.cityName,
       province: first.province,
       country: first.country,

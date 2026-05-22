@@ -25,6 +25,13 @@ const citySwitchSample = ["xiamen", "shanghai", "chengdu", "hong-kong", "macau"]
   },
   {},
 );
+const cityLabels = {
+  xiamen: "厦门",
+  shanghai: "上海",
+  chengdu: "成都",
+  "hong-kong": "香港",
+  macau: "澳门",
+};
 const chromeCandidates = [
   env.CHROME_BIN,
   "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
@@ -312,9 +319,9 @@ try {
       const chrome = document.querySelector(".chrome-layer")?.getBoundingClientRect();
       const topbar = document.querySelector(".topbar")?.getBoundingClientRect();
       const filters = document.querySelector(".filters")?.getBoundingClientRect();
-      const firstIconStyle = getComputedStyle(document.querySelector(".filter-control:nth-child(1) .filter-control__icon"));
-      const secondIconStyle = getComputedStyle(document.querySelector(".filter-control:nth-child(2) .filter-control__icon"));
-      const starImage = document.querySelector(".filter-control:nth-child(3) img.filter-control__image");
+      const firstIconStyle = getComputedStyle(document.querySelector(".filter-slot--city .filter-control__icon"));
+      const secondIconStyle = getComputedStyle(document.querySelector(".filter-slot--cost .filter-control__icon"));
+      const starImage = document.querySelector(".filter-slot--level img.filter-control__image");
       const favicon = document.querySelector('link[rel="icon"]');
       const mapSurface = document.querySelector(".amap-surface");
       const mapStyle = getComputedStyle(mapSurface);
@@ -346,7 +353,7 @@ try {
       return {
         documentTitle: document.title,
         brandText: document.querySelector(".brand__word")?.textContent?.trim() ?? "",
-        defaultCityValue: document.querySelector(".filter-control:nth-child(1) .filter-control__value")?.textContent?.trim() ?? "",
+        defaultCityValue: document.querySelector(".filter-slot--city .filter-control__value")?.textContent?.trim() ?? "",
         faviconHref: favicon?.getAttribute("href") ?? "",
         viewport: { width: window.innerWidth, height: window.innerHeight },
         ratio,
@@ -417,7 +424,7 @@ try {
   const desktopValue = desktop.result.value;
   assert(desktopValue.documentTitle === "Lite Michelin", `Document title is not Lite Michelin: ${desktopValue.documentTitle}`);
   assert(desktopValue.brandText === "MICHELIN", `Visible page brand is not MICHELIN: ${desktopValue.brandText}`);
-  assert(desktopValue.defaultCityValue === "上海 · 上海 · 中国", `Default city is not Shanghai: ${desktopValue.defaultCityValue}`);
+  assert(desktopValue.defaultCityValue === "上海", `Default city is not Shanghai: ${desktopValue.defaultCityValue}`);
   assert(desktopValue.faviconHref.endsWith("/favicon.svg") || desktopValue.faviconHref === "./favicon.svg", `Favicon does not use favicon.svg: ${desktopValue.faviconHref}`);
   assert(desktopValue.viewport.width === 1440, `Expected 1440px desktop viewport, got ${desktopValue.viewport.width}`);
   assert(desktopValue.mapCoversStage, "Map is not the full-page base layer");
@@ -569,13 +576,21 @@ try {
   const citySwitches = await cdp.send("Runtime.evaluate", {
     expression: `(async () => {
       const expected = ${JSON.stringify(citySwitchSample)};
+      const labels = ${JSON.stringify(cityLabels)};
       const results = {};
       const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+      const selectCity = async (city) => {
+        const button = document.querySelector(".filter-slot--city .filter-control__button");
+        button?.click();
+        await wait(20);
+        const option = Array.from(document.querySelectorAll(".filter-slot--city .filter-control__option"))
+          .find((element) => element.textContent.trim() === labels[city]);
+        option?.click();
+        await wait(20);
+      };
 
       for (const [city, expectedRows] of Object.entries(expected)) {
-        const select = document.querySelector(".filter-control:nth-child(1) select");
-        select.value = city;
-        select.dispatchEvent(new Event("change", { bubbles: true }));
+        await selectCity(city);
 
         for (let attempt = 0; attempt < 40; attempt += 1) {
           const rowCount = document.querySelectorAll(".restaurant-row").length;
@@ -598,7 +613,7 @@ try {
 
         results[city] = {
           label: document
-            .querySelector(".filter-control:nth-child(1) .filter-control__value")
+            .querySelector(".filter-slot--city .filter-control__value")
             ?.textContent
             ?.trim(),
           rows: document.querySelectorAll(".restaurant-row").length,
@@ -643,11 +658,15 @@ try {
   }
 
   await cdp.send("Runtime.evaluate", {
-    expression: `(() => {
-      const select = document.querySelector(".filter-control:nth-child(1) select");
-      select.value = "xiamen";
-      select.dispatchEvent(new Event("change", { bubbles: true }));
+    expression: `(async () => {
+      const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+      document.querySelector(".filter-slot--city .filter-control__button")?.click();
+      await wait(20);
+      Array.from(document.querySelectorAll(".filter-slot--city .filter-control__option"))
+        .find((element) => element.textContent.trim() === "厦门")
+        ?.click();
     })()`,
+    awaitPromise: true,
   });
   await waitForAmapStable(cdp);
 
@@ -693,8 +712,8 @@ try {
         };
       });
       const shell = document.querySelector(".filters")?.getBoundingClientRect();
-      const firstFilterLabelStyle = getComputedStyle(document.querySelector(".filter-control:nth-child(1) .filter-control__label"));
-      const firstFilterValueStyle = getComputedStyle(document.querySelector(".filter-control:nth-child(1) .filter-control__value"));
+      const firstFilterLabelStyle = getComputedStyle(document.querySelector(".filter-slot--city .filter-control__label"));
+      const firstFilterValueStyle = getComputedStyle(document.querySelector(".filter-slot--city .filter-control__value"));
       const tops = bounds.map((bound) => bound.top);
       const titleFilterGap = topbar && filters ? filters.top - topbar.bottom : -1;
       const listGaps = stage && list
@@ -737,7 +756,7 @@ try {
         realAmapMounted: Boolean(window.AMap) && liveAmapNodes > 0,
         readyWithoutPlaceholder: amapStatus === "ready" && mapStyle.backgroundImage === "none",
         storedMapMarkers: document.querySelectorAll(".map-marker").length,
-        michelinStarIcon: Boolean(document.querySelector(".filter-control:nth-child(3) img.filter-control__image")?.getAttribute("src")?.includes("michelin-guide.svg")),
+        michelinStarIcon: Boolean(document.querySelector(".filter-slot--level img.filter-control__image")?.getAttribute("src")?.includes("michelin-guide.svg")),
         visibleFilterIcons: Array.from(document.querySelectorAll(".filter-control__icon")).every((element) => {
           const rect = element.getBoundingClientRect();
           return rect.width > 0 && rect.height > 0;
@@ -835,11 +854,15 @@ try {
     mobile: false,
   });
   await cdp.send("Runtime.evaluate", {
-    expression: `(() => {
-      const select = document.querySelector(".filter-control:nth-child(1) select");
-      select.value = "chengdu";
-      select.dispatchEvent(new Event("change", { bubbles: true }));
+    expression: `(async () => {
+      const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+      document.querySelector(".filter-slot--city .filter-control__button")?.click();
+      await wait(20);
+      Array.from(document.querySelectorAll(".filter-slot--city .filter-control__option"))
+        .find((element) => element.textContent.trim() === "成都")
+        ?.click();
     })()`,
+    awaitPromise: true,
   });
   await waitForAmapStable(cdp);
 
@@ -879,8 +902,8 @@ try {
       const mobileDishes = firstRow?.querySelector(".restaurant-row__mobile-dishes");
       const mobileLink = firstRow?.querySelector(".restaurant-row__mobile-link");
       const mobileLinkIcon = firstRow?.querySelector(".restaurant-row__mobile-link svg");
-      const firstFilterLabelStyle = getComputedStyle(document.querySelector(".filter-control:nth-child(1) .filter-control__label"));
-      const firstFilterValueStyle = getComputedStyle(document.querySelector(".filter-control:nth-child(1) .filter-control__value"));
+      const firstFilterLabelStyle = getComputedStyle(document.querySelector(".filter-slot--city .filter-control__label"));
+      const firstFilterValueStyle = getComputedStyle(document.querySelector(".filter-slot--city .filter-control__value"));
 
       return {
         viewport: { width: window.innerWidth, height: window.innerHeight },

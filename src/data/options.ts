@@ -3,7 +3,7 @@ import type { CityCode, CityOption, CostBand, MichelinLevel } from "../types";
 export const cityOptions: CityOption[] = [
   {
     value: "beijing",
-    label: "北京 · 北京 · 中国",
+    label: "北京",
     cityName: "北京",
     province: "北京",
     country: "中国",
@@ -14,7 +14,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "guangzhou",
-    label: "广州 · 广东 · 中国",
+    label: "广州",
     cityName: "广州",
     province: "广东",
     country: "中国",
@@ -25,7 +25,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "chengdu",
-    label: "成都 · 四川 · 中国",
+    label: "成都",
     cityName: "成都",
     province: "四川",
     country: "中国",
@@ -36,7 +36,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "fuzhou",
-    label: "福州 · 福建 · 中国",
+    label: "福州",
     cityName: "福州",
     province: "福建",
     country: "中国",
@@ -47,7 +47,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "xiamen",
-    label: "厦门 · 福建 · 中国",
+    label: "厦门",
     cityName: "厦门",
     province: "福建",
     country: "中国",
@@ -58,7 +58,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "quanzhou",
-    label: "泉州 · 福建 · 中国",
+    label: "泉州",
     cityName: "泉州",
     province: "福建",
     country: "中国",
@@ -69,7 +69,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "ningde",
-    label: "宁德 · 福建 · 中国",
+    label: "宁德",
     cityName: "宁德",
     province: "福建",
     country: "中国",
@@ -80,7 +80,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "shanghai",
-    label: "上海 · 上海 · 中国",
+    label: "上海",
     cityName: "上海",
     province: "上海",
     country: "中国",
@@ -91,7 +91,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "nanjing",
-    label: "南京 · 江苏 · 中国",
+    label: "南京",
     cityName: "南京",
     province: "江苏",
     country: "中国",
@@ -102,7 +102,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "suzhou",
-    label: "苏州 · 江苏 · 中国",
+    label: "苏州",
     cityName: "苏州",
     province: "江苏",
     country: "中国",
@@ -113,7 +113,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "yangzhou",
-    label: "扬州 · 江苏 · 中国",
+    label: "扬州",
     cityName: "扬州",
     province: "江苏",
     country: "中国",
@@ -124,7 +124,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "changzhou",
-    label: "常州 · 江苏 · 中国",
+    label: "常州",
     cityName: "常州",
     province: "江苏",
     country: "中国",
@@ -135,7 +135,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "hangzhou",
-    label: "杭州 · 浙江 · 中国",
+    label: "杭州",
     cityName: "杭州",
     province: "浙江",
     country: "中国",
@@ -146,7 +146,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "wenzhou",
-    label: "温州 · 浙江 · 中国",
+    label: "温州",
     cityName: "温州",
     province: "浙江",
     country: "中国",
@@ -157,7 +157,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "taizhou",
-    label: "台州 · 浙江 · 中国",
+    label: "台州",
     cityName: "台州",
     province: "浙江",
     country: "中国",
@@ -168,7 +168,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "hong-kong",
-    label: "香港 · 香港特别行政区 · 中国",
+    label: "香港",
     cityName: "香港",
     province: "香港特别行政区",
     country: "中国",
@@ -179,7 +179,7 @@ export const cityOptions: CityOption[] = [
   },
   {
     value: "macau",
-    label: "澳门 · 澳门特别行政区 · 中国",
+    label: "澳门",
     cityName: "澳门",
     province: "澳门特别行政区",
     country: "中国",
