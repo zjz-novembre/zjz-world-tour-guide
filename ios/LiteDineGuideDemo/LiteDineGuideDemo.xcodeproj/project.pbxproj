@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0000000000000000000011 /* LiteDineGuideDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000001 /* LiteDineGuideDemoApp.swift */; };
+		2D0000000000000000000012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000002 /* ContentView.swift */; };
+		2D0000000000000000000013 /* DineMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000003 /* DineMapView.swift */; };
+		2D0000000000000000000014 /* RestaurantModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000004 /* RestaurantModels.swift */; };
+		2D0000000000000000000015 /* MarkerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000005 /* MarkerViews.swift */; };
+		2D0000000000000000000016 /* DineFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000007 /* DineFont.swift */; };
+		2D0000000000000000000017 /* SVGVectorIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000008 /* SVGVectorIcon.swift */; };
+		2D00000000000000000000A1 /* michelin-star-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B1 /* michelin-star-white.svg */; };
+		2D00000000000000000000A2 /* michelin-bib-gourmand-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */; };
+		2D00000000000000000000A3 /* restaurant-selected-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B3 /* restaurant-selected-white.svg */; };
+		2D00000000000000000000A4 /* michelin-guide.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B4 /* michelin-guide.svg */; };
+		2D00000000000000000000A5 /* web-map-pin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B5 /* web-map-pin.svg */; };
+		2D00000000000000000000A6 /* web-tag.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B6 /* web-tag.svg */; };
+		2D00000000000000000000A7 /* web-external-link.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B7 /* web-external-link.svg */; };
+		2D00000000000000000000A8 /* web-chevron-down.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B8 /* web-chevron-down.svg */; };
+		2D00000000000000000000A9 /* web-check.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B9 /* web-check.svg */; };
+		2D00000000000000000000C1 /* openai-sans-v2-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D1 /* openai-sans-v2-regular.ttf */; };
+		2D00000000000000000000C2 /* openai-sans-v2-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D2 /* openai-sans-v2-medium.ttf */; };
+		2D00000000000000000000C3 /* openai-sans-v2-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D3 /* openai-sans-v2-semibold.ttf */; };
+		2D00000000000000000000C4 /* openai-sans-v2-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D4 /* openai-sans-v2-bold.ttf */; };
+		2D00000000000000000000E1 /* michelin-restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F1 /* michelin-restaurants.json */; };
+		2D00000000000000000000E2 /* black-pearl-restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F2 /* black-pearl-restaurants.json */; };
+		2D00000000000000000000E3 /* black-pearl-diamond-official-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F3 /* black-pearl-diamond-official-52.png */; };
+		2D00000000000000000000E4 /* black-pearl-logo-official.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F4 /* black-pearl-logo-official.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D0000000000000000000001 /* LiteDineGuideDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteDineGuideDemoApp.swift; sourceTree = "<group>"; };
+		2D0000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D0000000000000000000003 /* DineMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DineMapView.swift; sourceTree = "<group>"; };
+		2D0000000000000000000004 /* RestaurantModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModels.swift; sourceTree = "<group>"; };
+		2D0000000000000000000005 /* MarkerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerViews.swift; sourceTree = "<group>"; };
+		2D0000000000000000000006 /* LiteDineGuideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiteDineGuideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0000000000000000000007 /* DineFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DineFont.swift; sourceTree = "<group>"; };
+		2D0000000000000000000008 /* SVGVectorIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGVectorIcon.swift; sourceTree = "<group>"; };
+		2D00000000000000000000B1 /* michelin-star-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-star-white.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-bib-gourmand-white.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B3 /* restaurant-selected-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/restaurant-selected-white.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B4 /* michelin-guide.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-guide.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B5 /* web-map-pin.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-map-pin.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B6 /* web-tag.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-tag.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B7 /* web-external-link.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-external-link.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B8 /* web-chevron-down.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-chevron-down.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B9 /* web-check.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-check.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000D1 /* openai-sans-v2-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-regular.ttf"; sourceTree = "<group>"; };
+		2D00000000000000000000D2 /* openai-sans-v2-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-medium.ttf"; sourceTree = "<group>"; };
+		2D00000000000000000000D3 /* openai-sans-v2-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-semibold.ttf"; sourceTree = "<group>"; };
+		2D00000000000000000000D4 /* openai-sans-v2-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-bold.ttf"; sourceTree = "<group>"; };
+		2D00000000000000000000F1 /* michelin-restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/michelin-restaurants.json"; sourceTree = "<group>"; };
+		2D00000000000000000000F2 /* black-pearl-restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/black-pearl-restaurants.json"; sourceTree = "<group>"; };
+		2D00000000000000000000F3 /* black-pearl-diamond-official-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-diamond-official-52.png"; sourceTree = "<group>"; };
+		2D00000000000000000000F4 /* black-pearl-logo-official.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-logo-official.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0000000000000000000022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0000000000000000000030 = {
+			isa = PBXGroup;
+			children = (
+				2D0000000000000000000031 /* LiteDineGuideDemo */,
+				2D0000000000000000000032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0000000000000000000031 /* LiteDineGuideDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2D0000000000000000000001 /* LiteDineGuideDemoApp.swift */,
+				2D0000000000000000000002 /* ContentView.swift */,
+				2D0000000000000000000003 /* DineMapView.swift */,
+				2D0000000000000000000004 /* RestaurantModels.swift */,
+				2D0000000000000000000005 /* MarkerViews.swift */,
+				2D0000000000000000000007 /* DineFont.swift */,
+				2D0000000000000000000008 /* SVGVectorIcon.swift */,
+				2D00000000000000000000B1 /* michelin-star-white.svg */,
+				2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */,
+				2D00000000000000000000B3 /* restaurant-selected-white.svg */,
+				2D00000000000000000000B4 /* michelin-guide.svg */,
+				2D00000000000000000000B5 /* web-map-pin.svg */,
+				2D00000000000000000000B6 /* web-tag.svg */,
+				2D00000000000000000000B7 /* web-external-link.svg */,
+				2D00000000000000000000B8 /* web-chevron-down.svg */,
+				2D00000000000000000000B9 /* web-check.svg */,
+				2D00000000000000000000F3 /* black-pearl-diamond-official-52.png */,
+				2D00000000000000000000F4 /* black-pearl-logo-official.png */,
+				2D00000000000000000000D1 /* openai-sans-v2-regular.ttf */,
+				2D00000000000000000000D2 /* openai-sans-v2-medium.ttf */,
+				2D00000000000000000000D3 /* openai-sans-v2-semibold.ttf */,
+				2D00000000000000000000D4 /* openai-sans-v2-bold.ttf */,
+				2D00000000000000000000F1 /* michelin-restaurants.json */,
+				2D00000000000000000000F2 /* black-pearl-restaurants.json */,
+			);
+			path = LiteDineGuideDemo;
+			sourceTree = "<group>";
+		};
+		2D0000000000000000000032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0000000000000000000006 /* LiteDineGuideDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0000000000000000000040 /* LiteDineGuideDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0000000000000000000080 /* Build configuration list for PBXNativeTarget "LiteDineGuideDemo" */;
+			buildPhases = (
+				2D0000000000000000000021 /* Sources */,
+				2D0000000000000000000022 /* Frameworks */,
+				2D0000000000000000000023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiteDineGuideDemo;
+			productName = LiteDineGuideDemo;
+			productReference = 2D0000000000000000000006 /* LiteDineGuideDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0000000000000000000050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2D0000000000000000000040 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 2D0000000000000000000070 /* Build configuration list for PBXProject "LiteDineGuideDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0000000000000000000030;
+			productRefGroup = 2D0000000000000000000032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0000000000000000000040 /* LiteDineGuideDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0000000000000000000023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D00000000000000000000A1 /* michelin-star-white.svg in Resources */,
+				2D00000000000000000000A2 /* michelin-bib-gourmand-white.svg in Resources */,
+				2D00000000000000000000A3 /* restaurant-selected-white.svg in Resources */,
+				2D00000000000000000000A4 /* michelin-guide.svg in Resources */,
+				2D00000000000000000000A5 /* web-map-pin.svg in Resources */,
+				2D00000000000000000000A6 /* web-tag.svg in Resources */,
+				2D00000000000000000000A7 /* web-external-link.svg in Resources */,
+				2D00000000000000000000A8 /* web-chevron-down.svg in Resources */,
+				2D00000000000000000000A9 /* web-check.svg in Resources */,
+				2D00000000000000000000C1 /* openai-sans-v2-regular.ttf in Resources */,
+				2D00000000000000000000C2 /* openai-sans-v2-medium.ttf in Resources */,
+				2D00000000000000000000C3 /* openai-sans-v2-semibold.ttf in Resources */,
+				2D00000000000000000000C4 /* openai-sans-v2-bold.ttf in Resources */,
+				2D00000000000000000000E1 /* michelin-restaurants.json in Resources */,
+				2D00000000000000000000E2 /* black-pearl-restaurants.json in Resources */,
+				2D00000000000000000000E3 /* black-pearl-diamond-official-52.png in Resources */,
+				2D00000000000000000000E4 /* black-pearl-logo-official.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0000000000000000000021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0000000000000000000011 /* LiteDineGuideDemoApp.swift in Sources */,
+				2D0000000000000000000012 /* ContentView.swift in Sources */,
+				2D0000000000000000000013 /* DineMapView.swift in Sources */,
+				2D0000000000000000000014 /* RestaurantModels.swift in Sources */,
+				2D0000000000000000000015 /* MarkerViews.swift in Sources */,
+				2D0000000000000000000016 /* DineFont.swift in Sources */,
+				2D0000000000000000000017 /* SVGVectorIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D0000000000000000000061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D0000000000000000000062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0000000000000000000063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CADisableMinimumFrameDurationOnPhone = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lite Dine";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = world.zjz.LiteDineGuideDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D0000000000000000000064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CADisableMinimumFrameDurationOnPhone = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lite Dine";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = world.zjz.LiteDineGuideDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0000000000000000000070 /* Build configuration list for PBXProject "LiteDineGuideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0000000000000000000061 /* Debug */,
+				2D0000000000000000000062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0000000000000000000080 /* Build configuration list for PBXNativeTarget "LiteDineGuideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0000000000000000000063 /* Debug */,
+				2D0000000000000000000064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0000000000000000000050 /* Project object */;
+}

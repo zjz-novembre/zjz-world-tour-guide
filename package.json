@@ -1,0 +1,43 @@
+{
+  "name": "michelin-list",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "data:michelin": "node scripts/fetch-michelin-data.mjs",
+    "data:addresses": "node scripts/enrich-github-addresses.mjs",
+    "data:covers": "node scripts/enrich-michelin-cover-images.mjs",
+    "data:coordinates": "node scripts/refresh-amap-coordinates.mjs",
+    "data:black-pearl": "node scripts/fetch-black-pearl-data.mjs",
+    "data:dianping": "node scripts/enrich-dianping-data.mjs",
+    "data:dianping:login": "DIANPING_HEADFUL=1 DIANPING_PAUSE_ON_LOGIN=1 DIANPING_CHROME_USER_DATA_DIR=.browser/dianping node scripts/enrich-dianping-data.mjs",
+    "data:dianping:chrome": "node scripts/enrich-dianping-current-chrome.mjs",
+    "db:build": "node scripts/build-restaurant-db.mjs",
+    "db:build:black-pearl": "node scripts/build-black-pearl-db.mjs",
+    "db:verify": "node scripts/verify-restaurant-db.mjs",
+    "deploy:worker:build": "MICHELIN_BASE_PATH=/michelin/ npm run build && node scripts/build-cloudflare-worker.mjs",
+    "test": "node scripts/verify-data.mjs && npm run db:build && npm run db:verify && node scripts/verify-db-api.mjs && node scripts/verify-amap-runtime.mjs && node scripts/verify-app-layout.mjs && node scripts/verify-offline-support.mjs && npm run deploy:worker:build && node scripts/verify-production-preview.mjs",
+    "test:data": "node scripts/verify-data.mjs",
+    "test:db": "npm run db:build && npm run db:verify",
+    "test:db-api": "node scripts/verify-db-api.mjs",
+    "test:amap-runtime": "node scripts/verify-amap-runtime.mjs",
+    "test:app-layout": "node scripts/verify-app-layout.mjs",
+    "test:offline": "node scripts/verify-offline-support.mjs",
+    "test:production-preview": "node scripts/verify-production-preview.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "vite": "^7.2.4",
+    "typescript": "^5.9.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3"
+  }
+}

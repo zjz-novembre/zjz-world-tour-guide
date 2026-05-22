@@ -1,0 +1,28 @@
+.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+public/amap-config.json
+
+# Dependencies and build outputs
+node_modules/
+dist/
+
+# Local tool state
+.browser/
+.omx/
+.playwright-cli/
+.wrangler/
+
+# Generated deployment bundles
+cloudflare/**/worker.mjs
+
+# Intermediate scraping / handoff artifacts
+output/
+handoff/
+
+# Database backups; keep canonical DBs and schemas tracked
+database/*.bak*
+database/*.pre-*
