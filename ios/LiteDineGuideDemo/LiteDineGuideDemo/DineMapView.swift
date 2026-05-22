@@ -2,6 +2,11 @@ import MapKit
 import SwiftUI
 
 struct DineMapView: View {
+    private static let webCityScaleKilometers: CLLocationDistance = 14
+    private static let webMobileMaxWidth: CGFloat = 760
+    private static let webMobileCityScaleRatio: CGFloat = 0.92
+    private static let kilometersPerLatitudeDegree: CLLocationDistance = 111.32
+
     let guide: GuideKind
     let city: DineCity
     let restaurants: [Restaurant]
@@ -83,24 +88,58 @@ struct DineMapView: View {
     }
 
     private static func region(for city: DineCity, viewportSize: CGSize, focusInsets: EdgeInsets) -> MKCoordinateRegion {
-        let span = city.span
         guard viewportSize.width > 0, viewportSize.height > 0 else {
-            return MKCoordinateRegion(center: city.center, span: span)
+            return MKCoordinateRegion(center: city.center, span: city.span)
         }
 
-        let focusWidth = max(viewportSize.width - focusInsets.leading - focusInsets.trailing, 1)
-        let focusHeight = max(viewportSize.height - focusInsets.top - focusInsets.bottom, 1)
-        let focusX = focusInsets.leading + focusWidth / 2
-        let focusY = focusInsets.top + focusHeight / 2
+        let focus = webMapFocus(viewportSize: viewportSize, focusInsets: focusInsets)
+        let mapWidthKilometers = webCityScaleKilometers * CLLocationDistance(viewportSize.width / focus.scaleWidth)
+        let mapHeightKilometers = mapWidthKilometers * CLLocationDistance(viewportSize.height / viewportSize.width)
+        let span = span(for: city.center, widthKilometers: mapWidthKilometers, heightKilometers: mapHeightKilometers)
         let centerX = viewportSize.width / 2
         let centerY = viewportSize.height / 2
-        let longitudeShift = -((focusX - centerX) / viewportSize.width) * span.longitudeDelta
-        let latitudeShift = ((focusY - centerY) / viewportSize.height) * span.latitudeDelta
+        let longitudeShift = -((focus.x - centerX) / viewportSize.width) * span.longitudeDelta
+        let latitudeShift = ((focus.y - centerY) / viewportSize.height) * span.latitudeDelta
         let adjustedCenter = CLLocationCoordinate2D(
             latitude: city.center.latitude + latitudeShift,
             longitude: city.center.longitude + longitudeShift
         )
         return MKCoordinateRegion(center: adjustedCenter, span: span)
+    }
+
+    private struct WebMapFocus {
+        let x: CGFloat
+        let y: CGFloat
+        let scaleWidth: CGFloat
+    }
+
+    private static func webMapFocus(viewportSize: CGSize, focusInsets: EdgeInsets) -> WebMapFocus {
+        let visibleLeft = max(focusInsets.leading, 0)
+        let visibleTop = max(focusInsets.top, 0)
+        let visibleRight = max(viewportSize.width - focusInsets.trailing, visibleLeft)
+        let visibleBottom = max(viewportSize.height - focusInsets.bottom, visibleTop)
+        let visibleWidth = max(visibleRight - visibleLeft, 1)
+        let visibleHeight = max(visibleBottom - visibleTop, 1)
+        let isPortraitMobile = viewportSize.width <= webMobileMaxWidth
+        let scaleWidth = visibleWidth * (isPortraitMobile ? webMobileCityScaleRatio : 1)
+
+        return WebMapFocus(
+            x: visibleLeft + visibleWidth / 2,
+            y: visibleTop + visibleHeight / 2,
+            scaleWidth: max(scaleWidth, 1)
+        )
+    }
+
+    private static func span(
+        for center: CLLocationCoordinate2D,
+        widthKilometers: CLLocationDistance,
+        heightKilometers: CLLocationDistance
+    ) -> MKCoordinateSpan {
+        let latitudeFactor = max(cos(center.latitude * .pi / 180), 0.2)
+        let latitudeDelta = heightKilometers / kilometersPerLatitudeDegree
+        let longitudeDelta = widthKilometers / (kilometersPerLatitudeDegree * latitudeFactor)
+
+        return MKCoordinateSpan(latitudeDelta: latitudeDelta, longitudeDelta: longitudeDelta)
     }
 }
 
