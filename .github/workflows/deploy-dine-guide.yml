@@ -54,7 +54,7 @@ jobs:
       - name: Deploy to Cloudflare
         run: >
           npx --yes wrangler@latest deploy cloudflare/michelin-worker/worker.mjs
-          --name zjz-world-dine-guide
+          --name michelin-list
           --compatibility-date 2026-05-22
           --route 'restaurant.zjz.world/michelin*'
           --route 'restaurant.zjz.world/black-pearl*'
