@@ -19,7 +19,7 @@
     "db:build:black-pearl": "node scripts/build-black-pearl-db.mjs",
     "db:verify": "node scripts/verify-restaurant-db.mjs",
     "deploy:worker:build": "MICHELIN_BASE_PATH=/michelin/ npm run build && node scripts/build-cloudflare-worker.mjs",
-    "deploy:worker:publish": "npm run deploy:worker:build && npx --yes wrangler@latest deploy cloudflare/michelin-worker/worker.mjs --name zjz-world-dine-guide --route 'restaurant.zjz.world/michelin*' --route 'restaurant.zjz.world/black-pearl*'",
+    "deploy:worker:publish": "npm run deploy:worker:build && npx --yes wrangler@latest deploy cloudflare/michelin-worker/worker.mjs --name zjz-world-dine-guide --compatibility-date 2026-05-22 --route 'restaurant.zjz.world/michelin*' --route 'restaurant.zjz.world/black-pearl*'",
     "test": "node scripts/verify-data.mjs && npm run db:build && npm run db:verify && node scripts/verify-db-api.mjs && node scripts/verify-amap-runtime.mjs && node scripts/verify-app-layout.mjs && node scripts/verify-offline-support.mjs && npm run deploy:worker:build && node scripts/verify-production-preview.mjs",
     "test:data": "node scripts/verify-data.mjs",
     "test:db": "npm run db:build && npm run db:verify",
