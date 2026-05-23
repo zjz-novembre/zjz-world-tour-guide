@@ -14,6 +14,8 @@
 		2D0000000000000000000015 /* MarkerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000005 /* MarkerViews.swift */; };
 		2D0000000000000000000016 /* DineFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000007 /* DineFont.swift */; };
 		2D0000000000000000000017 /* SVGVectorIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000008 /* SVGVectorIcon.swift */; };
+		2D0000000000000000000018 /* CoordinateTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000009 /* CoordinateTransforms.swift */; };
+		2D0000000000000000000019 /* DineLocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D000000000000000000000A /* DineLocationStore.swift */; };
 		2D00000000000000000000A1 /* michelin-star-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B1 /* michelin-star-white.svg */; };
 		2D00000000000000000000A2 /* michelin-bib-gourmand-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */; };
 		2D00000000000000000000A3 /* restaurant-selected-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B3 /* restaurant-selected-white.svg */; };
@@ -42,6 +44,8 @@
 		2D0000000000000000000006 /* LiteDineGuideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiteDineGuideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0000000000000000000007 /* DineFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DineFont.swift; sourceTree = "<group>"; };
 		2D0000000000000000000008 /* SVGVectorIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGVectorIcon.swift; sourceTree = "<group>"; };
+		2D0000000000000000000009 /* CoordinateTransforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateTransforms.swift; sourceTree = "<group>"; };
+		2D000000000000000000000A /* DineLocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DineLocationStore.swift; sourceTree = "<group>"; };
 		2D00000000000000000000B1 /* michelin-star-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-star-white.svg"; sourceTree = "<group>"; };
 		2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-bib-gourmand-white.svg"; sourceTree = "<group>"; };
 		2D00000000000000000000B3 /* restaurant-selected-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/restaurant-selected-white.svg"; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				2D0000000000000000000005 /* MarkerViews.swift */,
 				2D0000000000000000000007 /* DineFont.swift */,
 				2D0000000000000000000008 /* SVGVectorIcon.swift */,
+				2D0000000000000000000009 /* CoordinateTransforms.swift */,
+				2D000000000000000000000A /* DineLocationStore.swift */,
 				2D00000000000000000000B1 /* michelin-star-white.svg */,
 				2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */,
 				2D00000000000000000000B3 /* restaurant-selected-white.svg */,
@@ -211,6 +217,8 @@
 				2D0000000000000000000015 /* MarkerViews.swift in Sources */,
 				2D0000000000000000000016 /* DineFont.swift in Sources */,
 				2D0000000000000000000017 /* SVGVectorIcon.swift in Sources */,
+				2D0000000000000000000018 /* CoordinateTransforms.swift in Sources */,
+				2D0000000000000000000019 /* DineLocationStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +353,7 @@
 				INFOPLIST_KEY_CADisableMinimumFrameDurationOnPhone = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Lite Dine";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Lite Dine uses your location to show your position on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -374,6 +383,7 @@
 				INFOPLIST_KEY_CADisableMinimumFrameDurationOnPhone = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Lite Dine";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Lite Dine uses your location to show your position on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

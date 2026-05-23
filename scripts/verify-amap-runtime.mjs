@@ -17,6 +17,7 @@ const chromeCandidates = [
 
 const chromeBin = chromeCandidates.find((candidate) => existsSync(candidate));
 const mapViewSource = readFileSync(join(root, "src/components/MapView.tsx"), "utf8");
+const guidesSource = readFileSync(join(root, "src/data/guides.ts"), "utf8");
 const amapSource = readFileSync(join(root, "src/lib/amap.ts"), "utf8");
 const stylesSource = readFileSync(join(root, "src/styles.css"), "utf8");
 const runtimeConfigPath = join(root, "public/amap-config.json");
@@ -96,7 +97,7 @@ try {
     "Selected restaurant marker asset is missing",
   );
   assert(
-    mapViewSource.includes("map-marker__pin-icon--star") &&
+    guidesSource.includes("map-marker__pin-icon--star") &&
       mapViewSource.includes("map-marker__pin-icon--bib") &&
       mapViewSource.includes("map-marker__pin-icon--selected") &&
       mapViewSource.includes("michelin-bib-gourmand-white.svg") &&

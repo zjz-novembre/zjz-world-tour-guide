@@ -14,14 +14,15 @@ struct DineMapView: View {
     let viewportSize: CGSize
     let mapFocusInsets: EdgeInsets
 
+    @StateObject private var locationStore = DineLocationStore()
     @State private var camera: MapCameraPosition = .region(DineMapView.region(for: .shanghai, viewportSize: .zero, focusInsets: EdgeInsets()))
     @State private var visibleSpan: MKCoordinateSpan = DineCity.shanghai.span
 
     var body: some View {
-        MapReader { _ in
+        MapReader { proxy in
             Map(position: $camera, selection: selectionBinding) {
                 ForEach(restaurants) { restaurant in
-                    Annotation("", coordinate: restaurant.coordinate, anchor: .bottomLeading) {
+                    Annotation("", coordinate: restaurant.mapKitCoordinate, anchor: .bottomLeading) {
                         RestaurantMarker(
                             restaurant: restaurant,
                             isSelected: selectedRestaurant?.id == restaurant.id,
@@ -37,8 +38,6 @@ struct DineMapView: View {
                     }
                     .tag(restaurant.id)
                 }
-
-                UserAnnotation()
             }
             .mapStyle(.standard(elevation: .flat, pointsOfInterest: .excludingAll))
             .overlay {
@@ -49,6 +48,14 @@ struct DineMapView: View {
                 }
             }
             .ignoresSafeArea()
+            .overlay(alignment: .topLeading) {
+                if let userCoordinate = locationStore.coordinate,
+                   let point = proxy.convert(userCoordinate, to: .local) {
+                    UserLocationMarker(headingDegrees: locationStore.headingDegrees)
+                        .position(x: point.x, y: point.y)
+                        .allowsHitTesting(false)
+                }
+            }
             .onMapCameraChange(frequency: .continuous) { context in
                 visibleSpan = context.region.span
             }
@@ -61,6 +68,7 @@ struct DineMapView: View {
             }
         }
         .onAppear {
+            locationStore.requestWhenInUse()
             let nextRegion = Self.region(for: city, viewportSize: viewportSize, focusInsets: mapFocusInsets)
             visibleSpan = nextRegion.span
             camera = .region(nextRegion)
@@ -89,20 +97,21 @@ struct DineMapView: View {
 
     private static func region(for city: DineCity, viewportSize: CGSize, focusInsets: EdgeInsets) -> MKCoordinateRegion {
         guard viewportSize.width > 0, viewportSize.height > 0 else {
-            return MKCoordinateRegion(center: city.center, span: city.span)
+            return MKCoordinateRegion(center: city.mapKitCenter, span: city.span)
         }
 
+        let mapCenter = city.mapKitCenter
         let focus = webMapFocus(viewportSize: viewportSize, focusInsets: focusInsets)
         let mapWidthKilometers = webCityScaleKilometers * CLLocationDistance(viewportSize.width / focus.scaleWidth)
         let mapHeightKilometers = mapWidthKilometers * CLLocationDistance(viewportSize.height / viewportSize.width)
-        let span = span(for: city.center, widthKilometers: mapWidthKilometers, heightKilometers: mapHeightKilometers)
+        let span = span(for: mapCenter, widthKilometers: mapWidthKilometers, heightKilometers: mapHeightKilometers)
         let centerX = viewportSize.width / 2
         let centerY = viewportSize.height / 2
         let longitudeShift = -((focus.x - centerX) / viewportSize.width) * span.longitudeDelta
         let latitudeShift = ((focus.y - centerY) / viewportSize.height) * span.latitudeDelta
         let adjustedCenter = CLLocationCoordinate2D(
-            latitude: city.center.latitude + latitudeShift,
-            longitude: city.center.longitude + longitudeShift
+            latitude: mapCenter.latitude + latitudeShift,
+            longitude: mapCenter.longitude + longitudeShift
         )
         return MKCoordinateRegion(center: adjustedCenter, span: span)
     }

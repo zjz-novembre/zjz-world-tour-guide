@@ -1,3 +1,4 @@
+import CoreLocation
 import SwiftUI
 import UIKit
 
@@ -299,5 +300,42 @@ struct PinShape: InsettableShape {
         var copy = self
         copy.insetAmount += amount
         return copy
+    }
+}
+
+struct UserLocationMarker: View {
+    let headingDegrees: CLLocationDirection?
+
+    var body: some View {
+        ZStack {
+            Circle()
+                .fill(Color(red: 0.078, green: 0.431, blue: 0.922).opacity(0.14))
+                .frame(width: 39, height: 39)
+
+            NavigationArrowShape()
+                .fill(Color(red: 0.078, green: 0.431, blue: 0.922))
+                .frame(width: 21, height: 25)
+                .rotationEffect(.degrees(headingDegrees ?? 0))
+                .overlay {
+                    NavigationArrowShape()
+                        .stroke(Color.white, lineWidth: 2)
+                        .frame(width: 21, height: 25)
+                        .rotationEffect(.degrees(headingDegrees ?? 0))
+                }
+                .shadow(color: .black.opacity(0.18), radius: 5, y: 2)
+        }
+        .accessibilityLabel("当前位置")
+    }
+}
+
+private struct NavigationArrowShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        path.move(to: CGPoint(x: rect.midX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY * 0.77))
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
+        path.closeSubpath()
+        return path
     }
 }

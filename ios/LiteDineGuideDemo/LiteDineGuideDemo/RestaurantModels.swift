@@ -96,6 +96,14 @@ struct DineCity: Identifiable, Equatable {
     let center: CLLocationCoordinate2D
     let span: MKCoordinateSpan
 
+    var mapKitCenter: CLLocationCoordinate2D {
+        CoordinateTransforms.mapKitCoordinate(
+            longitude: center.longitude,
+            latitude: center.latitude,
+            cityID: id
+        )
+    }
+
     static func == (lhs: DineCity, rhs: DineCity) -> Bool {
         lhs.id == rhs.id
     }
@@ -175,6 +183,14 @@ struct Restaurant: Identifiable, Equatable, Decodable {
 
     var coordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+
+    var mapKitCoordinate: CLLocationCoordinate2D {
+        CoordinateTransforms.mapKitCoordinate(
+            longitude: longitude,
+            latitude: latitude,
+            cityID: city
+        )
     }
 
     var costDisplay: String {

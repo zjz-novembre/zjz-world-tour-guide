@@ -17,6 +17,7 @@
     "data:dianping:chrome": "node scripts/enrich-dianping-current-chrome.mjs",
     "db:build": "node scripts/build-restaurant-db.mjs",
     "db:build:black-pearl": "node scripts/build-black-pearl-db.mjs",
+    "ios:data": "node scripts/sync-ios-data.mjs",
     "db:verify": "node scripts/verify-restaurant-db.mjs",
     "deploy:worker:build": "MICHELIN_BASE_PATH=/michelin/ npm run build && node scripts/build-cloudflare-worker.mjs",
     "deploy:worker:publish": "npm run deploy:worker:build && npx --yes wrangler@latest deploy cloudflare/michelin-worker/worker.mjs --name michelin-list --compatibility-date 2026-05-22 --route 'restaurant.zjz.world/michelin*' --route 'restaurant.zjz.world/black-pearl*'",

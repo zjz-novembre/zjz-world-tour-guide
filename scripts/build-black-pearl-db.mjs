@@ -8,6 +8,23 @@ const databaseDir = join(root, "database");
 const databasePath = join(databaseDir, "black-pearl-restaurants.sqlite");
 const schemaPath = join(databaseDir, "black-pearl-schema.sql");
 const sourcePath = join(root, "output", "sources", "black-pearl-guide.json");
+const manualCorrections = new Map([
+  [
+    "bp-cn-shanghai-130934277",
+    {
+      district: "闵行区",
+      address: null,
+      position: [121.310771869367, 31.195151624082],
+      coorSys: "GCJ-02",
+      coordinateSystem: "GCJ-02",
+      coordinateSource: "michelin",
+      amapPoiId: null,
+      matchedMichelinId: "cn-shanghai-municipality-shanghai-zhou-she-minhang",
+      michelinSourceUrl:
+        "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/zhou-she-minhang",
+    },
+  ],
+]);
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -49,7 +66,10 @@ function readRecords() {
   assert(existsSync(sourcePath), "Run npm run data:black-pearl before building the Black Pearl DB");
   const payload = JSON.parse(readFileSync(sourcePath, "utf8"));
   assert(Array.isArray(payload.records), "Black Pearl source is missing records[]");
-  return payload.records;
+  return payload.records.map((record) => ({
+    ...record,
+    ...(manualCorrections.get(record.id) ?? {}),
+  }));
 }
 
 function insertRestaurant(restaurant) {
