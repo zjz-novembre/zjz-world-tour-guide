@@ -204,7 +204,7 @@ struct ContentView: View {
     private func dropdownContent(for dropdown: FilterDropdownKind) -> some View {
         switch dropdown {
         case .city:
-            DropdownOptions {
+            DropdownOptions(optionCount: DineCity.all.count) {
                 ForEach(DineCity.all) { city in
                     DropdownOption(label: city.label, guide: activeGuide, isSelected: city.id == activeCity.id) {
                         activeCity = city
@@ -214,7 +214,7 @@ struct ContentView: View {
                 }
             }
         case .cost:
-            DropdownOptions {
+            DropdownOptions(optionCount: costOptions.count) {
                 ForEach(costOptions) { cost in
                     DropdownOption(label: cost.label, guide: activeGuide, isSelected: cost == selectedCost) {
                         selectedCost = cost
@@ -224,7 +224,7 @@ struct ContentView: View {
                 }
             }
         case .level:
-            DropdownOptions {
+            DropdownOptions(optionCount: levelOptions.count + 1) {
                 DropdownOption(label: "全榜", guide: activeGuide, isSelected: selectedLevels.isEmpty) {
                     selectedLevels = []
                     clearMapSelection()
@@ -337,13 +337,16 @@ struct ContentView: View {
 
 private enum DineMetric {
     static let edge: CGFloat = 16
-    static let topInset: CGFloat = 7
+    static let topInset: CGFloat = 2
     static let headerHeight: CGFloat = 30
     static let chromeGap: CGFloat = 10
     static let filterHeight: CGFloat = 59
     static let chromeHeight: CGFloat = headerHeight + chromeGap + filterHeight
     static let filterGap: CGFloat = 4
     static let dropdownGap: CGFloat = 8
+    static let dropdownOptionGap: CGFloat = 4
+    static let dropdownOptionHeight: CGFloat = 36
+    static let dropdownMaxVisibleOptions: Int = 7
     static let panelRadius: CGFloat = 8
     static let minimumSheetHeight: CGFloat = 252
     static let collapsedSheetHeight: CGFloat = 24
@@ -609,15 +612,23 @@ private struct FilterDropdownPanel<Content: View>: View {
 }
 
 private struct DropdownOptions<Content: View>: View {
+    let optionCount: Int
     @ViewBuilder var content: Content
 
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            VStack(spacing: 4) {
+            VStack(spacing: DineMetric.dropdownOptionGap) {
                 content
             }
         }
-        .frame(maxHeight: 320)
+        .frame(height: contentHeight)
+    }
+
+    private var contentHeight: CGFloat {
+        let visibleOptions = min(max(optionCount, 1), DineMetric.dropdownMaxVisibleOptions)
+        let optionHeight = CGFloat(visibleOptions) * DineMetric.dropdownOptionHeight
+        let gapHeight = CGFloat(max(visibleOptions - 1, 0)) * DineMetric.dropdownOptionGap
+        return optionHeight + gapHeight
     }
 }
 
@@ -641,7 +652,7 @@ private struct DropdownOption: View {
                         .frame(width: 14, height: 14)
                 }
             }
-            .frame(minHeight: 36)
+            .frame(height: DineMetric.dropdownOptionHeight)
             .padding(.horizontal, 10)
             .background(isSelected ? guide.optionSelectedSurface : .clear, in: RoundedRectangle(cornerRadius: 6, style: .continuous))
             .contentShape(RoundedRectangle(cornerRadius: 6, style: .continuous))

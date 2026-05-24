@@ -5,6 +5,7 @@ import UIKit
 
 struct DineMapView: View {
     private static let webCityScaleKilometers: CLLocationDistance = 14
+    private static let selectedRestaurantScaleKilometers: CLLocationDistance = 1
     private static let restoredMarkerScaleKilometers: CLLocationDistance = 2
     private static let minimumMarkerScale: CGFloat = 0.7
     private static let maximumMarkerScale: CGFloat = 1
@@ -94,9 +95,32 @@ struct DineMapView: View {
             )
         }
 
-        let mapCenter = city.center
+        return region(
+            centeredAt: city.center,
+            viewportSize: viewportSize,
+            focusInsets: focusInsets,
+            focusWidthKilometers: webCityScaleKilometers
+        )
+    }
+
+    fileprivate static func region(
+        centeredAt coordinate: CLLocationCoordinate2D,
+        viewportSize: CGSize,
+        focusInsets: EdgeInsets,
+        focusWidthKilometers: CLLocationDistance = selectedRestaurantScaleKilometers
+    ) -> MACoordinateRegion {
+        guard viewportSize.width > 0, viewportSize.height > 0 else {
+            let span = span(
+                for: coordinate,
+                widthKilometers: focusWidthKilometers,
+                heightKilometers: focusWidthKilometers
+            )
+            return MACoordinateRegion(center: coordinate, span: span)
+        }
+
+        let mapCenter = coordinate
         let focus = webMapFocus(viewportSize: viewportSize, focusInsets: focusInsets)
-        let mapWidthKilometers = webCityScaleKilometers * CLLocationDistance(viewportSize.width / focus.scaleWidth)
+        let mapWidthKilometers = focusWidthKilometers * CLLocationDistance(viewportSize.width / focus.scaleWidth)
         let mapHeightKilometers = mapWidthKilometers * CLLocationDistance(viewportSize.height / viewportSize.width)
         let span = span(for: mapCenter, widthKilometers: mapWidthKilometers, heightKilometers: mapHeightKilometers)
         let centerX = viewportSize.width / 2
@@ -392,6 +416,7 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
         private var userHasMovedCamera = false
         private var lastAnnotationTapID: String?
         private var lastAnnotationTapTime: CFTimeInterval = 0
+        private var focusedSelectionSignature: SelectionFocusSignature?
 
         init(parent: AMapDineMapRepresentable) {
             self.parent = parent
@@ -404,6 +429,12 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
         }
 
         func syncCameraAfterLayout(on mapView: MAMapView) {
+            if parent.selectedMarkerPresentation == .smallTag,
+               parent.selectedRestaurant != nil {
+                syncFocusedRestaurantCameraIfNeeded(on: mapView)
+                notifyMapReadyIfPossible(on: mapView)
+                return
+            }
             guard !userHasMovedCamera else { return }
             syncCamera(on: mapView, force: true, animated: false)
             notifyMapReadyIfPossible(on: mapView)
@@ -432,6 +463,14 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
                 didApplyLoadedCamera = false
                 didNotifyMapReady = false
                 userHasMovedCamera = false
+                focusedSelectionSignature = nil
+            }
+            if parent.selectedMarkerPresentation == .smallTag,
+               parent.selectedRestaurant != nil {
+                cameraSignature = signature
+                syncFocusedRestaurantCameraIfNeeded(on: mapView)
+                notifyMapReadyIfPossible(on: mapView)
+                return
             }
             guard force || signature != cameraSignature else { return }
             let shouldAnimate = animated ?? (cameraSignature != nil)
@@ -500,6 +539,7 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
                     mapView.deselectAnnotation(annotation, animated: false)
                 }
             }
+            syncFocusedRestaurantCameraIfNeeded(on: mapView)
         }
 
         func mapViewDidFinishLoadingMap(_ mapView: MAMapView) {
@@ -571,10 +611,44 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
             syncSelection(on: mapView)
         }
 
+        private func syncFocusedRestaurantCameraIfNeeded(on mapView: MAMapView) {
+            guard parent.selectedMarkerPresentation == .smallTag,
+                  let restaurant = parent.selectedRestaurant,
+                  parent.viewportSize.width > 1,
+                  parent.viewportSize.height > 1,
+                  mapView.bounds.width > 1,
+                  mapView.bounds.height > 1 else {
+                focusedSelectionSignature = nil
+                return
+            }
+
+            let signature = SelectionFocusSignature(
+                restaurantID: restaurant.id,
+                width: parent.viewportSize.width,
+                height: parent.viewportSize.height,
+                top: parent.mapFocusInsets.top,
+                leading: parent.mapFocusInsets.leading,
+                bottom: parent.mapFocusInsets.bottom,
+                trailing: parent.mapFocusInsets.trailing
+            )
+            guard signature != focusedSelectionSignature else { return }
+            focusedSelectionSignature = signature
+
+            let nextRegion = DineMapView.region(
+                centeredAt: restaurant.coordinate,
+                viewportSize: parent.viewportSize,
+                focusInsets: parent.mapFocusInsets
+            )
+            parent.visibleLongitudeDelta = nextRegion.span.longitudeDelta
+            mapView.setUserTrackingMode(.none, animated: false)
+            mapView.setRegion(nextRegion, animated: true)
+        }
+
         func mapView(_ mapView: MAMapView!, didSingleTappedAt coordinate: CLLocationCoordinate2D) {
             guard parent.selectedRestaurant != nil else { return }
             parent.selectedRestaurant = nil
             parent.selectedMarkerPresentation = .pinOnly
+            focusedSelectionSignature = nil
             syncSelection(on: mapView)
         }
 
@@ -637,6 +711,16 @@ private struct CameraSignature: Equatable {
     let height: CGFloat
     let mapWidth: CGFloat
     let mapHeight: CGFloat
+    let top: CGFloat
+    let leading: CGFloat
+    let bottom: CGFloat
+    let trailing: CGFloat
+}
+
+private struct SelectionFocusSignature: Equatable {
+    let restaurantID: String
+    let width: CGFloat
+    let height: CGFloat
     let top: CGFloat
     let leading: CGFloat
     let bottom: CGFloat
