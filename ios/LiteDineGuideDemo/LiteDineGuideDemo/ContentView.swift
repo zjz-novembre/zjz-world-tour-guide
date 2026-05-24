@@ -34,7 +34,11 @@ struct ContentView: View {
 
     var body: some View {
         GeometryReader { proxy in
-            let layout = DineLayout(size: proxy.size, isListCollapsed: isListCollapsed)
+            let layout = DineLayout(
+                size: proxy.size,
+                safeAreaInsets: proxy.safeAreaInsets,
+                isListCollapsed: isListCollapsed
+            )
 
             DineMapView(
                 guide: activeGuide,
@@ -361,6 +365,7 @@ private struct DineLayout {
     private static let portraitSheetRatio: CGFloat = 0.43
 
     let size: CGSize
+    let safeAreaInsets: EdgeInsets
     let isListCollapsed: Bool
 
     var isWebLandscape: Bool {
@@ -404,9 +409,13 @@ private struct DineLayout {
             if isListCollapsed {
                 return size.height - DineMetric.edge - DineMetric.collapsedSheetHeight / 2
             }
-            return DineMetric.edge + expandedListHeight / 2
+            return DineMetric.edge + expandedListHeight / 2 + landscapeCenterYOffset
         }
         return size.height - DineMetric.edge - listHeight / 2
+    }
+
+    private var landscapeCenterYOffset: CGFloat {
+        (safeAreaInsets.bottom - safeAreaInsets.top) / 2
     }
 
     var mapFocusInsets: EdgeInsets {
