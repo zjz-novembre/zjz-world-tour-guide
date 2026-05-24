@@ -179,6 +179,8 @@ struct Restaurant: Identifiable, Equatable, Decodable {
     let latitude: Double
     let coverImageUrl: URL?
     let redirectUrl: URL?
+    let dianpingAppShopId: String?
+    let dianpingAppUrl: URL?
     let sourceUrl: URL?
 
     var coordinate: CLLocationCoordinate2D {
@@ -205,12 +207,67 @@ struct Restaurant: Identifiable, Equatable, Decodable {
         level.label(for: guide)
     }
 
+    var levelTextColor: Color {
+        switch guide {
+        case .blackPearl:
+            return DineStyle.pearlGold
+        case .michelin:
+            switch level {
+            case .bib:
+                return DineStyle.bibGold
+            case .selected:
+                return DineStyle.muted
+            default:
+                return DineStyle.michelinRed
+            }
+        }
+    }
+
     var cityLabel: String {
         cityName
     }
 
+    var externalURLCandidates: [URL] {
+        var urls: [URL] = []
+        if let nativeURL = dianpingNativeURL {
+            urls.append(nativeURL)
+        }
+        if let dianpingAppUrl {
+            urls.append(dianpingAppUrl)
+        }
+        if let redirectUrl {
+            urls.append(redirectUrl)
+        }
+        if let sourceUrl {
+            urls.append(sourceUrl)
+        }
+        return urls
+    }
+
     static func == (lhs: Restaurant, rhs: Restaurant) -> Bool {
         lhs.id == rhs.id
+    }
+
+    private var dianpingNativeURL: URL? {
+        let appShopID = normalizedDianpingAppShopID
+        guard !appShopID.isEmpty else { return nil }
+
+        var components = URLComponents()
+        components.scheme = "dianping"
+        components.host = "shopinfo"
+        components.queryItems = [
+            URLQueryItem(name: "id", value: appShopID),
+            URLQueryItem(name: "utm", value: "lite_dine"),
+        ]
+        return components.url
+    }
+
+    private var normalizedDianpingAppShopID: String {
+        if let dianpingAppShopId, !dianpingAppShopId.isEmpty {
+            return dianpingAppShopId
+        }
+
+        return redirectUrl?.numericDianpingShopID ?? ""
     }
 }
 
@@ -234,5 +291,23 @@ enum DineRepository {
         }
 
         return restaurants
+    }
+}
+
+private extension URL {
+    var numericDianpingShopID: String? {
+        guard host?.contains("dianping.com") == true else { return nil }
+
+        let pathParts = path
+            .split(separator: "/")
+            .map(String.init)
+
+        guard let shopIndex = pathParts.firstIndex(of: "shop"),
+              pathParts.indices.contains(pathParts.index(after: shopIndex)) else {
+            return nil
+        }
+
+        let candidate = pathParts[pathParts.index(after: shopIndex)]
+        return candidate.allSatisfy(\.isNumber) ? candidate : nil
     }
 }

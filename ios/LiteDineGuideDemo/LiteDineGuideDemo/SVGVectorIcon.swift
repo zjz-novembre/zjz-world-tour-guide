@@ -233,6 +233,7 @@ private struct SVGPathDataParser {
     private var command: Character?
     private var current = CGPoint.zero
     private var subpathStart = CGPoint.zero
+    private var lastCubicControl: CGPoint?
     private var lastQuadControl: CGPoint?
 
     init(_ data: String) {
@@ -262,6 +263,8 @@ private struct SVGPathDataParser {
                 }
             case "C", "c":
                 parseCubic(&path, relative: command == "c")
+            case "S", "s":
+                parseSmoothCubic(&path, relative: command == "s")
             case "Q", "q":
                 parseQuad(&path, relative: command == "q")
             case "T", "t":
@@ -271,6 +274,7 @@ private struct SVGPathDataParser {
             case "Z", "z":
                 path.closeSubpath()
                 current = subpathStart
+                lastCubicControl = nil
                 lastQuadControl = nil
             default:
                 index += 1
@@ -284,6 +288,8 @@ private struct SVGPathDataParser {
         path.move(to: first)
         current = first
         subpathStart = first
+        lastCubicControl = nil
+        lastQuadControl = nil
         command = relative ? "l" : "L"
         while let point = readPoint(relative: relative) { line(&path, to: point) }
     }
@@ -296,6 +302,22 @@ private struct SVGPathDataParser {
         {
             path.addCurve(to: end, control1: c1, control2: c2)
             current = end
+            lastCubicControl = c2
+            lastQuadControl = nil
+        }
+    }
+
+    private mutating func parseSmoothCubic(_ path: inout Path, relative: Bool) {
+        while
+            let c2 = readPoint(relative: relative),
+            let end = readPoint(relative: relative)
+        {
+            let c1 = lastCubicControl.map {
+                CGPoint(x: current.x * 2 - $0.x, y: current.y * 2 - $0.y)
+            } ?? current
+            path.addCurve(to: end, control1: c1, control2: c2)
+            current = end
+            lastCubicControl = c2
             lastQuadControl = nil
         }
     }
@@ -304,6 +326,7 @@ private struct SVGPathDataParser {
         while let control = readPoint(relative: relative), let end = readPoint(relative: relative) {
             path.addQuadCurve(to: end, control: control)
             current = end
+            lastCubicControl = nil
             lastQuadControl = control
         }
     }
@@ -315,6 +338,7 @@ private struct SVGPathDataParser {
             } ?? current
             path.addQuadCurve(to: end, control: control)
             current = end
+            lastCubicControl = nil
             lastQuadControl = control
         }
     }
@@ -338,6 +362,7 @@ private struct SVGPathDataParser {
                 sweep: sweepFlag != 0
             )
             current = end
+            lastCubicControl = nil
             lastQuadControl = nil
         }
     }
@@ -345,6 +370,7 @@ private struct SVGPathDataParser {
     private mutating func line(_ path: inout Path, to point: CGPoint) {
         path.addLine(to: point)
         current = point
+        lastCubicControl = nil
         lastQuadControl = nil
     }
 

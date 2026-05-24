@@ -14,6 +14,7 @@ type MapViewProps = {
   city: CityOption;
   restaurants: Restaurant[];
   selectedId: string | null;
+  selectedMode: "small" | "detail" | null;
   onClearSelection: () => void;
   onSelect: (restaurantId: string) => void;
   userLocation: UserLocation | null;
@@ -57,13 +58,16 @@ export function MapView({
   city,
   restaurants,
   selectedId,
+  selectedMode,
   onClearSelection,
   onSelect,
   userLocation,
   guide,
 }: MapViewProps) {
+  const surfaceNode = useRef<HTMLDivElement | null>(null);
   const mapNode = useRef<HTMLDivElement | null>(null);
   const map = useRef<AMapMap | null>(null);
+  const suppressNextMapClear = useRef(false);
   const cityRef = useRef(city);
   const markers = useRef<Map<string, AMapMarker>>(new Map());
   const markerElements = useRef<Map<string, HTMLElement>>(new Map());
@@ -213,6 +217,10 @@ export function MapView({
       const cityAnchor = createCityAnchorMarker(city);
       const nextMarkers = points.map(({ restaurant, position }) => {
         const selectRestaurant = () => {
+          suppressNextMapClear.current = true;
+          window.setTimeout(() => {
+            suppressNextMapClear.current = false;
+          }, 0);
           onSelect(restaurant.id);
         };
         const content = createMarkerContent(restaurant, selectRestaurant, guide);
@@ -243,7 +251,7 @@ export function MapView({
   }, [amapKey, city, mapReady, onSelect, restaurantKey, restaurants, userLocation]);
 
   useEffect(() => {
-    const element = mapNode.current;
+    const element = surfaceNode.current;
     if (!element) return;
 
     const clearOnMapClick = (event: MouseEvent) => {
@@ -261,6 +269,25 @@ export function MapView({
       element.removeEventListener("click", clearOnMapClick);
     };
   }, [onClearSelection]);
+
+  useEffect(() => {
+    if (!map.current || !mapReady) return;
+
+    const clearOnAmapClick = () => {
+      if (suppressNextMapClear.current) {
+        suppressNextMapClear.current = false;
+        return;
+      }
+
+      onClearSelection();
+    };
+
+    map.current.on("click", clearOnAmapClick);
+
+    return () => {
+      map.current?.off?.("click", clearOnAmapClick);
+    };
+  }, [mapReady, onClearSelection]);
 
   useEffect(() => {
     if (!map.current || !mapReady) return;
@@ -289,7 +316,9 @@ export function MapView({
       item.setzIndex?.(RESTAURANT_MARKER_Z_INDEX);
     });
     markerElements.current.forEach((element, restaurantId) => {
-      element.classList.toggle("map-marker--active", restaurantId === selectedId);
+      const isSelected = restaurantId === selectedId;
+      element.classList.toggle("map-marker--active", isSelected && selectedMode === "detail");
+      element.classList.toggle("map-marker--selected-small", isSelected && selectedMode === "small");
     });
 
     if (!selectedId || !map.current) return;
@@ -299,19 +328,21 @@ export function MapView({
 
     marker.setTop?.(true);
     marker.setzIndex?.(ACTIVE_RESTAURANT_MARKER_Z_INDEX);
-  }, [selectedId]);
+  }, [selectedId, selectedMode]);
 
   return (
     <div
-      ref={mapNode}
+      ref={surfaceNode}
       className={`amap-surface amap-surface--${mapStatus} amap-surface--zoom-${zoomBand}`}
       aria-label="高德地图"
       data-amap-status={mapStatus}
       data-map-city={city.value}
       data-amap-zoom-band={zoomBand}
       data-map-scale-km={SHANGHAI_INNER_RING_SPAN_KM}
+      data-cached-map={mapStatus === "ready" ? "hidden" : "visible"}
     >
-      {(mapStatus === "offline" || mapStatus === "failed") && (
+      <div ref={mapNode} className="amap-live-layer" aria-hidden={mapStatus !== "ready"} />
+      {mapStatus !== "ready" && (
         <OfflineCityMap
           city={city}
           guide={guide}
@@ -333,8 +364,8 @@ function hasLiveAmapDom(element: HTMLElement) {
 }
 
 function getZoomBand(zoom: number): ZoomBand {
-  if (zoom >= 16.5) return "detail";
-  if (zoom >= 13.5) return "tag";
+  if (zoom >= 17.5) return "detail";
+  if (zoom >= 14.5) return "tag";
   return "pin";
 }
 
@@ -526,10 +557,16 @@ function createMarkerContent(restaurant: Restaurant, onClick: () => void, guide:
 
   const tagMeta = document.createElement("span");
   tagMeta.className = "map-marker__tag-meta";
-  tagMeta.textContent = `${formatLevel(restaurant.level, guide.levelLabels)} · ${formatCost(
-    restaurant.costPerPersonCny,
-    restaurant.michelinPrice,
-  )}`;
+  const tagLevel = document.createElement("span");
+  tagLevel.className = `map-marker__tag-level level-${restaurant.level}`;
+  tagLevel.textContent = formatLevel(restaurant.level, guide.levelLabels);
+  const tagSeparator = document.createElement("span");
+  tagSeparator.className = "map-marker__tag-separator";
+  tagSeparator.textContent = "·";
+  const tagCost = document.createElement("span");
+  tagCost.className = "map-marker__tag-cost";
+  tagCost.textContent = formatCost(restaurant.costPerPersonCny, restaurant.michelinPrice);
+  tagMeta.append(tagLevel, tagSeparator, tagCost);
   tagCopy.appendChild(tagMeta);
 
   const tagDishes = document.createElement("span");
@@ -583,6 +620,18 @@ function OfflineCityMap({
 }) {
   return (
     <div className="offline-city-map" aria-hidden={false}>
+      <span className="offline-city-map__water offline-city-map__water--one" aria-hidden="true" />
+      <span className="offline-city-map__water offline-city-map__water--two" aria-hidden="true" />
+      <span className="offline-city-map__park offline-city-map__park--one" aria-hidden="true" />
+      <span className="offline-city-map__park offline-city-map__park--two" aria-hidden="true" />
+      <span className="offline-city-map__road offline-city-map__road--one" aria-hidden="true" />
+      <span className="offline-city-map__road offline-city-map__road--two" aria-hidden="true" />
+      <span className="offline-city-map__road offline-city-map__road--three" aria-hidden="true" />
+      <span className="offline-city-map__road offline-city-map__road--four" aria-hidden="true" />
+      <span className="offline-city-map__road offline-city-map__road--five" aria-hidden="true" />
+      <span className="offline-city-map__road offline-city-map__road--six" aria-hidden="true" />
+      <span className="offline-city-map__road offline-city-map__road--seven" aria-hidden="true" />
+      <span className="offline-city-map__road offline-city-map__road--eight" aria-hidden="true" />
       <span className="offline-city-map__axis offline-city-map__axis--one" />
       <span className="offline-city-map__axis offline-city-map__axis--two" />
       <span className="offline-city-map__axis offline-city-map__axis--three" />

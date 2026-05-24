@@ -7,6 +7,7 @@ import { setTimeout as delay } from "node:timers/promises";
 const root = cwd();
 const port = env.AMAP_TEST_PORT ?? "5182";
 const appUrl = env.APP_URL ?? `http://127.0.0.1:${port}/`;
+const isBlackPearlRoute = new URL(appUrl, "http://127.0.0.1").pathname.includes("black-pearl");
 const viteBin = join(root, "node_modules", ".bin", "vite");
 
 const chromeCandidates = [
@@ -77,33 +78,56 @@ try {
     "AMap status class is not wired on the map surface",
   );
   assert(
+    mapViewSource.includes("data-cached-map") &&
+      mapViewSource.includes('mapStatus !== "ready"') &&
+      stylesSource.includes(".amap-live-layer"),
+    "Cached city map is not shown before the live AMap layer becomes ready",
+  );
+  assert(
+    stylesSource.includes(".offline-city-map__road") &&
+      stylesSource.includes(".offline-city-map__water"),
+    "Cached city map does not include local road and water layers",
+  );
+  assert(
     stylesSource.includes(".amap-surface--missing-key::before"),
     "Missing-key AMap surface has no nonblank white-smoke map treatment",
   );
-  assert(
-    existsSync(join(root, "public/michelin-guide.svg")),
-    "Michelin guide filter icon asset is missing",
-  );
-  assert(
-    existsSync(join(root, "public/michelin-star-white.svg")),
-    "White Michelin star marker asset is missing",
-  );
-  assert(
-    existsSync(join(root, "public/michelin-bib-gourmand-white.svg")),
-    "Bib Gourmand marker asset is missing",
-  );
-  assert(
-    existsSync(join(root, "public/restaurant-selected-white.svg")),
-    "Selected restaurant marker asset is missing",
-  );
-  assert(
-    guidesSource.includes("map-marker__pin-icon--star") &&
-      mapViewSource.includes("map-marker__pin-icon--bib") &&
-      mapViewSource.includes("map-marker__pin-icon--selected") &&
-      mapViewSource.includes("michelin-bib-gourmand-white.svg") &&
-      mapViewSource.includes("restaurant-selected-white.svg"),
-    "Map markers are not wired to star, Bib Gourmand, and selected pin icons",
-  );
+  if (isBlackPearlRoute) {
+    assert(
+      existsSync(join(root, "public/black-pearl-diamond-official-52.png")),
+      "Black Pearl diamond marker asset is missing",
+    );
+    assert(
+      guidesSource.includes("map-marker__pin-icon--diamond") &&
+        guidesSource.includes("black-pearl-diamond-official-52.png"),
+      "Black Pearl map markers are not wired to the official diamond icon",
+    );
+  } else {
+    assert(
+      existsSync(join(root, "public/michelin-guide.svg")),
+      "Michelin guide filter icon asset is missing",
+    );
+    assert(
+      existsSync(join(root, "public/michelin-star-white.svg")),
+      "White Michelin star marker asset is missing",
+    );
+    assert(
+      existsSync(join(root, "public/michelin-bib-gourmand-white.svg")),
+      "Bib Gourmand marker asset is missing",
+    );
+    assert(
+      existsSync(join(root, "public/restaurant-selected-white.svg")),
+      "Selected restaurant marker asset is missing",
+    );
+    assert(
+      guidesSource.includes("map-marker__pin-icon--star") &&
+        mapViewSource.includes("map-marker__pin-icon--bib") &&
+        mapViewSource.includes("map-marker__pin-icon--selected") &&
+        mapViewSource.includes("michelin-bib-gourmand-white.svg") &&
+        mapViewSource.includes("restaurant-selected-white.svg"),
+      "Map markers are not wired to star, Bib Gourmand, and selected pin icons",
+    );
+  }
   assert(
     !stylesSource.includes('mask: url("/bib-gourmand-white.png")') &&
       !mapViewSource.includes("bib-gourmand-white.png"),
@@ -163,15 +187,20 @@ try {
   const dom = result.stdout;
   assert(dom.includes("amap-surface"), "AMap surface was not mounted");
   assert(dom.includes("map-marker__tag"), "Restaurant map tags were not rendered");
-  assert(dom.includes("map-marker__pin-icon--star"), "Michelin star marker pin icons were not rendered");
-  assert(dom.includes("map-marker__pin-icon--bib"), "Bib Gourmand marker pin icons were not rendered");
-  assert(dom.includes("map-marker__pin-icon--selected"), "Selected restaurant marker pin icons were not rendered");
-  assert(dom.includes("michelin-bib-gourmand-white.svg"), "Bib Gourmand marker SVG was not rendered");
-  assert(dom.includes("restaurant-selected-white.svg"), "Selected restaurant marker SVG was not rendered");
+  if (isBlackPearlRoute) {
+    assert(dom.includes("map-marker__pin-icon--diamond"), "Black Pearl diamond marker pin icons were not rendered");
+    assert(dom.includes("black-pearl-diamond-official-52.png"), "Black Pearl diamond marker asset was not rendered");
+  } else {
+    assert(dom.includes("map-marker__pin-icon--star"), "Michelin star marker pin icons were not rendered");
+    assert(dom.includes("map-marker__pin-icon--bib"), "Bib Gourmand marker pin icons were not rendered");
+    assert(dom.includes("map-marker__pin-icon--selected"), "Selected restaurant marker pin icons were not rendered");
+    assert(dom.includes("michelin-bib-gourmand-white.svg"), "Bib Gourmand marker SVG was not rendered");
+    assert(dom.includes("restaurant-selected-white.svg"), "Selected restaurant marker SVG was not rendered");
+    assert(dom.includes("michelin-guide.svg"), "Michelin guide SVG icon is not rendered");
+  }
   assert(!dom.includes("map-marker__detail"), "Restaurant map still renders larger detail popovers");
   assert(!dom.includes("mapkit-surface"), "Legacy MapKit surface is still mounted");
   assert(!dom.includes("map-preview"), "Legacy preview map branch is still mounted");
-  assert(dom.includes("michelin-guide.svg"), "Michelin guide SVG icon is not rendered");
 
   const status = dom.match(/data-amap-status="([^"]+)"/)?.[1] ?? "unknown";
   const runtimeKey = existsSync(runtimeConfigPath)

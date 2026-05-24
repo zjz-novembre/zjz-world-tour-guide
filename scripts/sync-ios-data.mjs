@@ -47,6 +47,8 @@ function readRows(config) {
       latitude,
       cover_image AS coverImageUrl,
       redirect_link AS redirectUrl,
+      dianping_app_shop_id AS dianpingAppShopId,
+      dianping_app_url AS dianpingAppUrl,
       ${config.sourceColumn} AS sourceUrl
     FROM restaurants
     ORDER BY city_name COLLATE NOCASE, name COLLATE NOCASE;
@@ -81,6 +83,8 @@ function mapRestaurant(config, row) {
     latitude: Number(row.latitude),
     ...(row.coverImageUrl ? { coverImageUrl: row.coverImageUrl } : {}),
     ...(row.redirectUrl ? { redirectUrl: row.redirectUrl } : {}),
+    ...(row.dianpingAppShopId ? { dianpingAppShopId: String(row.dianpingAppShopId) } : {}),
+    ...(row.dianpingAppUrl ? { dianpingAppUrl: row.dianpingAppUrl } : {}),
     sourceUrl: row.sourceUrl,
   };
 }

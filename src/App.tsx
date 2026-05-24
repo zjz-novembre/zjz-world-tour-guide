@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { FilterControl } from "./components/FilterControl";
-import { ExternalLinkIcon, MapPinIcon, TagIcon } from "./components/icons";
+import { ChevronDownIcon, ExternalLinkIcon, MapPinIcon, TagIcon } from "./components/icons";
 import { MapView } from "./components/MapView";
 import { RestaurantList } from "./components/RestaurantList";
 import { cityOptions, costOptions } from "./data/options";
@@ -32,6 +32,10 @@ const blackPearlLogoIcon = new URL(
   "black-pearl-logo-official.png",
   new URL(import.meta.env.BASE_URL, window.location.origin),
 ).pathname;
+type SelectedMarker = {
+  id: string;
+  mode: "small" | "detail";
+};
 
 export function App() {
   const guide = useMemo(() => resolveGuideConfig(window.location.pathname), []);
@@ -39,7 +43,8 @@ export function App() {
     ...defaultFilters,
     city: guide.defaultCity,
   }));
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedMarker, setSelectedMarker] = useState<SelectedMarker | null>(null);
+  const [isListCollapsed, setIsListCollapsed] = useState(false);
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null);
   const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
   const [dataStatus, setDataStatus] = useState<"loading" | "ready" | "failed">("loading");
@@ -106,6 +111,7 @@ export function App() {
     activeCityOptions.find((city) => city.value === filters.city) ??
     activeCityOptions[0] ??
     cityOptions[0];
+  const selectedId = selectedMarker?.id ?? null;
 
   useEffect(() => {
     if (!restaurants.length) return;
@@ -113,16 +119,34 @@ export function App() {
     const nextCity = activeCityOptions[0]?.value;
     if (nextCity) {
       setFilters((current) => ({ ...current, city: nextCity }));
-      setSelectedId(null);
+      setSelectedMarker(null);
     }
   }, [activeCityOptions, filters.city, restaurants]);
 
-  const handleSelect = useCallback((restaurantId: string) => {
-    setSelectedId((current) => (current === restaurantId ? null : restaurantId));
+  const handleMapSelect = useCallback((restaurantId: string) => {
+    setSelectedMarker((current) =>
+      current?.id === restaurantId && current.mode === "detail"
+        ? null
+        : {
+            id: restaurantId,
+            mode: "detail",
+          },
+    );
+  }, []);
+
+  const handleListSelect = useCallback((restaurantId: string) => {
+    setSelectedMarker((current) =>
+      current?.id === restaurantId && current.mode === "small"
+        ? null
+        : {
+            id: restaurantId,
+            mode: "small",
+          },
+    );
   }, []);
 
   const handleClearSelect = useCallback(() => {
-    setSelectedId(null);
+    setSelectedMarker(null);
   }, []);
 
   const updateCost = useCallback((costBands: CostBand[]) => {
@@ -130,12 +154,12 @@ export function App() {
       ...current,
       costBands: costBands.filter((costBand) => costBand !== "all"),
     }));
-    setSelectedId(null);
+    setSelectedMarker(null);
   }, []);
 
   const updateCity = useCallback((city: CityCode) => {
     setFilters((current) => ({ ...current, city }));
-    setSelectedId(null);
+    setSelectedMarker(null);
   }, []);
 
   const updateLevel = useCallback((levels: Array<MichelinLevel | "all">) => {
@@ -143,7 +167,7 @@ export function App() {
       ...current,
       levels: levels.filter((level): level is MichelinLevel => level !== "all"),
     }));
-    setSelectedId(null);
+    setSelectedMarker(null);
   }, []);
 
   return (
@@ -159,9 +183,10 @@ export function App() {
             key={selectedCity.value}
             city={selectedCity}
             onClearSelection={handleClearSelect}
-            onSelect={handleSelect}
+            onSelect={handleMapSelect}
             restaurants={filteredRestaurants}
             selectedId={selectedId}
+            selectedMode={selectedMarker?.mode ?? null}
             userLocation={userLocation}
             guide={guide}
           />
@@ -227,9 +252,17 @@ export function App() {
           </section>
         </div>
 
-        <section className="list-section">
+        <section className={isListCollapsed ? "list-section list-section--collapsed" : "list-section"}>
+          <button
+            aria-label={isListCollapsed ? "展开列表" : "收起列表"}
+            className="restaurant-list-toggle"
+            type="button"
+            onClick={() => setIsListCollapsed((current) => !current)}
+          >
+            <ChevronDownIcon />
+          </button>
           <RestaurantList
-            onSelect={handleSelect}
+            onSelect={handleListSelect}
             restaurants={filteredRestaurants}
             selectedId={selectedId}
             guide={guide}

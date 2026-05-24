@@ -1,0 +1,21 @@
+PODS:
+  - AMap3DMap-NO-IDFA (11.1.200):
+    - AMapFoundation-NO-IDFA (>= 1.8.7)
+  - AMapFoundation-NO-IDFA (1.8.7)
+
+DEPENDENCIES:
+  - AMap3DMap-NO-IDFA (~> 11.1)
+  - AMapFoundation-NO-IDFA (~> 1.8)
+
+SPEC REPOS:
+  trunk:
+    - AMap3DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+
+SPEC CHECKSUMS:
+  AMap3DMap-NO-IDFA: 393a24abb0451fed2daa4316c8d3d356a395f2be
+  AMapFoundation-NO-IDFA: f48acbf6e74913dc6744581053f7d984f2432850
+
+PODFILE CHECKSUM: 813348ab62cce71342354ed81f2159f66fc5c483
+
+COCOAPODS: 1.16.2

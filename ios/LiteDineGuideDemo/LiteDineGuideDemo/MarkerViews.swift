@@ -6,10 +6,8 @@ enum DineStyle {
     static let canvas = Color(red: 0.969, green: 0.969, blue: 0.961)
     static let surface = Color.white.opacity(0.92)
     static let panel = Color.white.opacity(0.96)
-    static let panelStroke = Color(red: 0.906, green: 0.898, blue: 0.875)
     static let filterSurface = Color.white.opacity(0.94)
     static let filterStroke = Color(red: 0.86, green: 0.85, blue: 0.83).opacity(0.92)
-    static let rowDivider = Color(red: 0.88, green: 0.87, blue: 0.84).opacity(0.92)
     static let text = Color(red: 0.141, green: 0.141, blue: 0.141)
     static let muted = Color(red: 0.455, green: 0.439, blue: 0.416)
     static let michelinRed = Color(red: 0.827, green: 0.027, blue: 0.169)
@@ -17,48 +15,141 @@ enum DineStyle {
     static let blackPearl = Color(red: 0.122, green: 0.094, blue: 0.153)
     static let blackPearlText = Color(red: 0.929, green: 0.867, blue: 0.8)
     static let blackPearlMuted = Color(red: 0.718, green: 0.655, blue: 0.616)
-    static let pearlGold = Color(red: 0.831, green: 0.686, blue: 0.216)
+    static let pearlGold = Color(red: 0.929, green: 0.867, blue: 0.8)
+}
+
+enum RestaurantMarkerPresentation: Equatable {
+    case pinOnly
+    case smallTag
+    case detailTag
+}
+
+struct RestaurantMarkerLayout {
+    static let pinSize: CGFloat = 29.59375
+    static let tagGap: CGFloat = 16
+    static let smallTagMaxWidth: CGFloat = 176
+    static let smallTagTextMaxWidth: CGFloat = 152
+    static let smallTagFontSize: CGFloat = 12.8
+    static let smallTagHorizontalPadding: CGFloat = 12
+    static let smallTagVerticalPadding: CGFloat = 8
+    static let detailTagWidth: CGFloat = 288
+    static let detailTagHeight: CGFloat = 75.2
+
+    let size: CGSize
+    let pinCenter: CGPoint
+    let tagCenter: CGPoint?
+
+    static func layout(for restaurant: Restaurant?, presentation: RestaurantMarkerPresentation) -> RestaurantMarkerLayout {
+        guard let restaurant else {
+            return RestaurantMarkerLayout(
+                size: CGSize(width: 44, height: 44),
+                pinCenter: CGPoint(x: 22, y: 22),
+                tagCenter: nil
+            )
+        }
+
+        switch presentation {
+        case .pinOnly:
+            return RestaurantMarkerLayout(
+                size: CGSize(width: 44, height: 44),
+                pinCenter: CGPoint(x: 22, y: 22),
+                tagCenter: nil
+            )
+        case .smallTag:
+            let tagWidth = smallTagWidth(for: restaurant)
+            let size = CGSize(
+                width: pinSize + tagGap + tagWidth,
+                height: 44
+            )
+            let pinY = size.height / 2
+            let pinCenter = CGPoint(
+                x: pinSize / 2,
+                y: pinY
+            )
+            let tagCenter = CGPoint(
+                x: pinSize + tagGap + tagWidth / 2,
+                y: pinY
+            )
+            return RestaurantMarkerLayout(size: size, pinCenter: pinCenter, tagCenter: tagCenter)
+        case .detailTag:
+            let size = CGSize(
+                width: pinSize + tagGap + detailTagWidth,
+                height: detailTagHeight
+            )
+            let pinY = size.height / 2
+            let pinCenter = CGPoint(
+                x: pinSize / 2,
+                y: pinY
+            )
+            let tagCenter = CGPoint(
+                x: pinSize + tagGap + detailTagWidth / 2,
+                y: pinY
+            )
+            return RestaurantMarkerLayout(size: size, pinCenter: pinCenter, tagCenter: tagCenter)
+        }
+    }
+
+    static func smallTagWidth(for restaurant: Restaurant) -> CGFloat {
+        smallTagTextWidth(for: restaurant) + smallTagHorizontalPadding * 2
+    }
+
+    static func smallTagTextWidth(for restaurant: Restaurant) -> CGFloat {
+        guard let font = UIFont(name: "OpenAISans-Semibold", size: smallTagFontSize) else {
+            return smallTagTextMaxWidth
+        }
+        let measured = (restaurant.name as NSString).boundingRect(
+            with: CGSize(width: CGFloat.greatestFiniteMagnitude, height: smallTagFontSize * 1.4),
+            options: [.usesLineFragmentOrigin, .usesFontLeading],
+            attributes: [.font: font],
+            context: nil
+        ).width
+        return min(ceil(measured), smallTagTextMaxWidth)
+    }
 }
 
 struct RestaurantMarker: View {
     let restaurant: Restaurant
-    let isSelected: Bool
+    let presentation: RestaurantMarkerPresentation
+    let isFocused: Bool
     let markerScale: CGFloat
 
     var body: some View {
-        ZStack(alignment: .leading) {
-            if isSelected && opensLeft {
-                MarkerDetail(restaurant: restaurant)
-                    .offset(x: -170)
-                    .transition(.opacity.combined(with: .scale(scale: 0.96, anchor: .trailing)))
-                    .zIndex(1)
+        let layout = RestaurantMarkerLayout.layout(for: restaurant, presentation: presentation)
+        ZStack(alignment: .topLeading) {
+            if let tagCenter = layout.tagCenter {
+                switch presentation {
+                case .smallTag:
+                    MarkerSmallTag(restaurant: restaurant)
+                        .position(tagCenter)
+                        .transition(.opacity.combined(with: .scale(scale: 0.96, anchor: .leading)))
+                        .zIndex(1)
+                case .detailTag:
+                    MarkerDetail(restaurant: restaurant)
+                        .position(tagCenter)
+                        .transition(.opacity.combined(with: .scale(scale: 0.96, anchor: .leading)))
+                        .zIndex(1)
+                case .pinOnly:
+                    EmptyView()
+                }
             }
 
-            PinBadge(restaurant: restaurant, isSelected: isSelected, markerScale: markerScale)
+            PinBadge(restaurant: restaurant, isFocused: isFocused, markerScale: markerScale)
+                .position(layout.pinCenter)
                 .zIndex(2)
-
-            if isSelected && !opensLeft {
-                MarkerDetail(restaurant: restaurant)
-                    .offset(x: 42)
-                    .transition(.opacity.combined(with: .scale(scale: 0.96, anchor: .leading)))
-                    .zIndex(1)
-            }
         }
-        .animation(.snappy(duration: 0.18), value: isSelected)
+        .frame(width: layout.size.width, height: layout.size.height)
+        .animation(.snappy(duration: 0.18), value: presentation)
     }
 
-    private var opensLeft: Bool {
-        restaurant.coordinate.longitude > 121.47
-    }
 }
 
 private struct PinBadge: View {
     let restaurant: Restaurant
-    let isSelected: Bool
+    let isFocused: Bool
     let markerScale: CGFloat
 
     private var pinSize: CGFloat {
-        29.59375
+        RestaurantMarkerLayout.pinSize
     }
 
     var body: some View {
@@ -68,7 +159,7 @@ private struct PinBadge: View {
                 .strokeBorder(strokeColor, lineWidth: 1)
                 .frame(width: pinSize, height: pinSize)
                 .rotationEffect(.degrees(-45))
-                .shadow(color: shadowColor, radius: isSelected ? 12 : 10, y: 5)
+                .shadow(color: shadowColor, radius: isFocused ? 12 : 10, y: 5)
 
             LevelGlyph(restaurant: restaurant, pinSize: pinSize)
                 .offset(iconOffset)
@@ -93,11 +184,11 @@ private struct PinBadge: View {
     }
 
     private var strokeColor: Color {
-        restaurant.guide == .blackPearl ? DineStyle.blackPearlText : .white
+        restaurant.guide == .blackPearl ? DineStyle.pearlGold : .white
     }
 
     private var shadowColor: Color {
-        if isSelected {
+        if isFocused {
             switch (restaurant.guide, restaurant.level) {
             case (.blackPearl, _):
                 return DineStyle.pearlGold.opacity(0.28)
@@ -121,6 +212,39 @@ private struct PinBadge: View {
         default:
             return CGSize(width: 0, height: 0)
         }
+    }
+}
+
+private struct MarkerSmallTag: View {
+    let restaurant: Restaurant
+
+    var body: some View {
+        Text(restaurant.name)
+            .font(DineFont.semibold(RestaurantMarkerLayout.smallTagFontSize))
+            .foregroundStyle(primaryText)
+            .lineLimit(1)
+            .truncationMode(.tail)
+            .frame(width: RestaurantMarkerLayout.smallTagTextWidth(for: restaurant), alignment: .leading)
+            .padding(.horizontal, RestaurantMarkerLayout.smallTagHorizontalPadding)
+            .padding(.vertical, RestaurantMarkerLayout.smallTagVerticalPadding)
+            .background(tagSurface, in: RoundedRectangle(cornerRadius: 6, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: 6, style: .continuous)
+                    .stroke(tagStroke, lineWidth: 0.8)
+            }
+            .shadow(color: .black.opacity(0.11), radius: 13, y: 5)
+    }
+
+    private var primaryText: Color {
+        restaurant.guide == .blackPearl ? DineStyle.blackPearlText : DineStyle.text
+    }
+
+    private var tagSurface: Color {
+        restaurant.guide == .blackPearl ? DineStyle.blackPearl.opacity(0.98) : Color.white.opacity(0.90)
+    }
+
+    private var tagStroke: Color {
+        restaurant.guide == .blackPearl ? DineStyle.pearlGold.opacity(0.34) : DineStyle.michelinRed.opacity(0.24)
     }
 }
 
@@ -165,10 +289,21 @@ private struct MarkerDetail: View {
 
                 }
 
-                Text("\(restaurant.costDisplay) · \(restaurant.levelLabel)")
-                    .font(DineFont.medium(10.88))
-                    .foregroundStyle(levelColor)
-                    .lineLimit(1)
+                HStack(spacing: 4) {
+                    Text(restaurant.levelLabel)
+                        .font(DineFont.bold(11.52))
+                        .foregroundStyle(levelColor)
+                        .lineLimit(1)
+
+                    Text("·")
+                        .font(DineFont.medium(10.88))
+                        .foregroundStyle(secondaryText)
+
+                    Text(restaurant.costDisplay)
+                        .font(DineFont.medium(10.88))
+                        .foregroundStyle(secondaryText)
+                        .lineLimit(1)
+                }
 
                 Text(restaurant.dishes.joined(separator: " / "))
                     .font(DineFont.regular(10.88))
@@ -188,7 +323,7 @@ private struct MarkerDetail: View {
     }
 
     private var levelColor: Color {
-        restaurant.guide == .blackPearl ? DineStyle.pearlGold : DineStyle.michelinRed
+        restaurant.levelTextColor
     }
 
     private var primaryText: Color {
@@ -204,7 +339,7 @@ private struct MarkerDetail: View {
     }
 
     private var detailStroke: Color {
-        restaurant.guide == .blackPearl ? DineStyle.blackPearlText.opacity(0.36) : Color.white.opacity(0.52)
+        restaurant.guide == .blackPearl ? DineStyle.pearlGold.opacity(0.34) : DineStyle.michelinRed.opacity(0.24)
     }
 }
 

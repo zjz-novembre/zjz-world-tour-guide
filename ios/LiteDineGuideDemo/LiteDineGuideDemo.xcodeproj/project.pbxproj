@@ -16,26 +16,28 @@
 		2D0000000000000000000017 /* SVGVectorIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000008 /* SVGVectorIcon.swift */; };
 		2D0000000000000000000018 /* CoordinateTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0000000000000000000009 /* CoordinateTransforms.swift */; };
 		2D0000000000000000000019 /* DineLocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D000000000000000000000A /* DineLocationStore.swift */; };
-		2D00000000000000000000A1 /* michelin-star-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B1 /* michelin-star-white.svg */; };
-		2D00000000000000000000A2 /* michelin-bib-gourmand-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */; };
-		2D00000000000000000000A3 /* restaurant-selected-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B3 /* restaurant-selected-white.svg */; };
-		2D00000000000000000000A4 /* michelin-guide.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B4 /* michelin-guide.svg */; };
-		2D00000000000000000000A5 /* web-map-pin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B5 /* web-map-pin.svg */; };
-		2D00000000000000000000A6 /* web-tag.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B6 /* web-tag.svg */; };
-		2D00000000000000000000A7 /* web-external-link.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B7 /* web-external-link.svg */; };
-		2D00000000000000000000A8 /* web-chevron-down.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B8 /* web-chevron-down.svg */; };
-		2D00000000000000000000A9 /* web-check.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B9 /* web-check.svg */; };
-		2D00000000000000000000C1 /* openai-sans-v2-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D1 /* openai-sans-v2-regular.ttf */; };
-		2D00000000000000000000C2 /* openai-sans-v2-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D2 /* openai-sans-v2-medium.ttf */; };
-		2D00000000000000000000C3 /* openai-sans-v2-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D3 /* openai-sans-v2-semibold.ttf */; };
-		2D00000000000000000000C4 /* openai-sans-v2-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D4 /* openai-sans-v2-bold.ttf */; };
-		2D00000000000000000000E1 /* michelin-restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F1 /* michelin-restaurants.json */; };
-		2D00000000000000000000E2 /* black-pearl-restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F2 /* black-pearl-restaurants.json */; };
-		2D00000000000000000000E3 /* black-pearl-diamond-official-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F3 /* black-pearl-diamond-official-52.png */; };
-		2D00000000000000000000E4 /* black-pearl-logo-official.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F4 /* black-pearl-logo-official.png */; };
+		2D00000000000000000000A1 /* Assets/michelin-star-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B1 /* Assets/michelin-star-white.svg */; };
+		2D00000000000000000000A2 /* Assets/michelin-bib-gourmand-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B2 /* Assets/michelin-bib-gourmand-white.svg */; };
+		2D00000000000000000000A3 /* Assets/restaurant-selected-white.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B3 /* Assets/restaurant-selected-white.svg */; };
+		2D00000000000000000000A4 /* Assets/michelin-guide.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B4 /* Assets/michelin-guide.svg */; };
+		2D00000000000000000000A5 /* Assets/web-map-pin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B5 /* Assets/web-map-pin.svg */; };
+		2D00000000000000000000A6 /* Assets/web-tag.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B6 /* Assets/web-tag.svg */; };
+		2D00000000000000000000A7 /* Assets/web-external-link.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B7 /* Assets/web-external-link.svg */; };
+		2D00000000000000000000A8 /* Assets/web-chevron-down.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B8 /* Assets/web-chevron-down.svg */; };
+		2D00000000000000000000A9 /* Assets/web-check.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000B9 /* Assets/web-check.svg */; };
+		2D00000000000000000000C1 /* Fonts/openai-sans-v2-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D1 /* Fonts/openai-sans-v2-regular.ttf */; };
+		2D00000000000000000000C2 /* Fonts/openai-sans-v2-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D2 /* Fonts/openai-sans-v2-medium.ttf */; };
+		2D00000000000000000000C3 /* Fonts/openai-sans-v2-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D3 /* Fonts/openai-sans-v2-semibold.ttf */; };
+		2D00000000000000000000C4 /* Fonts/openai-sans-v2-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000D4 /* Fonts/openai-sans-v2-bold.ttf */; };
+		2D00000000000000000000E1 /* Data/michelin-restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F1 /* Data/michelin-restaurants.json */; };
+		2D00000000000000000000E2 /* Data/black-pearl-restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F2 /* Data/black-pearl-restaurants.json */; };
+		2D00000000000000000000E3 /* Assets/black-pearl-diamond-official-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F3 /* Assets/black-pearl-diamond-official-52.png */; };
+		2D00000000000000000000E4 /* Assets/black-pearl-logo-official.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F4 /* Assets/black-pearl-logo-official.png */; };
+		58378005B0C1494EFA3A9EAC /* Pods_LiteDineGuideDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F6B17BCBCBBC38AA7A4002 /* Pods_LiteDineGuideDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13F6B17BCBCBBC38AA7A4002 /* Pods_LiteDineGuideDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiteDineGuideDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0000000000000000000001 /* LiteDineGuideDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteDineGuideDemoApp.swift; sourceTree = "<group>"; };
 		2D0000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D0000000000000000000003 /* DineMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DineMapView.swift; sourceTree = "<group>"; };
@@ -46,23 +48,25 @@
 		2D0000000000000000000008 /* SVGVectorIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGVectorIcon.swift; sourceTree = "<group>"; };
 		2D0000000000000000000009 /* CoordinateTransforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateTransforms.swift; sourceTree = "<group>"; };
 		2D000000000000000000000A /* DineLocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DineLocationStore.swift; sourceTree = "<group>"; };
-		2D00000000000000000000B1 /* michelin-star-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-star-white.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-bib-gourmand-white.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000B3 /* restaurant-selected-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/restaurant-selected-white.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000B4 /* michelin-guide.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-guide.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000B5 /* web-map-pin.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-map-pin.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000B6 /* web-tag.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-tag.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000B7 /* web-external-link.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-external-link.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000B8 /* web-chevron-down.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-chevron-down.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000B9 /* web-check.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-check.svg"; sourceTree = "<group>"; };
-		2D00000000000000000000D1 /* openai-sans-v2-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-regular.ttf"; sourceTree = "<group>"; };
-		2D00000000000000000000D2 /* openai-sans-v2-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-medium.ttf"; sourceTree = "<group>"; };
-		2D00000000000000000000D3 /* openai-sans-v2-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-semibold.ttf"; sourceTree = "<group>"; };
-		2D00000000000000000000D4 /* openai-sans-v2-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-bold.ttf"; sourceTree = "<group>"; };
-		2D00000000000000000000F1 /* michelin-restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/michelin-restaurants.json"; sourceTree = "<group>"; };
-		2D00000000000000000000F2 /* black-pearl-restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/black-pearl-restaurants.json"; sourceTree = "<group>"; };
-		2D00000000000000000000F3 /* black-pearl-diamond-official-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-diamond-official-52.png"; sourceTree = "<group>"; };
-		2D00000000000000000000F4 /* black-pearl-logo-official.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-logo-official.png"; sourceTree = "<group>"; };
+		2D00000000000000000000B1 /* Assets/michelin-star-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-star-white.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B2 /* Assets/michelin-bib-gourmand-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-bib-gourmand-white.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B3 /* Assets/restaurant-selected-white.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/restaurant-selected-white.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B4 /* Assets/michelin-guide.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/michelin-guide.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B5 /* Assets/web-map-pin.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-map-pin.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B6 /* Assets/web-tag.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-tag.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B7 /* Assets/web-external-link.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-external-link.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B8 /* Assets/web-chevron-down.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-chevron-down.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000B9 /* Assets/web-check.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Assets/web-check.svg"; sourceTree = "<group>"; };
+		2D00000000000000000000D1 /* Fonts/openai-sans-v2-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-regular.ttf"; sourceTree = "<group>"; };
+		2D00000000000000000000D2 /* Fonts/openai-sans-v2-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-medium.ttf"; sourceTree = "<group>"; };
+		2D00000000000000000000D3 /* Fonts/openai-sans-v2-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-semibold.ttf"; sourceTree = "<group>"; };
+		2D00000000000000000000D4 /* Fonts/openai-sans-v2-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fonts/openai-sans-v2-bold.ttf"; sourceTree = "<group>"; };
+		2D00000000000000000000F1 /* Data/michelin-restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/michelin-restaurants.json"; sourceTree = "<group>"; };
+		2D00000000000000000000F2 /* Data/black-pearl-restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/black-pearl-restaurants.json"; sourceTree = "<group>"; };
+		2D00000000000000000000F3 /* Assets/black-pearl-diamond-official-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-diamond-official-52.png"; sourceTree = "<group>"; };
+		2D00000000000000000000F4 /* Assets/black-pearl-logo-official.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-logo-official.png"; sourceTree = "<group>"; };
+		7DE7536667170329DD9B08CB /* Pods-LiteDineGuideDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiteDineGuideDemo.release.xcconfig"; path = "Target Support Files/Pods-LiteDineGuideDemo/Pods-LiteDineGuideDemo.release.xcconfig"; sourceTree = "<group>"; };
+		80FC7E7F177CF35CC020211E /* Pods-LiteDineGuideDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiteDineGuideDemo.debug.xcconfig"; path = "Target Support Files/Pods-LiteDineGuideDemo/Pods-LiteDineGuideDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58378005B0C1494EFA3A9EAC /* Pods_LiteDineGuideDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 			children = (
 				2D0000000000000000000031 /* LiteDineGuideDemo */,
 				2D0000000000000000000032 /* Products */,
+				9CDC509A79B316AC7849DE61 /* Pods */,
+				6FF204C66189148ADB26EC7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,23 +103,23 @@
 				2D0000000000000000000008 /* SVGVectorIcon.swift */,
 				2D0000000000000000000009 /* CoordinateTransforms.swift */,
 				2D000000000000000000000A /* DineLocationStore.swift */,
-				2D00000000000000000000B1 /* michelin-star-white.svg */,
-				2D00000000000000000000B2 /* michelin-bib-gourmand-white.svg */,
-				2D00000000000000000000B3 /* restaurant-selected-white.svg */,
-				2D00000000000000000000B4 /* michelin-guide.svg */,
-				2D00000000000000000000B5 /* web-map-pin.svg */,
-				2D00000000000000000000B6 /* web-tag.svg */,
-				2D00000000000000000000B7 /* web-external-link.svg */,
-				2D00000000000000000000B8 /* web-chevron-down.svg */,
-				2D00000000000000000000B9 /* web-check.svg */,
-				2D00000000000000000000F3 /* black-pearl-diamond-official-52.png */,
-				2D00000000000000000000F4 /* black-pearl-logo-official.png */,
-				2D00000000000000000000D1 /* openai-sans-v2-regular.ttf */,
-				2D00000000000000000000D2 /* openai-sans-v2-medium.ttf */,
-				2D00000000000000000000D3 /* openai-sans-v2-semibold.ttf */,
-				2D00000000000000000000D4 /* openai-sans-v2-bold.ttf */,
-				2D00000000000000000000F1 /* michelin-restaurants.json */,
-				2D00000000000000000000F2 /* black-pearl-restaurants.json */,
+				2D00000000000000000000B1 /* Assets/michelin-star-white.svg */,
+				2D00000000000000000000B2 /* Assets/michelin-bib-gourmand-white.svg */,
+				2D00000000000000000000B3 /* Assets/restaurant-selected-white.svg */,
+				2D00000000000000000000B4 /* Assets/michelin-guide.svg */,
+				2D00000000000000000000B5 /* Assets/web-map-pin.svg */,
+				2D00000000000000000000B6 /* Assets/web-tag.svg */,
+				2D00000000000000000000B7 /* Assets/web-external-link.svg */,
+				2D00000000000000000000B8 /* Assets/web-chevron-down.svg */,
+				2D00000000000000000000B9 /* Assets/web-check.svg */,
+				2D00000000000000000000F3 /* Assets/black-pearl-diamond-official-52.png */,
+				2D00000000000000000000F4 /* Assets/black-pearl-logo-official.png */,
+				2D00000000000000000000D1 /* Fonts/openai-sans-v2-regular.ttf */,
+				2D00000000000000000000D2 /* Fonts/openai-sans-v2-medium.ttf */,
+				2D00000000000000000000D3 /* Fonts/openai-sans-v2-semibold.ttf */,
+				2D00000000000000000000D4 /* Fonts/openai-sans-v2-bold.ttf */,
+				2D00000000000000000000F1 /* Data/michelin-restaurants.json */,
+				2D00000000000000000000F2 /* Data/black-pearl-restaurants.json */,
 			);
 			path = LiteDineGuideDemo;
 			sourceTree = "<group>";
@@ -125,6 +132,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6FF204C66189148ADB26EC7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F6B17BCBCBBC38AA7A4002 /* Pods_LiteDineGuideDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CDC509A79B316AC7849DE61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80FC7E7F177CF35CC020211E /* Pods-LiteDineGuideDemo.debug.xcconfig */,
+				7DE7536667170329DD9B08CB /* Pods-LiteDineGuideDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D0000000000000000000080 /* Build configuration list for PBXNativeTarget "LiteDineGuideDemo" */;
 			buildPhases = (
+				7030B9B65ED4477FD007108C /* [CP] Check Pods Manifest.lock */,
 				2D0000000000000000000021 /* Sources */,
 				2D0000000000000000000022 /* Frameworks */,
 				2D0000000000000000000023 /* Resources */,
+				67900C76CB5AA8E2F074C558 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,27 +209,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D00000000000000000000A1 /* michelin-star-white.svg in Resources */,
-				2D00000000000000000000A2 /* michelin-bib-gourmand-white.svg in Resources */,
-				2D00000000000000000000A3 /* restaurant-selected-white.svg in Resources */,
-				2D00000000000000000000A4 /* michelin-guide.svg in Resources */,
-				2D00000000000000000000A5 /* web-map-pin.svg in Resources */,
-				2D00000000000000000000A6 /* web-tag.svg in Resources */,
-				2D00000000000000000000A7 /* web-external-link.svg in Resources */,
-				2D00000000000000000000A8 /* web-chevron-down.svg in Resources */,
-				2D00000000000000000000A9 /* web-check.svg in Resources */,
-				2D00000000000000000000C1 /* openai-sans-v2-regular.ttf in Resources */,
-				2D00000000000000000000C2 /* openai-sans-v2-medium.ttf in Resources */,
-				2D00000000000000000000C3 /* openai-sans-v2-semibold.ttf in Resources */,
-				2D00000000000000000000C4 /* openai-sans-v2-bold.ttf in Resources */,
-				2D00000000000000000000E1 /* michelin-restaurants.json in Resources */,
-				2D00000000000000000000E2 /* black-pearl-restaurants.json in Resources */,
-				2D00000000000000000000E3 /* black-pearl-diamond-official-52.png in Resources */,
-				2D00000000000000000000E4 /* black-pearl-logo-official.png in Resources */,
+				2D00000000000000000000A1 /* Assets/michelin-star-white.svg in Resources */,
+				2D00000000000000000000A2 /* Assets/michelin-bib-gourmand-white.svg in Resources */,
+				2D00000000000000000000A3 /* Assets/restaurant-selected-white.svg in Resources */,
+				2D00000000000000000000A4 /* Assets/michelin-guide.svg in Resources */,
+				2D00000000000000000000A5 /* Assets/web-map-pin.svg in Resources */,
+				2D00000000000000000000A6 /* Assets/web-tag.svg in Resources */,
+				2D00000000000000000000A7 /* Assets/web-external-link.svg in Resources */,
+				2D00000000000000000000A8 /* Assets/web-chevron-down.svg in Resources */,
+				2D00000000000000000000A9 /* Assets/web-check.svg in Resources */,
+				2D00000000000000000000C1 /* Fonts/openai-sans-v2-regular.ttf in Resources */,
+				2D00000000000000000000C2 /* Fonts/openai-sans-v2-medium.ttf in Resources */,
+				2D00000000000000000000C3 /* Fonts/openai-sans-v2-semibold.ttf in Resources */,
+				2D00000000000000000000C4 /* Fonts/openai-sans-v2-bold.ttf in Resources */,
+				2D00000000000000000000E1 /* Data/michelin-restaurants.json in Resources */,
+				2D00000000000000000000E2 /* Data/black-pearl-restaurants.json in Resources */,
+				2D00000000000000000000E3 /* Assets/black-pearl-diamond-official-52.png in Resources */,
+				2D00000000000000000000E4 /* Assets/black-pearl-logo-official.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67900C76CB5AA8E2F074C558 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiteDineGuideDemo/Pods-LiteDineGuideDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiteDineGuideDemo/Pods-LiteDineGuideDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiteDineGuideDemo/Pods-LiteDineGuideDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7030B9B65ED4477FD007108C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiteDineGuideDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D0000000000000000000021 /* Sources */ = {
@@ -343,22 +415,18 @@
 		};
 		2D0000000000000000000063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80FC7E7F177CF35CC020211E /* Pods-LiteDineGuideDemo.debug.xcconfig */;
 			buildSettings = {
+				AMAP_CUSTOM_STYLE_ID = "";
+				AMAP_IOS_API_KEY = 8924dbb00daef3035dc6a5872f425efb;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BAFB8AR23V;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CADisableMinimumFrameDurationOnPhone = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lite Dine";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Lite Dine uses your location to show your position on the map.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LiteDineGuideDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = world.zjz.LiteDineGuideDemo;
@@ -373,22 +441,18 @@
 		};
 		2D0000000000000000000064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE7536667170329DD9B08CB /* Pods-LiteDineGuideDemo.release.xcconfig */;
 			buildSettings = {
+				AMAP_CUSTOM_STYLE_ID = "";
+				AMAP_IOS_API_KEY = 8924dbb00daef3035dc6a5872f425efb;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BAFB8AR23V;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CADisableMinimumFrameDurationOnPhone = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lite Dine";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Lite Dine uses your location to show your position on the map.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LiteDineGuideDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = world.zjz.LiteDineGuideDemo;

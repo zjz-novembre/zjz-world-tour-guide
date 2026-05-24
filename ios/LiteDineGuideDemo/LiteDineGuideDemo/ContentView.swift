@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     @State private var activeGuide: GuideKind = .michelin
@@ -6,9 +7,10 @@ struct ContentView: View {
     @State private var activeDropdown: FilterDropdownKind?
     @State private var selectedCost: DineCostBand = .all
     @State private var selectedLevels: Set<DineLevel> = []
-    @State private var cityQuery = ""
     @State private var restaurants = DineRepository.loadRestaurants()
     @State private var selectedRestaurant: Restaurant?
+    @State private var selectedMarkerPresentation: RestaurantMarkerPresentation = .pinOnly
+    @State private var isListCollapsed = false
 
     private var filteredRestaurants: [Restaurant] {
         restaurants
@@ -32,16 +34,20 @@ struct ContentView: View {
 
     var body: some View {
         GeometryReader { proxy in
+            let expandedSheetHeight = max(proxy.size.height * 0.43, DineMetric.minimumSheetHeight)
+            let sheetHeight = isListCollapsed ? DineMetric.collapsedSheetHeight : expandedSheetHeight
+
             DineMapView(
                 guide: activeGuide,
                 city: activeCity,
                 restaurants: filteredRestaurants,
                 selectedRestaurant: $selectedRestaurant,
+                selectedMarkerPresentation: $selectedMarkerPresentation,
                 viewportSize: proxy.size,
                 mapFocusInsets: EdgeInsets(
                     top: DineMetric.topInset + DineMetric.headerHeight + DineMetric.chromeGap + DineMetric.filterHeight,
                     leading: 0,
-                    bottom: max(proxy.size.height * 0.43, DineMetric.minimumSheetHeight) + DineMetric.edge,
+                    bottom: sheetHeight + DineMetric.edge,
                     trailing: 0
                 )
             )
@@ -55,7 +61,7 @@ struct ContentView: View {
                 Spacer(minLength: 0)
 
                 restaurantSheet
-                    .frame(height: max(proxy.size.height * 0.43, DineMetric.minimumSheetHeight))
+                    .frame(height: sheetHeight)
                     .padding(.horizontal, DineMetric.edge)
                     .padding(.bottom, DineMetric.edge)
                     .zIndex(1)
@@ -66,7 +72,7 @@ struct ContentView: View {
         }
         .background(activeGuide.canvas)
         .onChange(of: activeGuide) {
-            selectedRestaurant = nil
+            clearMapSelection()
             selectedLevels = []
             activeDropdown = nil
         }
@@ -186,12 +192,11 @@ struct ContentView: View {
     private func dropdownContent(for dropdown: FilterDropdownKind) -> some View {
         switch dropdown {
         case .city:
-            FilterSearchField(text: $cityQuery, guide: activeGuide)
             DropdownOptions {
-                ForEach(filteredCityOptions) { city in
+                ForEach(DineCity.all) { city in
                     DropdownOption(label: city.label, guide: activeGuide, isSelected: city.id == activeCity.id) {
                         activeCity = city
-                        selectedRestaurant = nil
+                        clearMapSelection()
                         closeDropdown()
                     }
                 }
@@ -201,7 +206,7 @@ struct ContentView: View {
                 ForEach(DineCostBand.allCases) { cost in
                     DropdownOption(label: cost.label, guide: activeGuide, isSelected: cost == selectedCost) {
                         selectedCost = cost
-                        selectedRestaurant = nil
+                        clearMapSelection()
                         closeDropdown()
                     }
                 }
@@ -210,7 +215,7 @@ struct ContentView: View {
             DropdownOptions {
                 DropdownOption(label: "全榜", guide: activeGuide, isSelected: selectedLevels.isEmpty) {
                     selectedLevels = []
-                    selectedRestaurant = nil
+                    clearMapSelection()
                 }
                 ForEach(levelOptions, id: \.self) { level in
                     DropdownOption(
@@ -223,56 +228,80 @@ struct ContentView: View {
                         } else {
                             selectedLevels.insert(level)
                         }
-                        selectedRestaurant = nil
+                        clearMapSelection()
                     }
                 }
             }
-        }
-    }
-
-    private var filteredCityOptions: [DineCity] {
-        let query = cityQuery.trimmingCharacters(in: .whitespacesAndNewlines).localizedLowercase
-        guard !query.isEmpty else { return DineCity.all }
-        return DineCity.all.filter { city in
-            city.label.localizedLowercase.contains(query) ||
-                city.id.localizedLowercase.contains(query) ||
-                city.cityName.localizedLowercase.contains(query) ||
-                city.province.localizedLowercase.contains(query)
         }
     }
 
     private func toggleDropdown(_ dropdown: FilterDropdownKind) {
         withAnimation(.snappy(duration: 0.16)) {
             activeDropdown = activeDropdown == dropdown ? nil : dropdown
-            if dropdown != .city {
-                cityQuery = ""
-            }
         }
     }
 
     private func closeDropdown() {
         withAnimation(.snappy(duration: 0.16)) {
             activeDropdown = nil
-            cityQuery = ""
         }
     }
 
     private var restaurantSheet: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            LazyVStack(spacing: 0) {
-                ForEach(filteredRestaurants) { restaurant in
-                    RestaurantRow(
-                        restaurant: restaurant,
-                        isSelected: selectedRestaurant?.id == restaurant.id,
-                        guide: activeGuide
-                    )
-                    .onTapGesture {
-                        withAnimation(.snappy(duration: 0.18)) {
-                            selectedRestaurant = selectedRestaurant?.id == restaurant.id ? nil : restaurant
+        ZStack(alignment: .topTrailing) {
+            if !isListCollapsed {
+                ScrollView(.vertical, showsIndicators: false) {
+                    LazyVStack(spacing: 0) {
+                        ForEach(Array(filteredRestaurants.enumerated()), id: \.element.id) { index, restaurant in
+                            RestaurantRow(
+                                restaurant: restaurant,
+                                isSelected: selectedRestaurant?.id == restaurant.id,
+                                guide: activeGuide
+                            )
+                            .overlay(alignment: .bottom) {
+                                if index < filteredRestaurants.count - 1 {
+                                    Rectangle()
+                                        .fill(activeGuide.rowDivider)
+                                        .frame(height: 0.5)
+                                }
+                            }
+                            .onTapGesture {
+                                withAnimation(.snappy(duration: 0.18)) {
+                                    if selectedRestaurant?.id == restaurant.id,
+                                       selectedMarkerPresentation == .smallTag {
+                                        clearMapSelection()
+                                    } else {
+                                        selectedRestaurant = restaurant
+                                        selectedMarkerPresentation = .smallTag
+                                    }
+                                }
+                            }
                         }
                     }
                 }
+                .transaction { transaction in
+                    transaction.animation = nil
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             }
+
+            Button {
+                withAnimation(.snappy(duration: 0.18)) {
+                    isListCollapsed.toggle()
+                }
+            } label: {
+                WebIcon(kind: .chevronDown, tint: activeGuide.secondaryText)
+                    .frame(width: 16, height: 16)
+                    .rotationEffect(.degrees(isListCollapsed ? 180 : 0))
+                    .frame(width: 32, height: 32)
+                    .background(activeGuide.panelSurface, in: Circle())
+                    .overlay {
+                        Circle().stroke(activeGuide.panelStroke, lineWidth: 0.8)
+                    }
+            }
+            .buttonStyle(.plain)
+            .padding(8)
+            .accessibilityLabel(isListCollapsed ? "展开列表" : "收起列表")
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(activeGuide.panelSurface, in: RoundedRectangle(cornerRadius: DineMetric.panelRadius, style: .continuous))
@@ -281,6 +310,11 @@ struct ContentView: View {
                 .stroke(activeGuide.panelStroke, lineWidth: 0.8)
         }
         .shadow(color: .black.opacity(0.13), radius: 22, y: 10)
+    }
+
+    private func clearMapSelection() {
+        selectedRestaurant = nil
+        selectedMarkerPresentation = .pinOnly
     }
 }
 
@@ -294,6 +328,7 @@ private enum DineMetric {
     static let dropdownGap: CGFloat = 8
     static let panelRadius: CGFloat = 8
     static let minimumSheetHeight: CGFloat = 252
+    static let collapsedSheetHeight: CGFloat = 48
     static let rowThumb: CGFloat = 44
     static let rowHorizontalPadding: CGFloat = 12
     static let rowVerticalPadding: CGFloat = 8
@@ -459,26 +494,6 @@ private struct FilterDropdownPanel<Content: View>: View {
     }
 }
 
-private struct FilterSearchField: View {
-    @Binding var text: String
-    let guide: GuideKind
-
-    var body: some View {
-        TextField("", text: $text)
-            .font(DineFont.regular(12))
-            .foregroundStyle(guide.primaryText)
-            .textInputAutocapitalization(.never)
-            .autocorrectionDisabled()
-            .frame(height: 36)
-            .padding(.horizontal, 10)
-            .background(guide.searchSurface, in: RoundedRectangle(cornerRadius: 6, style: .continuous))
-            .overlay {
-                RoundedRectangle(cornerRadius: 6, style: .continuous)
-                    .stroke(guide.filterStroke, lineWidth: 0.8)
-            }
-    }
-}
-
 private struct DropdownOptions<Content: View>: View {
     @ViewBuilder var content: Content
 
@@ -565,12 +580,6 @@ private struct RestaurantRow: View {
         .padding(.horizontal, DineMetric.rowHorizontalPadding)
         .padding(.vertical, DineMetric.rowVerticalPadding)
         .background(isSelected ? guide.rowActiveSurface : .clear)
-        .overlay(alignment: .bottom) {
-            Rectangle()
-                .fill(guide.rowDivider)
-                .frame(height: 0.6)
-                .padding(.leading, DineMetric.rowHorizontalPadding + DineMetric.rowThumb + 9)
-        }
         .contentShape(Rectangle())
     }
 }
@@ -580,8 +589,8 @@ private struct RestaurantExternalLink: View {
     let guide: GuideKind
 
     var body: some View {
-        if let url = restaurant.redirectUrl ?? restaurant.sourceUrl {
-            Link(destination: url) {
+        if !restaurant.externalURLCandidates.isEmpty {
+            Button(action: openExternalURL) {
                 WebIcon(kind: .externalLink, tint: guide.secondaryText)
                     .frame(width: 13.6, height: 13.6)
             }
@@ -589,6 +598,19 @@ private struct RestaurantExternalLink: View {
         } else {
             WebIcon(kind: .externalLink, tint: guide.secondaryText)
                 .frame(width: 13.6, height: 13.6)
+        }
+    }
+
+    private func openExternalURL() {
+        openCandidate(at: 0, in: restaurant.externalURLCandidates)
+    }
+
+    private func openCandidate(at index: Int, in urls: [URL]) {
+        guard urls.indices.contains(index) else { return }
+
+        UIApplication.shared.open(urls[index], options: [:]) { success in
+            guard !success else { return }
+            openCandidate(at: index + 1, in: urls)
         }
     }
 }
@@ -602,7 +624,7 @@ private struct LevelValue: View {
         } else {
             Text(restaurant.levelLabel)
                 .font(DineFont.bold(11.52))
-                .foregroundStyle(restaurant.level == .bib ? DineStyle.bibGold : restaurant.guide.accentColor)
+                .foregroundStyle(restaurant.levelTextColor)
                 .lineLimit(1)
         }
     }
@@ -784,15 +806,6 @@ private extension GuideKind {
         }
     }
 
-    var searchSurface: Color {
-        switch self {
-        case .michelin:
-            return Color(red: 0.957, green: 0.953, blue: 0.933)
-        case .blackPearl:
-            return Color(red: 0.173, green: 0.149, blue: 0.2)
-        }
-    }
-
     var optionSelectedSurface: Color {
         switch self {
         case .michelin:
@@ -814,18 +827,18 @@ private extension GuideKind {
     var panelStroke: Color {
         switch self {
         case .michelin:
-            return DineStyle.panelStroke
+            return Color(red: 0.906, green: 0.898, blue: 0.875)
         case .blackPearl:
-            return Color(red: 0.173, green: 0.149, blue: 0.2).opacity(0.92)
+            return DineStyle.pearlGold.opacity(0.26)
         }
     }
 
     var rowDivider: Color {
         switch self {
         case .michelin:
-            return DineStyle.rowDivider
+            return Color(red: 0.906, green: 0.898, blue: 0.875)
         case .blackPearl:
-            return Color(red: 0.173, green: 0.149, blue: 0.2).opacity(0.95)
+            return DineStyle.pearlGold.opacity(0.18)
         }
     }
 

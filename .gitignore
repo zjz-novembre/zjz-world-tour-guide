@@ -9,12 +9,15 @@ public/amap-config.json
 # Dependencies and build outputs
 node_modules/
 dist/
+ios/**/Pods/
 
 # Local tool state
 .browser/
 .omx/
 .playwright-cli/
 .wrangler/
+*.xcuserstate
+**/xcuserdata/
 
 # Generated deployment bundles
 cloudflare/**/worker.mjs
