@@ -28,6 +28,22 @@ function countBy(items, key) {
 
 const ids = restaurants.map((restaurant) => restaurant.id);
 const cityCounts = countBy(restaurants, "city");
+const manualCoordinateCorrections = new Map([
+  [
+    "cn-shanghai-municipality-shanghai-pop",
+    {
+      position: [121.490707, 31.234228],
+      address: "中山东一路3号外滩三号7楼, Shanghai, Shanghai Municipality",
+    },
+  ],
+  [
+    "cn-shanghai-municipality-shanghai-the-meat",
+    {
+      position: [121.563416864486, 31.213156273447],
+      address: "花木路1388号浦东嘉里大酒店2楼, Shanghai, Shanghai Municipality",
+    },
+  ],
+]);
 assert(new Set(ids).size === ids.length, "Restaurant ids must be unique");
 assert(restaurants.length >= 1000, `Expected China-wide dataset, got only ${restaurants.length} restaurants`);
 
@@ -63,13 +79,23 @@ restaurants.forEach((restaurant) => {
   assert(restaurant.topDishes.length <= 5, `${restaurant.name} topDishes must be top5 or smaller`);
   assert(restaurant.coorSys === "GCJ-02", `${restaurant.name} must declare GCJ-02 coordinates`);
   assert(
-    ["amap", "michelin"].includes(restaurant.coordinateSource),
+    ["amap", "michelin", "manual"].includes(restaurant.coordinateSource),
     `${restaurant.name} must declare a vetted coordinate source`,
   );
   assert(Array.isArray(restaurant.position), `${restaurant.name} missing stored position`);
   const [lng, lat] = restaurant.position;
   assert(lng > 72 && lng < 138, `${restaurant.name} longitude outside China bounds: ${lng}`);
   assert(lat > 0.8 && lat < 56, `${restaurant.name} latitude outside China bounds: ${lat}`);
+  const manualCorrection = manualCoordinateCorrections.get(restaurant.id);
+  if (manualCorrection) {
+    assert(restaurant.coordinateSource === "manual", `${restaurant.name} must keep manual coordinate source`);
+    assert(restaurant.address === manualCorrection.address, `${restaurant.name} manual address drifted`);
+    assert(
+      Math.abs(lng - manualCorrection.position[0]) < 0.000001 &&
+        Math.abs(lat - manualCorrection.position[1]) < 0.000001,
+      `${restaurant.name} manual coordinate drifted: ${JSON.stringify(restaurant.position)}`,
+    );
+  }
 });
 
 console.log(

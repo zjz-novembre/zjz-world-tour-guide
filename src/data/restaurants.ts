@@ -10766,6 +10766,7 @@ export const restaurants: Restaurant[] = [
     "province": "上海",
     "country": "中国",
     "district": "黄浦区",
+    "address": "中山东一路3号外滩3号4层",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
@@ -10784,7 +10785,6 @@ export const restaurants: Restaurant[] = [
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/jean-georges-506640",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
     "coordinateSystem": "GCJ-02",
-    "address": "中山东一路3号外滩3号4层",
     "amapPoiId": "B00155K8NC"
   },
   {
@@ -10822,6 +10822,7 @@ export const restaurants: Restaurant[] = [
     "province": "上海",
     "country": "中国",
     "district": "黄浦区",
+    "address": "中山东一路3号外滩三号7楼, Shanghai, Shanghai Municipality",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -10830,12 +10831,12 @@ export const restaurants: Restaurant[] = [
     "cuisine": "欧陆菜",
     "poiQuery": "POP露台西餐厅 上海",
     "position": [
-      121.495202868523,
-      31.232093583972
+      121.490707,
+      31.234228
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Pop%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "manual",
+    "mapsUrl": "https://uri.amap.com/search?keyword=POP%E9%9C%B2%E5%8F%B0%E8%A5%BF%E9%A4%90%E5%8E%85%20%E5%A4%96%E6%BB%A9%E4%B8%89%E5%8F%B7%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9421bb277029439fb61653cb6ee74df7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/pop",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
@@ -14256,20 +14257,21 @@ export const restaurants: Restaurant[] = [
     "province": "上海",
     "country": "中国",
     "district": "浦东新区",
+    "address": "花木路1388号浦东嘉里大酒店2楼, Shanghai, Shanghai Municipality",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "扒 上海",
+    "poiQuery": "The MEAT 扒餐厅 浦东嘉里大酒店 上海",
     "position": [
-      121.495852528083,
-      31.23192356771
+      121.563416864486,
+      31.213156273447
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%92%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "manual",
+    "mapsUrl": "https://uri.amap.com/search?keyword=The%20MEAT%20%E6%89%92%E9%A4%90%E5%8E%85%20%E6%B5%A6%E4%B8%9C%E5%98%89%E9%87%8C%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a575c0a09b1741ab812452118a7b545a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/the-meat",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",

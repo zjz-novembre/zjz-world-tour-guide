@@ -114,7 +114,7 @@ try {
       SUM(CASE WHEN cover_image IS NOT NULL THEN 1 ELSE 0 END) AS cover_rows,
       SUM(CASE WHEN latitude IS NOT NULL AND longitude IS NOT NULL THEN 1 ELSE 0 END) AS coordinate_rows,
       SUM(CASE WHEN coor_sys = 'GCJ-02' THEN 1 ELSE 0 END) AS gcj_rows,
-      SUM(CASE WHEN coordinate_source IN ('amap', 'michelin') THEN 1 ELSE 0 END) AS map_coordinate_rows,
+      SUM(CASE WHEN coordinate_source IN ('amap', 'michelin', 'manual') THEN 1 ELSE 0 END) AS map_coordinate_rows,
       SUM(CASE WHEN avg_price_cny IS NOT NULL THEN 1 ELSE 0 END) AS avg_price_rows,
       SUM(CASE WHEN avg_price_cny IS NOT NULL AND dianping_url IS NULL THEN 1 ELSE 0 END) AS non_dianping_price_rows,
       SUM(CASE WHEN dianping_url IS NOT NULL THEN 1 ELSE 0 END) AS dianping_rows,

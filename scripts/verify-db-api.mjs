@@ -142,7 +142,7 @@ try {
       !Array.isArray(restaurant.position) ||
       restaurant.position.length !== 2 ||
       restaurant.coorSys !== "GCJ-02" ||
-      !["amap", "michelin"].includes(restaurant.coordinateSource) ||
+      !["amap", "michelin", "manual"].includes(restaurant.coordinateSource) ||
       !Array.isArray(restaurant.topDishes) ||
       !Array.isArray(restaurant.dianpingRecommendedDishes) ||
       (restaurant.dianpingUrl && !isDianpingAppUrl(restaurant.dianpingAppUrl)) ||

@@ -26,7 +26,7 @@ enum RestaurantMarkerPresentation: Equatable {
 
 struct RestaurantMarkerLayout {
     static let pinSize: CGFloat = 29.59375
-    static let tagGap: CGFloat = 16
+    static let tagGap: CGFloat = 8
     static let smallTagMaxWidth: CGFloat = 176
     static let smallTagTextMaxWidth: CGFloat = 152
     static let smallTagFontSize: CGFloat = 12.8
