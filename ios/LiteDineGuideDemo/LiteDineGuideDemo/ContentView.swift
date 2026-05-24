@@ -34,9 +34,7 @@ struct ContentView: View {
 
     var body: some View {
         GeometryReader { proxy in
-            let expandedSheetHeight = max(proxy.size.height * 0.43, DineMetric.minimumSheetHeight)
-            let sheetHeight = isListCollapsed ? DineMetric.collapsedSheetHeight : expandedSheetHeight
-            let mapReservedSheetHeight = expandedSheetHeight
+            let layout = DineLayout(size: proxy.size, isListCollapsed: isListCollapsed)
 
             DineMapView(
                 guide: activeGuide,
@@ -45,30 +43,16 @@ struct ContentView: View {
                 selectedRestaurant: $selectedRestaurant,
                 selectedMarkerPresentation: $selectedMarkerPresentation,
                 viewportSize: proxy.size,
-                mapFocusInsets: EdgeInsets(
-                    top: DineMetric.topInset + DineMetric.headerHeight + DineMetric.chromeGap + DineMetric.filterHeight,
-                    leading: 0,
-                    bottom: mapReservedSheetHeight + DineMetric.edge,
-                    trailing: 0
-                )
+                mapFocusInsets: layout.mapFocusInsets
             )
 
-            VStack(spacing: 0) {
-                topChrome
-                    .padding(.horizontal, DineMetric.edge)
-                    .padding(.top, DineMetric.topInset)
-                    .zIndex(2)
+            chromeLayer(layout: layout)
+                .zIndex(2)
 
-                Spacer(minLength: 0)
+            restaurantLayer(layout: layout)
+                .zIndex(1)
 
-                restaurantSheet
-                    .frame(height: sheetHeight)
-                    .padding(.horizontal, DineMetric.edge)
-                    .padding(.bottom, DineMetric.edge)
-                    .zIndex(1)
-            }
-
-            dropdownLayer(in: proxy.size)
+            dropdownLayer(layout: layout)
                 .zIndex(3)
         }
         .background(activeGuide.canvas)
@@ -173,9 +157,29 @@ struct ContentView: View {
     }
 
     @ViewBuilder
-    private func dropdownLayer(in size: CGSize) -> some View {
+    private func chromeLayer(layout: DineLayout) -> some View {
+        topChrome
+            .frame(width: layout.chromeWidth, height: DineMetric.chromeHeight, alignment: .top)
+            .position(
+                x: DineMetric.edge + layout.chromeWidth / 2,
+                y: DineMetric.topInset + DineMetric.chromeHeight / 2
+            )
+    }
+
+    @ViewBuilder
+    private func restaurantLayer(layout: DineLayout) -> some View {
+        restaurantSheet
+            .frame(width: layout.listWidth, height: layout.listHeight)
+            .position(
+                x: layout.listCenterX,
+                y: layout.listCenterY
+            )
+    }
+
+    @ViewBuilder
+    private func dropdownLayer(layout: DineLayout) -> some View {
         if let activeDropdown {
-            let chipWidth = (size.width - DineMetric.edge * 2 - DineMetric.filterGap * 2) / 3
+            let chipWidth = (layout.chromeWidth - DineMetric.filterGap * 2) / 3
             let x = DineMetric.edge + CGFloat(activeDropdown.index) * (chipWidth + DineMetric.filterGap)
             let y = DineMetric.topInset + DineMetric.headerHeight + DineMetric.chromeGap + DineMetric.filterHeight + DineMetric.dropdownGap
 
@@ -337,6 +341,7 @@ private enum DineMetric {
     static let headerHeight: CGFloat = 30
     static let chromeGap: CGFloat = 10
     static let filterHeight: CGFloat = 59
+    static let chromeHeight: CGFloat = headerHeight + chromeGap + filterHeight
     static let filterGap: CGFloat = 4
     static let dropdownGap: CGFloat = 8
     static let panelRadius: CGFloat = 8
@@ -345,6 +350,78 @@ private enum DineMetric {
     static let rowThumb: CGFloat = 44
     static let rowHorizontalPadding: CGFloat = 12
     static let rowVerticalPadding: CGFloat = 8
+}
+
+private struct DineLayout {
+    private static let webLandscapeChromeRatio: CGFloat = 0.58
+    private static let webLandscapeListRatio: CGFloat = 0.40
+    private static let portraitSheetRatio: CGFloat = 0.43
+
+    let size: CGSize
+    let isListCollapsed: Bool
+
+    var isWebLandscape: Bool {
+        size.width > size.height
+    }
+
+    var chromeWidth: CGFloat {
+        if isWebLandscape {
+            return max(size.width * Self.webLandscapeChromeRatio - DineMetric.edge, 1)
+        }
+        return max(size.width - DineMetric.edge * 2, 1)
+    }
+
+    var listWidth: CGFloat {
+        if isWebLandscape {
+            return max(size.width * Self.webLandscapeListRatio, 1)
+        }
+        return max(size.width - DineMetric.edge * 2, 1)
+    }
+
+    var expandedListHeight: CGFloat {
+        if isWebLandscape {
+            return max(size.height - DineMetric.edge * 2, 1)
+        }
+        return max(size.height * Self.portraitSheetRatio, DineMetric.minimumSheetHeight)
+    }
+
+    var listHeight: CGFloat {
+        isListCollapsed ? DineMetric.collapsedSheetHeight : expandedListHeight
+    }
+
+    var listCenterX: CGFloat {
+        if isWebLandscape {
+            return size.width - DineMetric.edge - listWidth / 2
+        }
+        return size.width / 2
+    }
+
+    var listCenterY: CGFloat {
+        if isWebLandscape {
+            if isListCollapsed {
+                return size.height - DineMetric.edge - DineMetric.collapsedSheetHeight / 2
+            }
+            return DineMetric.edge + expandedListHeight / 2
+        }
+        return size.height - DineMetric.edge - listHeight / 2
+    }
+
+    var mapFocusInsets: EdgeInsets {
+        if isWebLandscape {
+            return EdgeInsets(
+                top: DineMetric.topInset + DineMetric.chromeHeight,
+                leading: 0,
+                bottom: 0,
+                trailing: size.width - (size.width - DineMetric.edge - listWidth)
+            )
+        }
+        return EdgeInsets(
+            top: DineMetric.topInset + DineMetric.chromeHeight,
+            leading: 0,
+            bottom: expandedListHeight + DineMetric.edge,
+            trailing: 0
+        )
+    }
 }
 
 private enum FilterDropdownKind {
