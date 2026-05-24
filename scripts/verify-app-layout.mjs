@@ -90,9 +90,9 @@ assert(
 );
 assert(
   mapViewSource.includes("const RESTORED_MARKER_SCALE_KM = 2") &&
-    mapViewSource.includes("const MIN_MARKER_SCALE = 0.5") &&
+    mapViewSource.includes("const MIN_MARKER_SCALE = 0.7") &&
     stylesSource.includes("scale(var(--map-marker-scale))"),
-  "Map pins are not scaled from 50% at the initial 14km scale back to full size at 2km",
+  "Map pins are not scaled from 70% at the initial 14km scale back to full size at 2km",
 );
 assert(
   stylesSource.includes(".list-section--collapsed .restaurant-list") &&
@@ -455,8 +455,8 @@ try {
   assert(desktopValue.mapScaleKm === "14", `Map scale is not Shanghai-inner-ring span: ${desktopValue.mapScaleKm}`);
   assert(desktopValue.markerFullScaleKm === "2", `Map marker full scale is not pinned to 2km: ${desktopValue.markerFullScaleKm}`);
   assert(
-    desktopValue.markerScale >= 0.49 && desktopValue.markerScale <= 0.51,
-    `Initial map pin scale is not 50% at 14km: ${JSON.stringify(desktopValue)}`,
+    desktopValue.markerScale >= 0.69 && desktopValue.markerScale <= 0.71,
+    `Initial map pin scale is not 70% at 14km: ${JSON.stringify(desktopValue)}`,
   );
   assert(desktopValue.realAmapMounted, `Live AMap DOM did not mount on desktop: ${JSON.stringify({ hasWindowAmap: desktopValue.hasWindowAmap, liveAmapNodes: desktopValue.liveAmapNodes })}`);
   assert(desktopValue.readyWithoutPlaceholder, "Ready AMap is still showing the CSS placeholder background");

@@ -454,7 +454,7 @@ button {
 }
 
 .amap-surface {
-  --map-marker-scale: 0.5;
+  --map-marker-scale: 0.7;
   background-color: var(--color-map-ground);
   height: 100%;
   min-height: 100vh;

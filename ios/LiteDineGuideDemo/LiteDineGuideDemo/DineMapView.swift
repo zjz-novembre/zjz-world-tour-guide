@@ -6,7 +6,7 @@ import UIKit
 struct DineMapView: View {
     private static let webCityScaleKilometers: CLLocationDistance = 14
     private static let restoredMarkerScaleKilometers: CLLocationDistance = 2
-    private static let minimumMarkerScale: CGFloat = 0.5
+    private static let minimumMarkerScale: CGFloat = 0.7
     private static let maximumMarkerScale: CGFloat = 1
     private static let webMobileMaxWidth: CGFloat = 760
     private static let webMobileCityScaleRatio: CGFloat = 0.92
