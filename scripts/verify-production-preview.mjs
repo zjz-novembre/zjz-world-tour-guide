@@ -107,11 +107,13 @@ try {
   const script = await fetch(new URL(scriptPath, appUrl)).then((response) => response.text());
   const stylesheet = await fetch(new URL(stylesheetPath, appUrl)).then((response) => response.text());
   const apiPayload = await fetch(new URL("api/restaurants", appUrl)).then((response) => response.json());
+  const amapConfig = await fetch(new URL("amap-config.json", appUrl)).then((response) => response.json());
   const blackPearlHtml = await fetch(blackPearlUrl).then((response) => {
     assert(response.ok, `Production preview did not serve Black Pearl HTML: HTTP ${response.status}`);
     return response.text();
   });
   const blackPearlApiPayload = await fetch(new URL("api/restaurants", blackPearlUrl)).then((response) => response.json());
+  const blackPearlAmapConfig = await fetch(new URL("amap-config.json", blackPearlUrl)).then((response) => response.json());
   const favicon = await fetch(new URL("favicon.svg", appUrl));
   const bibIcon = await fetch(new URL("michelin-bib-gourmand-white.svg", appUrl));
   const starIcon = await fetch(new URL("michelin-star-white.svg", appUrl));
@@ -127,6 +129,11 @@ try {
   assert(stylesheet.includes("--color-gold:#a2793d") || stylesheet.includes("--color-gold: #a2793d"), "Production stylesheet does not contain the Bib yellow token");
   assert(stylesheet.includes("map-marker--bib-gourmand") && stylesheet.includes("var(--color-gold)"), "Production stylesheet does not apply Bib yellow to Bib marker pins");
   assert(stylesheet.includes("map-marker--selected") && stylesheet.includes("var(--color-muted)"), "Production stylesheet does not apply selected gray to selected marker pins");
+  assert(
+    !/\.map-marker__tag-level\{[^}]*font-size/.test(stylesheet) &&
+      !/\.map-marker__tag-level\{[^}]*font-weight/.test(stylesheet),
+    "Production stylesheet changes map-tag level typography instead of only changing its color",
+  );
   assert(stylesheet.includes("map-user-location__arrow") && stylesheet.includes("rotate(var(--user-heading"), "Production stylesheet does not render GPS as a direction arrow");
   assert(new RegExp(`calc\\(var\\(--size-map-pin-bib-icon\\)${cssWhitespace}\\*${cssWhitespace}(?:0?\\.9)\\)`).test(stylesheet), "Production stylesheet does not shrink Bib marker SVG by 10%");
   assert(
@@ -154,6 +161,12 @@ try {
   assert(
     blackPearlApiPayload.source === "sqlite" && blackPearlApiPayload.count === 326,
     `Production Black Pearl API payload mismatch: ${JSON.stringify({ source: blackPearlApiPayload.source, count: blackPearlApiPayload.count })}`,
+  );
+  assert(
+    typeof amapConfig.key === "string" &&
+      amapConfig.key.length > 0 &&
+      blackPearlAmapConfig.key === amapConfig.key,
+    "Production worker did not serve shared AMap runtime config for both guides",
   );
   assert(favicon.ok && bibIcon.ok && starIcon.ok && selectedIcon.ok, "Production worker did not serve favicon and Michelin marker icons");
 

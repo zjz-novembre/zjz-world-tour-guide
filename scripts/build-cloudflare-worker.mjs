@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync, statSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join, relative, sep } from "node:path";
 import { spawnSync } from "node:child_process";
-import { cwd, exit } from "node:process";
+import { cwd, env, exit } from "node:process";
 
 const root = cwd();
 const distDir = join(root, "dist");
@@ -11,6 +11,13 @@ const outputDir = join(root, "cloudflare", "michelin-worker");
 const outputPath = join(outputDir, "worker.mjs");
 const deployBase = "/michelin";
 const blackPearlDeployBase = "/black-pearl";
+const defaultAmapWebKey = "13439ae546f79828aea6795282889376";
+const amapConfig = {
+  key: (env.VITE_AMAP_KEY || defaultAmapWebKey).trim(),
+  ...(env.VITE_AMAP_SECURITY_CODE?.trim()
+    ? { securityCode: env.VITE_AMAP_SECURITY_CODE.trim() }
+    : {}),
+};
 
 const RESTAURANTS_SQL = `
 SELECT
@@ -240,6 +247,7 @@ try {
 const BLACK_PEARL_DEPLOY_BASE = ${JSON.stringify(blackPearlDeployBase)};
 const API_PAYLOAD = ${JSON.stringify(apiPayload)};
 const BLACK_PEARL_API_PAYLOAD = ${JSON.stringify(blackPearlApiPayload)};
+const AMAP_CONFIG = ${JSON.stringify(amapConfig)};
 const ASSETS = new Map(${JSON.stringify(assets)});
 
 export default {
@@ -257,6 +265,10 @@ export default {
       const blackPearlLocalPath = url.pathname.slice(BLACK_PEARL_DEPLOY_BASE.length) || "/";
       if (blackPearlLocalPath === "/api/restaurants" || blackPearlLocalPath === "/api/black-pearl/restaurants") {
         return json(BLACK_PEARL_API_PAYLOAD, { "Cache-Control": "no-cache" });
+      }
+
+      if (blackPearlLocalPath === "/amap-config.json") {
+        return json(AMAP_CONFIG, { "Cache-Control": "no-store" });
       }
 
       const blackPearlAsset = ASSETS.get(blackPearlLocalPath === "/" ? "/index.html" : blackPearlLocalPath);
@@ -282,6 +294,10 @@ export default {
 
     if (localPath === "/api/black-pearl/restaurants") {
       return json(BLACK_PEARL_API_PAYLOAD, { "Cache-Control": "no-cache" });
+    }
+
+    if (localPath === "/amap-config.json") {
+      return json(AMAP_CONFIG, { "Cache-Control": "no-store" });
     }
 
     const asset = ASSETS.get(localPath === "/" ? "/index.html" : localPath);

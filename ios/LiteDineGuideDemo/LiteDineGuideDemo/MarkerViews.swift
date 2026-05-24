@@ -291,7 +291,7 @@ private struct MarkerDetail: View {
 
                 HStack(spacing: 4) {
                     Text(restaurant.levelLabel)
-                        .font(DineFont.bold(11.52))
+                        .font(DineFont.medium(10.88))
                         .foregroundStyle(levelColor)
                         .lineLimit(1)
 

@@ -124,6 +124,13 @@ async function readRuntimeAmapConfig(): Promise<RuntimeAmapConfig> {
 }
 
 function getAppBaseUrl() {
+  if (
+    window.location.pathname === "/black-pearl" ||
+    window.location.pathname.startsWith("/black-pearl/")
+  ) {
+    return new URL("/black-pearl/", window.location.origin);
+  }
+
   return new URL(import.meta.env.BASE_URL, window.location.origin);
 }
 

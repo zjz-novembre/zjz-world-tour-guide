@@ -755,8 +755,6 @@ button {
 
 .map-marker__tag-level {
   color: var(--color-brand);
-  font-size: 0.95rem;
-  font-weight: var(--weight-strong);
 }
 
 .map-marker__tag-level.level-bib-gourmand {
