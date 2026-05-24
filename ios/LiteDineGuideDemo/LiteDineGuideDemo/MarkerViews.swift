@@ -26,7 +26,7 @@ enum RestaurantMarkerPresentation: Equatable {
 
 struct RestaurantMarkerLayout {
     static let pinSize: CGFloat = 29.59375
-    static let tagGap: CGFloat = 8
+    static let tagGap: CGFloat = 5
     static let smallTagMaxWidth: CGFloat = 176
     static let smallTagTextMaxWidth: CGFloat = 152
     static let smallTagFontSize: CGFloat = 12.8
@@ -39,7 +39,11 @@ struct RestaurantMarkerLayout {
     let pinCenter: CGPoint
     let tagCenter: CGPoint?
 
-    static func layout(for restaurant: Restaurant?, presentation: RestaurantMarkerPresentation) -> RestaurantMarkerLayout {
+    static func layout(
+        for restaurant: Restaurant?,
+        presentation: RestaurantMarkerPresentation,
+        markerScale: CGFloat = 1
+    ) -> RestaurantMarkerLayout {
         guard let restaurant else {
             return RestaurantMarkerLayout(
                 size: CGSize(width: 44, height: 44),
@@ -57,8 +61,9 @@ struct RestaurantMarkerLayout {
             )
         case .smallTag:
             let tagWidth = smallTagWidth(for: restaurant)
+            let visualPinRight = pinSize / 2 + pinSize * markerScale / 2
             let size = CGSize(
-                width: pinSize + tagGap + tagWidth,
+                width: visualPinRight + tagGap + tagWidth,
                 height: 44
             )
             let pinY = size.height / 2
@@ -67,13 +72,14 @@ struct RestaurantMarkerLayout {
                 y: pinY
             )
             let tagCenter = CGPoint(
-                x: pinSize + tagGap + tagWidth / 2,
+                x: visualPinRight + tagGap + tagWidth / 2,
                 y: pinY
             )
             return RestaurantMarkerLayout(size: size, pinCenter: pinCenter, tagCenter: tagCenter)
         case .detailTag:
+            let visualPinRight = pinSize / 2 + pinSize * markerScale / 2
             let size = CGSize(
-                width: pinSize + tagGap + detailTagWidth,
+                width: visualPinRight + tagGap + detailTagWidth,
                 height: detailTagHeight
             )
             let pinY = size.height / 2
@@ -82,7 +88,7 @@ struct RestaurantMarkerLayout {
                 y: pinY
             )
             let tagCenter = CGPoint(
-                x: pinSize + tagGap + detailTagWidth / 2,
+                x: visualPinRight + tagGap + detailTagWidth / 2,
                 y: pinY
             )
             return RestaurantMarkerLayout(size: size, pinCenter: pinCenter, tagCenter: tagCenter)
@@ -114,7 +120,11 @@ struct RestaurantMarker: View {
     let markerScale: CGFloat
 
     var body: some View {
-        let layout = RestaurantMarkerLayout.layout(for: restaurant, presentation: presentation)
+        let layout = RestaurantMarkerLayout.layout(
+            for: restaurant,
+            presentation: presentation,
+            markerScale: markerScale
+        )
         ZStack(alignment: .topLeading) {
             if let tagCenter = layout.tagCenter {
                 switch presentation {

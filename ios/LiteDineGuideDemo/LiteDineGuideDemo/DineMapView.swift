@@ -695,7 +695,11 @@ private final class DineRestaurantAnnotationView: MAAnnotationView {
         isFocused: Bool,
         markerScale: CGFloat
     ) {
-        let layout = AMapMarkerLayout.layout(for: restaurant, presentation: presentation)
+        let layout = AMapMarkerLayout.layout(
+            for: restaurant,
+            presentation: presentation,
+            markerScale: markerScale
+        )
         bounds = CGRect(origin: .zero, size: layout.size)
         centerOffset = layout.centerOffset
         hostingController.view.frame = bounds
@@ -746,7 +750,11 @@ private struct AMapRestaurantMarkerHost: View {
     let markerScale: CGFloat
 
     var body: some View {
-        let layout = AMapMarkerLayout.layout(for: restaurant, presentation: presentation)
+        let layout = AMapMarkerLayout.layout(
+            for: restaurant,
+            presentation: presentation,
+            markerScale: markerScale
+        )
         ZStack(alignment: .topLeading) {
             if let restaurant {
                 RestaurantMarker(
@@ -766,8 +774,16 @@ private struct AMapMarkerLayout {
     let pinCenter: CGPoint
     let centerOffset: CGPoint
 
-    static func layout(for restaurant: Restaurant?, presentation: RestaurantMarkerPresentation) -> AMapMarkerLayout {
-        let markerLayout = RestaurantMarkerLayout.layout(for: restaurant, presentation: presentation)
+    static func layout(
+        for restaurant: Restaurant?,
+        presentation: RestaurantMarkerPresentation,
+        markerScale: CGFloat = 1
+    ) -> AMapMarkerLayout {
+        let markerLayout = RestaurantMarkerLayout.layout(
+            for: restaurant,
+            presentation: presentation,
+            markerScale: markerScale
+        )
         let size = markerLayout.size
         let pinCenter = markerLayout.pinCenter
         return AMapMarkerLayout(

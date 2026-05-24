@@ -80,6 +80,7 @@
   --size-map-tag-max: 11rem;
   --size-map-tag-detail: 18rem;
   --size-map-tag-image: 3.2rem;
+  --size-map-tag-gap: var(--space-1);
   --size-guide-switch: 2rem;
   --size-guide-switch-logo: 1.25rem;
   --size-guide-switch-black-pearl-logo: 2.35rem;
@@ -696,7 +697,7 @@ button {
   display: grid;
   gap: var(--space-1);
   grid-template-columns: minmax(0, 1fr);
-  left: calc(var(--size-map-pin) + var(--space-2));
+  left: calc(var(--size-map-pin) * var(--map-marker-scale) + var(--size-map-tag-gap));
   max-width: var(--size-map-tag-max);
   opacity: 0;
   padding: var(--space-2) var(--space-3);

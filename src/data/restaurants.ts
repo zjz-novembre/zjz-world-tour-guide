@@ -37,25 +37,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区沙滩北街23号, Beijing, Beijing Municipality",
+    "address": "北京城区沙滩北街嵩祝寺23号",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "Trb Hutong 北京",
+    "poiQuery": "TRB Hutong 北京",
     "position": [
-      116.41601467415,
-      39.930774572492
+      116.403462,
+      39.927736
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Trb%20Hutong%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=TRB%20Hutong%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f88a20e1a35b44b9bded7522b19641c6.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/trb-hutong",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFF35K7Z"
   },
   {
     "id": "cn-beijing-municipality-beijing-fu-chun-ju",
@@ -65,25 +66,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区王府井大街1号璞瑄酒店3层, Beijing, Beijing Municipality",
+    "address": "王府井大街1号璞瑄酒店3层",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "富春居 北京",
+    "poiQuery": "富春居(北京璞瑄酒店店) 北京",
     "position": [
-      116.416228161726,
-      39.925231075797
+      116.41,
+      39.92353
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AF%8C%E6%98%A5%E5%B1%85%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AF%8C%E6%98%A5%E5%B1%85(%E5%8C%97%E4%BA%AC%E7%92%9E%E7%91%84%E9%85%92%E5%BA%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/33b353ddd39b41ff8ff6cedae6316fe7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/fu-chun-ju",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFK8QAW1"
   },
   {
     "id": "cn-beijing-municipality-beijing-the-georg",
@@ -93,7 +95,7 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区东华门大街95号, Beijing, Beijing Municipality",
+    "address": "东华门大街95号",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
@@ -102,16 +104,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "时尚欧陆菜",
     "poiQuery": "The Georg 北京",
     "position": [
-      116.408754021706,
-      39.916759441999
+      116.402412,
+      39.915355
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=The%20Georg%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/effc0f4708354413b3aeb7ecf7569e04.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/the-georg",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0J3SU9H6C"
   },
   {
     "id": "cn-beijing-municipality-beijing-niujie-halal-man-heng-ji",
@@ -121,25 +124,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区平安里西大街14号, Beijing, Beijing Municipality",
+    "address": "赵登禹路106号平安里西大街与赵登禹路交叉口西南角",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "火锅"
     ],
     "cuisine": "火锅",
-    "poiQuery": "牛街清真满恒记 北京",
+    "poiQuery": "牛街清真满恒記(平安里西大街店) 北京",
     "position": [
-      116.373894996836,
-      39.933493214031
+      116.367697,
+      39.932103
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%89%9B%E8%A1%97%E6%B8%85%E7%9C%9F%E6%BB%A1%E6%81%92%E8%AE%B0%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%89%9B%E8%A1%97%E6%B8%85%E7%9C%9F%E6%BB%A1%E6%81%92%E8%A8%98(%E5%B9%B3%E5%AE%89%E9%87%8C%E8%A5%BF%E5%A4%A7%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/83b19806bd424ff48c5b87ee0a502f22.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/niujie-halal-man-heng-ji",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A9ONPA"
   },
   {
     "id": "cn-beijing-municipality-beijing-zhong",
@@ -233,25 +237,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区东直门内大街264号, Beijing, Beijing Municipality",
+    "address": "东直门内大街264号(北新桥地铁站C东南口步行150米)",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "火锅"
     ],
     "cuisine": "火锅",
-    "poiQuery": "裕德孚 (东直门内大街) 北京",
+    "poiQuery": "裕德孚老北京涮羊肉(东直门内大街店) 北京",
     "position": [
-      116.42449427365,
-      39.942183194775
+      116.418183,
+      39.940804
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A3%95%E5%BE%B7%E5%AD%9A%20(%E4%B8%9C%E7%9B%B4%E9%97%A8%E5%86%85%E5%A4%A7%E8%A1%97)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A3%95%E5%BE%B7%E5%AD%9A%E8%80%81%E5%8C%97%E4%BA%AC%E6%B6%AE%E7%BE%8A%E8%82%89(%E4%B8%9C%E7%9B%B4%E9%97%A8%E5%86%85%E5%A4%A7%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ca4cd7ee7b0e4eb0b1838879c69fdba8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/yu-de-fu",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFFP2V9"
   },
   {
     "id": "cn-beijing-municipality-beijing-hong-0871-1203720",
@@ -289,25 +294,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区五道营胡同2号, Beijing, Beijing Municipality",
+    "address": "北京城区五道营胡同2号(雍和宫地铁站G西南口步行130米)",
     "level": "two-stars",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "京兆尹 北京",
+    "poiQuery": "京兆尹(雍和宫店) 北京",
     "position": [
-      116.422493129073,
-      39.949486901191
+      116.416146,
+      39.948322
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%AC%E5%85%86%E5%B0%B9%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%AC%E5%85%86%E5%B0%B9(%E9%9B%8D%E5%92%8C%E5%AE%AB%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/587617bac91746f3bc6e87a06061d2ec.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/king-s-joy",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A8ZJ71"
   },
   {
     "id": "cn-beijing-municipality-beijing-zhiguan",
@@ -317,7 +323,7 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区金鱼胡同12号, Beijing, Beijing Municipality",
+    "address": "金鱼胡同12号(金鱼胡同地铁站B东口步行280米)",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -326,16 +332,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "东北菜",
     "poiQuery": "止观小馆 北京",
     "position": [
-      116.421440916422,
-      39.916751388305
+      116.415192,
+      39.915345
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AD%A2%E8%A7%82%E5%B0%8F%E9%A6%86%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4f69f1ae0fe0471eb168c714c4da6759.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/zhiguan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFGWGO81"
   },
   {
     "id": "cn-beijing-municipality-beijing-curvy-corridor-courtyard",
@@ -345,25 +352,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区东四十一条25号, Beijing, Beijing Municipality",
+    "address": "东四十一条25号",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "曲廊院 北京",
+    "poiQuery": "曲廊院(东四十一条店) 北京",
     "position": [
-      116.430527098168,
-      39.935880283406
+      116.424337,
+      39.93446
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9B%B2%E5%BB%8A%E9%99%A2%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9B%B2%E5%BB%8A%E9%99%A2(%E4%B8%9C%E5%9B%9B%E5%8D%81%E4%B8%80%E6%9D%A1%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ee4fe5062eb44509a882f66c19b6050e.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/curvy-corridor-courtyard",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFIPM93S"
   },
   {
     "id": "cn-beijing-municipality-beijing-huaiyang-fu",
@@ -373,25 +381,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区安定门外大街198号, Beijing, Beijing Municipality",
+    "address": "北京城区安定门外大街198号(地坛西门北侧)",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "淮扬府 (东城) 北京",
+    "poiQuery": "淮扬府(安定门店) 北京",
     "position": [
-      116.414847334018,
-      39.955298394802
+      116.408573,
+      39.953954
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B7%AE%E6%89%AC%E5%BA%9C%20(%E4%B8%9C%E5%9F%8E)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B7%AE%E6%89%AC%E5%BA%9C(%E5%AE%89%E5%AE%9A%E9%97%A8%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dbb747734bc847fbbaf3c619e5a9e734.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/huaiyang-fu",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A8VODP"
   },
   {
     "id": "cn-beijing-municipality-beijing-jing",
@@ -401,25 +410,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区金鱼胡同8号王府半岛酒店B1层, Beijing, Beijing Municipality",
+    "address": "王府井金鱼胡同8号王府半岛酒店B1层",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "Jing 北京",
+    "poiQuery": "王府半岛JING餐厅 北京",
     "position": [
-      116.422839510869,
-      39.916438840474
+      116.416514,
+      39.914975
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Jing%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8E%8B%E5%BA%9C%E5%8D%8A%E5%B2%9BJING%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/858194a36c0244439914dce523fe1bf8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/jing",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0LAYZXGL4"
   },
   {
     "id": "cn-beijing-municipality-beijing-zijin-mansion",
@@ -429,25 +439,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区金鱼胡同5-15号华尔道夫酒店3层, Beijing, Beijing Municipality",
+    "address": "金鱼胡同5-15号华尔道夫酒店3楼",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "紫金阁 北京",
+    "poiQuery": "北京华尔道夫酒店·紫金阁(王府井步行街店) 北京",
     "position": [
-      116.426596861716,
-      39.919057772103
+      116.414061,
+      39.916006
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B4%AB%E9%87%91%E9%98%81%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E5%8D%8E%E5%B0%94%E9%81%93%E5%A4%AB%E9%85%92%E5%BA%97%C2%B7%E7%B4%AB%E9%87%91%E9%98%81(%E7%8E%8B%E5%BA%9C%E4%BA%95%E6%AD%A5%E8%A1%8C%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/73592ddee7d04bd29e2e5fab37e66fa7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/zijin-mansion",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFXQAPI"
   },
   {
     "id": "cn-beijing-municipality-beijing-brasserie-1893",
@@ -457,25 +468,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区金鱼胡同5-15号华尔道夫酒店1层, Beijing, Beijing Municipality",
+    "address": "金鱼胡同5-15号华尔道夫酒店1层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "鸢尾宫 1893 北京",
+    "poiQuery": "鸢尾宫1893(王府井步行街店) 北京",
     "position": [
-      116.426596861716,
-      39.919057772103
+      116.413864,
+      39.915862
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B8%A2%E5%B0%BE%E5%AE%AB%201893%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B8%A2%E5%B0%BE%E5%AE%AB1893(%E7%8E%8B%E5%BA%9C%E4%BA%95%E6%AD%A5%E8%A1%8C%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/92ce07c1cfb1410e8d3bc1fa1e3e60b7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/brasserie-1893",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFIU6VKQ"
   },
   {
     "id": "cn-beijing-municipality-beijing-lei-garden-jinbao-tower",
@@ -485,25 +497,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区金宝街89号金宝大厦3层, Beijing, Beijing Municipality",
+    "address": "金宝街89号金宝大厦3层(灯市口地铁站C东南口步行260米)",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "利苑 (金宝大厦) 北京",
+    "poiQuery": "利苑酒家(金宝大厦店) 北京",
     "position": [
-      116.425702009787,
-      39.917474401022
+      116.419957,
+      39.916098
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%A9%E8%8B%91%20(%E9%87%91%E5%AE%9D%E5%A4%A7%E5%8E%A6)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%A9%E8%8B%91%E9%85%92%E5%AE%B6(%E9%87%91%E5%AE%9D%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f6de5b23bb30489cb4f23b6ce6809be4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/lei-garden-jinbao-tower",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFDTV3B"
   },
   {
     "id": "cn-beijing-municipality-beijing-xin-rong-ji-jinrong-street",
@@ -513,25 +526,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区金融大街11号金融街国际酒店B1层, Beijing, Beijing Municipality",
+    "address": "金融大街11号B1层",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "新荣记 (金融大街) 北京",
+    "poiQuery": "新荣记(金融街店) 北京",
     "position": [
-      116.365706979925,
-      39.920225565431
+      116.358149,
+      39.91901
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0%20(%E9%87%91%E8%9E%8D%E5%A4%A7%E8%A1%97)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0(%E9%87%91%E8%9E%8D%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/563f4af4115a40959a83bdbfab7d71bf.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/xin-rong-ji-jinrong-street",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFH1DQ9U"
   },
   {
     "id": "cn-beijing-municipality-beijing-1949-duck-de-chine",
@@ -541,25 +555,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区金宝街98号, Beijing, Beijing Municipality",
+    "address": "金宝街98号",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "1949 - 全鸭季 北京",
+    "poiQuery": "1949全鸭季(金宝街店) 北京",
     "position": [
-      116.425858468572,
-      39.913723822165
+      116.420827,
+      39.914823
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=1949%20-%20%E5%85%A8%E9%B8%AD%E5%AD%A3%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=1949%E5%85%A8%E9%B8%AD%E5%AD%A3(%E9%87%91%E5%AE%9D%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cf8b3b2ebdbe4fd399d894a71a81af9f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/1949-duck-de-chine",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A8WKKI"
   },
   {
     "id": "cn-beijing-municipality-beijing-chao-shang-chao-xicheng",
@@ -569,25 +584,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区金融大街7号英蓝国际金融中心B层, Beijing, Beijing Municipality",
+    "address": "金融大街7号英蓝大厦B1-4至19层101内地下层B112-116",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "潮上潮 (西城) 北京",
+    "poiQuery": "潮上潮(英蓝店) 北京",
     "position": [
-      116.364227723849,
-      39.921822236467
+      116.357876,
+      39.920476
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BD%AE%E4%B8%8A%E6%BD%AE%20(%E8%A5%BF%E5%9F%8E)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BD%AE%E4%B8%8A%E6%BD%AE(%E8%8B%B1%E8%93%9D%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/da716512c38a49ac88805005075ec3e1.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/chao-shang-chao-xicheng",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JGL4E134"
   },
   {
     "id": "cn-beijing-municipality-beijing-furong",
@@ -597,25 +613,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区金融大街丙9号威斯汀酒店1层, Beijing, Beijing Municipality",
+    "address": "金融街街道金融大街丙9号北京金融街威斯汀大酒店一层",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "湘菜"
     ],
     "cuisine": "湘菜",
-    "poiQuery": "芙蓉无双 北京",
+    "poiQuery": "芙蓉无双荣派湘菜 北京",
     "position": [
-      116.365633373763,
-      39.918880196319
+      116.358808,
+      39.917418
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%99%E8%93%89%E6%97%A0%E5%8F%8C%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%99%E8%93%89%E6%97%A0%E5%8F%8C%E8%8D%A3%E6%B4%BE%E6%B9%98%E8%8F%9C%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/da0175d6c90e4df0829644a89e7bd109.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/furong",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFLHI0YJ"
   },
   {
     "id": "cn-beijing-municipality-beijing-gastro-esthetics-dadong",
@@ -653,25 +670,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区王府井大街1号璞瑄酒店2层, Beijing, Beijing Municipality",
+    "address": "东四西大街与王府井大街交叉口璞瑄酒店2层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "左岸 北京",
+    "poiQuery": "左岸酒吧Rive Gauche·Bar 北京",
     "position": [
-      116.419739706234,
-      39.907517686358
+      116.410229,
+      39.923757
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B7%A6%E5%B2%B8%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B7%A6%E5%B2%B8%E9%85%92%E5%90%A7Rive%20Gauche%C2%B7Bar%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/50efcecef4a149379d43e9b325e67e92.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/rive-gauche-1186760",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFK8QFPX"
   },
   {
     "id": "cn-beijing-municipality-beijing-bao-du-jin-sheng-long",
@@ -709,25 +727,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区新街口外大街甲14号十月大厦, Beijing, Beijing Municipality",
+    "address": "新街口外大街甲14号十月大厦1楼",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "同春园 北京",
+    "poiQuery": "北京同春园饭店 北京",
     "position": [
-      116.377578681114,
-      39.960498333461
+      116.371707,
+      39.958922
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E6%98%A5%E5%9B%AD%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E5%90%8C%E6%98%A5%E5%9B%AD%E9%A5%AD%E5%BA%97%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3eab24eabe564b9e8c99757919c2f961.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/tong-chun-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A85G1O"
   },
   {
     "id": "cn-beijing-municipality-beijing-yibin",
@@ -737,25 +756,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区西中胡同28号, Beijing, Beijing Municipality",
+    "address": "西中胡同28号(宁波宾馆南门斜对面)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "宜宾招待所 北京",
+    "poiQuery": "北京宜宾招待所·餐厅 北京",
     "position": [
-      116.385973938934,
-      39.90270013728
+      116.3797,
+      39.901251
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%9C%E5%AE%BE%E6%8B%9B%E5%BE%85%E6%89%80%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E5%AE%9C%E5%AE%BE%E6%8B%9B%E5%BE%85%E6%89%80%C2%B7%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/255c363e3acb45beb5be50779c697d32.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/yibin",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHF6EZV"
   },
   {
     "id": "cn-beijing-municipality-beijing-bao-bao-hao",
@@ -765,25 +785,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区朝阳门北大街甲12号楼, Beijing, Beijing Municipality",
+    "address": "朝阳门北大街甲12号(天辰大厦)",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "煲煲好 北京",
+    "poiQuery": "煲煲好(朝阳门北大街小区店) 北京",
     "position": [
-      116.441308746172,
-      39.929488972678
+      116.435136,
+      39.928095
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%85%B2%E7%85%B2%E5%A5%BD%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%85%B2%E7%85%B2%E5%A5%BD(%E6%9C%9D%E9%98%B3%E9%97%A8%E5%8C%97%E5%A4%A7%E8%A1%97%E5%B0%8F%E5%8C%BA%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/739a54c35aca4aedbff12ef6ab6aac09.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/bao-bao-hao",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A7BC6X"
   },
   {
     "id": "cn-beijing-municipality-beijing-lao-chuan-ban",
@@ -793,25 +814,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区东总布胡同贡院头条5号, Beijing, Beijing Municipality",
+    "address": "建国门内大街贡院头条5号",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "老川办 北京",
+    "poiQuery": "老川办餐厅 北京",
     "position": [
-      116.438156897932,
-      39.913212227283
+      116.431762,
+      39.911982
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%B7%9D%E5%8A%9E%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%B7%9D%E5%8A%9E%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9904f275619845f493c69965fee639ce.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/lao-chuan-ban",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0G0XR1UR0"
   },
   {
     "id": "cn-beijing-municipality-beijing-jingyi",
@@ -821,25 +843,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区琉璃厂东街2号, Beijing, Beijing Municipality",
+    "address": "琉璃厂东街2号",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "鄂菜"
     ],
     "cuisine": "鄂菜",
-    "poiQuery": "静一 (琉璃厂东街) 北京",
+    "poiQuery": "静一餐厅(琉璃厂文化街店) 北京",
     "position": [
-      116.395573289011,
-      39.896610607455
+      116.389337,
+      39.895208
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E4%B8%80%20(%E7%90%89%E7%92%83%E5%8E%82%E4%B8%9C%E8%A1%97)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E4%B8%80%E9%A4%90%E5%8E%85(%E7%90%89%E7%92%83%E5%8E%82%E6%96%87%E5%8C%96%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/185579f04c99409e8ba379522403fc73.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/jingyi",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFI5FI5U"
   },
   {
     "id": "cn-beijing-municipality-beijing-yan-garden-by-chef-fei",
@@ -848,26 +871,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "北京",
     "province": "北京",
     "country": "中国",
-    "district": "北京",
-    "address": "东城区草厂九条12号, Beijing, Beijing Municipality",
+    "district": "东城区",
+    "address": "草厂九条12号(桥湾地铁站B东北口步行440米)",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "檐庭 北京",
+    "poiQuery": "檐庭Yan Garden by Chef Fei北京前门文华东方酒店 北京",
     "position": [
-      116.415433127661,
-      39.897702832602
+      116.409147,
+      39.89625
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AA%90%E5%BA%AD%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AA%90%E5%BA%ADYan%20Garden%20by%20Chef%20Fei%E5%8C%97%E4%BA%AC%E5%89%8D%E9%97%A8%E6%96%87%E5%8D%8E%E4%B8%9C%E6%96%B9%E9%85%92%E5%BA%97%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e525febfc2bc48b49d183594a269d6c1.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/yan-garden-by-chef-fei",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0LGZLUYPE"
   },
   {
     "id": "cn-beijing-municipality-beijing-fortune-long-beijing-bean-sauce-noodles-east-xinglong-street",
@@ -877,25 +901,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区东兴隆街56号, Beijing, Beijing Municipality",
+    "address": "北京城区东兴隆街56号",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "老北京炸酱面大王 (东兴隆街) 北京",
+    "poiQuery": "老北京炸酱面大王(崇文门总店) 北京",
     "position": [
-      116.421382526907,
-      39.898435617012
+      116.415175,
+      39.8971
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%8C%97%E4%BA%AC%E7%82%B8%E9%85%B1%E9%9D%A2%E5%A4%A7%E7%8E%8B%20(%E4%B8%9C%E5%85%B4%E9%9A%86%E8%A1%97)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%8C%97%E4%BA%AC%E7%82%B8%E9%85%B1%E9%9D%A2%E5%A4%A7%E7%8E%8B(%E5%B4%87%E6%96%87%E9%97%A8%E6%80%BB%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/39f4e65c37304ef99c48347be9b8af90.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/fortune-long-beijing-bean-sauce-noodles-east-xinglong-street",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFF34IQU"
   },
   {
     "id": "cn-beijing-municipality-beijing-yu-hua-tai-xicheng",
@@ -905,25 +930,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区裕民路裕中西里小区23号楼, Beijing, Beijing Municipality",
+    "address": "马甸桥北裕中西里23号楼(裕民路向东300米路南)",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "玉华台 (西城) 北京",
+    "poiQuery": "玉华台饭庄 北京",
     "position": [
-      116.390243010507,
-      39.973885144265
+      116.38415,
+      39.972601
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8E%89%E5%8D%8E%E5%8F%B0%20(%E8%A5%BF%E5%9F%8E)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8E%89%E5%8D%8E%E5%8F%B0%E9%A5%AD%E5%BA%84%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5311624c0daa4234a8c8cf3de9b1b0ed.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/yu-hua-tai-xicheng",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFF67A4U"
   },
   {
     "id": "cn-beijing-municipality-beijing-mingyuan-restaurant",
@@ -932,26 +958,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "北京",
     "province": "北京",
     "country": "中国",
-    "district": "北京",
-    "address": "东城区北总布胡同21号, Beijing, Beijing Municipality",
+    "district": "东城区",
+    "address": "北总布胡同21号",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "明园餐厅 北京",
+    "poiQuery": "明园餐厅(北总布胡同) 北京",
     "position": [
-      116.450294108916,
-      39.921943027765
+      116.43147,
+      39.91343
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%8E%E5%9B%AD%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%8E%E5%9B%AD%E9%A4%90%E5%8E%85(%E5%8C%97%E6%80%BB%E5%B8%83%E8%83%A1%E5%90%8C)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/215db8eb6d9a4e1493ffd67235434bfe.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/mingyuan-restaurant",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A5DC6B"
   },
   {
     "id": "cn-beijing-municipality-beijing-everlasting-happiness",
@@ -961,25 +988,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区车公庄大街21号首创新大都39幢F101-111, Beijing, Beijing Municipality",
+    "address": "北京城区车公庄大街21号首创新大都1层F1011",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "湘菜"
     ],
     "cuisine": "湘菜",
-    "poiQuery": "新长福 北京",
+    "poiQuery": "新长福·新湖南新湘菜(新大都店) 北京",
     "position": [
-      116.342577941975,
-      39.934497397268
+      116.33664,
+      39.932983
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E9%95%BF%E7%A6%8F%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E9%95%BF%E7%A6%8F%C2%B7%E6%96%B0%E6%B9%96%E5%8D%97%E6%96%B0%E6%B9%98%E8%8F%9C(%E6%96%B0%E5%A4%A7%E9%83%BD%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7e04123707cc4c8281471f1758f3e1a1.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/everlasting-happiness",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0H1VSPH8D"
   },
   {
     "id": "cn-beijing-municipality-beijing-in-love-gongti-east-road",
@@ -989,25 +1017,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区工人体育场东路工人体育场东2门旁, Beijing, Beijing Municipality",
+    "address": "工人体育场北路58号工人体育场东门辅路向南150米",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "湘菜"
     ],
     "cuisine": "湘菜",
-    "poiQuery": "湘爱 (工体东路) 北京",
+    "poiQuery": "湘爱(工体店) 北京",
     "position": [
-      116.455611306264,
-      39.930039705032
+      116.449428,
+      39.9286
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E7%88%B1%20(%E5%B7%A5%E4%BD%93%E4%B8%9C%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E7%88%B1(%E5%B7%A5%E4%BD%93%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fbaf3b3ca7674914bb72da8708f25cf1.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/in-love-gongti-east-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHIVZ03"
   },
   {
     "id": "cn-beijing-municipality-beijing-tong-he-ju-yuetan-south-street",
@@ -1017,25 +1046,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "西城区",
-    "address": "西城区三里河月坛南街甲71号, Beijing, Beijing Municipality",
+    "address": "月坛南街甲71号",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "鲁菜"
     ],
     "cuisine": "鲁菜",
-    "poiQuery": "同和居 (月坛南街) 北京",
+    "poiQuery": "同和居(月坛店) 北京",
     "position": [
-      116.346130867212,
-      39.915609083986
+      116.340044,
+      39.914189
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E5%92%8C%E5%B1%85%20(%E6%9C%88%E5%9D%9B%E5%8D%97%E8%A1%97)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E5%92%8C%E5%B1%85(%E6%9C%88%E5%9D%9B%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f07765511087483e9746a61ce2b66bf9.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/tong-he-ju-yuetan-south-street",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A6D3FB"
   },
   {
     "id": "cn-beijing-municipality-beijing-sheng-yong-xing-chaoyang",
@@ -1051,18 +1081,20 @@ export const restaurants: Restaurant[] = [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "晟永兴 (朝阳) 北京",
+    "poiQuery": "晟永興烤鸭店(三里屯店) 北京",
     "position": [
-      116.456126766272,
-      39.941946647046
+      116.449977,
+      39.94062
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%99%9F%E6%B0%B8%E5%85%B4%20(%E6%9C%9D%E9%98%B3)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%99%9F%E6%B0%B8%E8%88%88%E7%83%A4%E9%B8%AD%E5%BA%97(%E4%B8%89%E9%87%8C%E5%B1%AF%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9c0489c96e5f4556b291848a3149503a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/sheng-yong-xing-chaoyang",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "新东路甲5号楼",
+    "amapPoiId": "B0FFHK25UV"
   },
   {
     "id": "cn-beijing-municipality-beijing-char-south-sanlitun-road",
@@ -1100,25 +1132,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "东城区",
-    "address": "东城区东长安街1号东方新天地平台层中二办公楼01-03号, Beijing, Beijing Municipality",
+    "address": "北京城区东长安街1号北京东方新天地F2层",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "东北菜"
     ],
     "cuisine": "东北菜",
-    "poiQuery": "俏东北 (东城) 北京",
+    "poiQuery": "俏东北(东方店) 北京",
     "position": [
-      116.374127373289,
-      39.89259936422
+      116.414102,
+      39.909021
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BF%8F%E4%B8%9C%E5%8C%97%20(%E4%B8%9C%E5%9F%8E)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BF%8F%E4%B8%9C%E5%8C%97(%E4%B8%9C%E6%96%B9%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/517ab4ec54eb430489c7f51aaa40665e.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/qiao-dong-bei",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0K6Z7YBKZ"
   },
   {
     "id": "cn-beijing-municipality-beijing-fu-man-yuan-xinyuanli",
@@ -1128,25 +1161,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区新东路新源里16号琨莎中心2座1层102号, Beijing, Beijing Municipality",
+    "address": "新源里16号琨莎中心1层2座102",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "福满圆 (新源里) 北京",
+    "poiQuery": "福满圓(琨莎中心店) 北京",
     "position": [
-      116.456636576722,
-      39.943211758911
+      116.450276,
+      39.948817
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E6%BB%A1%E5%9C%86%20(%E6%96%B0%E6%BA%90%E9%87%8C)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E6%BB%A1%E5%9C%93(%E7%90%A8%E8%8E%8E%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/69a1adf7cbc54fa79f2489b651a40b03.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/fu-man-yuan-xinyuanli",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFL2LYWO"
   },
   {
     "id": "cn-beijing-municipality-beijing-ladychal-haidian",
@@ -1156,25 +1190,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "海淀区",
-    "address": "海淀区甘家口北街甘家口小区21号楼1层, Beijing, Beijing Municipality",
+    "address": "甘家口小区21号楼1层东侧(近三里河路)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "柴氏风味斋 北京",
+    "poiQuery": "柴氏风味斋·清真餐厅 北京",
     "position": [
-      116.337520672984,
-      39.927867414649
+      116.330934,
+      39.926678
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B4%E6%B0%8F%E9%A3%8E%E5%91%B3%E6%96%8B%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B4%E6%B0%8F%E9%A3%8E%E5%91%B3%E6%96%8B%C2%B7%E6%B8%85%E7%9C%9F%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f0c3c216ac2e45159a0e2bfb9d6dbf7f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/ladychal-haidian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A8X8EK"
   },
   {
     "id": "cn-beijing-municipality-beijing-lu-style",
@@ -1184,25 +1219,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区安定路5号院6号楼环宇荟5层, Beijing, Beijing Municipality",
+    "address": "北土城东路与安定路交叉口西北角环宇荟3、5层",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "鲁菜"
     ],
     "cuisine": "鲁菜",
-    "poiQuery": "鲁采 (安定路) 北京",
+    "poiQuery": "鲁采LUSTYLE(安贞环宇荟店) 北京",
     "position": [
-      116.411142142512,
-      39.98067028924
+      116.406115,
+      39.978081
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B2%81%E9%87%87%20(%E5%AE%89%E5%AE%9A%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B2%81%E9%87%87LUSTYLE(%E5%AE%89%E8%B4%9E%E7%8E%AF%E5%AE%87%E8%8D%9F%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bd6f3ec7c45746d981af9a35ff765e27.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/lu-style",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFIPW11T"
   },
   {
     "id": "cn-beijing-municipality-beijing-tianchumiaoxiang-vegetarian-chaoyang",
@@ -1212,25 +1248,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区朝外大街朝外SOHO 2层D座0260, Beijing, Beijing Municipality",
+    "address": "北京城区朝阳门外大街乙6号朝外SOHO大厦D座2层-0260室",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "天厨妙香素食 (朝阳) 北京",
+    "poiQuery": "天厨妙香素食(朝外店) 北京",
     "position": [
-      116.460912685696,
-      39.921843809018
+      116.454555,
+      39.920543
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E5%8E%A8%E5%A6%99%E9%A6%99%E7%B4%A0%E9%A3%9F%20(%E6%9C%9D%E9%98%B3)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E5%8E%A8%E5%A6%99%E9%A6%99%E7%B4%A0%E9%A3%9F(%E6%9C%9D%E5%A4%96%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5a8b073c993f43d8b52ed4b41b624ae8.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/tianchumiaoxiang-vegetarian-chaoyang",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000AA1HA4"
   },
   {
     "id": "cn-beijing-municipality-beijing-xiang-bin-xuan-huayuan-road",
@@ -1246,18 +1283,20 @@ export const restaurants: Restaurant[] = [
       "湘菜"
     ],
     "cuisine": "湘菜",
-    "poiQuery": "湘彬萱 (花园路） 北京",
+    "poiQuery": "湘彬萱 北京",
     "position": [
-      116.373847951105,
-      39.979344864963
+      116.367817,
+      39.978086
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E5%BD%AC%E8%90%B1%20(%E8%8A%B1%E5%9B%AD%E8%B7%AF%EF%BC%89%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E5%BD%AC%E8%90%B1%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/76316eef37e44396b321d8e20d6e56e6.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/xiang-bin-xuan-huayuan-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "花园路2号33号楼",
+    "amapPoiId": "B000A80AAU"
   },
   {
     "id": "cn-beijing-municipality-beijing-lamdre",
@@ -1267,25 +1306,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区工体北路四号院14幢1层04室, Beijing, Beijing Municipality",
+    "address": "工体北路4号院14幢(Jingyard西门)",
     "level": "two-stars",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "兰斋 北京",
+    "poiQuery": "兰斋Lamdre植物料理餐厅 北京",
     "position": [
-      116.464344392337,
-      39.933026639351
+      116.458124,
+      39.931742
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%B0%E6%96%8B%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%B0%E6%96%8BLamdre%E6%A4%8D%E7%89%A9%E6%96%99%E7%90%86%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d53d6a2012ee4f4695b8cd89124a58f8.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/lamdre",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0I0Y7WWTD"
   },
   {
     "id": "cn-beijing-municipality-beijing-wolfgang-s-steakhouse",
@@ -1295,25 +1335,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区工人体育场北路甲2号盈科中心捌坊一层, Beijing, Beijing Municipality",
+    "address": "工体北路甲2号盈科中心西南侧捌坊1层",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "沃夫冈牛排馆 (工人体育场北路) 北京",
+    "poiQuery": "WOLFGANGS STEAKHOUSE沃夫冈牛排馆 北京",
     "position": [
-      116.464520530343,
-      39.933537253025
+      116.458433,
+      39.93213
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B2%83%E5%A4%AB%E5%86%88%E7%89%9B%E6%8E%92%E9%A6%86%20(%E5%B7%A5%E4%BA%BA%E4%BD%93%E8%82%B2%E5%9C%BA%E5%8C%97%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=WOLFGANGS%20STEAKHOUSE%E6%B2%83%E5%A4%AB%E5%86%88%E7%89%9B%E6%8E%92%E9%A6%86%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/378141a8a38a4f96b49ac731e36255a8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/wolfgang-s-steakhouse",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHP4HEI"
   },
   {
     "id": "cn-beijing-municipality-beijing-shanghai-cuisine",
@@ -1323,25 +1364,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区工人体育场北路甲2号盈科中心南侧, Beijing, Beijing Municipality",
+    "address": "工人体育场北路甲2号盈科中心",
     "level": "two-stars",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "屋里厢 北京",
+    "poiQuery": "屋里厢上海菜馆(盈科店) 北京",
     "position": [
-      116.465579441572,
-      39.933564585809
+      116.459503,
+      39.932119
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B1%8B%E9%87%8C%E5%8E%A2%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B1%8B%E9%87%8C%E5%8E%A2%E4%B8%8A%E6%B5%B7%E8%8F%9C%E9%A6%86(%E7%9B%88%E7%A7%91%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c6000a1752df42fabb3bc9c7795c8591.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/shanghai-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHZE4W5"
   },
   {
     "id": "cn-beijing-municipality-beijing-amico-bj",
@@ -1351,25 +1393,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区工人体育场北路甲2号盈科中心一层109单元, Beijing, Beijing Municipality",
+    "address": "人体育场北路甲2号盈科中心裙房一层109单元",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚欧陆菜"
     ],
     "cuisine": "时尚欧陆菜",
-    "poiQuery": "Amico BJ 北京",
+    "poiQuery": "AmicoBJ(盈科中心店) 北京",
     "position": [
-      116.465603607203,
-      39.933872241611
+      116.459457,
+      39.932515
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Amico%20BJ%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=AmicoBJ(%E7%9B%88%E7%A7%91%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a95a7340d1fb4f74b58b5357ac5c9e0b.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/amico-bj",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0H6S72L0D"
   },
   {
     "id": "cn-beijing-municipality-beijing-xin-rong-ji-xinyuan-south-road",
@@ -1379,25 +1422,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区新源南路8号启皓北京东塔1层, Beijing, Beijing Municipality",
+    "address": "新源南路8号启皓中心-东塔F1层",
     "level": "three-stars",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "新荣记 (新源南路) 北京",
+    "poiQuery": "新荣记(新源南路店) 北京",
     "position": [
-      116.462494984733,
-      39.949078400668
+      116.456769,
+      39.947782
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0%20(%E6%96%B0%E6%BA%90%E5%8D%97%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0(%E6%96%B0%E6%BA%90%E5%8D%97%E8%B7%AF%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/94be142c35bc417ab5a8fa56153c0ab9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/xin-rong-ji-xinyuan-south-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFKD9EJ3"
   },
   {
     "id": "cn-beijing-municipality-beijing-la-roba",
@@ -1413,18 +1457,20 @@ export const restaurants: Restaurant[] = [
       "滇菜"
     ],
     "cuisine": "滇菜",
-    "poiQuery": "腊罗巴 北京",
+    "poiQuery": "腊罗巴云南菜(皂君西里店) 北京",
     "position": [
-      116.340843069675,
-      39.96046703575
+      116.334731,
+      39.959177
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%85%8A%E7%BD%97%E5%B7%B4%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%85%8A%E7%BD%97%E5%B7%B4%E4%BA%91%E5%8D%97%E8%8F%9C(%E7%9A%82%E5%90%9B%E8%A5%BF%E9%87%8C%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5b3fc6fcea48486d9daddfdd7e4fc0a6.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/la-roba",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "北京城区皂君庙路皂罗西里7号楼南侧",
+    "amapPoiId": "B0FFH135RG"
   },
   {
     "id": "cn-beijing-municipality-beijing-il-ristorante-niko-romito-1186723",
@@ -1434,25 +1480,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区新源南路8号院2号楼宝格丽酒店1层, Beijing, Beijing Municipality",
+    "address": "新源南路8号院2号楼北京宝格丽酒店一层",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Il Ristorante - Niko Romito 北京",
+    "poiQuery": "IL RISTORANTE - NIKO ROMITO 北京",
     "position": [
-      116.463918596858,
-      39.949080866137
+      116.457553,
+      39.94751
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Il%20Ristorante%20-%20Niko%20Romito%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=IL%20RISTORANTE%20-%20NIKO%20ROMITO%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/766e9be9b7d840248ed10936c6821d31.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/il-ristorante-niko-romito-1186723",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFIMUEM9"
   },
   {
     "id": "cn-beijing-municipality-beijing-seventh-son-1186794",
@@ -1462,25 +1509,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区东三环北路27号嘉铭中心B1层, Beijing, Beijing Municipality",
+    "address": "东三环北路27号嘉铭中心A座B1层",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "家全七福 北京",
+    "poiQuery": "家全七福酒家 北京",
     "position": [
-      116.466722815497,
-      39.929375609968
+      116.460535,
+      39.927994
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B6%E5%85%A8%E4%B8%83%E7%A6%8F%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B6%E5%85%A8%E4%B8%83%E7%A6%8F%E9%85%92%E5%AE%B6%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7e05d06a2294433ea51376dd9343b3cc.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/seventh-son-1186794",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0K0TRPSUZ"
   },
   {
     "id": "cn-beijing-municipality-beijing-my-soup",
@@ -1490,25 +1538,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区东三环中路1号环球金融中心西楼1层W104号单元, Beijing, Beijing Municipality",
+    "address": "东三环中路1号环球金融中心F1层",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "卖汤 北京",
+    "poiQuery": "MY SOUP卖汤 北京",
     "position": [
-      116.464828779407,
-      39.919915573477
+      116.458881,
+      39.918533
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%96%E6%B1%A4%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=MY%20SOUP%E5%8D%96%E6%B1%A4%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/edceef4327464cc381cab2a293a2c5c4.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/my-soup",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFF9UP2S"
   },
   {
     "id": "cn-beijing-municipality-beijing-the-house-of-dynasties",
@@ -1546,25 +1595,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区朝阳门外大街1号呼家楼京广中心瑰丽酒店3层, Beijing, Beijing Municipality",
+    "address": "朝阳门外大街1号京广中心北京瑰丽酒店3层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "乡味小厨 北京",
+    "poiQuery": "乡味小厨(朝阳门外大街辅路) 北京",
     "position": [
-      116.466498007461,
-      39.921486416763
+      116.460565,
+      39.920372
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B9%A1%E5%91%B3%E5%B0%8F%E5%8E%A8%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B9%A1%E5%91%B3%E5%B0%8F%E5%8E%A8(%E6%9C%9D%E9%98%B3%E9%97%A8%E5%A4%96%E5%A4%A7%E8%A1%97%E8%BE%85%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0d2bbfdf940240e49fc50a8e068600fe.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/country-kitchen",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFW4YYZ"
   },
   {
     "id": "cn-beijing-municipality-beijing-beef-dumplings",
@@ -1574,25 +1624,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区顺源街5号, Beijing, Beijing Municipality",
+    "address": "顺源街5号",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "饺子"
     ],
     "cuisine": "饺子",
-    "poiQuery": "匠牛饺子 (朝阳) 北京",
+    "poiQuery": "匠牛饺子(三源里小区店) 北京",
     "position": [
-      116.463428770005,
-      39.953988581982
+      116.457208,
+      39.952539
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%A0%E7%89%9B%E9%A5%BA%E5%AD%90%20(%E6%9C%9D%E9%98%B3)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%A0%E7%89%9B%E9%A5%BA%E5%AD%90(%E4%B8%89%E6%BA%90%E9%87%8C%E5%B0%8F%E5%8C%BA%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/de1d8cf2f43e4e409d0b40f41cf4e495.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/beef-dumplings",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFIC2A9O"
   },
   {
     "id": "cn-beijing-municipality-beijing-fujian-cuisine-dongsanhuan-north-road",
@@ -1630,25 +1681,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区建国门外大街1号中国大饭店3层, Beijing, Beijing Municipality",
+    "address": "建国门外大街1号中国大饭店3楼",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "迦达花园 北京",
+    "poiQuery": "GIADA Garden迦达花园(建国门外大街店) 北京",
     "position": [
-      116.465053819863,
-      39.911371083574
+      116.459265,
+      39.910426
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BF%A6%E8%BE%BE%E8%8A%B1%E5%9B%AD%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=GIADA%20Garden%E8%BF%A6%E8%BE%BE%E8%8A%B1%E5%9B%AD(%E5%BB%BA%E5%9B%BD%E9%97%A8%E5%A4%96%E5%A4%A7%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f5f5dfbe5c82467c8b261c3c9e2c6da5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/giada-garden",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0G0BNYEWZ"
   },
   {
     "id": "cn-beijing-municipality-beijing-xin-rong-ji-jianguomenwai-street",
@@ -1658,25 +1710,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区建国门外大街2号银泰中心A座5层, Beijing, Beijing Municipality",
+    "address": "建国门外大街2号北京银泰中心A座5层(国贸地铁站出入口旁)",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "新荣记 (建国门外大街) 北京",
+    "poiQuery": "新荣记(北京建国门外大街店) 北京",
     "position": [
-      116.465582103334,
-      39.908852437588
+      116.459146,
+      39.90753
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0%20(%E5%BB%BA%E5%9B%BD%E9%97%A8%E5%A4%96%E5%A4%A7%E8%A1%97)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0(%E5%8C%97%E4%BA%AC%E5%BB%BA%E5%9B%BD%E9%97%A8%E5%A4%96%E5%A4%A7%E8%A1%97%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0534a369e88d4197829207229e64bdfa.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/xin-rong-ji-jianguomenwai-street",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A9ORPJ"
   },
   {
     "id": "cn-beijing-municipality-beijing-lu-shang-lu",
@@ -1686,25 +1739,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区景辉街33号院1号楼阳光金融中心2层2A01-2A03/2A05-2A13, Beijing, Beijing Municipality",
+    "address": "北京城区景辉街33号院1号楼阳光金融中心2层",
     "level": "two-stars",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "鲁菜"
     ],
     "cuisine": "鲁菜",
-    "poiQuery": "鲁上鲁 北京",
+    "poiQuery": "鲁上鲁(阳光金融中心店) 北京",
     "position": [
-      116.469378973584,
-      39.913297199287
+      116.46292,
+      39.912174
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B2%81%E4%B8%8A%E9%B2%81%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B2%81%E4%B8%8A%E9%B2%81(%E9%98%B3%E5%85%89%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4c3bb71de0624b8cb3f29f41d04423e6.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/lu-shang-lu",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0I6TAMTDH"
   },
   {
     "id": "cn-beijing-municipality-beijing-baiweiyuan-dumpling",
@@ -1720,18 +1774,20 @@ export const restaurants: Restaurant[] = [
       "饺子"
     ],
     "cuisine": "饺子",
-    "poiQuery": "百味园饺子馆 (团结湖路) 北京",
+    "poiQuery": "百味园饺子馆(团结湖店) 北京",
     "position": [
-      116.473290103932,
-      39.925260269043
+      116.467237,
+      39.923906
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BE%E5%91%B3%E5%9B%AD%E9%A5%BA%E5%AD%90%E9%A6%86%20(%E5%9B%A2%E7%BB%93%E6%B9%96%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BE%E5%91%B3%E5%9B%AD%E9%A5%BA%E5%AD%90%E9%A6%86(%E5%9B%A2%E7%BB%93%E6%B9%96%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a8791321db4841d49458c1a0a929c573.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/baiweiyuan-dumpling",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "团结湖路52号",
+    "amapPoiId": "B000A82TDL"
   },
   {
     "id": "cn-beijing-municipality-beijing-cai-yi-xuan",
@@ -1741,25 +1797,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区亮马桥路48号四季酒店2层, Beijing, Beijing Municipality",
+    "address": "亮马桥路48号北京四季酒店3层",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "采逸轩 北京",
+    "poiQuery": "北京四季酒店·采逸轩 北京",
     "position": [
-      116.472726789123,
-      39.951566677921
+      116.46644,
+      39.950213
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%87%E9%80%B8%E8%BD%A9%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E5%9B%9B%E5%AD%A3%E9%85%92%E5%BA%97%C2%B7%E9%87%87%E9%80%B8%E8%BD%A9%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/795fb2eb64f147e3be934f5231e4de96.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/cai-yi-xuan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0M69HBK11"
   },
   {
     "id": "cn-beijing-municipality-beijing-bao-yuan",
@@ -1769,25 +1826,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区麦子店街6号楼北侧, Beijing, Beijing Municipality",
+    "address": "麦子店街6号楼北侧",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "饺子"
     ],
     "cuisine": "饺子",
-    "poiQuery": "宝源 北京",
+    "poiQuery": "宝源饺子屋 北京",
     "position": [
-      116.474852402701,
-      39.946666197377
+      116.468722,
+      39.945509
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%9D%E6%BA%90%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%9D%E6%BA%90%E9%A5%BA%E5%AD%90%E5%B1%8B%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0d8db475952e423d8cae4fc5767b7b95.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/bao-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A7RVN9"
   },
   {
     "id": "cn-beijing-municipality-beijing-xiang-lin-tian-xia",
@@ -1796,26 +1854,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "北京",
     "province": "北京",
     "country": "中国",
-    "district": "北京",
-    "address": "朝阳区建国路128号中航工业大厦2层, Beijing, Beijing Municipality",
+    "district": "朝阳区",
+    "address": "建国路128号中航工业大厦2层",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "湘菜"
     ],
     "cuisine": "湘菜",
-    "poiQuery": "湘临天下 北京",
+    "poiQuery": "湘临天下·湘菜(国贸店) 北京",
     "position": [
-      116.47030970006,
-      39.907735653718
+      116.463869,
+      39.906409
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E4%B8%B4%E5%A4%A9%E4%B8%8B%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E4%B8%B4%E5%A4%A9%E4%B8%8B%C2%B7%E6%B9%98%E8%8F%9C(%E5%9B%BD%E8%B4%B8%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bd06feed2bad4dba9c3fb2adb88df165.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/xiang-lin-tian-xia",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JU5SE6E2"
   },
   {
     "id": "cn-beijing-municipality-beijing-chao-shang-chao",
@@ -1858,18 +1917,20 @@ export const restaurants: Restaurant[] = [
       "湘菜"
     ],
     "cuisine": "湘菜",
-    "poiQuery": "湘上湘 (金和东路) 北京",
+    "poiQuery": "湘上湘(正大中心总店) 北京",
     "position": [
-      116.474159547457,
-      39.91363293428
+      116.467469,
+      39.912815
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E4%B8%8A%E6%B9%98%20(%E9%87%91%E5%92%8C%E4%B8%9C%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E4%B8%8A%E6%B9%98(%E6%AD%A3%E5%A4%A7%E4%B8%AD%E5%BF%83%E6%80%BB%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/66392356252b455f9b168aba67344103.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/xiang-shang-xiang-jinhe-east-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "北京城区北京城区金和东路20号院1号楼正大中心北塔三层",
+    "amapPoiId": "B0HBM7N0LN"
   },
   {
     "id": "cn-beijing-municipality-beijing-poetry-e2-80-a7wine",
@@ -1885,18 +1946,20 @@ export const restaurants: Restaurant[] = [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "拾久 (东三环中路) 北京",
+    "poiQuery": "拾久新京菜(东三环中路辅路店) 北京",
     "position": [
-      116.467340634351,
-      39.900362482306
+      116.461066,
+      39.89914
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%8B%BE%E4%B9%85%20(%E4%B8%9C%E4%B8%89%E7%8E%AF%E4%B8%AD%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%8B%BE%E4%B9%85%E6%96%B0%E4%BA%AC%E8%8F%9C(%E4%B8%9C%E4%B8%89%E7%8E%AF%E4%B8%AD%E8%B7%AF%E8%BE%85%E8%B7%AF%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9821dc4155014fb9828db0aa4888d8ee.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/poetry%E2%80%A7wine",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东三环中路辅路与光华北一街交口第一家、麦乐迪对面",
+    "amapPoiId": "B0FFIYBWSK"
   },
   {
     "id": "cn-beijing-municipality-beijing-les-morilles",
@@ -1906,25 +1969,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区麦子店街37号盛福大厦1层, Beijing, Beijing Municipality",
+    "address": "麦子店西街37号盛福大厦一层大堂",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "乐‧墨瑞 北京",
+    "poiQuery": "LES MORILLES樂·墨瑞 北京",
     "position": [
-      116.477402377045,
-      39.95009640692
+      116.464833,
+      39.946966
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B9%90%E2%80%A7%E5%A2%A8%E7%91%9E%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=LES%20MORILLES%E6%A8%82%C2%B7%E5%A2%A8%E7%91%9E%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a314fa380213443a9d4526d45c649d46.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/les-morilles",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFI5VT41"
   },
   {
     "id": "cn-beijing-municipality-beijing-heritage-east",
@@ -1961,25 +2025,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区亮马桥路48号四季酒店3层, Beijing, Beijing Municipality",
+    "address": "北京城区亮马桥路48号院3号楼3层",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Mio 北京",
+    "poiQuery": "北京四季酒店·Mio 北京",
     "position": [
-      116.479442523728,
-      39.953326944786
+      116.46656,
+      39.949974
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Mio%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E5%9B%9B%E5%AD%A3%E9%85%92%E5%BA%97%C2%B7Mio%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c98412f9c6354e4983caca10e2f58c35.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/mio",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A9Z0V9"
   },
   {
     "id": "cn-beijing-municipality-beijing-exquisite-bocuse",
@@ -1989,25 +2054,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区景辉街31号三星大厦4层, Beijing, Beijing Municipality",
+    "address": "景辉街31号院1号楼三星大厦4层401",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "晶采轩 北京",
+    "poiQuery": "晶采轩(三星大厦店) 北京",
     "position": [
-      116.480837743648,
-      39.912976278584
+      116.465029,
+      39.912243
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%99%B6%E9%87%87%E8%BD%A9%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%99%B6%E9%87%87%E8%BD%A9(%E4%B8%89%E6%98%9F%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d847299f594343e3a2183277f5b3cbb7.png",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/exquisite-bocuse",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0HA1MF3ET"
   },
   {
     "id": "cn-beijing-municipality-beijing-l-bodhi-guanghua-road",
@@ -2017,25 +2083,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区光华路2号阳光100国际公寓F座202号, Beijing, Beijing Municipality",
+    "address": "光华路2号楼阳光100F座底商",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "叶叶菩提 (光华路) 北京",
+    "poiQuery": "叶叶菩提(国贸总店) 北京",
     "position": [
-      116.481870390135,
-      39.914542902374
+      116.475641,
+      39.913243
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8F%B6%E5%8F%B6%E8%8F%A9%E6%8F%90%20(%E5%85%89%E5%8D%8E%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8F%B6%E5%8F%B6%E8%8F%A9%E6%8F%90(%E5%9B%BD%E8%B4%B8%E6%80%BB%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8488e49adae44259ad4ec967c24c8778.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/l-bodhi-guanghua-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFH9LD9B"
   },
   {
     "id": "cn-beijing-municipality-beijing-bistro-strong",
@@ -2051,18 +2118,20 @@ export const restaurants: Restaurant[] = [
       "烤肉餐馆"
     ],
     "cuisine": "烤肉餐馆",
-    "poiQuery": "壮壮酒馆 (朝阳公园路) 北京",
+    "poiQuery": "壮壮酒馆(蓝色港湾店) 北京",
     "position": [
-      116.482780710905,
-      39.951534597954
+      116.476631,
+      39.950254
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A3%AE%E5%A3%AE%E9%85%92%E9%A6%86%20(%E6%9C%9D%E9%98%B3%E5%85%AC%E5%9B%AD%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A3%AE%E5%A3%AE%E9%85%92%E9%A6%86(%E8%93%9D%E8%89%B2%E6%B8%AF%E6%B9%BE%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a6711526727e4b11b9cadb4a252decec.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/bistro-strong",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "北京城区朝阳公园路6号SOLANA蓝色港湾1F层",
+    "amapPoiId": "B0I33MOM4K"
   },
   {
     "id": "cn-beijing-municipality-beijing-ji-chuan",
@@ -2078,18 +2147,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "寂川 北京",
+    "poiQuery": "寂川(航空大厦店) 北京",
     "position": [
-      116.484328538508,
-      39.916447931422
+      116.478276,
+      39.915309
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AF%82%E5%B7%9D%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AF%82%E5%B7%9D(%E8%88%AA%E7%A9%BA%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/157fd50acbf146c782846371f2004115.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/ji-chuan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "西大望路甲2号航空大厦F1层",
+    "amapPoiId": "B0H2OB8R08"
   },
   {
     "id": "cn-beijing-municipality-beijing-qiantang-garden",
@@ -2153,8 +2224,8 @@ export const restaurants: Restaurant[] = [
     "cityName": "北京",
     "province": "北京",
     "country": "中国",
-    "district": "北京",
-    "address": "丰台区丽泽路16号厦航嘉年华酒店6层, Beijing, Beijing Municipality",
+    "district": "丰台区",
+    "address": "丽泽路16号院5号楼厦航嘉年华酒店6层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -2163,16 +2234,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "闽菜",
     "poiQuery": "福建菜馆 北京",
     "position": [
-      116.354278398209,
-      39.874000237717
+      116.335297,
+      39.865542
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E5%BB%BA%E8%8F%9C%E9%A6%86%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f7e9a2ce53364a55bb467dab1678af13.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/fujian-restaurant",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JR4S9GZX"
   },
   {
     "id": "cn-beijing-municipality-beijing-huai-xiang-guo-se",
@@ -2182,25 +2254,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区金和东路20号正大中心3层L311-L312, Beijing, Beijing Municipality",
+    "address": "北京城区金和东路20号正大中心北塔三层L311",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "淮香国色 北京",
+    "poiQuery": "淮香国色(正大中心店) 北京",
     "position": [
-      116.486632981281,
-      39.921242212669
+      116.467544,
+      39.912347
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B7%AE%E9%A6%99%E5%9B%BD%E8%89%B2%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B7%AE%E9%A6%99%E5%9B%BD%E8%89%B2(%E6%AD%A3%E5%A4%A7%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/694044fc37c1447b965eb18be528513e.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/huai-xiang-guo-se",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0HBMCLYBX"
   },
   {
     "id": "cn-beijing-municipality-beijing-the-beijing-kitchen",
@@ -2210,25 +2283,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区建国路87号北京SKP 6层D6007, Beijing, Beijing Municipality",
+    "address": "北京城区建国路87号北京SKP6层D6007",
     "level": "one-star",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "北京厨房 (建国路) 北京",
+    "poiQuery": "北京厨房 北京",
     "position": [
-      116.484718049815,
-      39.911810535312
+      116.47903,
+      39.910717
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E5%8E%A8%E6%88%BF%20(%E5%BB%BA%E5%9B%BD%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E5%8E%A8%E6%88%BF%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/175367089aa14f4e9c28b5a97c6badc2.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/the-beijing-kitchen",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFJHY4P5"
   },
   {
     "id": "cn-beijing-municipality-beijing-qian-li",
@@ -2238,25 +2312,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区建国路87号北京SKP 5层D5202, Beijing, Beijing Municipality",
+    "address": "北京城区建国路87号5层501号D5202",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "前里 北京",
+    "poiQuery": "前里·台州鱼市(北京SKP店) 北京",
     "position": [
-      116.48546406032,
-      39.911896932448
+      116.479615,
+      39.910515
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%89%8D%E9%87%8C%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%89%8D%E9%87%8C%C2%B7%E5%8F%B0%E5%B7%9E%E9%B1%BC%E5%B8%82(%E5%8C%97%E4%BA%ACSKP%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/42bfbdedfc474c4784628e9e47f586c5.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/qian-li",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0I13PLDZ6"
   },
   {
     "id": "cn-beijing-municipality-beijing-bad-ass-lamb-hot-pot-maizidian-west-street",
@@ -2348,25 +2423,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区霄云路18号, Beijing, Beijing Municipality",
+    "address": "霄云路18号",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "法国菜"
     ],
     "cuisine": "法国菜",
-    "poiQuery": "福楼 北京",
+    "poiQuery": "北京福楼法餐厅(三元桥店) 北京",
     "position": [
-      116.482777860279,
-      39.966909219344
+      116.470505,
+      39.963775
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E6%A5%BC%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E7%A6%8F%E6%A5%BC%E6%B3%95%E9%A4%90%E5%8E%85(%E4%B8%89%E5%85%83%E6%A1%A5%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9d0bd69069474308b22599389fb3a10c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/maison-flo",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A8XFFI"
   },
   {
     "id": "cn-beijing-municipality-beijing-jing-hua-lou",
@@ -2376,25 +2452,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区大屯北路慧忠北里111号楼2层202号, Beijing, Beijing Municipality",
+    "address": "北京城区慧忠北里111号楼2层202号",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "京华楼 北京",
+    "poiQuery": "京华楼饭庄(亚运村店) 北京",
     "position": [
-      116.41202509801,
-      40.006941382657
+      116.405896,
+      40.005523
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%AC%E5%8D%8E%E6%A5%BC%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%AC%E5%8D%8E%E6%A5%BC%E9%A5%AD%E5%BA%84(%E4%BA%9A%E8%BF%90%E6%9D%91%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6358db073cc84fae89b1626cfe07a6b4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/jing-hua-lou",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0I36U6YY0"
   },
   {
     "id": "cn-beijing-municipality-beijing-hong-fan-qie-yuyuantan-south-road",
@@ -2404,25 +2481,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "海淀区",
-    "address": "海淀区玉渊潭南路翠微南里36号, Beijing, Beijing Municipality",
+    "address": "玉渊潭南路翠微南里36号(近万寿路地铁)",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "鄂菜"
     ],
     "cuisine": "鄂菜",
-    "poiQuery": "红蕃茄 (玉渊潭南路) 北京",
+    "poiQuery": "1997荆楚土锅子·红蕃茄(玉渊潭南路店) 北京",
     "position": [
-      116.303053402148,
-      39.914002960895
+      116.29703,
+      39.912829
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BA%A2%E8%95%83%E8%8C%84%20(%E7%8E%89%E6%B8%8A%E6%BD%AD%E5%8D%97%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=1997%E8%8D%86%E6%A5%9A%E5%9C%9F%E9%94%85%E5%AD%90%C2%B7%E7%BA%A2%E8%95%83%E8%8C%84(%E7%8E%89%E6%B8%8A%E6%BD%AD%E5%8D%97%E8%B7%AF%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7199dae2b2ea4ed1ac5c3c1c1d6348b0.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/hong-fan-qie-yuyuantan-south-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A7C2AR"
   },
   {
     "id": "cn-beijing-municipality-beijing-hua-sheng-feng-dongsanhuan-south-road",
@@ -2487,25 +2565,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区百子湾南二路77号, Beijing, Beijing Municipality",
+    "address": "百子湾南二路77号(大望路岔路口)",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "荣小馆 (百子湾南二路) 北京",
+    "poiQuery": "荣小馆(大望路店) 北京",
     "position": [
-      116.493428913422,
-      39.905535238807
+      116.477172,
+      39.897233
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E5%B0%8F%E9%A6%86%20(%E7%99%BE%E5%AD%90%E6%B9%BE%E5%8D%97%E4%BA%8C%E8%B7%AF)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E5%B0%8F%E9%A6%86(%E5%A4%A7%E6%9C%9B%E8%B7%AF%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5382542b832c41d689820174e9ce024a.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/rong-cuisine-baiziwan-south-er-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFHD21V"
   },
   {
     "id": "cn-beijing-municipality-beijing-meng-du-hui",
@@ -2515,25 +2594,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "海淀区",
-    "address": "海淀区万寿路甲12号万寿宾馆B座, Beijing, Beijing Municipality",
+    "address": "北京城区万寿路甲12号北京万寿宾馆B座东南侧1-2层",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "徽菜"
     ],
     "cuisine": "徽菜",
-    "poiQuery": "梦都会 北京",
+    "poiQuery": "梦都会·新派徽菜 北京",
     "position": [
-      116.300065648972,
-      39.91325219129
+      116.29425,
+      39.912017
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A2%A6%E9%83%BD%E4%BC%9A%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A2%A6%E9%83%BD%E4%BC%9A%C2%B7%E6%96%B0%E6%B4%BE%E5%BE%BD%E8%8F%9C%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0d587e0302ee474db8e5e701717b26ea.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/meng-du-hui",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0J0ZZDYZA"
   },
   {
     "id": "cn-beijing-municipality-beijing-jia",
@@ -2543,25 +2623,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区将台路甲2号诺金酒店1层, Beijing, Beijing Municipality",
+    "address": "将台路甲2号北京诺金酒店1层(近14号线地铁将台路站)",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "禾家 (朝阳) 北京",
+    "poiQuery": "北京诺金酒店禾家中餐厅 北京",
     "position": [
-      116.486295722206,
-      39.977719657091
+      116.480734,
+      39.976428
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%BE%E5%AE%B6%20(%E6%9C%9D%E9%98%B3)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E4%BA%AC%E8%AF%BA%E9%87%91%E9%85%92%E5%BA%97%E7%A6%BE%E5%AE%B6%E4%B8%AD%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b1c7f104582b405b8e14be517cda75e1.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/jia",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFG7UH6V"
   },
   {
     "id": "cn-beijing-municipality-beijing-liu-ma-ma-dumplings-chaoyang",
@@ -2571,25 +2652,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区酒仙桥路2号798艺术区3818库内, Beijing, Beijing Municipality",
+    "address": "798艺术园区3818库-004",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "饺子"
     ],
     "cuisine": "饺子",
-    "poiQuery": "刘妈妈肉汁饺子 (朝阳) 北京",
+    "poiQuery": "胶东刘妈妈肉汁饺子(798店) 北京",
     "position": [
-      116.502267094708,
-      39.987286997901
+      116.49594,
+      39.985808
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%98%E5%A6%88%E5%A6%88%E8%82%89%E6%B1%81%E9%A5%BA%E5%AD%90%20(%E6%9C%9D%E9%98%B3)%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%83%B6%E4%B8%9C%E5%88%98%E5%A6%88%E5%A6%88%E8%82%89%E6%B1%81%E9%A5%BA%E5%AD%90(798%E5%BA%97)%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/132769defd5c426db2e42e0366945810.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/liu-ma-ma-dumplings-chaoyang",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0KDHDKTUB"
   },
   {
     "id": "cn-beijing-municipality-beijing-yue-jie-qi-yang-road",
@@ -2655,25 +2737,26 @@ export const restaurants: Restaurant[] = [
     "province": "北京",
     "country": "中国",
     "district": "朝阳区",
-    "address": "朝阳区星火东路将台洼甲4号, Beijing, Beijing Municipality",
+    "address": "将台洼甲4号",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "1996川菜 · 主厨餐厅 北京",
+    "poiQuery": "1996川菜.主厨餐厅 北京",
     "position": [
-      116.529673703071,
-      39.960472071349
+      116.511319,
+      39.951882
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=1996%E5%B7%9D%E8%8F%9C%20%C2%B7%20%E4%B8%BB%E5%8E%A8%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=1996%E5%B7%9D%E8%8F%9C.%E4%B8%BB%E5%8E%A8%E9%A4%90%E5%8E%85%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7d54d75de89241ec9789300533a220c4.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/chef-1996",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JDA1CNVA"
   },
   {
     "id": "cn-beijing-municipality-beijing-blackswan",
@@ -2682,26 +2765,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "北京",
     "province": "北京",
     "country": "中国",
-    "district": "北京",
-    "address": "顺义区首都机场路89号罗红摄影艺术馆1层, Beijing, Beijing Municipality",
+    "district": "顺义区",
+    "address": "杨林出口路89号",
     "level": "two-stars",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "黑天鹅 北京",
+    "poiQuery": "黑天鹅杨林旗舰店 北京",
     "position": [
-      116.579894825115,
-      40.044035094667
+      116.574482,
+      40.043086
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%BB%91%E5%A4%A9%E9%B9%85%20%E5%8C%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%BB%91%E5%A4%A9%E9%B9%85%E6%9D%A8%E6%9E%97%E6%97%97%E8%88%B0%E5%BA%97%20%E5%8C%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/90a9f129f8ef4d199c8941ec3ac3ac78.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/beijing-municipality/beijing/restaurant/blackswan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-beijing-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B000A8ZJLI"
   },
   {
     "id": "cn-guangdong-province-guangzhou-summer-palace-559242",
@@ -2711,25 +2795,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区会展东路1号香格里拉大酒店2楼, Guangzhou, Guangdong Province",
+    "address": "会展东路1号广州香格里拉大酒店2层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "夏宫 广州",
+    "poiQuery": "夏宫中餐厅 广州",
     "position": [
-      113.375694317715,
-      23.099731811915
+      113.370184,
+      23.102533
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%8F%E5%AE%AB%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%8F%E5%AE%AB%E4%B8%AD%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fb4bc12d4c964ed1a2b25c481f2d4f8a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/summer-palace-559242",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140UHZM"
   },
   {
     "id": "cn-guangdong-province-guangzhou-peach-blossom",
@@ -2739,25 +2824,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区环市东路368号花园酒店3楼, Guangzhou, Guangdong Province",
+    "address": "环市东路368号花园酒店4层",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "桃园馆 (越秀) 广州",
+    "poiQuery": "广州花园酒店·桃园馆(环市东路店) 广州",
     "position": [
-      113.291590365709,
-      23.132594659679
+      113.286301,
+      23.135227
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A1%83%E5%9B%AD%E9%A6%86%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E8%8A%B1%E5%9B%AD%E9%85%92%E5%BA%97%C2%B7%E6%A1%83%E5%9B%AD%E9%A6%86(%E7%8E%AF%E5%B8%82%E4%B8%9C%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e0a8b7b6bd36410682e7ccee46eca8a0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/peach-blossom",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140AVJ8"
   },
   {
     "id": "cn-guangdong-province-guangzhou-jiang-by-chef-fei",
@@ -2795,25 +2881,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区兴民路222号天汇广场5楼L514B, Guangzhou, Guangdong Province",
+    "address": "珠江新城兴民路222号天汇广场IGC五层L514B",
     "level": "two-stars",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "御宝轩 广州",
+    "poiQuery": "御宝轩(天汇广场店) 广州",
     "position": [
-      113.337377344635,
-      23.113296107317
+      113.332743,
+      23.116225
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%A1%E5%AE%9D%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%A1%E5%AE%9D%E8%BD%A9(%E5%A4%A9%E6%B1%87%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fc1b554d44eb4a02aff82a53ddf288a6.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/imperial-treasure-fine-chinese-cuisine-559150",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFJFTOFA"
   },
   {
     "id": "cn-guangdong-province-guangzhou-taian-table-1195975",
@@ -2823,25 +2910,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区环市东路368号花园酒店2楼, Guangzhou, Guangdong Province",
+    "address": "环市东路368号广州花园酒店2层夹层(乘坐电梯或走楼梯)请勿搭乘扶手梯至3层",
     "level": "two-stars",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "泰安门 广州",
+    "poiQuery": "泰安门Taian Table 广州",
     "position": [
-      113.291393795193,
-      23.132712258112
+      113.286205,
+      23.135254
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B3%B0%E5%AE%89%E9%97%A8%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B3%B0%E5%AE%89%E9%97%A8Taian%20Table%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/422d50ac735749a88d8656dcda83bc7e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/taian-table-1195975",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0M6CAU3HJ"
   },
   {
     "id": "cn-guangdong-province-guangzhou-song",
@@ -2907,25 +2995,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区滨江西路172号, Guangzhou, Guangdong Province",
+    "address": "滨江西路172号",
     "level": "one-star",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "惠食佳 (海珠) 广州",
+    "poiQuery": "惠食佳(滨江西店) 广州",
     "position": [
-      113.264907009011,
-      23.105376764443
+      113.259523,
+      23.108012
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%83%A0%E9%A3%9F%E4%BD%B3%20(%E6%B5%B7%E7%8F%A0)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%83%A0%E9%A3%9F%E4%BD%B3(%E6%BB%A8%E6%B1%9F%E8%A5%BF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e6152583b513487daa5600efe0f31270.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/wisca-haizhu",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141JW0D"
   },
   {
     "id": "cn-guangdong-province-guangzhou-chowa",
@@ -2963,7 +3052,7 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区恤孤院路18号锡安园, Guangzhou, Guangdong Province",
+    "address": "恤孤院路18号",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
@@ -2972,16 +3061,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "川菜",
     "poiQuery": "兰亭永 广州",
     "position": [
-      113.301831237581,
-      23.116166308665
+      113.296509,
+      23.118746
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%B0%E4%BA%AD%E6%B0%B8%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/111de9669fc6422da32bd0e7739933b0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/yong",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0IU27N33D"
   },
   {
     "id": "cn-guangdong-province-guangzhou-stiller",
@@ -2997,18 +3087,20 @@ export const restaurants: Restaurant[] = [
       "欧陆菜"
     ],
     "cuisine": "欧陆菜",
-    "poiQuery": "斯蒂勒 广州",
+    "poiQuery": "斯蒂勒Stiller 广州",
     "position": [
-      113.291393795193,
-      23.132712258112
+      113.28615,
+      23.1353
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%AF%E8%92%82%E5%8B%92%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%AF%E8%92%82%E5%8B%92Stiller%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9a542a4c39064878a8b0ee8e11737f5f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/stiller",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "环市东路368号花园酒店F2层",
+    "amapPoiId": "B0JGU1BC63"
   },
   {
     "id": "cn-guangdong-province-guangzhou-lingnan-house",
@@ -3018,25 +3110,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江东路6号瑰丽酒店5樓, Guangzhou, Guangdong Province",
+    "address": "广州瑰丽酒店(大剧院地铁站E口步行240米)",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "广御轩 广州",
+    "poiQuery": "广州瑰丽酒店·广御轩Lingnan House(广州周大福金融中心店) 广州",
     "position": [
-      113.331468318433,
-      23.114692829837
+      113.325912,
+      23.117676
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%BE%A1%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E7%91%B0%E4%B8%BD%E9%85%92%E5%BA%97%C2%B7%E5%B9%BF%E5%BE%A1%E8%BD%A9Lingnan%20House(%E5%B9%BF%E5%B7%9E%E5%91%A8%E5%A4%A7%E7%A6%8F%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/45782d239da2498b8529dac41a8e3c2e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/lingnan-house",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0G3MR43X0"
   },
   {
     "id": "cn-guangdong-province-guangzhou-hongtu-hall",
@@ -3046,25 +3139,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区沙面南街1号白天鹅宾馆2楼, Guangzhou, Guangdong Province",
+    "address": "沙面南街1号白天鹅宾馆2层",
     "level": "one-star",
     "michelinPrice": "¥¥",
     "topDishes": [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "宏图府 广州",
+    "poiQuery": "白天鹅宾馆·宏图府餐厅 广州",
     "position": [
-      113.248296116289,
-      23.102945233545
+      113.24259,
+      23.105824
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%8F%E5%9B%BE%E5%BA%9C%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BD%E5%A4%A9%E9%B9%85%E5%AE%BE%E9%A6%86%C2%B7%E5%AE%8F%E5%9B%BE%E5%BA%9C%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3b0e5dacac8c473abb64fabdca668f9d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/hongtu-hall",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140UA31"
   },
   {
     "id": "cn-guangdong-province-guangzhou-suyab-courtyard-e3-83-bbpickmoon-gourmet",
@@ -3080,18 +3174,20 @@ export const restaurants: Restaurant[] = [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "岁集院子·拾月 广州",
+    "poiQuery": "岁集院子 广州",
     "position": [
-      113.494006867025,
-      22.826057238723
+      113.33144,
+      23.022195
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B2%81%E9%9B%86%E9%99%A2%E5%AD%90%C2%B7%E6%8B%BE%E6%9C%88%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B2%81%E9%9B%86%E9%99%A2%E5%AD%90%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/564da6c857794276af09f83f97161a50.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/suyab-courtyard%E3%83%BBpickmoon-gourmet",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "迎宾路348号101房",
+    "amapPoiId": "B0G1N54XSH"
   },
   {
     "id": "cn-guangdong-province-guangzhou-imperial-treasure-fine-teochew-cuisine-1190416",
@@ -3101,25 +3197,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区天河路383号太古汇商场3楼L307, Guangzhou, Guangdong Province",
+    "address": "天河路383号太古汇商场L307",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "御宝阁 广州",
+    "poiQuery": "御宝阁潮州酒家(太古汇店) 广州",
     "position": [
-      113.337701278849,
-      23.132068803446
+      113.332268,
+      23.134715
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%A1%E5%AE%9D%E9%98%81%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%A1%E5%AE%9D%E9%98%81%E6%BD%AE%E5%B7%9E%E9%85%92%E5%AE%B6(%E5%A4%AA%E5%8F%A4%E6%B1%87%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7d039644a96a4c028cbce6f99f6556a0.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/imperial-treasure-fine-teochew-cuisine-1190416",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFK9N9WJ"
   },
   {
     "id": "cn-guangdong-province-guangzhou-lei-garden-yuexiu",
@@ -3129,25 +3226,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区建设六马路33号宜安广场4楼, Guangzhou, Guangdong Province",
+    "address": "建设六马路33号宜安广场4楼",
     "level": "one-star",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "利苑 (越秀) 广州",
+    "poiQuery": "利苑酒家(宜安广场店) 广州",
     "position": [
-      113.290263742582,
-      23.131605709197
+      113.284902,
+      23.134355
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%A9%E8%8B%91%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%A9%E8%8B%91%E9%85%92%E5%AE%B6(%E5%AE%9C%E5%AE%89%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a1f8f722b20c4a9f81755014fc1275c6.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/lei-garden-yuexiu",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140T2CY"
   },
   {
     "id": "cn-guangdong-province-guangzhou-bingsheng-mansion",
@@ -3157,25 +3255,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城冼村路2号首府大厦5楼, Guangzhou, Guangdong Province",
+    "address": "珠江新城冼村路2号5楼",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "炳胜公馆 (冼村路) 广州",
+    "poiQuery": "炳胜公馆(珠江新城店) 广州",
     "position": [
-      113.333806554763,
-      23.112212670583
+      113.328308,
+      23.114802
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%82%B3%E8%83%9C%E5%85%AC%E9%A6%86%20(%E5%86%BC%E6%9D%91%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%82%B3%E8%83%9C%E5%85%AC%E9%A6%86(%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3ea796ccebc246a3983053752b2efff6.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/bingsheng-mansion",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141K4S5"
   },
   {
     "id": "cn-guangdong-province-guangzhou-jade-river",
@@ -3185,25 +3284,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区沙面南街1号白天鹅宾馆3楼, Guangzhou, Guangdong Province",
+    "address": "沙面南街一号白天鹅宾馆3层(沙面岛)",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "玉堂春暖 广州",
+    "poiQuery": "白天鹅宾馆-玉堂春暖餐厅 广州",
     "position": [
-      113.248296116289,
-      23.102945233545
+      113.2426,
+      23.10589
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8E%89%E5%A0%82%E6%98%A5%E6%9A%96%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BD%E5%A4%A9%E9%B9%85%E5%AE%BE%E9%A6%86-%E7%8E%89%E5%A0%82%E6%98%A5%E6%9A%96%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c6af2d4a1fec4efaa58581f43a665b70.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/jade-river",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFGERX12"
   },
   {
     "id": "cn-guangdong-province-guangzhou-yu-yue-heen",
@@ -3213,25 +3313,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城珠江西路5号四季酒店71楼, Guangzhou, Guangdong Province",
+    "address": "珠江西路5号广州国际金融中心广州四季酒店裙楼2楼(近地铁珠江新城站)",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "愉粤轩 广州",
+    "poiQuery": "广州四季酒店·Yu Yue Heen愉粤轩 广州",
     "position": [
-      113.328346845059,
-      23.115206710607
+      113.32301,
+      23.11787
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%84%89%E7%B2%A4%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%9B%9B%E5%AD%A3%E9%85%92%E5%BA%97%C2%B7Yu%20Yue%20Heen%E6%84%89%E7%B2%A4%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bb08b5e986b14e58a4de67faa2c83261.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/yu-yue-heen",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141V18Y"
   },
   {
     "id": "cn-guangdong-province-guangzhou-lai-heen-559155",
@@ -3241,25 +3342,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城兴安路3号富力丽思卡尔顿酒店3楼, Guangzhou, Guangdong Province",
+    "address": "兴安路3号广州富力丽思卡尔顿酒店3层(近省博物馆)",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "丽轩 广州",
+    "poiQuery": "丽轩中餐厅 广州",
     "position": [
-      113.332659995733,
-      23.113635467557
+      113.32747,
+      23.116173
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%BD%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%BD%E8%BD%A9%E4%B8%AD%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/25aacb8496784bcca519ff8931db6690.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/lai-heen-559155",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141KSC2"
   },
   {
     "id": "cn-guangdong-province-guangzhou-xin-ji",
@@ -3269,25 +3371,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区长堤大马路270号, Guangzhou, Guangdong Province",
+    "address": "长堤大马路270号(一德路地铁站A口步行490米)",
     "level": "one-star",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "信记海鲜饭店 广州",
+    "poiQuery": "信记海鲜饭店(广州民间金融街店) 广州",
     "position": [
-      113.265429924817,
-      23.109240249031
+      113.260099,
+      23.111569
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BF%A1%E8%AE%B0%E6%B5%B7%E9%B2%9C%E9%A5%AD%E5%BA%97%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BF%A1%E8%AE%B0%E6%B5%B7%E9%B2%9C%E9%A5%AD%E5%BA%97(%E5%B9%BF%E5%B7%9E%E6%B0%91%E9%97%B4%E9%87%91%E8%9E%8D%E8%A1%97%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f7d8416620c1455c88f38598b76d281c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/xin-ji",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140CFLA"
   },
   {
     "id": "cn-guangdong-province-guangzhou-bingsheng-private-kitchen",
@@ -3297,25 +3400,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区天河东路178号, Guangzhou, Guangdong Province",
+    "address": "天河东路178号",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "炳胜私厨 (天河东路) 广州",
+    "poiQuery": "炳胜私厨(天河东店) 广州",
     "position": [
-      113.33977670827,
-      23.13213436086
+      113.334301,
+      23.134729
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%82%B3%E8%83%9C%E7%A7%81%E5%8E%A8%20(%E5%A4%A9%E6%B2%B3%E4%B8%9C%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%82%B3%E8%83%9C%E7%A7%81%E5%8E%A8(%E5%A4%A9%E6%B2%B3%E4%B8%9C%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/426de11bad0249f198155a27a52d2666.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/bingsheng-private-kitchen",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JAR5ZS1W"
   },
   {
     "id": "cn-guangdong-province-guangzhou-zhou-men",
@@ -3353,25 +3457,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区天河东路59号, Guangzhou, Guangdong Province",
+    "address": "天河东路59号(华侨友谊酒店向南30米中国银行隔壁)",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "大洋家 广州",
+    "poiQuery": "新大洋家潮汕特色菜花胶砂锅粥 广州",
     "position": [
-      113.339016999782,
-      23.128230361098
+      113.333617,
+      23.130695
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E6%B4%8B%E5%AE%B6%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E5%A4%A7%E6%B4%8B%E5%AE%B6%E6%BD%AE%E6%B1%95%E7%89%B9%E8%89%B2%E8%8F%9C%E8%8A%B1%E8%83%B6%E7%A0%82%E9%94%85%E7%B2%A5%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/54c930b8acc24f9b86edae44fdaf38e3.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/dai-yong-town",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFJDFDQ7"
   },
   {
     "id": "cn-guangdong-province-guangzhou-nan-yuan",
@@ -3381,7 +3486,7 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区前进路142号, Guangzhou, Guangdong Province",
+    "address": "前进路142号",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -3390,16 +3495,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粤菜",
     "poiQuery": "南园酒家 广州",
     "position": [
-      113.285911424965,
-      23.097238341803
+      113.280458,
+      23.099956
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E5%9B%AD%E9%85%92%E5%AE%B6%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e4fc825c95d14bb1981aaec48a6eede2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/nan-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFF5VK7I"
   },
   {
     "id": "cn-guangdong-province-guangzhou-rong-yi-fa-niu-za-dian-shishu-road",
@@ -3409,25 +3515,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区诗书路56号, Guangzhou, Guangdong Province",
+    "address": "诗书路56号(近广州日报后门)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "容意发牛杂店 (越秀) 广州",
+    "poiQuery": "容意发牛杂店(越秀店) 广州",
     "position": [
-      113.259802422864,
-      23.115212893514
+      113.254474,
+      23.11791
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B9%E6%84%8F%E5%8F%91%E7%89%9B%E6%9D%82%E5%BA%97%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B9%E6%84%8F%E5%8F%91%E7%89%9B%E6%9D%82%E5%BA%97(%E8%B6%8A%E7%A7%80%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6cfa02a67c1344cc839285bcbed4df20.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/rong-yi-fa-niu-za-dian-shishu-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141JKHF"
   },
   {
     "id": "cn-guangdong-province-guangzhou-fa-sing-garden-jinsui-road",
@@ -3437,25 +3544,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城金穗路62号华轩美仑美奂酒店5楼, Guangzhou, Guangdong Province",
+    "address": "珠江新城金穗路62号侨鑫国际附楼5楼花城苑",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "花城苑 (金穗路) 广州",
+    "poiQuery": "花城苑广府菜(侨鑫店) 广州",
     "position": [
-      113.32802889975,
-      23.119733947711
+      113.322608,
+      23.122296
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%B1%E5%9F%8E%E8%8B%91%20(%E9%87%91%E7%A9%97%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%B1%E5%9F%8E%E8%8B%91%E5%B9%BF%E5%BA%9C%E8%8F%9C(%E4%BE%A8%E9%91%AB%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/80afa6c0b26540d59e5f86516980b5c2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/fa-sing-garden-jinsui-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFIXSCDX"
   },
   {
     "id": "cn-guangdong-province-guangzhou-ya-yuan",
@@ -3465,25 +3573,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区朝天路14号, Guangzhou, Guangdong Province",
+    "address": "朝天路14号(公园前地铁站I2口步行470米)",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "雅苑 广州",
+    "poiQuery": "雅苑餐厅(朝天路店) 广州",
     "position": [
-      113.563108451716,
-      23.120696818528
+      113.260412,
+      23.123508
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9B%85%E8%8B%91%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9B%85%E8%8B%91%E9%A4%90%E5%8E%85(%E6%9C%9D%E5%A4%A9%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5645cf28b85a4b56a968f24b23605eb5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/ya-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140AP7H"
   },
   {
     "id": "cn-guangdong-province-guangzhou-soodle-jinsui-road",
@@ -3493,25 +3602,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区金穗路62号侨鑫国际中心商业裙楼3楼309号铺, Guangzhou, Guangdong Province",
+    "address": "金穗路62号侨鑫国际裙楼3层",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "蔬稻 广州",
+    "poiQuery": "蔬稻·素菜 广州",
     "position": [
-      113.3282238359,
-      23.120277136835
+      113.322853,
+      23.122953
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%94%AC%E7%A8%BB%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%94%AC%E7%A8%BB%C2%B7%E7%B4%A0%E8%8F%9C%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5e36d628319645d39676fcac03716b73.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/soodle-jinsui-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHUUT3S"
   },
   {
     "id": "cn-guangdong-province-guangzhou-xiang-qun-longjin-east-road",
@@ -3521,25 +3631,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区龙津东路853-857号, Guangzhou, Guangdong Province",
+    "address": "龙津东路853-857号(近光复北路,返程龙津东路公交站后面)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "向群 (龙津东路) 广州",
+    "poiQuery": "粤·向群饭店(龙津东路总店) 广州",
     "position": [
-      113.256977334953,
-      23.118863927055
+      113.251518,
+      23.121747
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%91%E7%BE%A4%20(%E9%BE%99%E6%B4%A5%E4%B8%9C%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B2%A4%C2%B7%E5%90%91%E7%BE%A4%E9%A5%AD%E5%BA%97(%E9%BE%99%E6%B4%A5%E4%B8%9C%E8%B7%AF%E6%80%BB%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a3319a34ea8048d9965e584281780dea.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/xiang-qun-longjin-east-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140H0WD"
   },
   {
     "id": "cn-guangdong-province-guangzhou-xin-tai-le-yuexiu",
@@ -3549,25 +3660,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区盘福路65号华茂中心1-2楼, Guangzhou, Guangdong Province",
+    "address": "盘福路63号华茂中心首层",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "新泰乐 (越秀) 广州",
+    "poiQuery": "新泰乐(广州华茂中心店) 广州",
     "position": [
-      113.265363081707,
-      23.132975424822
+      113.260004,
+      23.135578
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E6%B3%B0%E4%B9%90%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E6%B3%B0%E4%B9%90(%E5%B9%BF%E5%B7%9E%E5%8D%8E%E8%8C%82%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1708fa9c86444ce782d7b6a0099e95b9.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/xin-tai-le-yuexiu",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140AR04"
   },
   {
     "id": "cn-guangdong-province-guangzhou-da-ge-fan-tangxiayong-west-road",
@@ -3605,25 +3717,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区长寿东路299-303号, Guangzhou, Guangdong Province",
+    "address": "长寿东路301号(地铁8号线华林寺站B出口步行290米)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "坚记 (荔湾) 广州",
+    "poiQuery": "坚记面食店(伊府面) 广州",
     "position": [
-      113.255762934093,
-      23.115479193889
+      113.250498,
+      23.118214
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9D%9A%E8%AE%B0%20(%E8%8D%94%E6%B9%BE)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9D%9A%E8%AE%B0%E9%9D%A2%E9%A3%9F%E5%BA%97(%E4%BC%8A%E5%BA%9C%E9%9D%A2)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/93cc0cdaa1ce41a1aed905547d9ea0c2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/jian-ji",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140BNH4"
   },
   {
     "id": "cn-guangdong-province-guangzhou-hua-ge-si-chu",
@@ -3633,25 +3746,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区光复北路443号, Guangzhou, Guangdong Province",
+    "address": "光复北路443号华哥私厨-原醉琼楼",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "华哥私厨 广州",
+    "poiQuery": "华哥私厨-原醉琼楼 广州",
     "position": [
-      113.257401816315,
-      23.118962800495
+      113.252096,
+      23.121636
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%8E%E5%93%A5%E7%A7%81%E5%8E%A8%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%8E%E5%93%A5%E7%A7%81%E5%8E%A8-%E5%8E%9F%E9%86%89%E7%90%BC%E6%A5%BC%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bbeb13f36936488fb1f194d53b81a873.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/hua-ge-si-chu",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140H2WE"
   },
   {
     "id": "cn-guangdong-province-guangzhou-mian-ji-yuexiu",
@@ -3661,25 +3775,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区德政中路224号, Guangzhou, Guangdong Province",
+    "address": "文明路236号定安里(农讲所地铁站A口步行410米)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "勉记炖品皇 (越秀) 广州",
+    "poiQuery": "勉记炖品皇·椰子炖汤 广州",
     "position": [
-      113.280794303061,
-      23.1197041516
+      113.275445,
+      23.12254
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8B%89%E8%AE%B0%E7%82%96%E5%93%81%E7%9A%87%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8B%89%E8%AE%B0%E7%82%96%E5%93%81%E7%9A%87%C2%B7%E6%A4%B0%E5%AD%90%E7%82%96%E6%B1%A4%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0f2e4b6f3f01475bbb8fb699ac1eb290.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/mian-ji-yuexiu",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JGAMAYT7"
   },
   {
     "id": "cn-guangdong-province-guangzhou-hai-men-yu-zi-dian-yanling-road",
@@ -3689,25 +3804,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区燕岭路120号金燕大厦1-2楼, Guangzhou, Guangdong Province",
+    "address": "燕岭路120号114铺金燕大厦",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "海门鱼仔·潮汕味(燕岭店) 广州",
+    "poiQuery": "海门鱼仔店(燕岭店) 广州",
     "position": [
-      113.333143775137,
-      23.15621912245
+      113.327725,
+      23.159075
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B5%B7%E9%97%A8%E9%B1%BC%E4%BB%94%E5%BA%97%20(%E7%87%95%E5%B2%AD%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B5%B7%E9%97%A8%E9%B1%BC%E4%BB%94%E5%BA%97(%E7%87%95%E5%B2%AD%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/60beb72457e34f24acf30d08970e080f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/hai-men-yu-zi-dian-yanling-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140SM1F"
   },
   {
     "id": "cn-guangdong-province-guangzhou-zijin-shi-fang",
@@ -3717,25 +3833,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区紫山大街39-1号, Guangzhou, Guangdong Province",
+    "address": "江南西紫山大街39号之一",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "紫金食坊 广州",
+    "poiQuery": "紫金食坊(江南西路店) 广州",
     "position": [
-      113.274643153277,
-      23.092458253621
+      113.269372,
+      23.095087
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B4%AB%E9%87%91%E9%A3%9F%E5%9D%8A%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B4%AB%E9%87%91%E9%A3%9F%E5%9D%8A(%E6%B1%9F%E5%8D%97%E8%A5%BF%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bf82f4be39a2495395405aa852ee5fdf.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/zijin-shi-fang",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFF5UQTS"
   },
   {
     "id": "cn-guangdong-province-guangzhou-yao-ji",
@@ -3745,25 +3862,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "番禺区",
-    "address": "番禺区龙源路15号, Guangzhou, Guangdong Province",
+    "address": "广州大学城化龙镇龙源路15号",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "腰记 广州",
+    "poiQuery": "腰记饭店 广州",
     "position": [
-      113.457235182911,
-      23.039413390343
+      113.451822,
+      23.041941
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%85%B0%E8%AE%B0%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%85%B0%E8%AE%B0%E9%A5%AD%E5%BA%97%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/aebc1c1298d440aaa43fb871214fc4e1.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/yao-ji",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141J2H6"
   },
   {
     "id": "cn-guangdong-province-guangzhou-temple-street",
@@ -3801,25 +3919,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区新港东路2842-39号, Guangzhou, Guangdong Province",
+    "address": "新港东路",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "湘菜"
     ],
     "cuisine": "湘菜",
-    "poiQuery": "田间湘食 广州",
+    "poiQuery": "田间湘食·品质湘菜(琶洲店) 广州",
     "position": [
-      113.410704587904,
-      23.0832567063
+      113.405303,
+      23.085338
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%94%B0%E9%97%B4%E6%B9%98%E9%A3%9F%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%94%B0%E9%97%B4%E6%B9%98%E9%A3%9F%C2%B7%E5%93%81%E8%B4%A8%E6%B9%98%E8%8F%9C(%E7%90%B6%E6%B4%B2%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/77ffa9f82e544a73862806d84e772fbc.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/hunan-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0HDRBS0K8"
   },
   {
     "id": "cn-guangdong-province-guangzhou-hai-yan-lou-binjiang-east-road",
@@ -3829,25 +3948,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区滨江东路1040号江畔华庭2-3楼, Guangzhou, Guangdong Province",
+    "address": "滨江东路1040号江畔华庭2层",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "岭南海晏楼 (滨江东路) 广州",
+    "poiQuery": "岭南海晏楼(滨江东总店) 广州",
     "position": [
-      113.319882273687,
-      23.101640035772
+      113.314809,
+      23.104565
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B2%AD%E5%8D%97%E6%B5%B7%E6%99%8F%E6%A5%BC%20(%E6%BB%A8%E6%B1%9F%E4%B8%9C%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B2%AD%E5%8D%97%E6%B5%B7%E6%99%8F%E6%A5%BC(%E6%BB%A8%E6%B1%9F%E4%B8%9C%E6%80%BB%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/de0d98a47db345448cf4bb4c70d23b62.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/hai-yan-lou-binjiang-east-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0014247XH"
   },
   {
     "id": "cn-guangdong-province-guangzhou-taste-soar-c3-97-da-tou-hui",
@@ -3885,25 +4005,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区鹤洞路14-1号鹤洞新天地A101-201, Guangzhou, Guangdong Province",
+    "address": "鹤洞路14-1号A101、A201铺",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "松苑 广州",
+    "poiQuery": "松苑·浓汤广府菜(总店) 广州",
     "position": [
-      113.253085155596,
-      23.075102809895
+      113.247369,
+      23.077148
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%BE%E8%8B%91%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%BE%E8%8B%91%C2%B7%E6%B5%93%E6%B1%A4%E5%B9%BF%E5%BA%9C%E8%8F%9C(%E6%80%BB%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5b6121603e0248e299b01f26e14d94ff.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/song-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0KR611XOT"
   },
   {
     "id": "cn-guangdong-province-guangzhou-ft-bak-kut-teh",
@@ -3913,25 +4034,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区文明路36-48号精彩生活大厦, Guangzhou, Guangdong Province",
+    "address": "文明路36-48号精彩大厦首层(消防局正对面)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "东南亚菜"
     ],
     "cuisine": "东南亚菜",
-    "poiQuery": "肥豚肉骨茶 (越秀) 广州",
+    "poiQuery": "肥豚肉骨茶(北京路步行街店)(装修中) 广州",
     "position": [
-      113.275855674081,
-      23.118739061816
+      113.270486,
+      23.121515
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%82%A5%E8%B1%9A%E8%82%89%E9%AA%A8%E8%8C%B6%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%82%A5%E8%B1%9A%E8%82%89%E9%AA%A8%E8%8C%B6(%E5%8C%97%E4%BA%AC%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%E5%BA%97)(%E8%A3%85%E4%BF%AE%E4%B8%AD)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bccb46dde13743b7bf86c782122bccc8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/ft-bak-kut-teh",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFGPRNP4"
   },
   {
     "id": "cn-guangdong-province-guangzhou-xiguan-zhuyuan-shiba-fu",
@@ -3969,25 +4091,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区长寿东路福广里3号, Guangzhou, Guangdong Province",
+    "address": "福广里3号(地铁8号线华林寺站B出口步行270米)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "粥面"
     ],
     "cuisine": "粥面",
-    "poiQuery": "同记鸡粥粉面 广州",
+    "poiQuery": "同记鸡粥粉面店 广州",
     "position": [
-      113.255723831984,
-      23.115516808281
+      113.250282,
+      23.118194
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E8%AE%B0%E9%B8%A1%E7%B2%A5%E7%B2%89%E9%9D%A2%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E8%AE%B0%E9%B8%A1%E7%B2%A5%E7%B2%89%E9%9D%A2%E5%BA%97%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/685ea026857549419b154c6cd8e202b5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/tong-ji",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFAMDO6"
   },
   {
     "id": "cn-guangdong-province-guangzhou-hui-xing-yuan",
@@ -3997,25 +4120,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区小北路177号, Guangzhou, Guangdong Province",
+    "address": "小北路177号(翁源县政府驻广州办事处对面)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "汇兴源 广州",
+    "poiQuery": "汇兴源餐馆(小北路店) 广州",
     "position": [
-      113.276992510204,
-      23.132063818716
+      113.27162,
+      23.134799
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%87%E5%85%B4%E6%BA%90%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%87%E5%85%B4%E6%BA%90%E9%A4%90%E9%A6%86(%E5%B0%8F%E5%8C%97%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4e0e815b7bb9416b80a12abd22d79d50.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/hui-xing-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140GVQC"
   },
   {
     "id": "cn-guangdong-province-guangzhou-wei-shi-jia",
@@ -4031,18 +4155,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "味食家 广州",
+    "poiQuery": "味食家(市师鸡专门店) 广州",
     "position": [
-      113.267574369018,
-      23.125339309329
+      113.262342,
+      23.127464
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%91%B3%E9%A3%9F%E5%AE%B6%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%91%B3%E9%A3%9F%E5%AE%B6(%E5%B8%82%E5%B8%88%E9%B8%A1%E4%B8%93%E9%97%A8%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a2eae0af75ce4bab9893e0458243079c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/wei-shi-jia",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "解放北路598号(迎宾馆对面)",
+    "amapPoiId": "B0FFKV9MOE"
   },
   {
     "id": "cn-guangdong-province-guangzhou-yong-zuo-baoye-north-street",
@@ -4085,18 +4211,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "达扬原味炖品 (文明路) 广州",
+    "poiQuery": "达扬·原味炖品(广州文明路店) 广州",
     "position": [
-      113.279553112589,
-      23.119901398652
+      113.274206,
+      23.122554
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BE%BE%E6%89%AC%E5%8E%9F%E5%91%B3%E7%82%96%E5%93%81%20(%E6%96%87%E6%98%8E%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BE%BE%E6%89%AC%C2%B7%E5%8E%9F%E5%91%B3%E7%82%96%E5%93%81(%E5%B9%BF%E5%B7%9E%E6%96%87%E6%98%8E%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f5c2919fb31946d392ff72d9a16cd8f7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/dayang-wenming-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "文明路160号-1号",
+    "amapPoiId": "B00140OQ76"
   },
   {
     "id": "cn-guangdong-province-guangzhou-ze-8",
@@ -4112,18 +4240,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "啫八 (海珠) 广州",
+    "poiQuery": "啫八(滨江店) 广州",
     "position": [
-      113.265526524222,
-      23.105518258664
+      113.260184,
+      23.108237
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%95%AB%E5%85%AB%20(%E6%B5%B7%E7%8F%A0)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%95%AB%E5%85%AB(%E6%BB%A8%E6%B1%9F%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bc22aeedbfd442fd8f9d7396afbbaad5.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/ze-8",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "滨江西路惠食佳174号",
+    "amapPoiId": "B0FFHLU39Q"
   },
   {
     "id": "cn-guangdong-province-guangzhou-lao-xiguan-laifen-wenming-road",
@@ -4139,18 +4269,20 @@ export const restaurants: Restaurant[] = [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "老西关濑粉 (文明路) 广州",
+    "poiQuery": "老西关濑粉(文明路店) 广州",
     "position": [
-      113.281121968431,
-      23.119887233401
+      113.275751,
+      23.122601
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E8%A5%BF%E5%85%B3%E6%BF%91%E7%B2%89%20(%E6%96%87%E6%98%8E%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E8%A5%BF%E5%85%B3%E6%BF%91%E7%B2%89(%E6%96%87%E6%98%8E%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e7e23f58f16944cf89a3b59993fbd4d0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/lao-xiguan-laifen-wenming-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "文明路216号(农讲所地铁站A口步行430米)",
+    "amapPoiId": "B0FFG4DKVO"
   },
   {
     "id": "cn-guangdong-province-guangzhou-enning-liu-fu-ji-donghua-east-road",
@@ -4166,18 +4298,20 @@ export const restaurants: Restaurant[] = [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "恩宁刘福记 (东华东路) 广州",
+    "poiQuery": "恩宁刘福记(东华东路店) 广州",
     "position": [
-      113.297259696166,
-      23.118129460102
+      113.291924,
+      23.120759
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%81%A9%E5%AE%81%E5%88%98%E7%A6%8F%E8%AE%B0%20(%E4%B8%9C%E5%8D%8E%E4%B8%9C%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%81%A9%E5%AE%81%E5%88%98%E7%A6%8F%E8%AE%B0(%E4%B8%9C%E5%8D%8E%E4%B8%9C%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/55f9f293cc0d4f9cae64a3edc4dc16c6.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/enning-liu-fu-ji-donghua-east-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东华西路547号",
+    "amapPoiId": "B0FFG4CO5H"
   },
   {
     "id": "cn-guangdong-province-guangzhou-hai-xian-jie-cai-guan",
@@ -4193,18 +4327,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "海鲜街菜馆 广州",
+    "poiQuery": "海鲜街菜馆(海珠南路店) 广州",
     "position": [
-      113.262063502741,
-      23.111409339405
+      113.256751,
+      23.114097
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B5%B7%E9%B2%9C%E8%A1%97%E8%8F%9C%E9%A6%86%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B5%B7%E9%B2%9C%E8%A1%97%E8%8F%9C%E9%A6%86(%E6%B5%B7%E7%8F%A0%E5%8D%97%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3a8fa0a122b142cca3a941d43ff859f3.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/hai-xian-jie-cai-guan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "海珠南路152-2号(一德路地铁站B口步行140米)",
+    "amapPoiId": "B001402CB1"
   },
   {
     "id": "cn-guangdong-province-guangzhou-chuang-fa",
@@ -4220,18 +4356,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "创发 广州",
+    "poiQuery": "创发餐厅 广州",
     "position": [
-      113.257858542709,
-      23.119529373735
+      113.252524,
+      23.122313
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%9B%E5%8F%91%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%9B%E5%8F%91%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/38f7bcd4f6784100ae3a9595ff2fbec8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/chuang-fa",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "光复北路512之2号铺",
+    "amapPoiId": "B00140H8QF"
   },
   {
     "id": "cn-guangdong-province-guangzhou-xing-fu-yi-zhan",
@@ -4274,18 +4412,20 @@ export const restaurants: Restaurant[] = [
       "马来西亚菜"
     ],
     "cuisine": "马来西亚菜",
-    "poiQuery": "嘛嘛档 广州",
+    "poiQuery": "嘛嘛档(时尚天河商业广场店) 广州",
     "position": [
-      113.332707380913,
-      23.131176043567
+      113.32732,
+      23.133816
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%98%9B%E5%98%9B%E6%A1%A3%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%98%9B%E5%98%9B%E6%A1%A3(%E6%97%B6%E5%B0%9A%E5%A4%A9%E6%B2%B3%E5%95%86%E4%B8%9A%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7c10f25698424e8f96b93f20b7e9590d.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/mamak",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "天河南街道天河路299号时尚天河商业广场负一层东区东一街082C",
+    "amapPoiId": "B0FFKHIYZ7"
   },
   {
     "id": "cn-guangdong-province-guangzhou-sa-er-ta-dongxiang-shou-zhua",
@@ -4295,25 +4435,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区宝汉直街103号, Guangzhou, Guangdong Province",
+    "address": "宝汉直街103号",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "西北菜"
     ],
     "cuisine": "西北菜",
-    "poiQuery": "撒尔塔东乡手抓 广州",
+    "poiQuery": "撒尔塔东乡手抓餐厅(宝汉直街店) 广州",
     "position": [
-      113.279609029697,
-      23.140166660801
+      113.274244,
+      23.143139
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%92%92%E5%B0%94%E5%A1%94%E4%B8%9C%E4%B9%A1%E6%89%8B%E6%8A%93%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%92%92%E5%B0%94%E5%A1%94%E4%B8%9C%E4%B9%A1%E6%89%8B%E6%8A%93%E9%A4%90%E5%8E%85(%E5%AE%9D%E6%B1%89%E7%9B%B4%E8%A1%97%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ae63d3fb2df8427bae1a0511ceff30f8.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/sa-er-ta-dongxiang-shou-zhua",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFZCZ9C"
   },
   {
     "id": "cn-guangdong-province-guangzhou-xiguan-zhuyuan-lizhiwan",
@@ -4323,25 +4464,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区黄沙大道荔枝湾风景区二期C4号铺, Guangzhou, Guangdong Province",
+    "address": "黄沙大道荔枝湾风景区2期C4号铺(侨美唐荔园酒楼旁小路直入100米)西关",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "西关竹园 (荔枝湾) 广州",
+    "poiQuery": "西关竹园(荔枝湾店) 广州",
     "position": [
-      113.238463132513,
-      23.116009528176
+      113.23315,
+      23.118769
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%85%B3%E7%AB%B9%E5%9B%AD%20(%E8%8D%94%E6%9E%9D%E6%B9%BE)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%85%B3%E7%AB%B9%E5%9B%AD(%E8%8D%94%E6%9E%9D%E6%B9%BE%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cad68cc10285470482a22b0b07be9b7a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/xiguan-zhuyuan-lizhiwan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141RHJA"
   },
   {
     "id": "cn-guangdong-province-guangzhou-wen-ji-yixinji",
@@ -4359,16 +4501,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粤菜",
     "poiQuery": "文记壹心鸡 广州",
     "position": [
-      113.247251891359,
-      23.111419003974
+      113.241926,
+      23.115184
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%87%E8%AE%B0%E5%A3%B9%E5%BF%83%E9%B8%A1%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6e21bb97158548e4a1ddda54b98cfdd2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/wen-ji-yixinji",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "宝华路旋源桥10号(长寿路地铁站D2口步行290米)",
+    "amapPoiId": "B00140UXW3"
   },
   {
     "id": "cn-guangdong-province-guangzhou-stay-here",
@@ -4378,7 +4522,7 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区细岗路23号2号铺, Guangzhou, Guangdong Province",
+    "address": "细岗路23号之二(晓港地铁站C口步行350米)",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -4387,16 +4531,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "潮州菜",
     "poiQuery": "开小灶 广州",
     "position": [
-      113.286128669287,
-      23.087892091678
+      113.280675,
+      23.090324
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BC%80%E5%B0%8F%E7%81%B6%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d0859f3507b34ee8bf3da889cbfc9efa.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/stay-here",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFJ7VIO5"
   },
   {
     "id": "cn-guangdong-province-guangzhou-ease-yuexiu",
@@ -4406,25 +4551,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区广州大道中289号289艺术园印报楼1楼112A, Guangzhou, Guangdong Province",
+    "address": "广州大道中289号印报楼一楼112A",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "榕意 (越秀) 广州",
+    "poiQuery": "榕意·川味之美(289艺术园店) 广州",
     "position": [
-      113.319764050312,
-      23.121085669036
+      113.31436,
+      23.123936
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A6%95%E6%84%8F%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A6%95%E6%84%8F%C2%B7%E5%B7%9D%E5%91%B3%E4%B9%8B%E7%BE%8E(289%E8%89%BA%E6%9C%AF%E5%9B%AD%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b201fb43db9049b691a53221af66fb72.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/ease-yuexiu",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFGSQQVE"
   },
   {
     "id": "cn-guangdong-province-guangzhou-liang-jie-nanning-pumiao-shengzha-mifen",
@@ -4434,25 +4580,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区晓港湾英华街242号, Guangzhou, Guangdong Province",
+    "address": "英华街242号(近晓港湾小学校)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "靓姐南宁蒲庙生榨米粉 (英华街) 广州",
+    "poiQuery": "靓姐南宁蒲庙生榨米粉(晓港湾店) 广州",
     "position": [
-      113.299489381185,
-      23.066087244565
+      113.29415,
+      23.069129
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9D%93%E5%A7%90%E5%8D%97%E5%AE%81%E8%92%B2%E5%BA%99%E7%94%9F%E6%A6%A8%E7%B1%B3%E7%B2%89%20(%E8%8B%B1%E5%8D%8E%E8%A1%97)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9D%93%E5%A7%90%E5%8D%97%E5%AE%81%E8%92%B2%E5%BA%99%E7%94%9F%E6%A6%A8%E7%B1%B3%E7%B2%89(%E6%99%93%E6%B8%AF%E6%B9%BE%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/010f572df503429ebdfe4ddd7928dcc7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/liang-jie-nanning-pumiao-shengzha-mifen",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHKML51"
   },
   {
     "id": "cn-guangdong-province-guangzhou-zhu-zai-ji-shi-fu-jiangnan-avenue",
@@ -4462,25 +4609,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区江南大道南429号, Guangzhou, Guangdong Province",
+    "address": "江南大道南429(江泰路地铁站C口步行370米)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "朱仔记食府 (江南大道) 广州",
+    "poiQuery": "朱仔记食府(江南大道店) 广州",
     "position": [
-      113.289884117287,
-      23.082373544143
+      113.279486,
+      23.085188
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9C%B1%E4%BB%94%E8%AE%B0%E9%A3%9F%E5%BA%9C%20(%E6%B1%9F%E5%8D%97%E5%A4%A7%E9%81%93)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9C%B1%E4%BB%94%E8%AE%B0%E9%A3%9F%E5%BA%9C(%E6%B1%9F%E5%8D%97%E5%A4%A7%E9%81%93%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f99ee62b59e84fa596bb69c1eb97e104.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/zhu-zai-ji-shi-fu-jiangnan-avenue",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140KG1B"
   },
   {
     "id": "cn-guangdong-province-guangzhou-xin-wen-ji-yuexiu",
@@ -4518,25 +4666,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区光孝路型仁里7号, Guangzhou, Guangdong Province",
+    "address": "光孝路型仁里7号(西门口地铁站C口旁)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "家源素食 广州",
+    "poiQuery": "家源素食餐厅 广州",
     "position": [
-      113.261636148747,
-      23.123357184742
+      113.256312,
+      23.12602
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B6%E6%BA%90%E7%B4%A0%E9%A3%9F%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B6%E6%BA%90%E7%B4%A0%E9%A3%9F%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3d4c9e2829cf40b39974f521203e31c4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/jia-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0I1OHCQQ7"
   },
   {
     "id": "cn-guangdong-province-guangzhou-zen-tea",
@@ -4546,25 +4695,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区前进路146号晓港公园正门 (旁边), Guangzhou, Guangdong Province",
+    "address": "前进路晓港公园正门(旁边)",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "禅意茶素 广州",
+    "poiQuery": "炳胜·禅意茶素 广州",
     "position": [
-      113.287585242613,
-      23.09562455325
+      113.282457,
+      23.098505
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%85%E6%84%8F%E8%8C%B6%E7%B4%A0%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%82%B3%E8%83%9C%C2%B7%E7%A6%85%E6%84%8F%E8%8C%B6%E7%B4%A0%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/72094af027fa4f558903dc52b8cc97e7.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/zen-tea",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141UO33"
   },
   {
     "id": "cn-guangdong-province-guangzhou-yun-pavilion",
@@ -4574,25 +4724,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城兴民路222号康莱德酒店5楼, Guangzhou, Guangdong Province",
+    "address": "珠江新城兴民路222号广州康莱德酒店5层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "韵轩 广州",
+    "poiQuery": "广州康莱德酒店·韵轩中餐厅 广州",
     "position": [
-      113.337498775165,
-      23.113038332695
+      113.332199,
+      23.115776
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9F%B5%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%BA%B7%E8%8E%B1%E5%BE%B7%E9%85%92%E5%BA%97%C2%B7%E9%9F%B5%E8%BD%A9%E4%B8%AD%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/47d9b3da1ce3466ba7d973c03f736f2b.png",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/yun-pavilion",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFK1DZXK"
   },
   {
     "id": "cn-guangdong-province-guangzhou-liang-jia-cai-guan",
@@ -4602,25 +4753,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区南华东路683号, Guangzhou, Guangdong Province",
+    "address": "南华东路683号",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "梁家菜馆 广州",
+    "poiQuery": "梁家菜馆(南华东路店) 广州",
     "position": [
-      113.272403855771,
-      23.107651503865
+      113.272372,
+      23.111006
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A2%81%E5%AE%B6%E8%8F%9C%E9%A6%86%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A2%81%E5%AE%B6%E8%8F%9C%E9%A6%86(%E5%8D%97%E5%8D%8E%E4%B8%9C%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/824fd6a0ff2a4dc6b8bab83a2ffdd958.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/liang-jia-cai-guan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFLFDOZR"
   },
   {
     "id": "cn-guangdong-province-guangzhou-tongtown",
@@ -4629,26 +4781,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "广州",
     "province": "广东",
     "country": "中国",
-    "district": "广州",
-    "address": "天河区华夏路10号富力中心4楼, Guangzhou, Guangdong Province",
+    "district": "天河区",
+    "address": "华夏路10号富力中心F4层",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "彤堂序 广州",
+    "poiQuery": "彤堂序·TONGTOWN(富力中心店) 广州",
     "position": [
-      113.327227513442,
-      23.114621054486
+      113.321855,
+      23.117375
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BD%A4%E5%A0%82%E5%BA%8F%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BD%A4%E5%A0%82%E5%BA%8F%C2%B7TONGTOWN(%E5%AF%8C%E5%8A%9B%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/78d9ba2a3bd442f38a99a8e046990be8.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/tongtown",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0K3XU2G22"
   },
   {
     "id": "cn-guangdong-province-guangzhou-four-seasons-pavilion-duck-yuexiu",
@@ -4658,25 +4811,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区流花路117号流花展贸中心南区3馆南9门2楼, Guangzhou, Guangdong Province",
+    "address": "流花路117号流花展贸中心3馆二楼(越秀公园C出口50米)",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "时尚中国菜"
     ],
     "cuisine": "时尚中国菜",
-    "poiQuery": "四季小馆·润 广州",
+    "poiQuery": "四季小馆·潤·中国菜(流花店) 广州",
     "position": [
-      113.264311550191,
-      23.138522544174
+      113.258956,
+      23.141845
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9B%9B%E5%AD%A3%E5%B0%8F%E9%A6%86%C2%B7%E6%B6%A6%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9B%9B%E5%AD%A3%E5%B0%8F%E9%A6%86%C2%B7%E6%BD%A4%C2%B7%E4%B8%AD%E5%9B%BD%E8%8F%9C(%E6%B5%81%E8%8A%B1%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dfb1566344b54ccb81849b6e741b03a0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/four-seasons-pavilion-duck-yuexiu",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFL1DV20"
   },
   {
     "id": "cn-guangdong-province-guangzhou-er-sha-no-1",
@@ -4714,25 +4868,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城珠江西路12号富力君悦大酒店南塔23及25楼, Guangzhou, Guangdong Province",
+    "address": "珠江新城珠江西路12号广州富力君悦大酒店南塔23层,25层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "空中花园 广州",
+    "poiQuery": "空中花园(珠江西路店) 广州",
     "position": [
-      113.328870319241,
-      23.119655109927
+      113.322922,
+      23.122239
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A9%BA%E4%B8%AD%E8%8A%B1%E5%9B%AD%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A9%BA%E4%B8%AD%E8%8A%B1%E5%9B%AD(%E7%8F%A0%E6%B1%9F%E8%A5%BF%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/db4f7c5d476b4882af8c9a509c94574b.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/the-penthouse",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140W7KC"
   },
   {
     "id": "cn-guangdong-province-guangzhou-flavors-of-china",
@@ -4742,25 +4897,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区沙面南街1号白天鹅宾馆3楼, Guangzhou, Guangdong Province",
+    "address": "沙面南街1号白天鹅宾馆1层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "风味 广州",
+    "poiQuery": "白天鹅宾馆·风味餐厅 广州",
     "position": [
-      113.247896615284,
-      23.103313991902
+      113.242589,
+      23.105828
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A3%8E%E5%91%B3%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BD%E5%A4%A9%E9%B9%85%E5%AE%BE%E9%A6%86%C2%B7%E9%A3%8E%E5%91%B3%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2f5f84676ede4538ba4ee2eff5ccb326.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/flavors-of-china",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0L22C0VOX"
   },
   {
     "id": "cn-guangdong-province-guangzhou-dr-xu-s-wellbeing-branch",
@@ -4770,25 +4926,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城临江大道57号中和广场7楼, Guangzhou, Guangdong Province",
+    "address": "珠江新城临江大道57号南雅中和广场7层",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "徐博馆 (天河) 广州",
+    "poiQuery": "南海渔村·徐博馆(中和店) 广州",
     "position": [
-      113.334395817326,
-      23.111515307928
+      113.328986,
+      23.114229
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%90%E5%8D%9A%E9%A6%86%20(%E5%A4%A9%E6%B2%B3)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E6%B5%B7%E6%B8%94%E6%9D%91%C2%B7%E5%BE%90%E5%8D%9A%E9%A6%86(%E4%B8%AD%E5%92%8C%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9e4cab33ad264f2c9f63b8ab7c59d1bc.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/dr-xu-s-wellbeing-branch",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFP1AHZ"
   },
   {
     "id": "cn-guangdong-province-guangzhou-aroma-1196084",
@@ -4826,25 +4983,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区二沙岛晴波路9号文立方2楼219号铺, Guangzhou, Guangdong Province",
+    "address": "晴波路9号文立方广场F2层",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "泰国菜"
     ],
     "cuisine": "泰国菜",
-    "poiQuery": "泰爱里 (越秀) 广州",
+    "poiQuery": "THAI ALLEY泰爱里(二沙岛店) 广州",
     "position": [
-      113.307776127482,
-      23.105081747007
+      113.302481,
+      23.107543
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B3%B0%E7%88%B1%E9%87%8C%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=THAI%20ALLEY%E6%B3%B0%E7%88%B1%E9%87%8C(%E4%BA%8C%E6%B2%99%E5%B2%9B%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0f6114c26e114e6b940f1c22091b8af4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/thai-alley",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFJH7FLL"
   },
   {
     "id": "cn-guangdong-province-guangzhou-yue-jing-xuan",
@@ -4854,25 +5012,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城华夏路16号柏悦酒店68楼, Guangzhou, Guangdong Province",
+    "address": "珠江新城华夏路十六号广州柏悦酒店68楼",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "悦景轩 广州",
+    "poiQuery": "广州柏悦酒店-悦景轩 广州",
     "position": [
-      113.327085623457,
-      23.116103490085
+      113.321904,
+      23.118549
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%82%A6%E6%99%AF%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E6%9F%8F%E6%82%A6%E9%85%92%E5%BA%97-%E6%82%A6%E6%99%AF%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/76f413b0729941f1acc80e91b9ee2c49.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/yue-jing-xuan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0HAG1WAMR"
   },
   {
     "id": "cn-guangdong-province-guangzhou-taozui-guan",
@@ -4882,25 +5041,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区磨碟沙大街118号珠江•琶醍啤酒文化创意艺术区B区10栋, Guangzhou, Guangdong Province",
+    "address": "磨碟沙大街118号10栋",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "时尚中国菜"
     ],
     "cuisine": "时尚中国菜",
-    "poiQuery": "陶醉馆 广州",
+    "poiQuery": "陶醉馆.创意中国菜(琶醍馆) 广州",
     "position": [
-      113.345507104441,
-      23.104191344414
+      113.33957,
+      23.107391
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%99%B6%E9%86%89%E9%A6%86%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%99%B6%E9%86%89%E9%A6%86.%E5%88%9B%E6%84%8F%E4%B8%AD%E5%9B%BD%E8%8F%9C(%E7%90%B6%E9%86%8D%E9%A6%86)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0641e5d1d94b4dbba1c38f1757072808.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/taozui-guan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFL15POC"
   },
   {
     "id": "cn-guangdong-province-guangzhou-beiyuan-cuisine",
@@ -4910,25 +5070,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区小北路202号, Guangzhou, Guangdong Province",
+    "address": "小北路202号(地铁5号线小北站A出口步行480米)",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "北园 广州",
+    "poiQuery": "北园酒家(小北路店) 广州",
     "position": [
-      113.277773867361,
-      23.133755833088
+      113.272599,
+      23.136735
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E5%9B%AD%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E5%9B%AD%E9%85%92%E5%AE%B6(%E5%B0%8F%E5%8C%97%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a47069a216e0436bbe01cd6967962043.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/beiyuan-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140UBT8"
   },
   {
     "id": "cn-guangdong-province-guangzhou-delightful-house",
@@ -4994,25 +5155,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区龙津东路717号, Guangzhou, Guangdong Province",
+    "address": "龙津东路717号",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "汤氏美食 广州",
+    "poiQuery": "汤氏美食台山水步特色黄鳝饭(龙津东路店) 广州",
     "position": [
-      113.254312893887,
-      23.119817360697
+      113.24908,
+      23.122539
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%A4%E6%B0%8F%E7%BE%8E%E9%A3%9F%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%A4%E6%B0%8F%E7%BE%8E%E9%A3%9F%E5%8F%B0%E5%B1%B1%E6%B0%B4%E6%AD%A5%E7%89%B9%E8%89%B2%E9%BB%84%E9%B3%9D%E9%A5%AD(%E9%BE%99%E6%B4%A5%E4%B8%9C%E8%B7%AF%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ad85a9ab068647b8a47739384964954d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/tang-shi-meishi",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFH29MEW"
   },
   {
     "id": "cn-guangdong-province-guangzhou-famous-cuisine",
@@ -5022,25 +5184,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区天河北路189号中国市长大厦2-3楼, Guangzhou, Guangdong Province",
+    "address": "天河北路189号中国市长大厦2-3楼",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "半岛名轩 (天河北路) 广州",
+    "poiQuery": "半岛名轩酒家(市长大厦店) 广州",
     "position": [
-      113.320487889998,
-      23.135808102573
+      113.322744,
+      23.141979
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%8A%E5%B2%9B%E5%90%8D%E8%BD%A9%20(%E5%A4%A9%E6%B2%B3%E5%8C%97%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%8A%E5%B2%9B%E5%90%8D%E8%BD%A9%E9%85%92%E5%AE%B6(%E5%B8%82%E9%95%BF%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/446f1e23f8904baf896898fb016ba2cd.png",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/famous-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFGESY2T"
   },
   {
     "id": "cn-guangdong-province-guangzhou-bingsheng-pin-wei-dongxiao-road",
@@ -5050,25 +5213,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区东晓路33号, Guangzhou, Guangdong Province",
+    "address": "东晓路33号",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "炳胜品味 (东晓路) 广州",
+    "poiQuery": "炳胜品味(海印总店) 广州",
     "position": [
-      113.29161419917,
-      23.102804595221
+      113.286261,
+      23.105368
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%82%B3%E8%83%9C%E5%93%81%E5%91%B3%20(%E4%B8%9C%E6%99%93%E8%B7%AF)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%82%B3%E8%83%9C%E5%93%81%E5%91%B3(%E6%B5%B7%E5%8D%B0%E6%80%BB%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b9be2f51b48f4a4bb2dba9716d4ca2d8.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/bingsheng-pin-wei-dongxiao-road",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00140T9II"
   },
   {
     "id": "cn-guangdong-province-guangzhou-tung-fook-superior-cuisine",
@@ -5078,25 +5242,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区海明路20号104室, Guangzhou, Guangdong Province",
+    "address": "海明路20号104室",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "同福·尚品轩 广州",
+    "poiQuery": "同福·尚品轩(力迅·上筑MintEL商务公寓西区) 广州",
     "position": [
-      113.346782673378,
-      23.112389257561
+      113.341528,
+      23.114919
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E7%A6%8F%C2%B7%E5%B0%9A%E5%93%81%E8%BD%A9%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E7%A6%8F%C2%B7%E5%B0%9A%E5%93%81%E8%BD%A9(%E5%8A%9B%E8%BF%85%C2%B7%E4%B8%8A%E7%AD%91MintEL%E5%95%86%E5%8A%A1%E5%85%AC%E5%AF%93%E8%A5%BF%E5%8C%BA)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6ba3dad48e4840399861b09ef2fc5c64.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/tung-fook-superior-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0J0HZVISN"
   },
   {
     "id": "cn-guangdong-province-guangzhou-wing-lee-restaurant",
@@ -5106,25 +5271,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区沿江中路259号蚬建大厦2-3楼, Guangzhou, Guangdong Province",
+    "address": "沿江中路259号蚬建大厦2-3层",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "永利饭店 (越秀) 广州",
+    "poiQuery": "永利饭店(沿江路总店) 广州",
     "position": [
-      113.277836817165,
-      23.112713493791
+      113.272522,
+      23.115347
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E5%88%A9%E9%A5%AD%E5%BA%97%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E5%88%A9%E9%A5%AD%E5%BA%97(%E6%B2%BF%E6%B1%9F%E8%B7%AF%E6%80%BB%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3551633532ee4a26afa3ca90c0584b49.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/wing-lee-restaurant",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFJCP3CA"
   },
   {
     "id": "cn-guangdong-province-guangzhou-chao-yue",
@@ -5134,7 +5300,7 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城清风街广粤天地西门36-1铺, Guangzhou, Guangdong Province",
+    "address": "珠江新城清风街6号广粤天地西门36商铺",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
@@ -5143,16 +5309,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "创新菜",
     "poiQuery": "潮跃 广州",
     "position": [
-      113.344420585577,
-      23.112086069041
+      113.339075,
+      23.114875
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BD%AE%E8%B7%83%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4dd2cd4712dd4ebda4536cecab312a9d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/chao-yue",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0H1ULZR6F"
   },
   {
     "id": "cn-guangdong-province-guangzhou-sing-wan-loi-noodle",
@@ -5162,25 +5329,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区广州大道中181号, Guangzhou, Guangdong Province",
+    "address": "广州大道中183号粤康阁(五羊邨地铁站B出口步行70米)",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "昇运来云吞面 (越秀) 广州",
+    "poiQuery": "昇运来云吞面(五羊邨地铁站店) 广州",
     "position": [
-      113.319881806344,
-      23.116956610269
+      113.314515,
+      23.119588
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%87%E8%BF%90%E6%9D%A5%E4%BA%91%E5%90%9E%E9%9D%A2%20(%E8%B6%8A%E7%A7%80)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%87%E8%BF%90%E6%9D%A5%E4%BA%91%E5%90%9E%E9%9D%A2(%E4%BA%94%E7%BE%8A%E9%82%A8%E5%9C%B0%E9%93%81%E7%AB%99%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/17db21eb7986423bb5c5caecb9ebf164.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/sing-wan-loi-noodle",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0H1U914R2"
   },
   {
     "id": "cn-guangdong-province-guangzhou-gu-yuan",
@@ -5189,26 +5357,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "广州",
     "province": "广东",
     "country": "中国",
-    "district": "广州",
-    "address": "天河区花城大道665号103号铺, Guangzhou, Guangdong Province",
+    "district": "天河区",
+    "address": "花城大道665号103室(潭村地铁站D口步行410米)",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "谷缘 广州",
+    "poiQuery": "谷缘·植物料理 广州",
     "position": [
-      113.36005239448,
-      23.118507007254
+      113.3427,
+      23.118004
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B0%B7%E7%BC%98%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B0%B7%E7%BC%98%C2%B7%E6%A4%8D%E7%89%A9%E6%96%99%E7%90%86%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0ec12c6d2cc043c2870d535f032461cf.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/gu-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0KDORXAJN"
   },
   {
     "id": "cn-guangdong-province-guangzhou-tian-shui-yuexiu",
@@ -5218,25 +5387,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "越秀区",
-    "address": "越秀区文德北路68号东方文德广场2楼A249-A251, Guangzhou, Guangdong Province",
+    "address": "文德北路68号东方文德广场2层A249-A251",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "天水 广州",
+    "poiQuery": "天水蔬食料理(东方文德店) 广州",
     "position": [
-      113.277441570921,
-      23.120671802613
+      113.272094,
+      23.123405
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E6%B0%B4%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E6%B0%B4%E8%94%AC%E9%A3%9F%E6%96%99%E7%90%86(%E4%B8%9C%E6%96%B9%E6%96%87%E5%BE%B7%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/66c447f1c60f4dbeb7a098a10a2219f9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/tian-shui-yuexiu",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHKEM5C"
   },
   {
     "id": "cn-guangdong-province-guangzhou-deli-boutique-e3-83-bbuncle-de-abalone",
@@ -5246,7 +5416,7 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "番禺区",
-    "address": "番禺区南村镇兴业大道909号, Guangzhou, Guangdong Province",
+    "address": "南村镇兴业大道北侧清华坊商楼3号111",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -5255,16 +5425,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粤菜",
     "poiQuery": "德利私厨·德叔鲍鱼 广州",
     "position": [
-      113.388472532762,
-      22.999896188663
+      113.383307,
+      23.002826
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%B7%E5%88%A9%E7%A7%81%E5%8E%A8%C2%B7%E5%BE%B7%E5%8F%94%E9%B2%8D%E9%B1%BC%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/50da351608e445ffba100bde7312d5e8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/deli-boutique%E3%83%BBuncle-de-abalone",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141RNT6"
   },
   {
     "id": "cn-guangdong-province-guangzhou-the-legend",
@@ -5274,25 +5445,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "海珠区",
-    "address": "海珠区琶洲大道168号星河湾中心3楼, Guangzhou, Guangdong Province",
+    "address": "琶洲大道168号星河湾中心F3层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "星河湾·星景 广州",
+    "poiQuery": "星河湾·星景(星河湾中心店) 广州",
     "position": [
-      113.352077992095,
-      23.098077729245
+      113.346607,
+      23.100657
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%9F%E6%B2%B3%E6%B9%BE%C2%B7%E6%98%9F%E6%99%AF%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%9F%E6%B2%B3%E6%B9%BE%C2%B7%E6%98%9F%E6%99%AF(%E6%98%9F%E6%B2%B3%E6%B9%BE%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/413910536c804d6aa60dc5cc1e8c7a56.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/the-legend",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0J6DSEUXT"
   },
   {
     "id": "cn-guangdong-province-guangzhou-tao-gie-mie-zhou",
@@ -5302,7 +5474,7 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区猎德西浦大街猎人坊9栋, Guangzhou, Guangdong Province",
+    "address": "猎德西浦大街猎人坊9栋(猎德地铁站B口步行480米)",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -5311,16 +5483,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "潮州菜",
     "poiQuery": "头家夜粥 广州",
     "position": [
-      113.338712578456,
-      23.113457005718
+      113.332168,
+      23.114834
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%B4%E5%AE%B6%E5%A4%9C%E7%B2%A5%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/18fe9a2fb22d4d409d4f20fd0d5d449a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/tao-gie-mie-zhou",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JDZ4596O"
   },
   {
     "id": "cn-guangdong-province-guangzhou-yushan-soup",
@@ -5357,26 +5530,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "广州",
     "province": "广东",
     "country": "中国",
-    "district": "广州",
-    "address": "天河区兴盛路11-17号一里兴盛2楼201号铺, Guangzhou, Guangdong Province",
+    "district": "天河区",
+    "address": "兴盛路2楼201铺(京穆兰旁边电梯上二楼)",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "知竹植物厨房 广州",
+    "poiQuery": "知竹植物厨房(博雅御轩店) 广州",
     "position": [
-      113.336379061142,
-      23.11857565854
+      113.330878,
+      23.121197
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%9F%A5%E7%AB%B9%E6%A4%8D%E7%89%A9%E5%8E%A8%E6%88%BF%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%9F%A5%E7%AB%B9%E6%A4%8D%E7%89%A9%E5%8E%A8%E6%88%BF(%E5%8D%9A%E9%9B%85%E5%BE%A1%E8%BD%A9%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6947a693720c47b099077631fd1a408f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/plant-based-kitchen",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0KUHRJEYB"
   },
   {
     "id": "cn-guangdong-province-guangzhou-tao-tao-ju-ya-yuan",
@@ -5386,25 +5560,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城冼村路5号凯华国际中心6楼, Guangzhou, Guangdong Province",
+    "address": "珠江新城冼村路5号凯华国际中心六楼",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "陶陶居 · 雅园 广州",
+    "poiQuery": "陶陶居·雅园(凯华国际中心店) 广州",
     "position": [
-      113.332793836775,
-      23.11461082013
+      113.327546,
+      23.117594
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%99%B6%E9%99%B6%E5%B1%85%20%C2%B7%20%E9%9B%85%E5%9B%AD%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%99%B6%E9%99%B6%E5%B1%85%C2%B7%E9%9B%85%E5%9B%AD(%E5%87%AF%E5%8D%8E%E5%9B%BD%E9%99%85%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/76b8b975d79648b8aeef2e78e62f6419.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/tao-tao-ju-ya-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFKYRZE1"
   },
   {
     "id": "cn-guangdong-province-guangzhou-emmelyn",
@@ -5414,25 +5589,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城金穗路62号侨鑫国际金融中心101单元, Guangzhou, Guangdong Province",
+    "address": "黄埔大道西188号维家思广场",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "Emmelyn 广州",
+    "poiQuery": "EMMELYN餐厅 广州",
     "position": [
-      113.327589190723,
-      23.119607264474
+      113.32691,
+      23.125566
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Emmelyn%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=EMMELYN%E9%A4%90%E5%8E%85%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/527aed2811a74daabd1acf7e54d03d24.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/emmelyn",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0M6FDXSL0"
   },
   {
     "id": "cn-guangdong-province-guangzhou-catch-1195861",
@@ -5442,25 +5618,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区珠江新城珠江西路5号四季酒店100楼, Guangzhou, Guangdong Province",
+    "address": "珠江西路5号国际金融中心四季酒店100层(近地铁珠江新城站)",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "时尚欧陆菜"
     ],
     "cuisine": "时尚欧陆菜",
-    "poiQuery": "佰鲜汇 广州",
+    "poiQuery": "广州四季酒店·CATCH佰鲜汇·现代法餐 广州",
     "position": [
-      113.328712486554,
-      23.115086954703
+      113.323304,
+      23.117695
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BD%B0%E9%B2%9C%E6%B1%87%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%B7%9E%E5%9B%9B%E5%AD%A3%E9%85%92%E5%BA%97%C2%B7CATCH%E4%BD%B0%E9%B2%9C%E6%B1%87%C2%B7%E7%8E%B0%E4%BB%A3%E6%B3%95%E9%A4%90%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c89132d4cc004848b783ce53628a7639.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/catch-1195861",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B00141P1FK"
   },
   {
     "id": "cn-guangdong-province-guangzhou-li-chateau",
@@ -5470,25 +5647,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区天河路228号负1层, Guangzhou, Guangdong Province",
+    "address": "天河路228号正佳广场万豪酒店正门左手边电梯B1层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "欧陆菜"
     ],
     "cuisine": "欧陆菜",
-    "poiQuery": "荔雅图 广州",
+    "poiQuery": "荔雅图Li Chateau(正佳广场店) 广州",
     "position": [
-      113.331585913839,
-      23.130257840981
+      113.327019,
+      23.132126
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%94%E9%9B%85%E5%9B%BE%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%94%E9%9B%85%E5%9B%BELi%20Chateau(%E6%AD%A3%E4%BD%B3%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0386d16b72e54f1db41a2176bae25411.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/li-chateau",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFF9KASW"
   },
   {
     "id": "cn-guangdong-province-guangzhou-cheers-huangpu",
@@ -5526,25 +5704,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "番禺区",
-    "address": "番禺区汉溪大道东388号四海城西区4楼, Guangzhou, Guangdong Province",
+    "address": "南村镇汉溪大道388号四海城商业广场4栋3A层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "酒说·今宴 广州",
+    "poiQuery": "今宴(四海城商业广场西区店) 广州",
     "position": [
-      113.356172016869,
-      23.003325782919
+      113.350773,
+      23.006127
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%85%92%E8%AF%B4%C2%B7%E4%BB%8A%E5%AE%B4%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BB%8A%E5%AE%B4(%E5%9B%9B%E6%B5%B7%E5%9F%8E%E5%95%86%E4%B8%9A%E5%B9%BF%E5%9C%BA%E8%A5%BF%E5%8C%BA%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ab513cdf2b89409192dbe879053a56f0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/the-eminent",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JGTSLUFJ"
   },
   {
     "id": "cn-guangdong-province-guangzhou-he-yuan-tianhe",
@@ -5554,25 +5733,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区花城大道68号IMP环球都会广场3及3M层, Guangzhou, Guangdong Province",
+    "address": "花城大道68号环球都会广场三楼",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "和苑 (天河) 广州",
+    "poiQuery": "和苑酒家(珠江新城店) 广州",
     "position": [
-      113.332651207555,
-      23.115554032662
+      113.327188,
+      23.118118
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%92%8C%E8%8B%91%20(%E5%A4%A9%E6%B2%B3)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%92%8C%E8%8B%91%E9%85%92%E5%AE%B6(%E7%8F%A0%E6%B1%9F%E6%96%B0%E5%9F%8E%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2eb65a76aaf740cb9a5626fda1e0063d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/he-yuan-tianhe",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0JBRMOP7U"
   },
   {
     "id": "cn-guangdong-province-guangzhou-chao-ji-claypot-rice-liwan",
@@ -5582,25 +5762,26 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "荔湾区",
-    "address": "荔湾区龙津东路723号, Guangzhou, Guangdong Province",
+    "address": "龙津东路723号",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "超记煲仔饭 (荔湾) 广州",
+    "poiQuery": "超记煲仔饭(陈家祠店) 广州",
     "position": [
-      113.254507006097,
-      23.119810852805
+      113.24923,
+      23.122506
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B6%85%E8%AE%B0%E7%85%B2%E4%BB%94%E9%A5%AD%20(%E8%8D%94%E6%B9%BE)%20%E5%B9%BF%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B6%85%E8%AE%B0%E7%85%B2%E4%BB%94%E9%A5%AD(%E9%99%88%E5%AE%B6%E7%A5%A0%E5%BA%97)%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e524a36a1f7c42238e5e97ab90c28ec0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/chao-ji-claypot-rice-liwan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0GRHKMHWX"
   },
   {
     "id": "cn-guangdong-province-guangzhou-guo-fan-jia-yan",
@@ -5610,7 +5791,7 @@ export const restaurants: Restaurant[] = [
     "province": "广东",
     "country": "中国",
     "district": "天河区",
-    "address": "天河区棠安路123号2楼, Guangzhou, Guangdong Province",
+    "address": "天河区棠安路123号有戏电影酒店二楼203房",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -5619,16 +5800,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "湘菜",
     "poiQuery": "国藩家宴 广州",
     "position": [
-      113.381605360265,
-      23.130212043952
+      113.376157,
+      23.132614
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9B%BD%E8%97%A9%E5%AE%B6%E5%AE%B4%20%E5%B9%BF%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/53036b709a644452bfdc64054fca75e7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurant/guo-fan-jia-yan",
     "sourceEditionUrl": "https://guide.michelin.com/sg/zh_CN/guangdong-province/guangzhou/restaurants",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0GK69SFJE"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-wu-yue-gong",
@@ -5638,25 +5820,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "青羊区",
-    "address": "青羊区五岳宫街28号成都院子内, Chengdu, Chengdu",
+    "address": "头福街23号成都院子酒店内",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "时尚中国菜"
     ],
     "cuisine": "时尚中国菜",
-    "poiQuery": "五岳宫 成都",
+    "poiQuery": "五岳宫·时尚中国菜 成都",
     "position": [
-      104.074199528045,
-      30.674048562193
+      104.074128,
+      30.674137
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%94%E5%B2%B3%E5%AE%AB%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%94%E5%B2%B3%E5%AE%AB%C2%B7%E6%97%B6%E5%B0%9A%E4%B8%AD%E5%9B%BD%E8%8F%9C%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/073f38bf117d42749fccf818f70ec841.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/wu-yue-gong",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B001C8P4VB"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-li-xuan",
@@ -5666,25 +5849,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "青羊区",
-    "address": "青羊区顺城大街269号富力丽思卡尔顿酒店26层, Chengdu, Chengdu",
+    "address": "顺城大街269号成都富力丽思卡尔顿酒店26层",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "丽轩 成都",
+    "poiQuery": "丽思卡尔顿·丽轩中餐厅 成都",
     "position": [
-      104.070113092194,
-      30.663859800608
+      104.070124,
+      30.663907
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%BD%E8%BD%A9%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%BD%E6%80%9D%E5%8D%A1%E5%B0%94%E9%A1%BF%C2%B7%E4%B8%BD%E8%BD%A9%E4%B8%AD%E9%A4%90%E5%8E%85%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b3761e9ebc8a41a4bd359bc7c23bc342.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/li-xuan",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFFGXGDS"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-yangboying-za-jiang-mian",
@@ -5694,7 +5878,7 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "青羊区",
-    "address": "青羊区铜丝街19号附13号, Chengdu, Chengdu",
+    "address": "铜丝街19号附13号",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -5703,16 +5887,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "杨伯英传统杂酱面 成都",
     "position": [
-      104.078110716715,
-      30.669495414342
+      104.078197,
+      30.669506
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%A8%E4%BC%AF%E8%8B%B1%E4%BC%A0%E7%BB%9F%E6%9D%82%E9%85%B1%E9%9D%A2%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/753636211e0b41099537245a07e638b5.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/yangboying-za-jiang-mian",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFK1NBZI"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-lao-chengdu-san-yang-mian",
@@ -5722,7 +5907,7 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "青羊区",
-    "address": "青羊区过街楼街46号附6-8号, Chengdu, Chengdu",
+    "address": "过街楼街46号附6号、附8号(芙蓉饭店正对面)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -5731,16 +5916,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "老成都逸城鲜三样面 成都",
     "position": [
-      104.058557711374,
-      30.669722921044
+      104.058999,
+      30.669753
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E6%88%90%E9%83%BD%E9%80%B8%E5%9F%8E%E9%B2%9C%E4%B8%89%E6%A0%B7%E9%9D%A2%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ad763e2c12684e279fc1a3fc4f66d0ed.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/lao-chengdu-san-yang-mian",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHF5FFL"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-rongrong-beida-pugaimian",
@@ -5750,25 +5936,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "金牛区",
-    "address": "金牛区解放路二段2-4号, Chengdu, Chengdu",
+    "address": "解放路二段2号附4号",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "蓉荣北大铺盖面 成都",
+    "poiQuery": "蓉荣北大铺盖面(总店) 成都",
     "position": [
-      104.079211847134,
-      30.676858422887
+      104.079216,
+      30.676768
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%93%89%E8%8D%A3%E5%8C%97%E5%A4%A7%E9%93%BA%E7%9B%96%E9%9D%A2%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%93%89%E8%8D%A3%E5%8C%97%E5%A4%A7%E9%93%BA%E7%9B%96%E9%9D%A2(%E6%80%BB%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3e59822c25b64bed87fc1fe177f5bbc9.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/rongrong-beida-pugaimian",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B001C7WNBC"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-yu-zhi-lan-1196150",
@@ -5778,7 +5965,7 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "青羊区",
-    "address": "青羊区长发街24号附1号, Chengdu, Chengdu",
+    "address": "长发街24号附1号",
     "level": "two-stars",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
@@ -5787,16 +5974,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "川菜",
     "poiQuery": "玉芝兰 成都",
     "position": [
-      104.058655002645,
-      30.666765177679
+      104.058706,
+      30.666764
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8E%89%E8%8A%9D%E5%85%B0%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3c05725fb89c4357a9ded624b99add83.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/yu-zhi-lan-1196150",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B001C8R4F8"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-chuanpu",
@@ -5806,25 +5994,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "锦江区",
-    "address": "錦江区梨花街39號附1号皇城珠宝交易中心1层, Chengdu, Chengdu",
+    "address": "梨花街39号附一号",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "川莆酒楼 (梨花街) 成都",
+    "poiQuery": "川莆酒楼 成都",
     "position": [
-      104.067741902477,
-      30.654443019029
+      104.067747,
+      30.654445
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B7%9D%E8%8E%86%E9%85%92%E6%A5%BC%20(%E6%A2%A8%E8%8A%B1%E8%A1%97)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B7%9D%E8%8E%86%E9%85%92%E6%A5%BC%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a01b3a5697554fb6982422b021f7b33e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/chuanpu",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0HRU5GF9Q"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-gan-ji-fei-chang-fen",
@@ -5834,25 +6023,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "金牛区",
-    "address": "金牛区马鞍北路18号附1-3号, Chengdu, Chengdu",
+    "address": "马鞍北路18号(玉龙火锅旁)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "甘记肥肠粉 (金牛) 成都",
+    "poiQuery": "甘记肥肠粉(马鞍北路8号院店) 成都",
     "position": [
-      104.086881233199,
-      30.676947045637
+      104.086812,
+      30.67694
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%94%98%E8%AE%B0%E8%82%A5%E8%82%A0%E7%B2%89%20(%E9%87%91%E7%89%9B)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%94%98%E8%AE%B0%E8%82%A5%E8%82%A0%E7%B2%89(%E9%A9%AC%E9%9E%8D%E5%8C%97%E8%B7%AF8%E5%8F%B7%E9%99%A2%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3c94d07539f048c89616a553fd7179b9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/gan-ji-fei-chang-fen",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B001C7TPXU"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-8-1196322",
@@ -5889,25 +6079,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "锦江区",
-    "address": "锦江区中纱帽街8号太古里广东会馆, Chengdu, Chengdu",
+    "address": "中纱帽街8号太古里L1336号",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "时尚欧陆菜"
     ],
     "cuisine": "时尚欧陆菜",
-    "poiQuery": "会馆 成都",
+    "poiQuery": "THEHALL会馆(成都太古里店) 成都",
     "position": [
-      104.082479012811,
-      30.652861683327
+      104.082389,
+      30.653206
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BC%9A%E9%A6%86%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=THEHALL%E4%BC%9A%E9%A6%86(%E6%88%90%E9%83%BD%E5%A4%AA%E5%8F%A4%E9%87%8C%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/252ecd8a7a684fcd8dec518d563e3cea.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/the-hall",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0IKKUX0JD"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-mosnack",
@@ -5917,25 +6108,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "成华区",
-    "address": "成华区猛追湾横街99号世贸52+ L101-1-A铺, Chengdu, Chengdu",
+    "address": "猛追湾横街99号世茂52+L101-1-A",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "茉筱馆 成都",
+    "poiQuery": "茉小馆(世茂52+店) 成都",
     "position": [
-      104.093553633509,
-      30.67051238408
+      104.093489,
+      30.670534
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8C%89%E7%AD%B1%E9%A6%86%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8C%89%E5%B0%8F%E9%A6%86(%E4%B8%96%E8%8C%8252%2B%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/768f80ba3dad458bb426d1881c5a0429.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/mosnack",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHWEBHE"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-fang-xiang-jing",
@@ -5951,18 +6143,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "芳香景 成都",
+    "poiQuery": "芳香景(中铁鹭岛艺术城店) 成都",
     "position": [
-      104.053845914726,
-      30.683320036872
+      104.05367,
+      30.683695
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%B3%E9%A6%99%E6%99%AF%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%B3%E9%A6%99%E6%99%AF(%E4%B8%AD%E9%93%81%E9%B9%AD%E5%B2%9B%E8%89%BA%E6%9C%AF%E5%9F%8E%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/49562faf1c584b47949de42cc58d6535.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/fang-xiang-jing",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "马家花园路16号5栋",
+    "amapPoiId": "B0FFKYK7MV"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-song-chuan",
@@ -5971,26 +6165,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "成都",
     "province": "四川",
     "country": "中国",
-    "district": "成都",
-    "address": "锦江区中纱帽街8号太古里23栋1301号1-3层, Chengdu, Chengdu",
+    "district": "锦江区",
+    "address": "中纱帽街8号成都太古里23栋整栋",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "宋川 成都",
+    "poiQuery": "宋·川菜(成都太古里店) 成都",
     "position": [
-      104.084068511975,
-      30.653266303544
+      104.08406,
+      30.65326
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%8B%E5%B7%9D%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%8B%C2%B7%E5%B7%9D%E8%8F%9C(%E6%88%90%E9%83%BD%E5%A4%AA%E5%8F%A4%E9%87%8C%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c168a9164cc3475491f53444e0050272.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/song-chuan",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0LBTD06ED"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-mi-xun-teahouse",
@@ -6006,18 +6201,20 @@ export const restaurants: Restaurant[] = [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "谧寻茶室 成都",
+    "poiQuery": "谧寻茶室(成都太古里) 成都",
     "position": [
-      104.084515145647,
-      30.652321823233
+      104.084558,
+      30.652324
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B0%A7%E5%AF%BB%E8%8C%B6%E5%AE%A4%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B0%A7%E5%AF%BB%E8%8C%B6%E5%AE%A4(%E6%88%90%E9%83%BD%E5%A4%AA%E5%8F%A4%E9%87%8C)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/99f8ae8e45384c11843acea30723c038.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/mi-xun-teahouse",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中纱帽街8号成都太古里L1层",
+    "amapPoiId": "B0FFG7F5PL"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-the-river-house",
@@ -6027,25 +6224,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "锦江区",
-    "address": "锦江区人民南路二段55号岷山饭店21层, Chengdu, Chengdu",
+    "address": "人民南路二段55号岷山饭店21楼",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "欧陆菜"
     ],
     "cuisine": "欧陆菜",
-    "poiQuery": "The River House 成都",
+    "poiQuery": "岷山饭店·The river house西餐厅 成都",
     "position": [
-      104.066583913546,
-      30.648702115137
+      104.066853,
+      30.64865
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=The%20River%20House%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B2%B7%E5%B1%B1%E9%A5%AD%E5%BA%97%C2%B7The%20river%20house%E8%A5%BF%E9%A4%90%E5%8E%85%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/807f1389017341cb80aec414e7ef9150.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/the-river-house",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHESE46"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-ma-s-kitchen",
@@ -6061,18 +6259,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "马旺子 (锦江) 成都",
+    "poiQuery": "马旺子·川小馆(成都太古里店) 成都",
     "position": [
-      104.083951398556,
-      30.651377997471
+      104.083972,
+      30.651319
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A9%AC%E6%97%BA%E5%AD%90%20(%E9%94%A6%E6%B1%9F)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A9%AC%E6%97%BA%E5%AD%90%C2%B7%E5%B7%9D%E5%B0%8F%E9%A6%86(%E6%88%90%E9%83%BD%E5%A4%AA%E5%8F%A4%E9%87%8C%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6e3cc66fd81e490babbd3ecb4cfceaba.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/ma-s-kitchen",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东糠市街1号(春熙路地铁站B口步行430米)",
+    "amapPoiId": "B0FFGPRKKM"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-tivano",
@@ -6082,25 +6282,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "锦江区",
-    "address": "锦江区笔帖式街81号博舍LG1层, Chengdu, Chengdu",
+    "address": "笔帖式街81号成都居舍酒店负一楼(春熙路太古里内)",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Tivano 成都",
+    "poiQuery": "Tivano意大利餐厅 成都",
     "position": [
-      104.084847671331,
-      30.651824847367
+      104.084844,
+      30.651814
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Tivano%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Tivano%E6%84%8F%E5%A4%A7%E5%88%A9%E9%A4%90%E5%8E%85%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/892c6cfb86cc4193b31b30ed004110a3.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/tivano",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFG7C7U4"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-long-sen-yuan",
@@ -6116,18 +6317,20 @@ export const restaurants: Restaurant[] = [
       "火锅"
     ],
     "cuisine": "火锅",
-    "poiQuery": "龙森园 (青羊) 成都",
+    "poiQuery": "龙森园火锅(琴台路店) 成都",
     "position": [
-      104.045470578484,
-      30.658761459309
+      104.045396,
+      30.658815
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%BE%99%E6%A3%AE%E5%9B%AD%20(%E9%9D%92%E7%BE%8A)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%BE%99%E6%A3%AE%E5%9B%AD%E7%81%AB%E9%94%85(%E7%90%B4%E5%8F%B0%E8%B7%AF%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/37c1992ba64d4646a154793cb09d2194.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/long-sen-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "琴台路60号",
+    "amapPoiId": "B001C00AD4"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-china-samite-hot-pot-wuhouci-street",
@@ -6137,25 +6340,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "武侯区",
-    "address": "武侯区武侯祠大街19号附94号, Chengdu, Chengdu",
+    "address": "武侯祠大街19号附80号",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "火锅"
     ],
     "cuisine": "火锅",
-    "poiQuery": "锦城印象 (武侯祠大街) 成都",
+    "poiQuery": "锦城印象火锅酒楼(彩虹店) 成都",
     "position": [
-      104.056876731636,
-      30.64725993734
+      104.056481,
+      30.64735
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%94%A6%E5%9F%8E%E5%8D%B0%E8%B1%A1%20(%E6%AD%A6%E4%BE%AF%E7%A5%A0%E5%A4%A7%E8%A1%97)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%94%A6%E5%9F%8E%E5%8D%B0%E8%B1%A1%E7%81%AB%E9%94%85%E9%85%92%E6%A5%BC(%E5%BD%A9%E8%99%B9%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/429d483d3b7c47d8b52008c3e8d2af29.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/china-samite-hot-pot-wuhouci-street",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B001C7X9N5"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-tong-fu-she",
@@ -6165,25 +6369,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "锦江区",
-    "address": "锦江区较场坝西街29号, Chengdu, Chengdu",
+    "address": "较场坝西街29号(东门大桥地铁站C口步行330米)",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "同福社 成都",
+    "poiQuery": "同福社私房菜 成都",
     "position": [
-      104.089261443227,
-      30.64931146842
+      104.08994,
+      30.649475
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E7%A6%8F%E7%A4%BE%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8C%E7%A6%8F%E7%A4%BE%E7%A7%81%E6%88%BF%E8%8F%9C%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/22a81429da2044a2b8bfb5bddef5e584.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/tong-fu-she",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFHCPD8N"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-shudidanggui",
@@ -6220,7 +6425,7 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "武侯区",
-    "address": "武侯区致民路33号附5号, Chengdu, Chengdu",
+    "address": "致民路33号附5号",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -6229,16 +6434,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "川菜",
     "poiQuery": "百年粉蒸牛肉 成都",
     "position": [
-      104.079745685675,
-      30.642752738041
+      104.079785,
+      30.642723
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BE%E5%B9%B4%E7%B2%89%E8%92%B8%E7%89%9B%E8%82%89%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e6b390b2bf8146f18fa4d94959cb9f9f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/bai-nian-fen-zheng-niu-rou",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B001C80MV7"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-gong-zhou-ba-shu-wei-yuan",
@@ -6254,18 +6460,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "恭州 · 巴蜀味苑 成都",
+    "poiQuery": "巴蜀味苑(均隆街店) 成都",
     "position": [
-      104.098379923305,
-      30.653643164693
+      104.089202,
+      30.650298
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%81%AD%E5%B7%9E%20%C2%B7%20%E5%B7%B4%E8%9C%80%E5%91%B3%E8%8B%91%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B7%B4%E8%9C%80%E5%91%B3%E8%8B%91(%E5%9D%87%E9%9A%86%E8%A1%97%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ebfb43d698824279af5dd63554d8f5cc.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/gong-zhou-ba-shu-wei-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "均隆街64号附6号(东门大桥地铁站D1口步行320米)",
+    "amapPoiId": "B0FFFAMVJP"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-member",
@@ -6275,25 +6483,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "锦江区",
-    "address": "锦江区青龙正街100号附26号, Chengdu, Chengdu",
+    "address": "锦官驿街道青龙正街100号附30号",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "门板儿面 成都",
+    "poiQuery": "門板兒麵(龙井苑店) 成都",
     "position": [
-      104.088915966114,
-      30.645103483384
+      104.088952,
+      30.645
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%97%A8%E6%9D%BF%E5%84%BF%E9%9D%A2%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%96%80%E6%9D%BF%E5%85%92%E9%BA%B5(%E9%BE%99%E4%BA%95%E8%8B%91%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/113e8da72b264da29c0b491758838bfa.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/member",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0GRNLBM69"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-wan-san-mian-guan-jinjiang",
@@ -6303,25 +6512,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "锦江区",
-    "address": "锦江区青龙正街131号附1号, Chengdu, Chengdu",
+    "address": "青龙正街131号附1号(牛王庙地铁站G口步行390米)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "万三面馆 (青龙正街) 成都",
+    "poiQuery": "万三面馆(青龙正街店) 成都",
     "position": [
-      104.089445203839,
-      30.645223508531
+      104.089449,
+      30.645203
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%87%E4%B8%89%E9%9D%A2%E9%A6%86%20(%E9%9D%92%E9%BE%99%E6%AD%A3%E8%A1%97)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%87%E4%B8%89%E9%9D%A2%E9%A6%86(%E9%9D%92%E9%BE%99%E6%AD%A3%E8%A1%97%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/842a4c4371c34c919ffe9e177ca105dd.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/wan-san-mian-guan-jinjiang",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0K6SM1AT6"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-hu-er-ge-yao-shan-ti-hua",
@@ -6331,25 +6541,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "青羊区",
-    "address": "青羊区一环路西一段146号附19号, Chengdu, Chengdu",
+    "address": "成都欧亚医院对面(省骨科医院地铁站A口步行90米)",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "胡二哥药膳蹄花 成都",
+    "poiQuery": "胡二哥药膳蹄花(一环路西一段店) 成都",
     "position": [
-      104.040733961068,
-      30.653825482909
+      104.040739,
+      30.653886
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%83%A1%E4%BA%8C%E5%93%A5%E8%8D%AF%E8%86%B3%E8%B9%84%E8%8A%B1%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%83%A1%E4%BA%8C%E5%93%A5%E8%8D%AF%E8%86%B3%E8%B9%84%E8%8A%B1(%E4%B8%80%E7%8E%AF%E8%B7%AF%E8%A5%BF%E4%B8%80%E6%AE%B5%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/00dedcb79cb84e20ac473e40618d02ae.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/hu-er-ge-yao-shan-ti-hua",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFK2SD0W"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-the-bridge",
@@ -6359,25 +6570,26 @@ export const restaurants: Restaurant[] = [
     "province": "四川",
     "country": "中国",
     "district": "锦江区",
-    "address": "锦江区滨江东路66号, Chengdu, Chengdu",
+    "address": "滨江东路66号(近香格里拉酒店)",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "廊桥 成都",
+    "poiQuery": "廊桥THE BRIDGE 成都",
     "position": [
-      104.086065253557,
-      30.642123522617
+      104.086056,
+      30.642173
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BB%8A%E6%A1%A5%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BB%8A%E6%A1%A5THE%20BRIDGE%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9cfd587690d1484d9ae1948971e6589e.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/the-bridge",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0FFIPT277"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-nian-feng-restaurant",
@@ -6421,18 +6633,20 @@ export const restaurants: Restaurant[] = [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "吴记怪味面 (锦江) 成都",
+    "poiQuery": "吴记怪味面 成都",
     "position": [
-      104.09329429092,
-      30.644708001639
+      104.093237,
+      30.644765
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%B4%E8%AE%B0%E6%80%AA%E5%91%B3%E9%9D%A2%20(%E9%94%A6%E6%B1%9F)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%B4%E8%AE%B0%E6%80%AA%E5%91%B3%E9%9D%A2%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ce5ba2670dbe476582ff155aed728008.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/wu-ji-guai-wei-mian-jinjiang",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "一环路东五段108号附11号",
+    "amapPoiId": "B001C8O6HX"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-chen-mapo-tofu-qinghua-road",
@@ -6448,18 +6662,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "陈麻婆豆腐 (青华路) 成都",
+    "poiQuery": "陈麻婆豆腐(旗舰店) 成都",
     "position": [
-      104.032820730513,
-      30.66293941157
+      104.03418,
+      30.662743
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%99%88%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%20(%E9%9D%92%E5%8D%8E%E8%B7%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%99%88%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90(%E6%97%97%E8%88%B0%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bbb34690a5b345f9a122a3c927911507.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/chen-mapo-tofu-qinghua-road",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "青华路10号附10-12号",
+    "amapPoiId": "B001C7V17A"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-the-woo-s",
@@ -6475,18 +6691,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "吴氏荟 (锦江) 成都",
+    "poiQuery": "吴氏荟THEWOO'S 成都",
     "position": [
-      104.09455854859,
-      30.643248264569
+      104.094537,
+      30.643198
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%B4%E6%B0%8F%E8%8D%9F%20(%E9%94%A6%E6%B1%9F)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%B4%E6%B0%8F%E8%8D%9FTHEWOO'S%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0bd8e87b07914feb9557d9e0024c7feb.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/the-woo-s",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "宏济中路39号附17号(牛王庙地铁站C口步行250米)",
+    "amapPoiId": "B0I6MRZ7VV"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-rong-yuan-can-guan",
@@ -6504,16 +6722,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "川菜",
     "poiQuery": "荣园餐馆 成都",
     "position": [
-      104.044856329445,
-      30.641147447933
+      104.044951,
+      30.641226
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E5%9B%AD%E9%A4%90%E9%A6%86%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6f0748693f584a7fad66b2ecda55a879.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/rong-yuan-can-guan",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "蜀汉街10号附2号(高升桥地铁站C口步行220米)",
+    "amapPoiId": "B001C008D9"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-xu-s-cuisine",
@@ -6529,18 +6749,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "许家菜 成都",
+    "poiQuery": "许家菜(望江店) 成都",
     "position": [
-      104.090137290068,
-      30.637448052658
+      104.090055,
+      30.637468
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%AE%B8%E5%AE%B6%E8%8F%9C%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%AE%B8%E5%AE%B6%E8%8F%9C(%E6%9C%9B%E6%B1%9F%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3e5787cb9f6549f0a0cdaefca41ef16f.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/xu-s-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "望江路1号格林威治广场8幢附1号(近望江公园)",
+    "amapPoiId": "B0FFF6JVL2"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-zhu-ji-zhi-mian-pu",
@@ -6556,18 +6778,20 @@ export const restaurants: Restaurant[] = [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "竹记制面铺 (锦江) 成都",
+    "poiQuery": "竹记制面铺(一心桥店) 成都",
     "position": [
-      104.09795260264,
-      30.641309522194
+      104.097418,
+      30.64076
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%AB%B9%E8%AE%B0%E5%88%B6%E9%9D%A2%E9%93%BA%20(%E9%94%A6%E6%B1%9F)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%AB%B9%E8%AE%B0%E5%88%B6%E9%9D%A2%E9%93%BA(%E4%B8%80%E5%BF%83%E6%A1%A5%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/71f15111f6b24905993e6ca598eb8a30.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/zhu-ji-zhi-mian-pu",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "一心桥南街194号",
+    "amapPoiId": "B0IA1AUI8G"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-zhuan-zhuan-hui-lianhua-south-road",
@@ -6583,18 +6807,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "转转会 (莲花南路) 成都",
+    "poiQuery": "转转会(莲桂店) 成都",
     "position": [
-      104.097105624186,
-      30.635917428036
+      104.097308,
+      30.635506
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BD%AC%E8%BD%AC%E4%BC%9A%20(%E8%8E%B2%E8%8A%B1%E5%8D%97%E8%B7%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BD%AC%E8%BD%AC%E4%BC%9A(%E8%8E%B2%E6%A1%82%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8b8198194ddd4bff82943aab4dd9e13f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/zhuan-zhuan-hui-lianhua-south-road",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "莲花南路27号",
+    "amapPoiId": "B001C8OTDW"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-aurore",
@@ -6691,18 +6917,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "永乐饭店 (武侯) 成都",
+    "poiQuery": "永乐饭店 成都",
     "position": [
-      104.043613171694,
-      30.630892948909
+      104.043627,
+      30.630838
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E4%B9%90%E9%A5%AD%E5%BA%97%20(%E6%AD%A6%E4%BE%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E4%B9%90%E9%A5%AD%E5%BA%97%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/18660f0cc7fb49e795065586ef9f8438.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/yongle-restaurant-wuhou",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "肖家河中街32号",
+    "amapPoiId": "B001C7TGHH"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-cloud-arise-chenghua",
@@ -6718,18 +6946,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "云起食 (成华) 成都",
+    "poiQuery": "云起食·川菜(杉板桥店) 成都",
     "position": [
-      104.123060474405,
-      30.664958522336
+      104.123022,
+      30.664905
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%91%E8%B5%B7%E9%A3%9F%20(%E6%88%90%E5%8D%8E)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%91%E8%B5%B7%E9%A3%9F%C2%B7%E5%B7%9D%E8%8F%9C(%E6%9D%89%E6%9D%BF%E6%A1%A5%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/02c2d33ae8344b999f72e36dadcdf378.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/cloud-arise-chenghua",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "杉板桥路与杉板桥南四路交叉口雷迪波尔3-4层",
+    "amapPoiId": "B0I12CASDU"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-tan-jia",
@@ -6745,18 +6975,20 @@ export const restaurants: Restaurant[] = [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "谭家 (武侯) 成都",
+    "poiQuery": "谭家·钵钵鸡 成都",
     "position": [
-      104.057588947303,
-      30.623473825609
+      104.057633,
+      30.623466
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B0%AD%E5%AE%B6%20(%E6%AD%A6%E4%BE%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B0%AD%E5%AE%B6%C2%B7%E9%92%B5%E9%92%B5%E9%B8%A1%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ab9a43c6e874451db62d4329c944398c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/tan-jia",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "武侯区高新区玉林南路70号新1号",
+    "amapPoiId": "B0L6A50BEJ"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-zeng-niu-rou-qingyang",
@@ -6801,16 +7033,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "幺怪面 成都",
     "position": [
-      104.096956879328,
-      30.625413851482
+      104.097014,
+      30.625316
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BA%E6%80%AA%E9%9D%A2%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/29d4000df73b4a63ad6aa18c95cfd84c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/yao-guai-mian",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "龙舟东巷49号",
+    "amapPoiId": "B0H2PAONCH"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-mind",
@@ -6826,18 +7060,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "漫得 成都",
+    "poiQuery": "Mind漫得食堂 成都",
     "position": [
-      104.016031311419,
-      30.649084088039
+      104.016323,
+      30.647368
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BC%AB%E5%BE%97%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Mind%E6%BC%AB%E5%BE%97%E9%A3%9F%E5%A0%82%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0581795e6f3f4e298bf073c98c9e154d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/mind",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "二环路西一段置信路57号溢阳绿城",
+    "amapPoiId": "B0K2ZO3XBG"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-fu-rong-huang",
@@ -6853,18 +7089,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "芙蓉凰 成都",
+    "poiQuery": "芙蓉凰花园酒楼 成都",
     "position": [
-      104.009948848946,
-      30.664537146084
+      104.009996,
+      30.66457
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%99%E8%93%89%E5%87%B0%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%99%E8%93%89%E5%87%B0%E8%8A%B1%E5%9B%AD%E9%85%92%E6%A5%BC%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/64180a7c5fbb4bbdb7ff4fc1099330fa.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/fu-rong-huang",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "光华村街66号附7号3-4层",
+    "amapPoiId": "B001C7UCNH"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-private-collection-see-joy",
@@ -6907,18 +7145,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "柴门公馆 (桐梓林东路) 成都",
+    "poiQuery": "柴门公馆(桐梓林店) 成都",
     "position": [
-      104.062773593138,
-      30.614692946848
+      104.062934,
+      30.614782
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B4%E9%97%A8%E5%85%AC%E9%A6%86%20(%E6%A1%90%E6%A2%93%E6%9E%97%E4%B8%9C%E8%B7%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B4%E9%97%A8%E5%85%AC%E9%A6%86(%E6%A1%90%E6%A2%93%E6%9E%97%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cf43344b32444ba2afe24e47b30dd159.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/chaimen-gong-guan",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "桐梓林东路10号锦绣花园后门",
+    "amapPoiId": "B0FFK6KIP6"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-young-art-yong-ya-he-xian-tongzilin-east-road",
@@ -6934,18 +7174,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "漾亚·雍雅合鲜 (桐梓林东路) 成都",
+    "poiQuery": "漾亚·雍雅合鲜(桐梓林店) 成都",
     "position": [
-      104.062709372327,
-      30.612842101447
+      104.062616,
+      30.612963
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BC%BE%E4%BA%9A%C2%B7%E9%9B%8D%E9%9B%85%E5%90%88%E9%B2%9C%20(%E6%A1%90%E6%A2%93%E6%9E%97%E4%B8%9C%E8%B7%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BC%BE%E4%BA%9A%C2%B7%E9%9B%8D%E9%9B%85%E5%90%88%E9%B2%9C(%E6%A1%90%E6%A2%93%E6%9E%97%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6f2d4f2956f54cee92ddd85463fa8b4f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/young-art-yong-ya-he-xian-tongzilin-east-road",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "桐梓林东路1号附1号",
+    "amapPoiId": "B001C92H0Y"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-chanyue-vegetarian",
@@ -6961,18 +7203,20 @@ export const restaurants: Restaurant[] = [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "禅悦素食 成都",
+    "poiQuery": "禅悦素食(曼哈顿国际首座店) 成都",
     "position": [
-      104.066589265887,
-      30.612276041861
+      104.065957,
+      30.612133
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%85%E6%82%A6%E7%B4%A0%E9%A3%9F%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%85%E6%82%A6%E7%B4%A0%E9%A3%9F(%E6%9B%BC%E5%93%88%E9%A1%BF%E5%9B%BD%E9%99%85%E9%A6%96%E5%BA%A7%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/405fafbf569649e5ab70bde28eb59b7c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/chanyue-vegetarian",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "人民南路四段48-附40号曼哈顿国际首座F19层",
+    "amapPoiId": "B0FFGDRGN4"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-brustin",
@@ -6988,18 +7232,20 @@ export const restaurants: Restaurant[] = [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "布洛斯汀 成都",
+    "poiQuery": "BRUSTIN 布洛斯汀 成都",
     "position": [
-      104.024708846892,
-      30.711206488676
+      104.024571,
+      30.71145
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B8%83%E6%B4%9B%E6%96%AF%E6%B1%80%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=BRUSTIN%20%E5%B8%83%E6%B4%9B%E6%96%AF%E6%B1%80%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2feb152a631b425db806dd025e97c220.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/brustin",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "金立路与三环路辅道交叉口西北220米",
+    "amapPoiId": "B0JB5R5J8R"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-ting-yuan-399",
@@ -7015,18 +7261,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "庭院399 (锦江) 成都",
+    "poiQuery": "庭院399米其林餐厅(净居寺店) 成都",
     "position": [
-      104.106768581411,
-      30.621047823262
+      104.107785,
+      30.619937
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BA%AD%E9%99%A2399%20(%E9%94%A6%E6%B1%9F)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BA%AD%E9%99%A2399%E7%B1%B3%E5%85%B6%E6%9E%97%E9%A4%90%E5%8E%85(%E5%87%80%E5%B1%85%E5%AF%BA%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b83d1ed5909a40d1ac2a2d736d44f295.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/ting-yuan-399",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "静居寺339号(沙河大桥旁)",
+    "amapPoiId": "B0FFKLEDUM"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-datenbank",
@@ -7042,18 +7290,20 @@ export const restaurants: Restaurant[] = [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "食物数据库 成都",
+    "poiQuery": "Datenbank食物数据库 成都",
     "position": [
-      104.056465271011,
-      30.612518188739
+      104.056474,
+      30.612508
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A3%9F%E7%89%A9%E6%95%B0%E6%8D%AE%E5%BA%93%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Datenbank%E9%A3%9F%E7%89%A9%E6%95%B0%E6%8D%AE%E5%BA%93%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c634ee06f866408c930e05c2cce45979.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/datenbank",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "紫荆东路28号",
+    "amapPoiId": "B0H147TX0J"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-shu-mansion",
@@ -7071,16 +7321,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "川菜",
     "poiQuery": "蜀府宴 成都",
     "position": [
-      104.060213665888,
-      30.6118467184
+      104.050697,
+      30.557705
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%9C%80%E5%BA%9C%E5%AE%B4%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2a852e5c7e3c482bb667c6ee376d82d1.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/shu-mansion",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "盛华北路116号7栋附301-304号",
+    "amapPoiId": "B0J1AS4RLZ"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-sichuan-folk-shenxianshu-south-road",
@@ -7096,18 +7348,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "巴国布衣 成都",
+    "poiQuery": "巴国布衣·SichuanFolk(紫荆店) 成都",
     "position": [
-      104.050013507316,
-      30.607056534942
+      104.049432,
+      30.60663
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B7%B4%E5%9B%BD%E5%B8%83%E8%A1%A3%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B7%B4%E5%9B%BD%E5%B8%83%E8%A1%A3%C2%B7SichuanFolk(%E7%B4%AB%E8%8D%86%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/112cc97421644067a59fcdeb4a954cc9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/sichuan-folk-shenxianshu-south-road",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "神仙树南路63号2楼(神仙树地铁站C2口步行350米)",
+    "amapPoiId": "B0FFFW8BLY"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-nan-tang-tianshun-road",
@@ -7123,18 +7377,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "南堂馆 (天顺路) 成都",
+    "poiQuery": "南堂馆川菜文化餐厅(天府店) 成都",
     "position": [
-      104.07078515139,
-      30.593106554672
+      104.070684,
+      30.592656
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E5%A0%82%E9%A6%86%20(%E5%A4%A9%E9%A1%BA%E8%B7%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E5%A0%82%E9%A6%86%E5%B7%9D%E8%8F%9C%E6%96%87%E5%8C%96%E9%A4%90%E5%8E%85(%E5%A4%A9%E5%BA%9C%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7dbef4ae93b04b6c8124d532a631f0cd.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/nan-tang-tianshun-road",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "天顺路151号",
+    "amapPoiId": "B001C8O8E0"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-guan-jin-wuhou",
@@ -7150,18 +7406,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "观锦 (成汉南路) 成都",
+    "poiQuery": "观锦餐厅(天府新谷店) 成都",
     "position": [
-      104.05475806505,
-      30.587498109817
+      104.054739,
+      30.587564
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A7%82%E9%94%A6%20(%E6%88%90%E6%B1%89%E5%8D%97%E8%B7%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A7%82%E9%94%A6%E9%A4%90%E5%8E%85(%E5%A4%A9%E5%BA%9C%E6%96%B0%E8%B0%B7%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ee696c23eeba490d862f1fe38f64537e.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/guan-jin-wuhou",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "成汉南路19号天府新谷5号楼4层",
+    "amapPoiId": "B0J66C29OP"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-new-peking-cuisine",
@@ -7177,18 +7435,20 @@ export const restaurants: Restaurant[] = [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "新拾玖 成都",
+    "poiQuery": "新拾玖·新京菜(银泰中心IN99店) 成都",
     "position": [
-      104.069612201136,
-      30.585035028732
+      104.069359,
+      30.58458
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E6%8B%BE%E7%8E%96%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E6%8B%BE%E7%8E%96%C2%B7%E6%96%B0%E4%BA%AC%E8%8F%9C(%E9%93%B6%E6%B3%B0%E4%B8%AD%E5%BF%83IN99%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/23676466277340c3b72d1928a91d95f4.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/new-peking-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "天府大道北段1199号成都银泰中心3楼",
+    "amapPoiId": "B0IR2S4BO3"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-organization-south",
@@ -7204,18 +7464,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "组织向南 成都",
+    "poiQuery": "组织向南川菜馆 成都",
     "position": [
-      104.049719806346,
-      30.586763126364
+      104.049601,
+      30.58646
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BB%84%E7%BB%87%E5%90%91%E5%8D%97%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BB%84%E7%BB%87%E5%90%91%E5%8D%97%E5%B7%9D%E8%8F%9C%E9%A6%86%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/237e1f8f134041d6bce7d305339ccaf0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/organization-south",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "万象南路669号象南里1栋2楼212-213",
+    "amapPoiId": "B0FFI13NNA"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-infinite-luck",
@@ -7258,18 +7520,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "银锅 成都",
+    "poiQuery": "Silverpot·银锅现代川菜(悠方店) 成都",
     "position": [
-      104.059077987724,
-      30.583134367224
+      104.058972,
+      30.583422
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%93%B6%E9%94%85%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Silverpot%C2%B7%E9%93%B6%E9%94%85%E7%8E%B0%E4%BB%A3%E5%B7%9D%E8%8F%9C(%E6%82%A0%E6%96%B9%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2c12076663814dfc9ee59c5e193146da.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/silver-pot",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "交子大道300号悠方IPC写字楼M6座5层532号",
+    "amapPoiId": "B0FFJ6VIUL"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-pairedd",
@@ -7285,18 +7549,20 @@ export const restaurants: Restaurant[] = [
       "时尚欧陆菜"
     ],
     "cuisine": "时尚欧陆菜",
-    "poiQuery": "配德 成都",
+    "poiQuery": "Pairedd 成都",
     "position": [
-      104.057645655504,
-      30.583127730416
+      104.056786,
+      30.583347
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%85%8D%E5%BE%B7%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Pairedd%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2416de787083420aa96e51befa9d85c2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/pairedd",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "交子大道300号悠方购物中心7层703号",
+    "amapPoiId": "B0JG2Z42I2"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-hokkien-cuisine",
@@ -7312,18 +7578,20 @@ export const restaurants: Restaurant[] = [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "福满楼 成都",
+    "poiQuery": "福满楼·Hokkien·福建菜(中国华商金融中心店) 成都",
     "position": [
-      104.063159101028,
-      30.581438406232
+      104.063425,
+      30.581525
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E6%BB%A1%E6%A5%BC%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E6%BB%A1%E6%A5%BC%C2%B7Hokkien%C2%B7%E7%A6%8F%E5%BB%BA%E8%8F%9C(%E4%B8%AD%E5%9B%BD%E5%8D%8E%E5%95%86%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e78960a837e74a38b607abac2e1f611c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/hokkien-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "交子大道33号中国华商金融中心3楼北侧326商铺",
+    "amapPoiId": "B0IG1CFBGF"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-co",
@@ -7366,18 +7634,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "柴门荟 成都",
+    "poiQuery": "柴门荟(中海环宇荟店) 成都",
     "position": [
-      104.055824221299,
-      30.581620710617
+      104.05587,
+      30.581761
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B4%E9%97%A8%E8%8D%9F%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B4%E9%97%A8%E8%8D%9F(%E4%B8%AD%E6%B5%B7%E7%8E%AF%E5%AE%87%E8%8D%9F%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4371b8595a4b456eadbd1a254b5a8712.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/chaimen-hui",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "交子大道287号、233号附201、281-221",
+    "amapPoiId": "B0FFLC4VQL"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-xin-rong-ji-1207940",
@@ -7393,18 +7663,20 @@ export const restaurants: Restaurant[] = [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "新荣记 成都",
+    "poiQuery": "新荣记(华商金融中心店) 成都",
     "position": [
-      104.063095940622,
-      30.580841882232
+      104.06329,
+      30.580647
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0(%E5%8D%8E%E5%95%86%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c7b636bf909f41278a855cf55500f71b.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/xin-rong-ji-1207940",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "交子大道33号中国华商金融中心5楼(仅南门进)",
+    "amapPoiId": "B0IGRCZLE8"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-xue-tao-in-the-yard",
@@ -7447,18 +7719,20 @@ export const restaurants: Restaurant[] = [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "宴遇·福建荟馆 (武侯) 成都",
+    "poiQuery": "宴遇·福建荟馆(成都SKP店) 成都",
     "position": [
-      104.070813170822,
-      30.570496450208
+      104.070904,
+      30.568404
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B4%E9%81%87%C2%B7%E7%A6%8F%E5%BB%BA%E8%8D%9F%E9%A6%86%20(%E6%AD%A6%E4%BE%AF)%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B4%E9%81%87%C2%B7%E7%A6%8F%E5%BB%BA%E8%8D%9F%E9%A6%86(%E6%88%90%E9%83%BDSKP%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9f8f4a7c860a4ceba6f64e7bc7154538.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/yanyu",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "天府大道北段2001号东馆E2005(2楼)",
+    "amapPoiId": "B0IK1RQ5V4"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-xiang-shang-xiang",
@@ -7474,18 +7748,20 @@ export const restaurants: Restaurant[] = [
       "湘菜"
     ],
     "cuisine": "湘菜",
-    "poiQuery": "湘上湘 成都",
+    "poiQuery": "湘上湘(成都SKP店) 成都",
     "position": [
-      104.070867898669,
-      30.569011292214
+      104.070895,
+      30.568987
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E4%B8%8A%E6%B9%98%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%98%E4%B8%8A%E6%B9%98(%E6%88%90%E9%83%BDSKP%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/477881e5df8c44939e8ab826961f08cb.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/xiang-shang-xiang",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "SKP美食大道二楼E2003号",
+    "amapPoiId": "B0IKRSH3AB"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-qian-li-1208405",
@@ -7501,18 +7777,20 @@ export const restaurants: Restaurant[] = [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "前里 成都",
+    "poiQuery": "前里·台州鱼市(成都SKP店) 成都",
     "position": [
-      104.071099739718,
-      30.56765711701
+      104.070981,
+      30.56768
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%89%8D%E9%87%8C%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%89%8D%E9%87%8C%C2%B7%E5%8F%B0%E5%B7%9E%E9%B1%BC%E5%B8%82(%E6%88%90%E9%83%BDSKP%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c83c209536494c64a25cd514abc1736d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/qian-li-1208405",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "天府大道北段2001号SKP东馆E2008号",
+    "amapPoiId": "B0I075JPTX"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-hidden-place",
@@ -7528,18 +7806,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "隐庐·古法川菜 成都",
+    "poiQuery": "隐庐·古法川菜(高新店) 成都",
     "position": [
-      104.050840661773,
-      30.561631431185
+      104.050714,
+      30.561538
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9A%90%E5%BA%90%C2%B7%E5%8F%A4%E6%B3%95%E5%B7%9D%E8%8F%9C%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9A%90%E5%BA%90%C2%B7%E5%8F%A4%E6%B3%95%E5%B7%9D%E8%8F%9C(%E9%AB%98%E6%96%B0%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/249f541e3cfd400aad83798a6065ffd8.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/hidden-place",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "盛兴街57号隐庐酒店1层",
+    "amapPoiId": "B0FFJN7WXQ"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-wanyan",
@@ -7609,18 +7889,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "南公馆 成都",
+    "poiQuery": "南公馆Nan’sGourmet 成都",
     "position": [
-      104.039681256576,
-      30.555116917385
+      104.039548,
+      30.555041
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E5%85%AC%E9%A6%86%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E5%85%AC%E9%A6%86Nan%E2%80%99sGourmet%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0198476588a54cc0a4a94d8519572593.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/nan-s-gourmet",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "成都高新区富华北路666号2栋附101号",
+    "amapPoiId": "B0H3472MWK"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-cuo-xia",
@@ -7665,16 +7947,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "川菜",
     "poiQuery": "银芭1986 成都",
     "position": [
-      104.088728456059,
-      30.484556898762
+      104.09263,
+      30.4832
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%93%B6%E8%8A%AD1986%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/774577f70d524f638b4ff03a03634131.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/art-yinba",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "麓山大道二段18号麓镇1栋",
+    "amapPoiId": "B0FFIPCPY6"
   },
   {
     "id": "cn-chengdu-municipality-chengdu-silver-cottage",
@@ -7690,18 +7974,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "银庐 成都",
+    "poiQuery": "银庐·生活美学空间(麓湖店) 成都",
     "position": [
-      104.067850583267,
-      30.455761516646
+      104.066628,
+      30.457281
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%93%B6%E5%BA%90%20%E6%88%90%E9%83%BD",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%93%B6%E5%BA%90%C2%B7%E7%94%9F%E6%B4%BB%E7%BE%8E%E5%AD%A6%E7%A9%BA%E9%97%B4(%E9%BA%93%E6%B9%96%E5%BA%97)%20%E6%88%90%E9%83%BD",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/850cabe3ccd94dacb807c2fb71efcbc9.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/chengdu-municipality/chengdu/restaurant/silver-cottage",
     "sourceEditionUrl": "https://guide.michelin.com/mo/en/article/news-and-views/michelin-guide-chengdu-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "麓湖中路西段888号2栋1",
+    "amapPoiId": "B0HASR8CT2"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-wuwei-natural-food",
@@ -7710,25 +7996,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "无味舒食 厦门",
+    "poiQuery": "无味舒食(环岛路店) 厦门",
     "position": [
-      118.118380438912,
-      24.42765605338
+      118.118366,
+      24.427731
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%97%A0%E5%91%B3%E8%88%92%E9%A3%9F%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%97%A0%E5%91%B3%E8%88%92%E9%A3%9F(%E7%8E%AF%E5%B2%9B%E8%B7%AF%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/eed8edff56f44b15b506f35c3a9e0c30.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/wuwei-natural-food",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "环岛南路290号二楼",
+    "amapPoiId": "B0FFIQFZUV"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-xia",
@@ -7872,25 +8160,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "one-star",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "文儒九号 福州",
+    "poiQuery": "文儒九号·闽菜馆 福州",
     "position": [
-      119.298621198772,
-      26.078132472669
+      119.293816,
+      26.081413
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%87%E5%84%92%E4%B9%9D%E5%8F%B7%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%87%E5%84%92%E4%B9%9D%E5%8F%B7%C2%B7%E9%97%BD%E8%8F%9C%E9%A6%86%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/efa6f5b63795492380d1a8231ef97cf4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/wenru-no-9",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "文儒坊56号",
+    "amapPoiId": "B0FFF4Y9VH"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-hokklo",
@@ -7953,7 +8243,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "宁德",
     "province": "福建",
     "country": "中国",
-    "district": "宁德",
+    "district": "蕉城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -7962,16 +8252,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "小东门牛肉水粉老店 宁德",
     "position": [
-      119.53233275666,
-      26.660539512169
+      119.527781,
+      26.663896
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B0%8F%E4%B8%9C%E9%97%A8%E7%89%9B%E8%82%89%E6%B0%B4%E7%B2%89%E8%80%81%E5%BA%97%20%E5%AE%81%E5%BE%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/55e67121a17c459f9aaa4afce446c250.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/ningde/restaurant/xiao-dong-men-niu-rou-shui-fen-lao-dian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "都市商厦121号",
+    "amapPoiId": "B0JDXREVVT"
   },
   {
     "id": "cn-fujian-province-quanzhou-1030272-chun-sheng",
@@ -7980,25 +8272,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "晋江市",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "春生饭店 泉州",
+    "poiQuery": "春生饭店(泉州晋江市) 泉州",
     "position": [
-      118.519015218787,
-      24.804680835377
+      118.514244,
+      24.80755
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%A5%E7%94%9F%E9%A5%AD%E5%BA%97%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%A5%E7%94%9F%E9%A5%AD%E5%BA%97(%E6%B3%89%E5%B7%9E%E6%99%8B%E6%B1%9F%E5%B8%82)%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e985a8619c424ed885058011024059a9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/chun-sheng",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "磁灶镇张林村五龙脊双龙路124号",
+    "amapPoiId": "B0L6RR3VCS"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-xingxian-mawei",
@@ -8007,25 +8301,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "马尾区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "海鲜"
     ],
     "cuisine": "海鲜",
-    "poiQuery": "兴仙饭店 (马尾) 福州",
+    "poiQuery": "兴仙饭店·闽味海鲜(马尾总店) 福州",
     "position": [
-      119.478282718597,
-      25.987686145929
+      119.473424,
+      25.990696
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%B4%E4%BB%99%E9%A5%AD%E5%BA%97%20(%E9%A9%AC%E5%B0%BE)%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%B4%E4%BB%99%E9%A5%AD%E5%BA%97%C2%B7%E9%97%BD%E5%91%B3%E6%B5%B7%E9%B2%9C(%E9%A9%AC%E5%B0%BE%E6%80%BB%E5%BA%97)%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9eb588bec2e944b5961d94c5bda8d710.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/xingxian-mawei",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "青洲路66号名成海洋中心大厦",
+    "amapPoiId": "B0FFHW99BM"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-ye-jia-hua-sheng-tang",
@@ -8061,25 +8357,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "珍珍海蛎煎 厦门",
+    "poiQuery": "珍珍海蛎煎·台南卤肉饭 厦门",
     "position": [
-      118.076525744902,
-      24.459626551961
+      118.076444,
+      24.459775
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8F%8D%E7%8F%8D%E6%B5%B7%E8%9B%8E%E7%85%8E%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8F%8D%E7%8F%8D%E6%B5%B7%E8%9B%8E%E7%85%8E%C2%B7%E5%8F%B0%E5%8D%97%E5%8D%A4%E8%82%89%E9%A5%AD%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fd15c3f0a3034ddf8ade62a8a3750167.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/zhen-zhen-hai-li-jian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "厦禾路184号",
+    "amapPoiId": "B0FFF4K559"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-lu-niang-zi-huli",
@@ -8115,25 +8413,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "月华沙茶面 厦门",
+    "poiQuery": "月华沙茶面店(中山路店) 厦门",
     "position": [
-      118.076637539246,
-      24.455482625028
+      118.076588,
+      24.455431
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9C%88%E5%8D%8E%E6%B2%99%E8%8C%B6%E9%9D%A2%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9C%88%E5%8D%8E%E6%B2%99%E8%8C%B6%E9%9D%A2%E5%BA%97(%E4%B8%AD%E5%B1%B1%E8%B7%AF%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7e9f8ad49b994a82ad45cbc4dbe9ef5d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/yue-hua-sha-cha-mian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "镇邦路78号(民立小学斜对面)",
+    "amapPoiId": "B0FFF01QSW"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-hao-shi-lai",
@@ -8169,7 +8469,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "宁德",
     "province": "福建",
     "country": "中国",
-    "district": "宁德",
+    "district": "蕉城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -8178,16 +8478,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "小吃",
     "poiQuery": "胡裕忠武曲扁肉 宁德",
     "position": [
-      119.55019359559,
-      26.660482043042
+      119.545591,
+      26.664054
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%83%A1%E8%A3%95%E5%BF%A0%E6%AD%A6%E6%9B%B2%E6%89%81%E8%82%89%20%E5%AE%81%E5%BE%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d282d8e749d748aeaebae0091bbb7a9f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/ningde/restaurant/hu-yu-zhong-wu-qu-bian-rou",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "闽东中路3号东海富豪世家8幢101-102D",
+    "amapPoiId": "B0FFMA8UED"
   },
   {
     "id": "cn-fujian-province-ningde-ning-chuan-zu-yao-yu-wan",
@@ -8196,25 +8498,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "宁德",
     "province": "福建",
     "country": "中国",
-    "district": "宁德",
+    "district": "蕉城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "宁川祖耀鱼丸 宁德",
+    "poiQuery": "宁川祖耀鱼丸(人民医院老店) 宁德",
     "position": [
-      119.528658720836,
-      26.655663084371
+      119.523814,
+      26.65906
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%81%E5%B7%9D%E7%A5%96%E8%80%80%E9%B1%BC%E4%B8%B8%20%E5%AE%81%E5%BE%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%81%E5%B7%9D%E7%A5%96%E8%80%80%E9%B1%BC%E4%B8%B8(%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2%E8%80%81%E5%BA%97)%20%E5%AE%81%E5%BE%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fa71ddcc985143ce8663e8a95cb029fa.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/ningde/restaurant/ning-chuan-zu-yao-yu-wan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "宁德人民医院南1门东60米",
+    "amapPoiId": "B0FFG2BRWV"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-lao-song-bian-shi-dian",
@@ -8223,25 +8527,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "劳松扁食店 厦门",
+    "poiQuery": "劳松扁食店(小学路店) 厦门",
     "position": [
-      118.077106219127,
-      24.45967682574
+      118.077123,
+      24.459663
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8A%B3%E6%9D%BE%E6%89%81%E9%A3%9F%E5%BA%97%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8A%B3%E6%9D%BE%E6%89%81%E9%A3%9F%E5%BA%97(%E5%B0%8F%E5%AD%A6%E8%B7%AF%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/580c5fcf19e04400860334418daec3f1.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/lao-song-bian-shi-dian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "厦禾路202号(近开禾路)",
+    "amapPoiId": "B025002MNO"
   },
   {
     "id": "cn-fujian-province-quanzhou-1030272-hall-thing-licheng",
@@ -8304,25 +8610,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "后街捞化 (通湖路216号) 福州",
+    "poiQuery": "后街捞化 福州",
     "position": [
-      119.297339698486,
-      26.080686113421
+      119.292613,
+      26.083751
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8E%E8%A1%97%E6%8D%9E%E5%8C%96%20(%E9%80%9A%E6%B9%96%E8%B7%AF216%E5%8F%B7)%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%8E%E8%A1%97%E6%8D%9E%E5%8C%96%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/38ebc19a878d4e34af22d030fbbda34d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/hou-jie-lao-hua-yadao-lane",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "通湖路216号",
+    "amapPoiId": "B0FFG6AJB5"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-wu-lan-sha-cha-mian",
@@ -8358,25 +8666,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "小埕戏 厦门",
+    "poiQuery": "小埕戏·饮茶肆|流水席 厦门",
     "position": [
-      118.077911515019,
-      24.449506594535
+      118.077922,
+      24.44957
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B0%8F%E5%9F%95%E6%88%8F%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B0%8F%E5%9F%95%E6%88%8F%C2%B7%E9%A5%AE%E8%8C%B6%E8%82%86%7C%E6%B5%81%E6%B0%B4%E5%B8%AD%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/911953d2588c464896d53f62dbdfbe07.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/xiao-cheng-xi",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "鹭江道3号和平码头1电梯4楼",
+    "amapPoiId": "B0HKC7ESOB"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-shan-hai-nan-yan",
@@ -8412,25 +8722,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "鲤城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "建来发 泉州",
+    "poiQuery": "建来发饭店 泉州",
     "position": [
-      118.600897874739,
-      24.910609023531
+      118.596351,
+      24.913609
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BB%BA%E6%9D%A5%E5%8F%91%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BB%BA%E6%9D%A5%E5%8F%91%E9%A5%AD%E5%BA%97%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7dc085be77b64eb5b160e52f47fa556d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/jian-lai-fa",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "南俊北路A区A4、5号楼12号店面",
+    "amapPoiId": "B0FFG70F3U"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-min-shi-fu",
@@ -8439,25 +8751,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "闽食府 福州",
+    "poiQuery": "闽食府(新华福广场A座店) 福州",
     "position": [
-      119.311361074872,
-      26.095538488129
+      119.306519,
+      26.098674
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%97%BD%E9%A3%9F%E5%BA%9C%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%97%BD%E9%A3%9F%E5%BA%9C(%E6%96%B0%E5%8D%8E%E7%A6%8F%E5%B9%BF%E5%9C%BAA%E5%BA%A7%E5%BA%97)%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8403da28e0a54582be5e6f4557bd117e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/min-shi-fu",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "五四路173号(新华福广场A座二楼)",
+    "amapPoiId": "B0FFGHUOPF"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-lai-cuo-cheng-bian-shi-dian",
@@ -8520,7 +8834,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -8529,16 +8843,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "乌糖沙茶面 厦门",
     "position": [
-      118.08453252939,
-      24.443306066001
+      118.084532,
+      24.443282
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B9%8C%E7%B3%96%E6%B2%99%E8%8C%B6%E9%9D%A2%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8d180adb88ed435daa6bd54f0947e62a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/wu-tang-sha-cha-mian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "民族路76号",
+    "amapPoiId": "B0I1VU0Q9H"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-chic-1699-1213633",
@@ -8628,25 +8944,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "167山海里 福州",
+    "poiQuery": "167山海里餐厅(中福广场店) 福州",
     "position": [
-      119.309708996204,
-      26.083730133734
+      119.304927,
+      26.086846
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=167%E5%B1%B1%E6%B5%B7%E9%87%8C%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=167%E5%B1%B1%E6%B5%B7%E9%87%8C%E9%A4%90%E5%8E%85(%E4%B8%AD%E7%A6%8F%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7eb823fd1feb4db88cf9410ff1331391.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/167-shan-hai-li",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东街92号中福广场2楼167",
+    "amapPoiId": "B0JKMKG4SQ"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-jing-li",
@@ -8682,25 +9000,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "大同烧酒廊 厦门",
+    "poiQuery": "大同烧酒廊(思东商厦店) 厦门",
     "position": [
-      118.080247098171,
-      24.457074525621
+      118.080031,
+      24.45715
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E5%90%8C%E7%83%A7%E9%85%92%E5%BB%8A%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E5%90%8C%E7%83%A7%E9%85%92%E5%BB%8A(%E6%80%9D%E4%B8%9C%E5%95%86%E5%8E%A6%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4dda4d3cae4e421ba2898549faabd2aa.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/da-tong-shao-jiu-lang",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "大同路292思东商厦F1层",
+    "amapPoiId": "B0FFHZNY9K"
   },
   {
     "id": "cn-fujian-province-quanzhou-1030272-wai-tou-niu-rou-meiling-road",
@@ -8709,25 +9029,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "晋江市",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "歪头牛肉 (梅岭路) 泉州",
+    "poiQuery": "歪头牛肉(金龙壹号店) 泉州",
     "position": [
-      118.571623363409,
-      24.808297185483
+      118.567151,
+      24.811285
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AD%AA%E5%A4%B4%E7%89%9B%E8%82%89%20(%E6%A2%85%E5%B2%AD%E8%B7%AF)%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AD%AA%E5%A4%B4%E7%89%9B%E8%82%89(%E9%87%91%E9%BE%99%E5%A3%B9%E5%8F%B7%E5%BA%97)%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/610b83e3166f49cb9d0f359fbd8e6f08.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/wai-tou-niu-rou-meiling-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "梅岭街道梅岭路472-476金龙壹号广场",
+    "amapPoiId": "B0JK2YT8A3"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-chen-xian-sen-sha-cha-mian",
@@ -8736,7 +9058,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "集美区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -8745,16 +9067,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "陈先森沙茶面 厦门",
     "position": [
-      118.101297855884,
-      24.568218137509
+      118.101235,
+      24.568135
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%99%88%E5%85%88%E6%A3%AE%E6%B2%99%E8%8C%B6%E9%9D%A2%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/26a850b3bcf04623a85b5267fb116e3e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/chen-xian-sen-sha-cha-mian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "嘉庚路119号停车场内",
+    "amapPoiId": "B0FFIRDH6U"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-shan-li-yan-sha-cha-mian",
@@ -8763,25 +9087,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "山丽妍沙茶面 厦门",
+    "poiQuery": "大同山丽妍沙茶面(大同店) 厦门",
     "position": [
-      118.080210983294,
-      24.457192467457
+      118.080115,
+      24.457163
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B1%B1%E4%B8%BD%E5%A6%8D%E6%B2%99%E8%8C%B6%E9%9D%A2%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E5%90%8C%E5%B1%B1%E4%B8%BD%E5%A6%8D%E6%B2%99%E8%8C%B6%E9%9D%A2(%E5%A4%A7%E5%90%8C%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8a8ce534ce614b4aa5a75dc750fad8fc.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/shan-li-yan-sha-cha-mian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "大同路285号",
+    "amapPoiId": "B0FFIMWZRH"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-homeme18-huming-road",
@@ -8790,25 +9116,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "洪溪社 (湖明路) 厦门",
+    "poiQuery": "洪溪社HOMEME(湖明路店) 厦门",
     "position": [
-      118.117408386785,
-      24.478175413947
+      118.117529,
+      24.478455
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B4%AA%E6%BA%AA%E7%A4%BE%20(%E6%B9%96%E6%98%8E%E8%B7%AF)%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B4%AA%E6%BA%AA%E7%A4%BEHOMEME(%E6%B9%96%E6%98%8E%E8%B7%AF%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d105cae900e2412da794eec22c54f7b9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/homeme18-huming-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "湖明路24-1041号(莲坂地铁站3口步行290米)",
+    "amapPoiId": "B0HRHNY26N"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-a-xin-xian-lao-gongnong-road",
@@ -8871,7 +9199,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "翔安区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -8880,16 +9208,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "闽菜",
     "poiQuery": "国供饭店 厦门",
     "position": [
-      118.246030053109,
-      24.670318717537
+      118.245987,
+      24.670336
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9B%BD%E4%BE%9B%E9%A5%AD%E5%BA%97%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a93f3b5a7f3e40a180a976167fdbe5a5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/guo-gong-fan-dian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "巷西路315号",
+    "amapPoiId": "B0FFJY3DS6"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-longkushan-eatery",
@@ -9033,25 +9363,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "鲤城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "庄记泉府卤面馆 泉州",
+    "poiQuery": "泉府卤面馆 泉州",
     "position": [
-      118.593024301884,
-      24.905560849644
+      118.588643,
+      24.908607
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BA%84%E8%AE%B0%E6%B3%89%E5%BA%9C%E5%8D%A4%E9%9D%A2%E9%A6%86%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B3%89%E5%BA%9C%E5%8D%A4%E9%9D%A2%E9%A6%86%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f26f23313c2e425d83b4d06124f1b7e7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/zhuang-ji-quan-fu-lu-mian-guan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "花巷59-3号",
+    "amapPoiId": "B0FFGOYNIL"
   },
   {
     "id": "cn-fujian-province-quanzhou-1030272-a-qiu-niu-pai-huxin-street",
@@ -9114,25 +9446,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "鲤城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "张林阿山姜母鸭 泉州",
+    "poiQuery": "张林阿山姜母鸭(泉州新华北路店) 泉州",
     "position": [
-      118.58767535774,
-      24.908303167937
+      118.5832,
+      24.911231
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BC%A0%E6%9E%97%E9%98%BF%E5%B1%B1%E5%A7%9C%E6%AF%8D%E9%B8%AD%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BC%A0%E6%9E%97%E9%98%BF%E5%B1%B1%E5%A7%9C%E6%AF%8D%E9%B8%AD(%E6%B3%89%E5%B7%9E%E6%96%B0%E5%8D%8E%E5%8C%97%E8%B7%AF%E5%BA%97)%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a6101174881148f683d75e988f46f825.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/zhang-lin-a-shan-jiang-mu-ya",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "新华路甲第门65-7.8.9",
+    "amapPoiId": "B0HRNCV6M5"
   },
   {
     "id": "cn-fujian-province-quanzhou-1030272-luo-ji-mian-xian-hu",
@@ -9168,25 +9502,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "阿忠食坊 厦门",
+    "poiQuery": "阿忠食坊大排档·20年老店(万象城店) 厦门",
     "position": [
-      118.110399434687,
-      24.467615353591
+      118.10943,
+      24.471967
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E5%BF%A0%E9%A3%9F%E5%9D%8A%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E5%BF%A0%E9%A3%9F%E5%9D%8A%E5%A4%A7%E6%8E%92%E6%A1%A3%C2%B720%E5%B9%B4%E8%80%81%E5%BA%97(%E4%B8%87%E8%B1%A1%E5%9F%8E%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c22d1c41b45f4d91a343adc9522ed3c9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/a-zhong-shi-fang",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "金榜路111之一(湖滨东路地铁站2号口步行230米)",
+    "amapPoiId": "B02500QG1G"
   },
   {
     "id": "cn-fujian-province-ningde-fu-ding-zheng-zong-bian-rou-jianxin-road",
@@ -9195,25 +9531,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "宁德",
     "province": "福建",
     "country": "中国",
-    "district": "宁德",
+    "district": "蕉城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "福鼎正宗扁肉 (建新路) 宁德",
+    "poiQuery": "福鼎正宗扁肉(建新路) 宁德",
     "position": [
-      119.526882632004,
-      26.660403193802
+      119.522118,
+      26.663824
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E9%BC%8E%E6%AD%A3%E5%AE%97%E6%89%81%E8%82%89%20(%E5%BB%BA%E6%96%B0%E8%B7%AF)%20%E5%AE%81%E5%BE%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E9%BC%8E%E6%AD%A3%E5%AE%97%E6%89%81%E8%82%89(%E5%BB%BA%E6%96%B0%E8%B7%AF)%20%E5%AE%81%E5%BE%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c6c65b82fdc941759fe6bb17bc4ab877.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/ningde/restaurant/fu-ding-zheng-zong-bian-rou-jianxin-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "建新路 1-27 号",
+    "amapPoiId": "B0FFGI1XOV"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-fu-yu-da-tong-ya-rou-zhou",
@@ -9249,25 +9587,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "鲤城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "德文虾仔面 泉州",
+    "poiQuery": "德文蝦仔面(东街3号区店) 泉州",
     "position": [
-      118.598313105842,
-      24.908603738698
+      118.593842,
+      24.911596
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%B7%E6%96%87%E8%99%BE%E4%BB%94%E9%9D%A2%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%B7%E6%96%87%E8%9D%A6%E4%BB%94%E9%9D%A2(%E4%B8%9C%E8%A1%973%E5%8F%B7%E5%8C%BA%E5%BA%97)%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/971c39d8cfc540e492aa59c76ef1e11b.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/de-wen-xia-zai-mian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "鲤中街道和平社区东街149号",
+    "amapPoiId": "B0IDFUVIUB"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-shang-xing",
@@ -9303,25 +9643,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "鲤城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "老阿伯 泉州",
+    "poiQuery": "老阿伯闽南菜 泉州",
     "position": [
-      118.58951845637,
-      24.917344012598
+      118.584963,
+      24.920294
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E9%98%BF%E4%BC%AF%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E9%98%BF%E4%BC%AF%E9%97%BD%E5%8D%97%E8%8F%9C%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3bb188a057b44d38817932e5e5182e79.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/lao-a-bo",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "清源街道北门社区城北路600-2号、600-3号",
+    "amapPoiId": "B0H2PANKAF"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-cong-hui-tongan-lao-mei-shi-fan-dian",
@@ -9330,25 +9672,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "聪辉同安老美食饭店 厦门",
+    "poiQuery": "聪辉同安老美食饭店(大元路店) 厦门",
     "position": [
-      118.076294922684,
-      24.456414648887
+      118.076275,
+      24.456475
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%81%AA%E8%BE%89%E5%90%8C%E5%AE%89%E8%80%81%E7%BE%8E%E9%A3%9F%E9%A5%AD%E5%BA%97%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%81%AA%E8%BE%89%E5%90%8C%E5%AE%89%E8%80%81%E7%BE%8E%E9%A3%9F%E9%A5%AD%E5%BA%97(%E5%A4%A7%E5%85%83%E8%B7%AF%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/684704cab4c6458a92adf26aac9cbf28.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/cong-hui-tongan-lao-mei-shi-fan-dian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "大元路3一102",
+    "amapPoiId": "B0L0BBTSPV"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-ming-yue-xia-mian-xiahe-road",
@@ -9357,25 +9701,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "明月虾面 (厦禾路) 厦门",
+    "poiQuery": "明月虾面(厦禾路店) 厦门",
     "position": [
-      118.076386542329,
-      24.459803054894
+      118.076409,
+      24.459781
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%8E%E6%9C%88%E8%99%BE%E9%9D%A2%20(%E5%8E%A6%E7%A6%BE%E8%B7%AF)%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%8E%E6%9C%88%E8%99%BE%E9%9D%A2(%E5%8E%A6%E7%A6%BE%E8%B7%AF%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b74878e04c8a4ed0a7297a8516af1eb3.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/ming-yue-xia-mian-xiahe-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "厦禾路180号(近大同小学)",
+    "amapPoiId": "B025002NQI"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-minnan-minnan-siming",
@@ -9411,25 +9757,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "鲤城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "车桥头文阿水丸 (打锡街) 泉州",
+    "poiQuery": "车桥头文阿水丸(中山路店) 泉州",
     "position": [
-      118.594055852795,
-      24.903993033327
+      118.589605,
+      24.906962
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BD%A6%E6%A1%A5%E5%A4%B4%E6%96%87%E9%98%BF%E6%B0%B4%E4%B8%B8%20(%E6%89%93%E9%94%A1%E8%A1%97)%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BD%A6%E6%A1%A5%E5%A4%B4%E6%96%87%E9%98%BF%E6%B0%B4%E4%B8%B8(%E4%B8%AD%E5%B1%B1%E8%B7%AF%E5%BA%97)%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ead89dc1231240009efdcf868e5fe358.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/che-qiao-tou-wen-a-shui-wan-daxi-street",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "海滨街道打锡街9号打锡街路口",
+    "amapPoiId": "B0J2N7LFU7"
   },
   {
     "id": "cn-fujian-province-quanzhou-1030272-zhong-ji-yan-shao-fan-ya",
@@ -9492,7 +9840,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -9501,16 +9849,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "阿西虾面 厦门",
     "position": [
-      118.076253798055,
-      24.456550775087
+      118.076269,
+      24.456574
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E8%A5%BF%E8%99%BE%E9%9D%A2%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/de99873c4cfc4dbd8a00749a9639650a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/a-xi-xia-mian",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "大元路11号",
+    "amapPoiId": "B0FFKPTB8Q"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-lin-yi-nen-ming-pai-zhu-xue-hua",
@@ -9546,25 +9896,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "善古堂 (厦禾路) 厦门",
+    "poiQuery": "善古堂小吃店 厦门",
     "position": [
-      118.085197785293,
-      24.46106284671
+      118.085293,
+      24.46115
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%96%84%E5%8F%A4%E5%A0%82%20(%E5%8E%A6%E7%A6%BE%E8%B7%AF)%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%96%84%E5%8F%A4%E5%A0%82%E5%B0%8F%E5%90%83%E5%BA%97%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/adcae474ad394997a125c22ff8f5e0e9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/shan-gu-tang",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "厦禾路386-119号",
+    "amapPoiId": "B0JUFSJF9P"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-yi-tong-lou",
@@ -9573,25 +9925,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "一同楼 福州",
+    "poiQuery": "一同楼(五四路国际大厦店) 福州",
     "position": [
-      119.310972059024,
-      26.093798459
+      119.306063,
+      26.096998
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%80%E5%90%8C%E6%A5%BC%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%80%E5%90%8C%E6%A5%BC(%E4%BA%94%E5%9B%9B%E8%B7%AF%E5%9B%BD%E9%99%85%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e1b19499d1d2497c8d087e265c7b7721.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/yi-tong-lou",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "五四路210号国际大厦F2层",
+    "amapPoiId": "B0FFIBZWCZ"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-xiang-mo-jin-nian-siming",
@@ -9627,25 +9981,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "湖里区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "磐雅苑 厦门",
+    "poiQuery": "磐雅苑素食·茶空间 厦门",
     "position": [
-      118.151369388398,
-      24.487700222679
+      118.151337,
+      24.487725
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A3%90%E9%9B%85%E8%8B%91%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A3%90%E9%9B%85%E8%8B%91%E7%B4%A0%E9%A3%9F%C2%B7%E8%8C%B6%E7%A9%BA%E9%97%B4%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b2d53e42720d4836b66b1b19fab899b8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/pan-ya-yuan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "吕岭路忠仑社148号惠和石文化园内(北侧)",
+    "amapPoiId": "B0IA1SUQFZ"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-guan-zhong-wang-shi",
@@ -9681,25 +10037,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "百家春好德来姜母鸭 (中兴路） 厦门",
+    "poiQuery": "百家春好德来姜母鸭 厦门",
     "position": [
-      118.09281233359,
-      24.459595919298
+      118.092806,
+      24.45953
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BE%E5%AE%B6%E6%98%A5%E5%A5%BD%E5%BE%B7%E6%9D%A5%E5%A7%9C%E6%AF%8D%E9%B8%AD%20(%E4%B8%AD%E5%85%B4%E8%B7%AF%EF%BC%89%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BE%E5%AE%B6%E6%98%A5%E5%A5%BD%E5%BE%B7%E6%9D%A5%E5%A7%9C%E6%AF%8D%E9%B8%AD%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/81f85a312ef64306a7165e35f953c88d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/bai-jia-chun-hao-de-lai-jiang-mu-ya-zhongxing-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中兴路40号(中山公园地铁站3B口步行440米)",
+    "amapPoiId": "B02500QENK"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-kunsho",
@@ -9708,25 +10066,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "勛 厦门",
+    "poiQuery": "勋·kunshō·现代创作料理(磐基·莲花里店) 厦门",
     "position": [
-      118.127534690684,
-      24.484301121723
+      118.127439,
+      24.484579
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8B%9B%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8B%8B%C2%B7kunsh%C5%8D%C2%B7%E7%8E%B0%E4%BB%A3%E5%88%9B%E4%BD%9C%E6%96%99%E7%90%86(%E7%A3%90%E5%9F%BA%C2%B7%E8%8E%B2%E8%8A%B1%E9%87%8C%E5%BA%97)%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7a9f9b2d176f40b482c29d26f5bb7983.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/kunsho",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "磐基莲花里二楼(莲花路口地铁站4号口步行430米)",
+    "amapPoiId": "B0IKZSRSNJ"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-hui-wei-private-kitchen",
@@ -9762,25 +10122,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "石狮市",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "绿岛海鲜酒楼 泉州",
+    "poiQuery": "绿岛海鲜酒楼(瑞昌街石狮市步行街店) 泉州",
     "position": [
-      118.638056623778,
-      24.728727600958
+      118.633583,
+      24.731788
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BB%BF%E5%B2%9B%E6%B5%B7%E9%B2%9C%E9%85%92%E6%A5%BC%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BB%BF%E5%B2%9B%E6%B5%B7%E9%B2%9C%E9%85%92%E6%A5%BC(%E7%91%9E%E6%98%8C%E8%A1%97%E7%9F%B3%E7%8B%AE%E5%B8%82%E6%AD%A5%E8%A1%8C%E8%A1%97%E5%BA%97)%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/53587f1c45c54a158af47ba0889898ba.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/lvdao-seafood",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "92路步行街对面",
+    "amapPoiId": "B02530281R"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-j-a-steak-house",
@@ -9843,25 +10205,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "伟榕捞化 福州",
+    "poiQuery": "福屿伟榕捞化 福州",
     "position": [
-      119.287952052371,
-      26.072703379915
+      119.283233,
+      26.075803
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BC%9F%E6%A6%95%E6%8D%9E%E5%8C%96%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E5%B1%BF%E4%BC%9F%E6%A6%95%E6%8D%9E%E5%8C%96%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/de1177f8ae0e4761bac032908703d280.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/wei-rong-lao-hua",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "福屿社区福二路26号",
+    "amapPoiId": "B0FFFFXMT3"
   },
   {
     "id": "cn-fujian-province-quanzhou-1030272-zayton-courtyard-licheng",
@@ -9924,25 +10288,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "泉州",
     "province": "福建",
     "country": "中国",
-    "district": "泉州",
+    "district": "鲤城区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "南麒楼1924 泉州",
+    "poiQuery": "南麒楼 泉州",
     "position": [
-      118.594098522307,
-      24.903858799231
+      118.589647,
+      24.906854
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E9%BA%92%E6%A5%BC1924%20%E6%B3%89%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E9%BA%92%E6%A5%BC%20%E6%B3%89%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c3fc2c16f4254ac897be350a77374d1e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/quanzhou_1030272/restaurant/nan-qi-lou-1924",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "打锡街17号",
+    "amapPoiId": "B0K1JRYMZC"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-harmony-garden-xierhuan-north-road",
@@ -9951,25 +10317,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "宣和苑 (西二环北路) 福州",
+    "poiQuery": "宣和苑(华侨新村店) 福州",
     "position": [
-      119.284903252764,
-      26.084194894689
+      119.280272,
+      26.087464
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%A3%E5%92%8C%E8%8B%91%20(%E8%A5%BF%E4%BA%8C%E7%8E%AF%E5%8C%97%E8%B7%AF)%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%A3%E5%92%8C%E8%8B%91(%E5%8D%8E%E4%BE%A8%E6%96%B0%E6%9D%91%E5%BA%97)%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ea05b41a351e40828469d593e0f714f2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/harmony-garden-xierhuan-north-road",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "西二环北路236号华侨新村内32号",
+    "amapPoiId": "B024F05SYZ"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-yin-lu",
@@ -10032,25 +10400,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "厦门",
     "province": "福建",
     "country": "中国",
-    "district": "厦门",
+    "district": "思明区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "鹭城轩 厦门",
+    "poiQuery": "厦门康莱德酒店鹭城轩中餐厅 厦门",
     "position": [
-      118.089318877004,
-      24.435222326388
+      118.089319,
+      24.435226
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B9%AD%E5%9F%8E%E8%BD%A9%20%E5%8E%A6%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8E%A6%E9%97%A8%E5%BA%B7%E8%8E%B1%E5%BE%B7%E9%85%92%E5%BA%97%E9%B9%AD%E5%9F%8E%E8%BD%A9%E4%B8%AD%E9%A4%90%E5%8E%85%20%E5%8E%A6%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e798d9c46f1d4ce593c81d74a2e13203.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/xiamen_1031934/restaurant/lucheng",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "演武西路186号世贸海峡大厦B塔",
+    "amapPoiId": "B0FFIBC8XL"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-chosop",
@@ -10167,25 +10537,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "台江区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "宣和一味 福州",
+    "poiQuery": "宣和一味(融侨中心Art Mall店) 福州",
     "position": [
-      119.282678122845,
-      26.056115372159
+      119.277531,
+      26.060359
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%A3%E5%92%8C%E4%B8%80%E5%91%B3%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%A3%E5%92%8C%E4%B8%80%E5%91%B3(%E8%9E%8D%E4%BE%A8%E4%B8%AD%E5%BF%83Art%20Mall%E5%BA%97)%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/06546512ddc74621b2882172bde5f2d5.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/xuanhe-cuisine",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "融侨中心3楼3013铺",
+    "amapPoiId": "B0FFK4QM3P"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-yut-fei",
@@ -10194,25 +10566,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "粤妃公馆 福州",
+    "poiQuery": "粤妃公馆·米其林指南餐厅 福州",
     "position": [
-      119.311718945197,
-      26.093382624717
+      119.306899,
+      26.096581
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B2%A4%E5%A6%83%E5%85%AC%E9%A6%86%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B2%A4%E5%A6%83%E5%85%AC%E9%A6%86%C2%B7%E7%B1%B3%E5%85%B6%E6%9E%97%E6%8C%87%E5%8D%97%E9%A4%90%E5%8E%85%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1e50dfd94e894d549ccd97f85f5b7ead.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/yut-fei",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "五四路137号信和广场301-302-309单元",
+    "amapPoiId": "B0JGJ97BD8"
   },
   {
     "id": "cn-fujian-province-xiamen-1031934-coast-1240760",
@@ -10248,25 +10622,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "福州",
     "province": "福建",
     "country": "中国",
-    "district": "福州",
+    "district": "鼓楼区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "印象福清．醉福园 福州",
+    "poiQuery": "印象福清·醉福园 福州",
     "position": [
-      119.285953175805,
-      26.08374015444
+      119.281133,
+      26.086891
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%B0%E8%B1%A1%E7%A6%8F%E6%B8%85%EF%BC%8E%E9%86%89%E7%A6%8F%E5%9B%AD%20%E7%A6%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%B0%E8%B1%A1%E7%A6%8F%E6%B8%85%C2%B7%E9%86%89%E7%A6%8F%E5%9B%AD%20%E7%A6%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/207de3d409d5437693f15e483f1bccce.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/fujian-province/fuzhou_1026814/restaurant/fuyuan",
     "sourceEditionUrl": "https://guide.michelin.com/en/article/news-and-views/michelin-guide-fujian-2026",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "西二环路华侨新村40号",
+    "amapPoiId": "B0FFJ2255O"
   },
   {
     "id": "cn-fujian-province-fuzhou-1026814-rong-ji-hai-xian-lao-hua-cangshan",
@@ -10338,18 +10714,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "吉品轩 上海",
+    "poiQuery": "吉品轩(乌鲁木齐南路店) 上海",
     "position": [
-      121.453246466793,
-      31.204214069825
+      121.448669,
+      31.206347
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%89%E5%93%81%E8%BD%A9%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%89%E5%93%81%E8%BD%A9(%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%8D%97%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d99730439fcc4047be23787d3c272398.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/ji-pin-court",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "乌鲁木齐南路55号3楼(与衡山路交叉路口)",
+    "amapPoiId": "B0GRDXLU3K"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-8-c2-bd-otto-e-mezzo-bombana",
@@ -10365,18 +10743,20 @@ export const restaurants: Restaurant[] = [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "8 ½ Otto e Mezzo Bombana 上海",
+    "poiQuery": "8½Otto e Mezzo BOMBANA 上海",
     "position": [
-      121.487951367772,
-      31.24243063703
+      121.487897,
+      31.242439
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=8%20%C2%BD%20Otto%20e%20Mezzo%20Bombana%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=8%C2%BDOtto%20e%20Mezzo%20BOMBANA%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a5791677fd37449d97eeb456d780d4ed.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/8-%C2%BD-otto-e-mezzo-bombana",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "圆明园路169号协进大楼6-7楼(近北京东路)",
+    "amapPoiId": "B00156NWIT"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yong-yi-ting",
@@ -10394,16 +10774,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "江浙菜",
     "poiQuery": "雍颐庭 上海",
     "position": [
-      121.507850097671,
-      31.243193579474
+      121.507949,
+      31.243404
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9B%8D%E9%A2%90%E5%BA%AD%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/619e053c2fae47dd92c0bc8e56c4268d.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yong-yi-ting",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "浦东南路111号上海浦东文华东方酒店LG层",
+    "amapPoiId": "B001572RBD"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-moose-pudong",
@@ -10419,18 +10801,20 @@ export const restaurants: Restaurant[] = [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "鹿园 (浦东新区) 上海",
+    "poiQuery": "鹿园MOOSE(浦东店) 上海",
     "position": [
-      121.519546856677,
-      31.228540098023
+      121.515746,
+      31.231607
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B9%BF%E5%9B%AD%20(%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B9%BF%E5%9B%ADMOOSE(%E6%B5%A6%E4%B8%9C%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5a93e4f1a5c54b6f9e07c47c9aec882b.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/moose-pudong",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "浦东南路899号上海陆家嘴中心L+Mall9层",
+    "amapPoiId": "B0FFK3MZ9O"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-lu-style-1203592",
@@ -10446,18 +10830,20 @@ export const restaurants: Restaurant[] = [
       "鲁菜"
     ],
     "cuisine": "鲁菜",
-    "poiQuery": "鲁采 (黄浦) 上海",
+    "poiQuery": "鲁采LU STYLE(新天地店) 上海",
     "position": [
-      121.477090317045,
-      31.211876032142
+      121.477256,
+      31.212193
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B2%81%E9%87%87%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B2%81%E9%87%87LU%20STYLE(%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fb60ce4308844d76b40b8aa5a46532bc.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lu-style-1203592",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "黄陂南路838弄中海环宇荟2层201-202室",
+    "amapPoiId": "B0G39ZN6FE"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-oriental-sense-palate",
@@ -10475,16 +10861,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "潮州菜",
     "poiQuery": "东方景宴 上海",
     "position": [
-      121.468806397377,
-      31.214746997126
+      121.468853,
+      31.214701
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%9C%E6%96%B9%E6%99%AF%E5%AE%B4%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bd967388a5f34ecd99e70d3e6dbdd965.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/oriental-sense-palate",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "思南公馆57号",
+    "amapPoiId": "B0G0Z7ZE20"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-obscura",
@@ -10493,25 +10881,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "Obscura 上海",
+    "poiQuery": "Obscura by唐香 上海",
     "position": [
-      121.446842415052,
-      31.234480272126
+      121.447125,
+      31.234289
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Obscura%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Obscura%20by%E5%94%90%E9%A6%99%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/55f14c164b364716bace888b1b6324d1.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/obscura",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "西康路与康定路交叉口西北60米",
+    "amapPoiId": "B0GKVM17G9"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-canton-table",
@@ -10527,18 +10917,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "三号黄浦会 上海",
+    "poiQuery": "三号黄浦会Canton Table 上海",
     "position": [
-      121.493408762321,
-      31.234352853164
+      121.490752,
+      31.234042
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%89%E5%8F%B7%E9%BB%84%E6%B5%A6%E4%BC%9A%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%89%E5%8F%B7%E9%BB%84%E6%B5%A6%E4%BC%9ACanton%20Table%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ba45c2e5c4b24831a7ef3395e7794419.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/canton-table",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山东一路3号外滩三号5楼",
+    "amapPoiId": "B0FFGW2I0H"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-ming-court-570629",
@@ -10554,18 +10946,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "明阁 (闵行) 上海",
+    "poiQuery": "明阁(虹桥天地店) 上海",
     "position": [
-      121.320843408483,
-      31.193153643874
+      121.316308,
+      31.195153
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%8E%E9%98%81%20(%E9%97%B5%E8%A1%8C)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%98%8E%E9%98%81(%E8%99%B9%E6%A1%A5%E5%A4%A9%E5%9C%B0%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/15b99b474c60467e8f32ca15f82e37e7.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/ming-court-570629",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "申虹路333号B1层上海虹桥康得思酒店B1层",
+    "amapPoiId": "B0FFI91L9Y"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-cheng-long-hang-huangpu",
@@ -10608,18 +11002,20 @@ export const restaurants: Restaurant[] = [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "莱美露滋 上海",
+    "poiQuery": "Maison Lameloise(莱美露滋)(银城路店) 上海",
     "position": [
-      121.505400195828,
-      31.233909761413
+      121.50539,
+      31.233748
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8E%B1%E7%BE%8E%E9%9C%B2%E6%BB%8B%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Maison%20Lameloise(%E8%8E%B1%E7%BE%8E%E9%9C%B2%E6%BB%8B)(%E9%93%B6%E5%9F%8E%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c809fb16b60d4875b9e9f3a390122c74.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/maison-lameloise-563686",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "银城中路501号上海中心68楼",
+    "amapPoiId": "B0FFJCP7ET"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-narisawa-1209925",
@@ -10691,18 +11087,20 @@ export const restaurants: Restaurant[] = [
       "徽菜"
     ],
     "cuisine": "徽菜",
-    "poiQuery": "皖宴 (长宁) 上海",
+    "poiQuery": "皖宴(龙柏饭店店) 上海",
     "position": [
-      121.360858008238,
-      31.188480612491
+      121.360012,
+      31.189418
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%9A%96%E5%AE%B4%20(%E9%95%BF%E5%AE%81)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%9A%96%E5%AE%B4(%E9%BE%99%E6%9F%8F%E9%A5%AD%E5%BA%97%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f1f3d467cec741f0b632848ec9054f21.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/wan-yan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "虹桥路2419号8栋龙柏饭店内",
+    "amapPoiId": "B0FFI6G506"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-1515-west-chophouse",
@@ -10711,25 +11109,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "1515牛排馆 上海",
+    "poiQuery": "1515牛排馆·酒吧(静安香格里拉大酒店店) 上海",
     "position": [
-      121.450562030217,
-      31.223032923426
+      121.450425,
+      31.223067
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=1515%E7%89%9B%E6%8E%92%E9%A6%86%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=1515%E7%89%9B%E6%8E%92%E9%A6%86%C2%B7%E9%85%92%E5%90%A7(%E9%9D%99%E5%AE%89%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%A4%A7%E9%85%92%E5%BA%97%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a3ed5d6cef1d497594f662a67d866006.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/1515-west-chophouse",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "延安中路1218号香格里拉大酒店4层(近铜仁路)",
+    "amapPoiId": "B001573P4H"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-arva-563644",
@@ -10745,18 +11145,20 @@ export const restaurants: Restaurant[] = [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Arva 上海",
+    "poiQuery": "ARVA意大利餐厅 上海",
     "position": [
-      121.347470464412,
-      31.033748197487
+      121.347834,
+      31.032591
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Arva%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=ARVA%E6%84%8F%E5%A4%A7%E5%88%A9%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7a384280dc0b435388263cc7b055c2f0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/arva-563644",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "元江路6161号上海养云安缦内",
+    "amapPoiId": "B0FFIXLY6B"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-jean-georges-506640",
@@ -10801,18 +11203,20 @@ export const restaurants: Restaurant[] = [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "食光 上海",
+    "poiQuery": "食光西餐厅Scarpetta 上海",
     "position": [
-      121.476955453846,
-      31.20839573226
+      121.476945,
+      31.208487
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A3%9F%E5%85%89%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A3%9F%E5%85%89%E8%A5%BF%E9%A4%90%E5%8E%85Scarpetta%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e1b87c9cc18b4d1eb3d396b611c7b8da.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/scarpetta",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "蒙自路33号(马当路地铁站3号口步行70米)",
+    "amapPoiId": "B00156O583"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-pop",
@@ -10829,14 +11233,14 @@ export const restaurants: Restaurant[] = [
       "欧陆菜"
     ],
     "cuisine": "欧陆菜",
-    "poiQuery": "POP露台西餐厅 上海",
+    "poiQuery": "Pop 上海",
     "position": [
       121.490707,
       31.234228
     ],
     "coorSys": "GCJ-02",
     "coordinateSource": "manual",
-    "mapsUrl": "https://uri.amap.com/search?keyword=POP%E9%9C%B2%E5%8F%B0%E8%A5%BF%E9%A4%90%E5%8E%85%20%E5%A4%96%E6%BB%A9%E4%B8%89%E5%8F%B7%20%E4%B8%8A%E6%B5%B7",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Pop%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9421bb277029439fb61653cb6ee74df7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/pop",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
@@ -10885,18 +11289,20 @@ export const restaurants: Restaurant[] = [
       "时尚欧陆菜"
     ],
     "cuisine": "时尚欧陆菜",
-    "poiQuery": "松涧 上海",
+    "poiQuery": "THE PINE松涧 上海",
     "position": [
-      121.456380741719,
-      31.219777369539
+      121.45658,
+      31.219831
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%BE%E6%B6%A7%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=THE%20PINE%E6%9D%BE%E6%B6%A7%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/90fa9051f1f54ae293fd750bdff958eb.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/the-pine",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长乐路333号(长乐花园旁)",
+    "amapPoiId": "B0JG64J4MC"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-hakkasan-1200248",
@@ -10914,16 +11320,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "时尚中国菜",
     "poiQuery": "Hakkasan 上海",
     "position": [
-      121.489706068822,
-      31.238127581251
+      121.489669,
+      31.238424
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Hakkasan%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8ecbabb4b56a453fa2f37bd3717b8434.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/hakkasan-1200248",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "外滩街道中山东一路18号外滩十八号5层",
+    "amapPoiId": "B001573QR1"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-numata-sou-1215509",
@@ -10939,18 +11347,20 @@ export const restaurants: Restaurant[] = [
       "天妇罗"
     ],
     "cuisine": "天妇罗",
-    "poiQuery": "沼田双 上海",
+    "poiQuery": "沼田双天妇罗 上海",
     "position": [
-      121.498691812414,
-      31.225988123622
+      121.497235,
+      31.226856
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B2%BC%E7%94%B0%E5%8F%8C%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B2%BC%E7%94%B0%E5%8F%8C%E5%A4%A9%E5%A6%87%E7%BD%97%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/664e48ec2bcb4af688288f35bbd5e8b8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/numata-sou-1215509",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山东二路558号北区N1幢一楼107a",
+    "amapPoiId": "B0KUDU04QR"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-stonesal",
@@ -10966,18 +11376,20 @@ export const restaurants: Restaurant[] = [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "言盐 上海",
+    "poiQuery": "Stonesal言盐西餐厅 上海",
     "position": [
-      121.453580718583,
-      31.216318190259
+      121.453492,
+      31.216319
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A8%80%E7%9B%90%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Stonesal%E8%A8%80%E7%9B%90%E8%A5%BF%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/89b25aae1276466184ad075806ad5f75.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/stonesal",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东湖路9号上海地产大厦裙房1M",
+    "amapPoiId": "B0FFIKANHD"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-summer-palace-506733",
@@ -10986,25 +11398,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "夏宮 上海",
+    "poiQuery": "夏宫中餐厅(静安香格里拉店) 上海",
     "position": [
-      121.467012602977,
-      31.225152323038
+      121.450381,
+      31.222908
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%8F%E5%AE%AE%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%8F%E5%AE%AB%E4%B8%AD%E9%A4%90%E5%8E%85(%E9%9D%99%E5%AE%89%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/32becc3f4b21453cbdb117b78c2bfb79.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/summer-palace-506733",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "延安中路1218号静安香格里拉大酒店三层",
+    "amapPoiId": "B0I1LMHPJ9"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-shanghai-tavern",
@@ -11020,18 +11434,20 @@ export const restaurants: Restaurant[] = [
       "时尚欧陆菜"
     ],
     "cuisine": "时尚欧陆菜",
-    "poiQuery": "Shanghai Tavern 上海",
+    "poiQuery": "Shanghai Tavern西餐厅(上海艾迪逊酒店) 上海",
     "position": [
-      121.490366383315,
-      31.23618776573
+      121.486446,
+      31.237911
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Shanghai%20Tavern%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Shanghai%20Tavern%E8%A5%BF%E9%A4%90%E5%8E%85(%E4%B8%8A%E6%B5%B7%E8%89%BE%E8%BF%AA%E9%80%8A%E9%85%92%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0a122fc710b6428f9539f6c241c3369f.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/shanghai-tavern",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "南京东路199号上海艾迪逊酒店1楼",
+    "amapPoiId": "B0FFK67WQ8"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-jade-on-36",
@@ -11047,18 +11463,20 @@ export const restaurants: Restaurant[] = [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "翡翠36 上海",
+    "poiQuery": "翡翠36餐厅(浦东香格里拉店) 上海",
     "position": [
-      121.503496087391,
-      31.233707413355
+      121.499702,
+      31.235994
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BF%A1%E7%BF%A036%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BF%A1%E7%BF%A036%E9%A4%90%E5%8E%85(%E6%B5%A6%E4%B8%9C%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b15c64161f13422591ce1126340f709f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/jade-on-36",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "富城路33号浦东香格里拉大酒店36层",
+    "amapPoiId": "B00155KXTM"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yongfoo-elite",
@@ -11076,16 +11494,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "沪菜",
     "poiQuery": "雍福会 上海",
     "position": [
-      121.443034833722,
-      31.209353867537
+      121.442878,
+      31.209361
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9B%8D%E7%A6%8F%E4%BC%9A%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/86e961bbb83f4889ac61c343dec1963d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yongfoo-elite",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "永福路200号(原英国领事馆)",
+    "amapPoiId": "B00154DW44"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-mercato-506693",
@@ -11181,25 +11601,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "Nuits 上海",
+    "poiQuery": "NUITS 上海",
     "position": [
-      121.451398548921,
-      31.223328266948
+      121.451335,
+      31.223313
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Nuits%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=NUITS%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0fffa9adefcf44cf99689483d4e3298b.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/nuits",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "铜仁路88号88铜仁路上海X88店F1层",
+    "amapPoiId": "B0IKPAUYM6"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-taian-table",
@@ -11215,18 +11637,20 @@ export const restaurants: Restaurant[] = [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "泰安门 上海",
+    "poiQuery": "泰安门Taian Table 上海",
     "position": [
-      121.432841143541,
-      31.222027688932
+      121.432903,
+      31.222017
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B3%B0%E5%AE%89%E9%97%A8%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B3%B0%E5%AE%89%E9%97%A8Taian%20Table%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/814583d135a8402f8b6e9c83b67ce9e4.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/taian-table",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "镇宁路465弄161号愚园里1号楼101室",
+    "amapPoiId": "B0FFHOVBNT"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-imperial-treasure-fine-chinese-cuisine-huangpu",
@@ -11242,18 +11666,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "御宝轩 上海",
+    "poiQuery": "御宝轩(益丰·外滩源店) 上海",
     "position": [
-      121.488907677776,
-      31.240619239575
+      121.488421,
+      31.240416
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%A1%E5%AE%9D%E8%BD%A9%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%A1%E5%AE%9D%E8%BD%A9(%E7%9B%8A%E4%B8%B0%C2%B7%E5%A4%96%E6%BB%A9%E6%BA%90%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/77dcea884e594adf93b796bafa6e27de.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/imperial-treasure-fine-chinese-cuisine-huangpu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "北京东路99号益丰·外滩源4层402-403号",
+    "amapPoiId": "B00156Y4RA"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-fu-he-hui",
@@ -11271,16 +11697,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "素食",
     "poiQuery": "福和慧 上海",
     "position": [
-      121.429704344326,
-      31.218648910543
+      121.429698,
+      31.218642
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E5%92%8C%E6%85%A7%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c76f007b55d146ddb53c124c1492e8df.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/fu-he-hui",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "愚园路1037号(江苏路地铁站7号口步行210米)",
+    "amapPoiId": "B00157GLIG"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-tou-zao",
@@ -11323,18 +11751,20 @@ export const restaurants: Restaurant[] = [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Da Vittorio 上海",
+    "poiQuery": "DA VITTORIO SHANGHAI 上海",
     "position": [
-      121.497410553171,
-      31.22746585227
+      121.497532,
+      31.227327
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Da%20Vittorio%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=DA%20VITTORIO%20SHANGHAI%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/27c599980fb143d4a5852fac99d43b9d.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/da-vittorio-570570",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山东二路600号BFC外滩金融中心N3三楼",
+    "amapPoiId": "B0FFKPVL7U"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-bao-li-xuan",
@@ -11343,25 +11773,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "two-stars",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "宝丽轩 上海",
+    "poiQuery": "宝丽轩中餐厅 上海",
     "position": [
-      121.48681018952,
-      31.240837223605
+      121.48214,
+      31.242846
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%9D%E4%B8%BD%E8%BD%A9%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%9D%E4%B8%BD%E8%BD%A9%E4%B8%AD%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ab525cc3f03844dfbfb9fbfa5b2293d6.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/bao-li-xuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "山西北路108弄(天潼路地铁站5号口步行180米)",
+    "amapPoiId": "B0FFLNRJFX"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-amazing-chinese-cuisine-changning",
@@ -11377,18 +11809,20 @@ export const restaurants: Restaurant[] = [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "菁禧荟 (长宁) 上海",
+    "poiQuery": "菁禧荟(虹桥店) 上海",
     "position": [
-      121.393244418767,
-      31.200644731629
+      121.393223,
+      31.20063
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8F%81%E7%A6%A7%E8%8D%9F%20(%E9%95%BF%E5%AE%81)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8F%81%E7%A6%A7%E8%8D%9F(%E8%99%B9%E6%A1%A5%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dbd0383e21b341768b6039f245b3807a.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/amazing-chinese-cuisine-changning",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "虹桥路1665号B5幢别墅(水城路地铁站1号口步行200米)",
+    "amapPoiId": "B0FFG74B0Q"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-the-house-of-rong",
@@ -11433,18 +11867,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "喜粤8号 (黄浦） 上海",
+    "poiQuery": "喜粤8号(汝南街总店) 上海",
     "position": [
-      121.482496652084,
-      31.202741699907
+      121.483246,
+      31.202601
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%96%9C%E7%B2%A48%E5%8F%B7%20(%E9%BB%84%E6%B5%A6%EF%BC%89%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%96%9C%E7%B2%A48%E5%8F%B7(%E6%B1%9D%E5%8D%97%E8%A1%97%E6%80%BB%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dcbcaedc13314b8f9fd23d66baa7a8d7.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/canton-8-runan-street",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "汝南街63号主楼101室",
+    "amapPoiId": "B0FFGM9BZB"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-102-house",
@@ -11460,18 +11896,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "壹零贰小馆 上海",
+    "poiQuery": "壹零贰小馆(联合谷·外滩店) 上海",
     "position": [
-      121.489975917017,
-      31.240401919727
+      121.489972,
+      31.240385
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A3%B9%E9%9B%B6%E8%B4%B0%E5%B0%8F%E9%A6%86%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A3%B9%E9%9B%B6%E8%B4%B0%E5%B0%8F%E9%A6%86(%E8%81%94%E5%90%88%E8%B0%B7%C2%B7%E5%A4%96%E6%BB%A9%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a9cdec0d0c824ee5a30c8ee46f84de28.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/102-house",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山东一路27号联合谷·外滩F1层",
+    "amapPoiId": "B0HBKOSNPA"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-fabula",
@@ -11480,25 +11918,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "静安区",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "Fabula 上海",
+    "poiQuery": "fabula 上海",
     "position": [
-      121.457789315983,
-      31.226233085739
+      121.457834,
+      31.226235
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Fabula%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=fabula%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dd4490ac204842e4a0136eb805393a41.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/fabula",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "威海路720号3楼(南京西路地铁站12号口步行200米)",
+    "amapPoiId": "B0L1LUEVA6"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-sheng-yong-xing",
@@ -11514,18 +11954,20 @@ export const restaurants: Restaurant[] = [
       "京菜"
     ],
     "cuisine": "京菜",
-    "poiQuery": "晟永兴 (黄浦) 上海",
+    "poiQuery": "晟永興(外滩店) 上海",
     "position": [
-      121.490665075726,
-      31.234363757373
+      121.490646,
+      31.234342
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%99%9F%E6%B0%B8%E5%85%B4%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%99%9F%E6%B0%B8%E8%88%88(%E5%A4%96%E6%BB%A9%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/61317e9274cd4c71a67d4ebcd8e3cf26.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/sheng-yong-xing",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "广东路20号外滩5号5楼东侧",
+    "amapPoiId": "B0G2JCIRX4"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-jin-xuan",
@@ -11541,18 +11983,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "金轩 上海",
+    "poiQuery": "金轩中餐厅Jin Xuan 上海",
     "position": [
-      121.501259326488,
-      31.236435101317
+      121.501254,
+      31.236383
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E8%BD%A9%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E8%BD%A9%E4%B8%AD%E9%A4%90%E5%8E%85Jin%20Xuan%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/540d5060f2b049d887ed9bc4786af3ac.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/jin-xuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "世纪大道8号上海国金中心53层",
+    "amapPoiId": "B00156M2PV"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-il-ristorante-niko-romito-563683",
@@ -11561,25 +12005,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Il Ristorante - Niko Romito 上海",
+    "poiQuery": "II Ristorante - Niko Romito 上海",
     "position": [
-      121.481500965325,
-      31.243052019215
+      121.481323,
+      31.243029
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Il%20Ristorante%20-%20Niko%20Romito%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=II%20Ristorante%20-%20Niko%20Romito%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f673d4869eca42588323b592fd791646.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/il-ristorante-niko-romito-563683",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "山西北路108弄上海宝格丽酒店47楼",
+    "amapPoiId": "B0LG154AXH"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yong-fu",
@@ -11595,18 +12041,20 @@ export const restaurants: Restaurant[] = [
       "宁波菜"
     ],
     "cuisine": "宁波菜",
-    "poiQuery": "甬府 (黄浦) 上海",
+    "poiQuery": "甬府(黄浦店) 上海",
     "position": [
-      121.461341761869,
-      31.221023891133
+      121.460621,
+      31.220355
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%94%AC%E5%BA%9C%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%94%AC%E5%BA%9C(%E9%BB%84%E6%B5%A6%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4b7d408c9e2a439c9b69de90f42e6736.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yong-fu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "上海市黄浦区茂名南路59号锦江饭店锦北楼12楼",
+    "amapPoiId": "B0JK6C5F8R"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-xin-rong-ji-west-nanjing-road",
@@ -11615,25 +12063,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "新荣记 (南京西路) 上海",
+    "poiQuery": "新荣记(恒基688广场店) 上海",
     "position": [
-      121.468872471426,
-      31.229462716512
+      121.464565,
+      31.231291
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0%20(%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0(%E6%81%92%E5%9F%BA688%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/02753437af34439b91736a2687a805ac.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/xin-rong-ji-west-nanjing-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "南京西路688号恒基688广场2层",
+    "amapPoiId": "B0FFG3G4PW"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-seventh-son-jingan",
@@ -11642,25 +12092,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "家全七福 上海",
+    "poiQuery": "家全七福酒家(丰盛商业中心店) 上海",
     "position": [
-      121.46224104051,
-      31.227237629789
+      121.462411,
+      31.227151
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B6%E5%85%A8%E4%B8%83%E7%A6%8F%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%B6%E5%85%A8%E4%B8%83%E7%A6%8F%E9%85%92%E5%AE%B6(%E4%B8%B0%E7%9B%9B%E5%95%86%E4%B8%9A%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fb9f3a52ddfc4b0c98e3a2bdcd4a93dd.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/seventh-son-jingan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "威海路500号丰盛商业中心2楼R2-01",
+    "amapPoiId": "B0KKZSLXAA"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-fu-1015",
@@ -11676,18 +12128,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "福一零一五 上海",
+    "poiQuery": "福1015(愚园路店) 上海",
     "position": [
-      121.433640154918,
-      31.216707450121
+      121.43004,
+      31.218748
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E4%B8%80%E9%9B%B6%E4%B8%80%E4%BA%94%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F1015(%E6%84%9A%E5%9B%AD%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fdf8ebdf8fb84325bb49b8ed11970fe6.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/fu-1015",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "愚园路1015号(江苏路地铁站7号口步行180米)",
+    "amapPoiId": "B00156KURL"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-wu-you-xian",
@@ -11705,16 +12159,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "点心",
     "poiQuery": "屋有鲜 上海",
     "position": [
-      121.460669296249,
-      31.223515777702
+      121.460624,
+      31.222543
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B1%8B%E6%9C%89%E9%B2%9C%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8fb08d010485428898cc3c5123e71583.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/wu-you-xian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "茂名南路7号1F-103号",
+    "amapPoiId": "B0K6P7011E"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yue-hai-tang",
@@ -11730,18 +12186,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "粤海棠 上海",
+    "poiQuery": "粤海棠.wineapp 上海",
     "position": [
-      121.35547131763,
-      31.159943828787
+      121.355398,
+      31.160584
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B2%A4%E6%B5%B7%E6%A3%A0%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B2%A4%E6%B5%B7%E6%A3%A0.wineapp%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/eb0ecc37c62544c99ac1c8dcdbd0c5d4.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yue-hai-tang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "万金中心2号楼",
+    "amapPoiId": "B0HK05CHVT"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-moose-changning",
@@ -11757,18 +12215,20 @@ export const restaurants: Restaurant[] = [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "鹿园 (长宁) 上海",
+    "poiQuery": "鹿园MOOSE(长宁店) 上海",
     "position": [
-      121.434328706667,
-      31.200024616697
+      121.429375,
+      31.202013
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B9%BF%E5%9B%AD%20(%E9%95%BF%E5%AE%81)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B9%BF%E5%9B%ADMOOSE(%E9%95%BF%E5%AE%81%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9a63e628f9ec40fd88cd70525a716fdb.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/moose-changning",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "新华路119弄1号(交通大学地铁站5号口步行480米)",
+    "amapPoiId": "B00155AN93"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-le-comptoir-de-pierre-gagnaire",
@@ -11813,18 +12273,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "老正兴 上海",
+    "poiQuery": "老正兴菜馆(福州路店) 上海",
     "position": [
-      121.480134264454,
-      31.233099513617
+      121.480103,
+      31.233141
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E6%AD%A3%E5%85%B4%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E6%AD%A3%E5%85%B4%E8%8F%9C%E9%A6%86(%E7%A6%8F%E5%B7%9E%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/aa28658d5f1a42ee903b5b814a2993a7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lao-zheng-xing-huangpu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "福州路556号(近浙江中路)",
+    "amapPoiId": "B00151F26F"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-gastro-esthetics-at-dadong",
@@ -11833,25 +12295,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚中国菜"
     ],
     "cuisine": "时尚中国菜",
-    "poiQuery": "美 · 大董 上海",
+    "poiQuery": "大董(越洋广场店) 上海",
     "position": [
-      121.447497072311,
-      31.223370992581
+      121.447818,
+      31.222905
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BE%8E%20%C2%B7%20%E5%A4%A7%E8%91%A3%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E8%91%A3(%E8%B6%8A%E6%B4%8B%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/38b08e29f446470291a281443307ee41.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/gastro-esthetics-at-dadong",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "南京西路1601号越洋国际广场写字楼5层",
+    "amapPoiId": "B00157FVJY"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-fu-1088",
@@ -11860,7 +12324,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "长宁区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -11869,16 +12333,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "沪菜",
     "poiQuery": "福一零八八 上海",
     "position": [
-      121.435868567261,
-      31.221599289829
+      121.435863,
+      31.221569
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E4%B8%80%E9%9B%B6%E5%85%AB%E5%85%AB%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2222821454c045d8992c3f29521188f7.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/fu-1088",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "镇宁路375号(江苏路地铁站2号口步行370米)",
+    "amapPoiId": "B00155QCG6"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-da-dong-xuhui",
@@ -11948,18 +12414,20 @@ export const restaurants: Restaurant[] = [
       "时尚法国菜"
     ],
     "cuisine": "时尚法国菜",
-    "poiQuery": "Vivant by Johnny Pham 上海",
+    "poiQuery": "VIVANT by JohnnyPham 上海",
     "position": [
-      121.477831177254,
-      31.230068349707
+      121.477775,
+      31.230325
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Vivant%20by%20Johnny%20Pham%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=VIVANT%20by%20JohnnyPham%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7dfc6be896ea4379b8b730edd29bfa5a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/vivant-by-johnny-pham",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "北海路与西藏中路交叉口东60米",
+    "amapPoiId": "B0MBUUMNMH"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-ren-he-guan-zhaojiabang-road",
@@ -11975,18 +12443,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "人和馆 (徐汇) 上海",
+    "poiQuery": "人和馆(徐汇店) 上海",
     "position": [
-      121.458072366052,
-      31.201774559186
+      121.458032,
+      31.201706
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%BA%E5%92%8C%E9%A6%86%20(%E5%BE%90%E6%B1%87)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%BA%E5%92%8C%E9%A6%86(%E5%BE%90%E6%B1%87%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/befbdc85526a4e5bb6c754369c9ae4ec.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/ren-he-guan-zhaojiabang-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "肇嘉浜路407(嘉善路地铁站5号口步行230米)",
+    "amapPoiId": "B0FFF407ML"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-sole",
@@ -12058,18 +12528,20 @@ export const restaurants: Restaurant[] = [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "遇外滩 (中山东二路) 上海",
+    "poiQuery": "遇外滩(BFC外滩金融中心店) 上海",
     "position": [
-      121.498047206346,
-      31.226817643262
+      121.498458,
+      31.226455
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%81%87%E5%A4%96%E6%BB%A9%20(%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%81%87%E5%A4%96%E6%BB%A9(BFC%E5%A4%96%E6%BB%A9%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/25bc5873a4044276ab6dbd7291de15c0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/meet-the-bund",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山东二路600号BFC外滩金融中心南区三层",
+    "amapPoiId": "B0FFK6NWHL"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-fu-1039",
@@ -12085,18 +12557,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "福一零三九 上海",
+    "poiQuery": "福1039 上海",
     "position": [
-      121.42965529271,
-      31.218516397966
+      121.429494,
+      31.218568
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F%E4%B8%80%E9%9B%B6%E4%B8%89%E4%B9%9D%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A6%8F1039%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5631b97e586143c7a342038c7f0aa557.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/fu-1039",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "愚园路1039号(近江苏路)",
+    "amapPoiId": "B00155MM22"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-lei-garden-xuhui",
@@ -12112,18 +12586,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "利苑 (徐汇) 上海",
+    "poiQuery": "利苑酒家(IAPM店) 上海",
     "position": [
-      121.458705173058,
-      31.21622350833
+      121.45872,
+      31.216174
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%A9%E8%8B%91%20(%E5%BE%90%E6%B1%87)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%A9%E8%8B%91%E9%85%92%E5%AE%B6(IAPM%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d9a3ee38e6ec4f0a8b5d5e9330351ee0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lei-garden-xuhui",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "淮海中路999号环贸广场L4-401(近陕西南路)",
+    "amapPoiId": "B0FFFBEBXN"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-lei-garden-pudong",
@@ -12139,18 +12615,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "利苑 (浦东新区) 上海",
+    "poiQuery": "利苑酒家(国金中心店) 上海",
     "position": [
-      121.502360989208,
-      31.237061065366
+      121.502198,
+      31.237033
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%A9%E8%8B%91%20(%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%88%A9%E8%8B%91%E9%85%92%E5%AE%B6(%E5%9B%BD%E9%87%91%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dcb50376364a4b1583f6144d4d386c40.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lei-garden-pudong",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "世纪大道8号上海国金中心商场L3楼17-18号",
+    "amapPoiId": "B00156E5IJ"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-ling-long-1209951",
@@ -12222,18 +12700,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "周舍 (闵行) 上海",
+    "poiQuery": "周舍·经典海派菜(丽宝乐园店) 上海",
     "position": [
-      121.310771869367,
-      31.195151624082
+      121.31152,
+      31.195133
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%91%A8%E8%88%8D%20(%E9%97%B5%E8%A1%8C)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%91%A8%E8%88%8D%C2%B7%E7%BB%8F%E5%85%B8%E6%B5%B7%E6%B4%BE%E8%8F%9C(%E4%B8%BD%E5%AE%9D%E4%B9%90%E5%9B%AD%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a43b21dc76194b7d918132cd76dfe287.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/zhou-she-minhang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "锡虹路与申武路交叉口虹桥丽宝广场3号楼1层",
+    "amapPoiId": "B0FFKUMMYN"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-the-taste-of-huzhou",
@@ -12242,25 +12722,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "徐汇区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "菰城宴 上海",
+    "poiQuery": "菰城宴(轻工大木桥小区店) 上海",
     "position": [
-      121.461566933897,
-      31.197743629277
+      121.461519,
+      31.197736
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8F%B0%E5%9F%8E%E5%AE%B4%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8F%B0%E5%9F%8E%E5%AE%B4(%E8%BD%BB%E5%B7%A5%E5%A4%A7%E6%9C%A8%E6%A1%A5%E5%B0%8F%E5%8C%BA%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cd859955f8844eb18aabe4bfdcacc7c8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/the-taste-of-huzhou",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "斜土路1422号(大木桥路地铁站4号口步行480米)",
+    "amapPoiId": "B0IBAS9PP4"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-ning-hai-shi-fu",
@@ -12269,25 +12751,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "闵行区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "宁波菜"
     ],
     "cuisine": "宁波菜",
-    "poiQuery": "宁海食府 上海",
+    "poiQuery": "宁海食府(上海虹桥高铁机场店) 上海",
     "position": [
-      121.314914376235,
-      31.195771714117
+      121.315233,
+      31.197096
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%81%E6%B5%B7%E9%A3%9F%E5%BA%9C%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%81%E6%B5%B7%E9%A3%9F%E5%BA%9C(%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E9%AB%98%E9%93%81%E6%9C%BA%E5%9C%BA%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8900543cd3e14906b4419adbc0cc3724.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/ning-hai-shi-fu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "锡虹路与申虹路交叉口西120米",
+    "amapPoiId": "B0LDYU25F3"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-he-shan-mian-jia",
@@ -12379,25 +12863,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粥面"
     ],
     "cuisine": "粥面",
-    "poiQuery": "何洪记 上海",
+    "poiQuery": "何洪记(兴业太古汇店) 上海",
     "position": [
-      121.463090181209,
-      31.229450686457
+      121.463026,
+      31.229206
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BD%95%E6%B4%AA%E8%AE%B0%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BD%95%E6%B4%AA%E8%AE%B0(%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cefacf69480546779c0b4ae157f5e82b.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/ho-hung-kee-570572",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "石门一路288号L324室(香港兴业太古汇3楼)",
+    "amapPoiId": "B0FFI1EE9G"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yongfu-mini",
@@ -12413,18 +12899,20 @@ export const restaurants: Restaurant[] = [
       "宁波菜"
     ],
     "cuisine": "宁波菜",
-    "poiQuery": "甬府小鲜 (浦东新区) 上海",
+    "poiQuery": "甬府小鲜(陆家嘴中心店) 上海",
     "position": [
-      121.515204555124,
-      31.231428220179
+      121.515682,
+      31.231238
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%94%AC%E5%BA%9C%E5%B0%8F%E9%B2%9C%20(%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%94%AC%E5%BA%9C%E5%B0%8F%E9%B2%9C(%E9%99%86%E5%AE%B6%E5%98%B4%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8f369be2b20e4b389116ba18801700d2.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yongfu-mini",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "浦东南路899号陆家嘴中心商场9楼910号",
+    "amapPoiId": "B0FFK9FGFF"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-mi-thai-an-fu-road",
@@ -12440,18 +12928,20 @@ export const restaurants: Restaurant[] = [
       "泰国菜"
     ],
     "cuisine": "泰国菜",
-    "poiQuery": "米泰 上海",
+    "poiQuery": "MiThai(安福路店) 上海",
     "position": [
-      121.493958677777,
-      31.236378244102
+      121.443989,
+      31.213978
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B1%B3%E6%B3%B0%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=MiThai(%E5%AE%89%E7%A6%8F%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6e421d5b36d0440bb76b852d30e2125a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/mi-thai-an-fu-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "安福路195号2层(近乌鲁木齐中路)",
+    "amapPoiId": "B0IAD6T8B0"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-lu-bo-lang",
@@ -12467,18 +12957,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "绿波廊 上海",
+    "poiQuery": "绿波廊酒楼(豫园总店) 上海",
     "position": [
-      121.491910102278,
-      31.226447747532
+      121.491868,
+      31.226432
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BB%BF%E6%B3%A2%E5%BB%8A%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%BB%BF%E6%B3%A2%E5%BB%8A%E9%85%92%E6%A5%BC(%E8%B1%AB%E5%9B%AD%E6%80%BB%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/234a4e7e41ca496491687277ec456cb8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lu-bo-lang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "豫园路115号",
+    "amapPoiId": "B00155I5DD"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-lan-xin-jinxian-road",
@@ -12494,18 +12986,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "兰心 (进贤路) 上海",
+    "poiQuery": "兰心餐厅(进贤路店) 上海",
     "position": [
-      121.459842651825,
-      31.221721288365
+      121.459901,
+      31.221665
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%B0%E5%BF%83%20(%E8%BF%9B%E8%B4%A4%E8%B7%AF)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%B0%E5%BF%83%E9%A4%90%E5%8E%85(%E8%BF%9B%E8%B4%A4%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d486ac22b55b41059da321ab58b33e46.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lan-xin-jinxian-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "进贤路130号(淮海中路地铁站3号口步行490米)",
+    "amapPoiId": "B00154YTJR"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-chun",
@@ -12575,18 +13069,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "聪菜馆 上海",
+    "poiQuery": "聪菜馆(六合大厦店) 上海",
     "position": [
-      121.474599291221,
-      31.237279833292
+      121.474628,
+      31.237177
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%81%AA%E8%8F%9C%E9%A6%86%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%81%AA%E8%8F%9C%E9%A6%86(%E5%85%AD%E5%90%88%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/60b7447e98a84c8398a923f0f5606a96.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/cong-s-kitchen",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "六合路158号(六合大厦1F)",
+    "amapPoiId": "B0FFGJN0CR"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-polux",
@@ -12602,18 +13098,20 @@ export const restaurants: Restaurant[] = [
       "法国菜"
     ],
     "cuisine": "法国菜",
-    "poiQuery": "Polux 上海",
+    "poiQuery": "POLUX 上海",
     "position": [
-      121.475062620694,
-      31.221065820612
+      121.475181,
+      31.221184
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Polux%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=POLUX%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/35937e854de74d92acf0de36b0044e6b.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/polux",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "太仓路181弄5号",
+    "amapPoiId": "B0FFKBQHL3"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-nanxiang-steamed-bun-city-god-temple",
@@ -12629,18 +13127,20 @@ export const restaurants: Restaurant[] = [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "南翔馒头店 上海",
+    "poiQuery": "南翔馒头店(城隍庙店) 上海",
     "position": [
-      121.496118933732,
-      31.224449315962
+      121.49151,
+      31.226577
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E7%BF%94%E9%A6%92%E5%A4%B4%E5%BA%97%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E7%BF%94%E9%A6%92%E5%A4%B4%E5%BA%97(%E5%9F%8E%E9%9A%8D%E5%BA%99%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/117c21ba1f804d928fb9807d28f6e34a.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/nanxiang-steamed-bun-city-god-temple",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "豫园路87号(豫园地铁站7号口步行470米)",
+    "amapPoiId": "B00155IMN4"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-rong-cuisine-huangpu",
@@ -12656,18 +13156,20 @@ export const restaurants: Restaurant[] = [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "荣小馆 (黄浦) 上海",
+    "poiQuery": "荣小馆(上海新天地北里店) 上海",
     "position": [
-      121.475693577949,
-      31.221893224579
+      121.475721,
+      31.221807
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E5%B0%8F%E9%A6%86%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E5%B0%8F%E9%A6%86(%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8C%97%E9%87%8C%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2685c1076fb74226a6509dc0b782026b.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/rong-cuisine-huangpu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "太仓路128号安达仕酒店",
+    "amapPoiId": "B0FFIQVQDC"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yangzhou-fan-dian-huangpu",
@@ -12683,18 +13185,20 @@ export const restaurants: Restaurant[] = [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "扬州饭店 (黄浦) 上海",
+    "poiQuery": "扬州饭店(南京东路店) 上海",
     "position": [
-      121.479852350941,
-      31.236028731451
+      121.480145,
+      31.236145
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%AC%E5%B7%9E%E9%A5%AD%E5%BA%97%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%AC%E5%B7%9E%E9%A5%AD%E5%BA%97(%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2f5409a917624ac3b9b8dca2d10aba96.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yangzhou-fan-dian-huangpu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "福建中路345号靠近南京路步行街",
+    "amapPoiId": "B00155HD16"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-mao-long",
@@ -12710,18 +13214,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "茂隆 上海",
+    "poiQuery": "茂隆餐厅 上海",
     "position": [
-      121.461268613565,
-      31.222790784265
+      121.459816,
+      31.221659
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8C%82%E9%9A%86%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8C%82%E9%9A%86%E9%A4%90%E5%8E%85%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f86bd09f790843fcb9357b8e21dbfe57.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/mao-long",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "进贤路134号(近茂名南路)",
+    "amapPoiId": "B00155KXI0"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-qiao-ai-lai-lai-xiao-long-huangpu",
@@ -12739,16 +13245,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "点心",
     "poiQuery": "莱莱小笼 上海",
     "position": [
-      121.477074462484,
-      31.23617610106
+      121.477126,
+      31.236125
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B9%94%E8%89%BE%E8%8E%B1%E8%8E%B1%E5%B0%8F%E7%AC%BC%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8E%B1%E8%8E%B1%E5%B0%8F%E7%AC%BC%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c5612793b4e94769824a40095b1b915d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/qiao-ai-lai-lai-xiao-long-huangpu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "天津路506号",
+    "amapPoiId": "B001557EGG"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-jing-mei-wu-xi-si-fang-mian-guan",
@@ -12791,18 +13299,20 @@ export const restaurants: Restaurant[] = [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "小陶面馆 上海",
+    "poiQuery": "小陶面馆(慎成里店) 上海",
     "position": [
-      121.459587521557,
-      31.208940198777
+      121.459597,
+      31.208954
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B0%8F%E9%99%B6%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B0%8F%E9%99%B6%E9%9D%A2%E9%A6%86(%E6%85%8E%E6%88%90%E9%87%8C%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6b9d675e9725420ca7520e611e21329f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/xiao-tao-mian-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "嘉善路222号一楼",
+    "amapPoiId": "B00156FVT4"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-the-lakeside-veggie",
@@ -12818,18 +13328,20 @@ export const restaurants: Restaurant[] = [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "临湖素食 上海",
+    "poiQuery": "临湖素食(保利时光里店) 上海",
     "position": [
-      121.455596732869,
-      31.182066082682
+      121.45482,
+      31.181177
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B9%96%E7%B4%A0%E9%A3%9F%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B9%96%E7%B4%A0%E9%A3%9F(%E4%BF%9D%E5%88%A9%E6%97%B6%E5%85%89%E9%87%8C%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a399375f115145248de1d84c3070133c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/the-lakeside-veggie",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "瑞平路230号临湖素食L2层016-017号",
+    "amapPoiId": "B0FFIW2FJO"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-blossom-1246455",
@@ -12865,25 +13377,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "浦东新区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "阿勇面馆 (东书房路) 上海",
+    "poiQuery": "阿勇面馆 上海",
     "position": [
-      121.535118680267,
-      31.166498138727
+      121.535089,
+      31.166533
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E5%8B%87%E9%9D%A2%E9%A6%86%20(%E4%B8%9C%E4%B9%A6%E6%88%BF%E8%B7%AF)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E5%8B%87%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2ab6a490b55b40baa886a28414d5c465.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/a-yong-mian-guan-dongshufang-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东书房路309号",
+    "amapPoiId": "B0G13M2LB4"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-157-shi-fang",
@@ -12892,7 +13406,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "长宁区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -12901,16 +13415,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "沪菜",
     "poiQuery": "157食坊 上海",
     "position": [
-      121.421334361627,
-      31.199624338178
+      121.421065,
+      31.199472
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=157%E9%A3%9F%E5%9D%8A%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1f26e8de605a48488d32ee58578fc314.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/157-shi-fang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "上海城区凯旋路1398号10号楼101-102室",
+    "amapPoiId": "B0FFFGN7SV"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-ou-yue-zun-xian",
@@ -12919,25 +13435,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "静安区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "瓯越尊鲜 上海",
+    "poiQuery": "瓯越·尊鲜(CP静安店) 上海",
     "position": [
-      121.443583224517,
-      31.22364574526
+      121.446492,
+      31.225784
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%93%AF%E8%B6%8A%E5%B0%8A%E9%B2%9C%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%93%AF%E8%B6%8A%C2%B7%E5%B0%8A%E9%B2%9C(CP%E9%9D%99%E5%AE%89%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fa429dd083884a88ad5e716ba5a578bb.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/ou-yue-zun-xian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "愚园路68号CP静安L6-05铺",
+    "amapPoiId": "B0LGCLUVPO"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-easeful-cuisine",
@@ -12946,25 +13464,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "逸采 (静安) 上海",
+    "poiQuery": "逸采(静安店) 上海",
     "position": [
-      121.456802204776,
-      31.221243867703
+      121.456959,
+      31.221389
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%80%B8%E9%87%87%20(%E9%9D%99%E5%AE%89)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%80%B8%E9%87%87(%E9%9D%99%E5%AE%89%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0d8db8bc3081466cb52cb587e25c914e.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/easeful-cuisine",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "陕西南路90号(近进贤路口)",
+    "amapPoiId": "B0GU7HFZC5"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-hao-sheng",
@@ -13009,18 +13529,20 @@ export const restaurants: Restaurant[] = [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "大壶春 (四川中路) 上海",
+    "poiQuery": "大壶春(四川中路店) 上海",
     "position": [
-      121.489316445369,
-      31.234762989972
+      121.489181,
+      31.234836
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E5%A3%B6%E6%98%A5%20(%E5%9B%9B%E5%B7%9D%E4%B8%AD%E8%B7%AF)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E5%A3%B6%E6%98%A5(%E5%9B%9B%E5%B7%9D%E4%B8%AD%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9f05dc6cb24a45de9c9fe91fc724bc84.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/da-hu-chun-middle-sichuan-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "四川中路136号(广东路)",
+    "amapPoiId": "B0FFGJN697"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-gong-de-lin-jingan",
@@ -13065,18 +13587,20 @@ export const restaurants: Restaurant[] = [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "渔都老味面 上海",
+    "poiQuery": "渔都老味面(丽园路店) 上海",
     "position": [
-      121.481714724251,
-      31.20789728367
+      121.481721,
+      31.207904
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B8%94%E9%83%BD%E8%80%81%E5%91%B3%E9%9D%A2%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B8%94%E9%83%BD%E8%80%81%E5%91%B3%E9%9D%A2(%E4%B8%BD%E5%9B%AD%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/772ae2c03b4b43e38af8fce90fafdaa5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yu-du-lao-wei-mian-huangpu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "丽园路501号1-3(近局门路)",
+    "amapPoiId": "B0FFFJXCMT"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yu-ge-zhan-jiang-jingan",
@@ -13119,18 +13643,20 @@ export const restaurants: Restaurant[] = [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "云和面馆 上海",
+    "poiQuery": "云和面馆(长乐路店) 上海",
     "position": [
-      121.457951081092,
-      31.220259648399
+      121.462694,
+      31.221317
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%91%E5%92%8C%E9%9D%A2%E9%A6%86%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%91%E5%92%8C%E9%9D%A2%E9%A6%86(%E9%95%BF%E4%B9%90%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a56cad34a8be49378c5616d2e5e041be.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yunhe-noodle-huangpu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长乐路344号(淮海中路地铁站3号口步行140米)",
+    "amapPoiId": "B0H0S17QEQ"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-aster-by-joshua-paris",
@@ -13166,7 +13692,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "静安区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -13175,16 +13701,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "浙江菜",
     "poiQuery": "瓯叙 上海",
     "position": [
-      121.44593503202,
-      31.231510078825
+      121.44617,
+      31.231553
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%93%AF%E5%8F%99%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d1ab11341aa84df99b7ed5cc917d5c3e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/wenzhou-said",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "武定路718弄1号2层(昌平路地铁站2号口步行410米)",
+    "amapPoiId": "B0LDP71QS6"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-nabi",
@@ -13193,25 +13721,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "长宁区",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "时尚韩国菜"
     ],
     "cuisine": "时尚韩国菜",
-    "poiQuery": "Nabi 上海",
+    "poiQuery": "NABI 上海",
     "position": [
-      121.427574472672,
-      31.213408295581
+      121.427506,
+      31.213496
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Nabi%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=NABI%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cca894c914874b9a92f714300d08f41c.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/nabi",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "武夷路168号WYSH翡悦里1号楼2层201室",
+    "amapPoiId": "B0KB25PCBU"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-chuan-yue-hai-tang-changning",
@@ -13256,16 +13786,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "时尚法国菜",
     "poiQuery": "1929 by Guillaume Galliot 上海",
     "position": [
-      121.460790314903,
-      31.220567425507
+      121.46049,
+      31.220503
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=1929%20by%20Guillaume%20Galliot%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f029267432404e718b020d24608e0136.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/1929-by-guillaume-galliot",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "茂名南路59号锦北楼西侧1层(靠近长乐路口)",
+    "amapPoiId": "B0KKUZKLJL"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-la-scene-ronde",
@@ -13308,18 +13840,20 @@ export const restaurants: Restaurant[] = [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Cellar to Table 上海",
+    "poiQuery": "Cellar To Table·CTT(东湖路店) 上海",
     "position": [
-      121.454861096477,
-      31.216094489552
+      121.454858,
+      31.216405
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Cellar%20to%20Table%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Cellar%20To%20Table%C2%B7CTT(%E4%B8%9C%E6%B9%96%E8%B7%AF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1965ff5553b14e9886e89c497ff8b0af.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/cellar-to-table",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东湖路20号一层1A",
+    "amapPoiId": "B0I0PA15N2"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-hai-wei-guan",
@@ -13328,25 +13862,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "海味观 (静安) 上海",
+    "poiQuery": "海味观(静安店) 上海",
     "position": [
-      121.45498810242,
-      31.237042944434
+      121.454964,
+      31.236928
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B5%B7%E5%91%B3%E8%A7%82%20(%E9%9D%99%E5%AE%89)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B5%B7%E5%91%B3%E8%A7%82(%E9%9D%99%E5%AE%89%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/29972ec2ff43484e91b925a705f1df78.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/hai-wei-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "康定路18号",
+    "amapPoiId": "B0FFHSHNSC"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-bai-rong",
@@ -13382,25 +13918,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "上海总会 上海",
+    "poiQuery": "上海总会SHANGHAICLUB(兴业太古汇店) 上海",
     "position": [
-      121.463216758403,
-      31.22864201811
+      121.463279,
+      31.22853
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%80%BB%E4%BC%9A%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%80%BB%E4%BC%9ASHANGHAICLUB(%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e0bda900984b42a195f394b7b3ddbcb4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/shanghai-club",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "石门一路288号兴业太古汇香港兴业中心1座4楼18号店铺",
+    "amapPoiId": "B0FFIZO2KS"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-kanpai-classic-506687",
@@ -13416,18 +13954,20 @@ export const restaurants: Restaurant[] = [
       "烧烤"
     ],
     "cuisine": "烧烤",
-    "poiQuery": "老乾杯 上海",
+    "poiQuery": "老乾杯(上海外滩本店) 上海",
     "position": [
-      121.490810673594,
-      31.23448868666
+      121.49046,
+      31.234373
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%B9%B2%E6%9D%AF%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E4%B9%BE%E6%9D%AF(%E4%B8%8A%E6%B5%B7%E5%A4%96%E6%BB%A9%E6%9C%AC%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ea44da03b3124e8f9b0e97a8eeef7f87.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/kanpai-classic-506687",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "广东路20号外滩5号5层",
+    "amapPoiId": "B0FFG7UM6X"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-beef-liberty-west-nanjing-road",
@@ -13526,18 +14066,20 @@ export const restaurants: Restaurant[] = [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "宏玉方 上海",
+    "poiQuery": "宏玉方(南六店) 上海",
     "position": [
-      121.483478662747,
-      31.217072183428
+      121.483425,
+      31.21716
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%8F%E7%8E%89%E6%96%B9%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%8F%E7%8E%89%E6%96%B9(%E5%8D%97%E5%85%AD%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7b2452115f1c4b43a33257f429987689.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/hong-yu-fang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "西藏南路686号南六商场B1-06(近地铁8/10号线老西门站3号口)",
+    "amapPoiId": "B0I6A5500H"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-min-he-nan-huan-xi",
@@ -13546,25 +14088,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "闽和南欢席 上海",
+    "poiQuery": "闽和南·欢席(上海苏河湾万象天地店) 上海",
     "position": [
-      121.47909461177,
-      31.242521257027
+      121.480021,
+      31.242824
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%97%BD%E5%92%8C%E5%8D%97%E6%AC%A2%E5%B8%AD%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%97%BD%E5%92%8C%E5%8D%97%C2%B7%E6%AC%A2%E5%B8%AD(%E4%B8%8A%E6%B5%B7%E8%8B%8F%E6%B2%B3%E6%B9%BE%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1ada31e4033c4e859d6a9ad1b1d7316e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/min-he-nan-huan-xi",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "山西北路苏河湾万象天地东门二楼",
+    "amapPoiId": "B0I3MCPC6R"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-lao-xing-xian",
@@ -13580,18 +14124,20 @@ export const restaurants: Restaurant[] = [
       "沪菜"
     ],
     "cuisine": "沪菜",
-    "poiQuery": "老兴鲜 (黄浦) 上海",
+    "poiQuery": "老兴鲜(淮海百盛店) 上海",
     "position": [
-      121.459334839319,
-      31.217598475344
+      121.459279,
+      31.217511
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%85%B4%E9%B2%9C%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%85%B4%E9%B2%9C(%E6%B7%AE%E6%B5%B7%E7%99%BE%E7%9B%9B%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9727a586cb30495a852d19d07b5763e1.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lao-xing-xian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "淮海中路918号百盛商场5层(陕西南路地铁站出入口旁)",
+    "amapPoiId": "B0J6UMMAK5"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-mercado-505",
@@ -13600,25 +14146,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "靜安区",
+    "district": "静安区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "西班牙菜"
     ],
     "cuisine": "西班牙菜",
-    "poiQuery": "Mercado 505 上海",
+    "poiQuery": "MERCADO 505(上海宾馆商务楼店) 上海",
     "position": [
-      121.444095685624,
-      31.217403484231
+      121.444147,
+      31.217375
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Mercado%20505%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=MERCADO%20505(%E4%B8%8A%E6%B5%B7%E5%AE%BE%E9%A6%86%E5%95%86%E5%8A%A1%E6%A5%BC%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b1c051a90f8341cfab3633b243b3b157.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/mercado-505",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "乌鲁木齐北路505号华山路乌鲁木齐北路交叉口(肥田仔隔壁)",
+    "amapPoiId": "B0FFJ7UTPF"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-lin-family-of-one-the-bund",
@@ -13634,18 +14182,20 @@ export const restaurants: Restaurant[] = [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "外滩 · 林家一 上海",
+    "poiQuery": "外滩·林家一(外滩中央商场店) 上海",
     "position": [
-      121.487602217642,
-      31.238195738927
+      121.487091,
+      31.238043
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%C2%B7%20%E6%9E%97%E5%AE%B6%E4%B8%80%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%C2%B7%E6%9E%97%E5%AE%B6%E4%B8%80(%E5%A4%96%E6%BB%A9%E4%B8%AD%E5%A4%AE%E5%95%86%E5%9C%BA%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6e8de09c3c9a40599200d51f08c3dbfb.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lin-family-of-one-the-bund",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "南京东路123号外滩中央商场4层整层",
+    "amapPoiId": "B0HRKHAQKL"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-les-nuages",
@@ -13690,16 +14240,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "徽菜",
     "poiQuery": "徽季 上海",
     "position": [
-      121.535473692593,
-      31.221849999877
+      121.535373,
+      31.221765
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%BD%E5%AD%A3%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0de70e74cc934d8bb7a018bd9a8dc627.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/hui-ji",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "世纪大道1788号V2别墅",
+    "amapPoiId": "B0K2O50GS0"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-trine",
@@ -13708,25 +14260,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "上海",
+    "district": "徐汇区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚欧陆菜"
     ],
     "cuisine": "时尚欧陆菜",
-    "poiQuery": "Trine 上海",
+    "poiQuery": "TRINE餐厅(锦和越界永嘉庭店) 上海",
     "position": [
-      121.450979076893,
-      31.205676994397
+      121.451079,
+      31.205741
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Trine%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=TRINE%E9%A4%90%E5%8E%85(%E9%94%A6%E5%92%8C%E8%B6%8A%E7%95%8C%E6%B0%B8%E5%98%89%E5%BA%AD%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/af7577045e1e436da994bd1d98e859fd.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/trine",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "永嘉路570号永嘉庭1号楼4楼",
+    "amapPoiId": "B0KRFAQE1J"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-gongxi-gongxi-pudong",
@@ -13762,25 +14316,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "上海",
     "province": "上海",
     "country": "中国",
-    "district": "徐汇区",
+    "district": "黄浦区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "台城镂月 上海",
+    "poiQuery": "台城镂月台山广府菜(LuOne凯德晶萃广场店) 上海",
     "position": [
-      121.477117896955,
-      31.210358032609
+      121.476875,
+      31.210264
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8F%B0%E5%9F%8E%E9%95%82%E6%9C%88%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8F%B0%E5%9F%8E%E9%95%82%E6%9C%88%E5%8F%B0%E5%B1%B1%E5%B9%BF%E5%BA%9C%E8%8F%9C(LuOne%E5%87%AF%E5%BE%B7%E6%99%B6%E8%90%83%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dd5a579eb0e641e783a94a9fc73d8c48.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/toi-sihng-lauh-yuht",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "徐家汇路268号LU·ONE凯德晶萃广场F5层",
+    "amapPoiId": "B0KUSNJSDE"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-lin-jiang-yan",
@@ -13796,18 +14352,20 @@ export const restaurants: Restaurant[] = [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "临江宴 上海",
+    "poiQuery": "临江宴(陆家嘴店) 上海",
     "position": [
-      121.501627713258,
-      31.231992261482
+      121.501459,
+      31.2317
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%9F%E5%AE%B4%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B1%9F%E5%AE%B4(%E9%99%86%E5%AE%B6%E5%98%B4%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1a15f15bce7143e09149dcaadaed821e.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/lin-jiang-yan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "富城路216号(陆家嘴地铁站9B口步行410米)",
+    "amapPoiId": "B0FFJ3X35F"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-nan-xing-yuan",
@@ -13823,18 +14381,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "南兴园 上海",
+    "poiQuery": "南兴园(上海南鹰饭店店) 上海",
     "position": [
-      121.441315789072,
-      31.206527183786
+      121.440665,
+      31.206133
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E5%85%B4%E5%9B%AD%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E5%85%B4%E5%9B%AD(%E4%B8%8A%E6%B5%B7%E5%8D%97%E9%B9%B0%E9%A5%AD%E5%BA%97%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/115d4eb345954144949d18fc2515fa5d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/nan-xing-yuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "湖南路511弄18号(上海图书馆地铁站3号口步行390米)",
+    "amapPoiId": "B0FFKO0JAF"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-xin-yuan-lou",
@@ -13881,16 +14441,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "地中海菜",
     "poiQuery": "Scilla 上海",
     "position": [
-      121.429797753731,
-      31.201695909023
+      121.429842,
+      31.201729
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Scilla%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b2494fe735d1482293098e4733146b86.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/scilla",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "番禺路504号(交通大学地铁站5号口步行450米)",
+    "amapPoiId": "B0J2GRG6UP"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yong-jiang-zhen",
@@ -13933,18 +14495,20 @@ export const restaurants: Restaurant[] = [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "悦轩 上海",
+    "poiQuery": "上海柏悦酒店·悦轩 上海",
     "position": [
-      121.507355042113,
-      31.234373178764
+      121.507394,
+      31.234376
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%82%A6%E8%BD%A9%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%9F%8F%E6%82%A6%E9%85%92%E5%BA%97%C2%B7%E6%82%A6%E8%BD%A9%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7112dd42c72c425e871d43f3c84d177c.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/dining-room-1196349",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "世纪大道100号柏悦酒店8层",
+    "amapPoiId": "B0G0F593P3"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-sir-elly-s",
@@ -13991,16 +14555,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "沪菜",
     "poiQuery": "夜上海 上海",
     "position": [
-      121.477833557604,
-      31.220644961826
+      121.477836,
+      31.220647
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%9C%E4%B8%8A%E6%B5%B7%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/663ba59d3eed46bfb6d10f59c14ad732.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/ye-shanghai",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "湖滨路168号无限极荟307",
+    "amapPoiId": "B0IB7MTZDZ"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-wei-xiang-zhai",
@@ -14101,18 +14667,20 @@ export const restaurants: Restaurant[] = [
       "海鲜"
     ],
     "cuisine": "海鲜",
-    "poiQuery": "徐记海鲜 (徐汇) 上海",
+    "poiQuery": "徐记海鲜(肇嘉浜店) 上海",
     "position": [
-      121.45444053569,
-      31.201244227105
+      121.454396,
+      31.201271
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%90%E8%AE%B0%E6%B5%B7%E9%B2%9C%20(%E5%BE%90%E6%B1%87)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%90%E8%AE%B0%E6%B5%B7%E9%B2%9C(%E8%82%87%E5%98%89%E6%B5%9C%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e45ad73fc1e147a3b6dcbcb3443e7fa0.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/xuji-seafood-xuhui",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "肇嘉浜路500号(肇嘉浜路地铁站2号口步行470米)",
+    "amapPoiId": "B0H12U9WWX"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yong-feng-mian-guan",
@@ -14128,18 +14696,20 @@ export const restaurants: Restaurant[] = [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "永丰面馆 (黄浦) 上海",
+    "poiQuery": "永丰面馆 上海",
     "position": [
-      121.486196900126,
-      31.236098845027
+      121.484156,
+      31.235718
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E4%B8%B0%E9%9D%A2%E9%A6%86%20(%E9%BB%84%E6%B5%A6)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E4%B8%B0%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ffacd77369c04b22a3fe27bfca3971d7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/yong-feng-mian-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "汉口路320号(南京东路地铁站3号口步行150米)",
+    "amapPoiId": "B0IKZCWA73"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-fucheng",
@@ -14291,18 +14861,20 @@ export const restaurants: Restaurant[] = [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "逸道 (北京东路) 上海",
+    "poiQuery": "逸道(益丰·外滩源店) 上海",
     "position": [
-      121.488446875056,
-      31.240487322228
+      121.488362,
+      31.24061
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%80%B8%E9%81%93%20(%E5%8C%97%E4%BA%AC%E4%B8%9C%E8%B7%AF)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%80%B8%E9%81%93(%E7%9B%8A%E4%B8%B0%C2%B7%E5%A4%96%E6%BB%A9%E6%BA%90%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ed4ef2f56e234e52a4c753c11a4c2e93.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/tea-culture-east-beijing-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "北京东路99号益丰·外滩源F2层",
+    "amapPoiId": "B0FFI8DLVQ"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-yong-xing",
@@ -14349,16 +14921,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粥面",
     "poiQuery": "顶特勒粥面馆 上海",
     "position": [
-      121.469594705496,
-      31.221396352903
+      121.469525,
+      31.221458
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A1%B6%E7%89%B9%E5%8B%92%E7%B2%A5%E9%9D%A2%E9%A6%86%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4bb3c839d6a5427d8694b0560bdbe91d.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/ding-te-le-zhou-mian-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "淮海中路494弄22号",
+    "amapPoiId": "B00156EHIZ"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-hang-yuen-hin-xuhui",
@@ -14374,18 +14948,20 @@ export const restaurants: Restaurant[] = [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "恒悦轩 上海",
+    "poiQuery": "恒悦轩精致香港粤菜(徐家汇店) 上海",
     "position": [
-      121.444425093678,
-      31.197322792721
+      121.443625,
+      31.19747
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%81%92%E6%82%A6%E8%BD%A9%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%81%92%E6%82%A6%E8%BD%A9%E7%B2%BE%E8%87%B4%E9%A6%99%E6%B8%AF%E7%B2%A4%E8%8F%9C(%E5%BE%90%E5%AE%B6%E6%B1%87%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fd64efb06f844f799030bfade2613acf.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/hang-yuen-hin-xuhui",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "宛平路290号徐家汇公园内(近肇嘉浜路)",
+    "amapPoiId": "B00151149F"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-hokkien-huay-kuan",
@@ -14401,18 +14977,20 @@ export const restaurants: Restaurant[] = [
       "闽菜"
     ],
     "cuisine": "闽菜",
-    "poiQuery": "席作 · 福建会馆 上海",
+    "poiQuery": "席作·福建会馆(新天地时尚一期店) 上海",
     "position": [
-      121.474643612606,
-      31.219450074873
+      121.474702,
+      31.218603
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B8%AD%E4%BD%9C%20%C2%B7%20%E7%A6%8F%E5%BB%BA%E4%BC%9A%E9%A6%86%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B8%AD%E4%BD%9C%C2%B7%E7%A6%8F%E5%BB%BA%E4%BC%9A%E9%A6%86(%E6%96%B0%E5%A4%A9%E5%9C%B0%E6%97%B6%E5%B0%9A%E4%B8%80%E6%9C%9F%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/247e45f0b5fc418cb813d985232b98c6.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/hokkien-huay-kuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "马当路177号新天地时尚1期5层席作",
+    "amapPoiId": "B0HD3CP77D"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-shaughnessy",
@@ -14428,18 +15006,20 @@ export const restaurants: Restaurant[] = [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "Shaughnessy 上海",
+    "poiQuery": "Shaughnessy Restaurant&Bar 上海",
     "position": [
-      121.482373785078,
-      31.22622468918
+      121.482359,
+      31.22621
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Shaughnessy%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Shaughnessy%20Restaurant%26Bar%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1ff3ba3ae76f4d8390b7673ba6bbd1b4.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/shaughnessy",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "淮海东路与广西南路交叉口西南40米",
+    "amapPoiId": "B0H3DCS9BL"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-chaimen-hui-1205571",
@@ -14455,18 +15035,20 @@ export const restaurants: Restaurant[] = [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "柴门荟 (浦东) 上海",
+    "poiQuery": "柴门荟(前滩太古店) 上海",
     "position": [
-      121.480819322365,
-      31.152081532254
+      121.480974,
+      31.15181
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B4%E9%97%A8%E8%8D%9F%20(%E6%B5%A6%E4%B8%9C)%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B4%E9%97%A8%E8%8D%9F(%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cfa7e90e8752485584f2d42c4c94975d.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/chaimen-hui-1205571",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "浦东新区自由贸易试验区东育路500弄1-9号四层S-L4-04号商铺",
+    "amapPoiId": "B0IB2URIIN"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-dong-ping-chao",
@@ -14482,18 +15064,20 @@ export const restaurants: Restaurant[] = [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "东平潮 上海",
+    "poiQuery": "三利音·东平潮·潮汕菜(徐汇花园洋房店) 上海",
     "position": [
-      121.450900699159,
-      31.208485894505
+      121.451618,
+      31.208303
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%9C%E5%B9%B3%E6%BD%AE%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%89%E5%88%A9%E9%9F%B3%C2%B7%E4%B8%9C%E5%B9%B3%E6%BD%AE%C2%B7%E6%BD%AE%E6%B1%95%E8%8F%9C(%E5%BE%90%E6%B1%87%E8%8A%B1%E5%9B%AD%E6%B4%8B%E6%88%BF%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c74a2db10b4b4e9881703ecefae2bfe1.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/dong-ping-chao",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东平路1号三利音",
+    "amapPoiId": "B0HK3CUVBJ"
   },
   {
     "id": "cn-shanghai-municipality-shanghai-hong-0871",
@@ -14509,18 +15093,20 @@ export const restaurants: Restaurant[] = [
       "滇菜"
     ],
     "cuisine": "滇菜",
-    "poiQuery": "泓0871 上海",
+    "poiQuery": "泓0871臻选云南菜·寻鲜宴(上海北外滩店) 上海",
     "position": [
-      121.490322128173,
-      31.246552161588
+      121.490449,
+      31.247016
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B3%930871%20%E4%B8%8A%E6%B5%B7",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B3%930871%E8%87%BB%E9%80%89%E4%BA%91%E5%8D%97%E8%8F%9C%C2%B7%E5%AF%BB%E9%B2%9C%E5%AE%B4(%E4%B8%8A%E6%B5%B7%E5%8C%97%E5%A4%96%E6%BB%A9%E5%BA%97)%20%E4%B8%8A%E6%B5%B7",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d0f65241fb2442b0b294dcc3839bb86e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/shanghai-municipality/shanghai/restaurant/hong-0871",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "泓0871臻选云南菜·寻鲜宴楼彩虹北F5层",
+    "amapPoiId": "B0H17D5QCZ"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-plum-garden",
@@ -14556,25 +15142,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "鼓楼区",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "江南灶 · 云府 南京",
+    "poiQuery": "江南灶·云府 南京",
     "position": [
-      118.787806604184,
-      32.076339079555
+      118.78283,
+      32.078332
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%9F%E5%8D%97%E7%81%B6%20%C2%B7%20%E4%BA%91%E5%BA%9C%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%9F%E5%8D%97%E7%81%B6%C2%B7%E4%BA%91%E5%BA%9C%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7c3fc3a76831471eab4fb1b46f5e2bc0.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/jiangnan-wok-yun",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中央路329号香格里拉42层",
+    "amapPoiId": "B0I1ZUN7VA"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-pin-ning-fu",
@@ -14583,7 +15171,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "玄武区",
     "level": "one-star",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -14592,16 +15180,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "淮扬菜",
     "poiQuery": "品宁府 南京",
     "position": [
-      118.790193857958,
-      32.042934010215
+      118.784775,
+      32.045036
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%93%81%E5%AE%81%E5%BA%9C%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dd1c8b4010254740be3df04727718cbf.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/pin-ning-fu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "新街口街道中山路18号丽思卡尔顿酒店39层",
+    "amapPoiId": "B0FFKSKDM7"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-dai-yuet-heen",
@@ -14637,25 +15227,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "建邺区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "徽菜"
     ],
     "cuisine": "徽菜",
-    "poiQuery": "梦都会 南京",
+    "poiQuery": "梦都会(奥体中心店) 南京",
     "position": [
-      118.729127176314,
-      32.008200970043
+      118.723887,
+      32.010015
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A2%A6%E9%83%BD%E4%BC%9A%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A2%A6%E9%83%BD%E4%BC%9A(%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/394b00a1a96541d1a2965db34f6f8faa.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/meng-du-hui-1216395",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "江东中路222号奥体中心体育馆内13号柱",
+    "amapPoiId": "B0FFF5Y0EC"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-pingjiangsong",
@@ -14691,25 +15283,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "相城区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "鼎膳 · 匠宴 苏州",
+    "poiQuery": "鼎膳·匠宴(高铁新城店) 苏州",
     "position": [
-      120.64742851968,
-      31.415367075324
+      120.642997,
+      31.417865
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%BC%8E%E8%86%B3%20%C2%B7%20%E5%8C%A0%E5%AE%B4%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%BC%8E%E8%86%B3%C2%B7%E5%8C%A0%E5%AE%B4(%E9%AB%98%E9%93%81%E6%96%B0%E5%9F%8E%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cbab656a0cf742b5b90e364c95a3721b.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/dingshan-jiangyan-xiangcheng",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "青龙港路58号天成时代商务广场F33层",
+    "amapPoiId": "B0H1VDQ5AE"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-cheng-yuan",
@@ -14718,7 +15312,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "邗江区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -14727,16 +15321,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "时尚中国菜",
     "poiQuery": "橙园 扬州",
     "position": [
-      119.444816898686,
-      32.399293286546
+      119.439338,
+      32.4009
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A9%99%E5%9B%AD%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/85f08b115ac44ac2a1f36437478b66f0.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/cheng-yuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "丰乐上街7号",
+    "amapPoiId": "B0JB6AFBQB"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-shang-palace-1216419",
@@ -14799,25 +15395,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "秦淮区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "无名老卤面 南京",
+    "poiQuery": "无名老卤面(中华门总店) 南京",
     "position": [
-      118.787745327012,
-      32.011947028364
+      118.782467,
+      32.014032
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%97%A0%E5%90%8D%E8%80%81%E5%8D%A4%E9%9D%A2%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%97%A0%E5%90%8D%E8%80%81%E5%8D%A4%E9%9D%A2(%E4%B8%AD%E5%8D%8E%E9%97%A8%E6%80%BB%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6ef8e541ab69489daa4eb5043e4b9ea4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/wu-ming-lao-lu-mian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中华路533号",
+    "amapPoiId": "B0FFL3C7R2"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-tai-hu-san-bai-guan",
@@ -14826,25 +15424,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "常州",
     "province": "江苏",
     "country": "中国",
-    "district": "常州",
+    "district": "武进区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "太湖三白馆 常州",
+    "poiQuery": "太湖三白馆(常州武进区) 常州",
     "position": [
-      119.938936620877,
-      31.701203072656
+      119.934266,
+      31.703296
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%AA%E6%B9%96%E4%B8%89%E7%99%BD%E9%A6%86%20%E5%B8%B8%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%AA%E6%B9%96%E4%B8%89%E7%99%BD%E9%A6%86(%E5%B8%B8%E5%B7%9E%E6%AD%A6%E8%BF%9B%E5%8C%BA)%20%E5%B8%B8%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2317a28db33e437ab014961409c578a8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/changzhou_1025968/restaurant/tai-hu-san-bai-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "淹城美食一条街丰乐坊23号",
+    "amapPoiId": "B0FFK59WYN"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-qing-wa-xiang-tianning",
@@ -14907,7 +15507,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "姑苏区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -14916,16 +15516,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粤菜",
     "poiQuery": "姑苏楼上 苏州",
     "position": [
-      120.631616225282,
-      31.297230640468
+      120.627402,
+      31.299358
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A7%91%E8%8B%8F%E6%A5%BC%E4%B8%8A%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/04f4a3ff96c746fbb82ea1f4e2b8ae22.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/gusu-fusion",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "平桥直街28号",
+    "amapPoiId": "B0L1G1COVO"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-chang-xian-de-tianning",
@@ -14961,7 +15563,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "邗江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -14970,16 +15572,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "点心",
     "poiQuery": "柳园春茶肆 扬州",
     "position": [
-      119.374304948206,
-      32.388744492741
+      119.368844,
+      32.390652
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B3%E5%9B%AD%E6%98%A5%E8%8C%B6%E8%82%86%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/09d16d054bb44acabaaebed7b2cb4389.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/liuyuanchun-teahouse",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "新盛街道文昌西路472号",
+    "amapPoiId": "B0J3FLE7FW"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-jiu-yan-hehai-east-road",
@@ -15015,25 +15619,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "鼓楼区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "崔姐小吃 南京",
+    "poiQuery": "崔姐小吃(东井村小区店) 南京",
     "position": [
-      118.807246330939,
-      32.095943802677
+      118.802138,
+      32.098025
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B4%94%E5%A7%90%E5%B0%8F%E5%90%83%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B4%94%E5%A7%90%E5%B0%8F%E5%90%83(%E4%B8%9C%E4%BA%95%E6%9D%91%E5%B0%8F%E5%8C%BA%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a2877a58e5e944f68a7b2797ff7270a0.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/cui-jie-xiao-chi",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "和燕路195号",
+    "amapPoiId": "B0J1PS1V51"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-south-garden",
@@ -15069,7 +15675,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "广陵区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -15078,16 +15684,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "淮扬菜",
     "poiQuery": "菜根香小馆 扬州",
     "position": [
-      119.441483142619,
-      32.393490173247
+      119.435967,
+      32.395338
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8F%9C%E6%A0%B9%E9%A6%99%E5%B0%8F%E9%A6%86%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ab63ef2f4d7943cd867cc91098ef1409.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/cai-gen-xiang-xiao-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "院东街26号",
+    "amapPoiId": "B0KD6XGHA4"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-lao-chen-jia",
@@ -15096,25 +15704,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "姑苏区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "老陈家 苏州",
+    "poiQuery": "老陈家(狮林寺巷店) 苏州",
     "position": [
-      120.632893491024,
-      31.31780720016
+      120.628719,
+      31.320024
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E9%99%88%E5%AE%B6%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E9%99%88%E5%AE%B6(%E7%8B%AE%E6%9E%97%E5%AF%BA%E5%B7%B7%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/236adc0764dc4f16a6ca67b9bfd1545e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/lao-chen-jia",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "平江街道白塔东路294号桐芳苑",
+    "amapPoiId": "B0FFHFEJCN"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-bai-sheng-ren-jia-wuzhong",
@@ -15150,25 +15760,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "秦淮区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "李记清真馆 南京",
+    "poiQuery": "李记清真馆(打钉巷店) 南京",
     "position": [
-      118.7849735371,
-      32.027149486367
+      118.779783,
+      32.029251
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%8E%E8%AE%B0%E6%B8%85%E7%9C%9F%E9%A6%86%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%8E%E8%AE%B0%E6%B8%85%E7%9C%9F%E9%A6%86(%E6%89%93%E9%92%89%E5%B7%B7%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/555ccd4576f647a5a5ed9465ba296254.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/li-ji-qing-zhen-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "朝天宫街道评事街打钉巷1号",
+    "amapPoiId": "B001906WDQ"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-shuang-dong",
@@ -15177,25 +15789,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "广陵区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "双东酒店 扬州",
+    "poiQuery": "双东酒店(东关街店) 扬州",
     "position": [
-      119.45412937045,
-      32.393640481201
+      119.448729,
+      32.395504
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8F%8C%E4%B8%9C%E9%85%92%E5%BA%97%20%E6%89%AC%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8F%8C%E4%B8%9C%E9%85%92%E5%BA%97(%E4%B8%9C%E5%85%B3%E8%A1%97%E5%BA%97)%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/851ab9ddc61e42f2a282dffa263fee36.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/shuang-dong",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "文昌中路366号琼花观西侧",
+    "amapPoiId": "B02020I0VZ"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-fu-lin-xuan-jiqingmen-street",
@@ -15204,25 +15818,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "建邺区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "富临轩 (集庆门大街) 南京",
+    "poiQuery": "富临轩私房菜(集庆门大街店) 南京",
     "position": [
-      118.749497992133,
-      32.02725123151
+      118.744289,
+      32.029281
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AF%8C%E4%B8%B4%E8%BD%A9%20(%E9%9B%86%E5%BA%86%E9%97%A8%E5%A4%A7%E8%A1%97)%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AF%8C%E4%B8%B4%E8%BD%A9%E7%A7%81%E6%88%BF%E8%8F%9C(%E9%9B%86%E5%BA%86%E9%97%A8%E5%A4%A7%E8%A1%97%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cda88fbe064244108b794499afbac6d1.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/fu-lin-xuan-jiqingmen-street",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "集庆门大街188号(凤栖路侧)",
+    "amapPoiId": "B0FFHS2ZSY"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-hou-pin-xiao-yuan",
@@ -15231,25 +15847,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "建邺区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "侯品小苑 南京",
+    "poiQuery": "侯品小苑·精品淮扬菜 南京",
     "position": [
-      118.758667558379,
-      32.012248203115
+      118.749902,
+      32.00951
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BE%AF%E5%93%81%E5%B0%8F%E8%8B%91%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BE%AF%E5%93%81%E5%B0%8F%E8%8B%91%C2%B7%E7%B2%BE%E5%93%81%E6%B7%AE%E6%89%AC%E8%8F%9C%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a2c274c0fcf440a5858624b26b0c5dd7.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/hou-pin-xiao-yuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "兴隆大街50号江苏智能制造新都市产业园5栋113室侯品小苑",
+    "amapPoiId": "B0L217UAHN"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-a-cheng",
@@ -15258,7 +15876,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "姑苏区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -15267,16 +15885,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "江苏菜",
     "poiQuery": "阿成饭店 苏州",
     "position": [
-      120.636824874156,
-      31.298423880213
+      120.632602,
+      31.300571
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E6%88%90%E9%A5%AD%E5%BA%97%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/19fa027095964274b320f3202120842e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/a-cheng",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "凤凰街66号(望星桥苏大地铁站4号口步行410米)",
+    "amapPoiId": "B020001N0C"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-yu-cheng",
@@ -15312,25 +15932,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "虎丘区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "戈家坞农家乐 苏州",
+    "poiQuery": "戈家坞农家乐饭店(树山村店) 苏州",
     "position": [
-      120.47107632983,
-      31.356593717082
+      120.466439,
+      31.358296
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%88%88%E5%AE%B6%E5%9D%9E%E5%86%9C%E5%AE%B6%E4%B9%90%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%88%88%E5%AE%B6%E5%9D%9E%E5%86%9C%E5%AE%B6%E4%B9%90%E9%A5%AD%E5%BA%97(%E6%A0%91%E5%B1%B1%E6%9D%91%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1359f82fb8124ebe9009a450baf5e0bc.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/ge-jia-wu-farmer-s-house",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "通安镇树山村7组13号",
+    "amapPoiId": "B0FFFFSWY4"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-liu-she-ji",
@@ -15366,25 +15988,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "秦淮区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "强烨饭店 南京",
+    "poiQuery": "强烨饭店(长白街店) 南京",
     "position": [
-      118.803898831217,
-      32.036966341778
+      118.798726,
+      32.03904
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BC%BA%E7%83%A8%E9%A5%AD%E5%BA%97%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BC%BA%E7%83%A8%E9%A5%AD%E5%BA%97(%E9%95%BF%E7%99%BD%E8%A1%97%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2fdecf26d57e4f3a8100010d28655966.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/qiang-ye-fan-dian-changbai-street",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长白街636号",
+    "amapPoiId": "B00190BS31"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-tong-de-xing-jiayu-fang",
@@ -15474,25 +16098,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "邗江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "扬州宴 (长春路38号) 扬州",
+    "poiQuery": "扬州宴(瘦西湖店) 扬州",
     "position": [
-      119.426786312726,
-      32.410787092597
+      119.421276,
+      32.41275
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%AC%E5%B7%9E%E5%AE%B4%20(%E9%95%BF%E6%98%A5%E8%B7%AF38%E5%8F%B7)%20%E6%89%AC%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%AC%E5%B7%9E%E5%AE%B4(%E7%98%A6%E8%A5%BF%E6%B9%96%E5%BA%97)%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1ae243561ea948f58e33071ba7f910cf.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/yangzhou-yan-38-changchun-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长春路38号瘦西湖东门对面",
+    "amapPoiId": "B0FFG4EDLM"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-zhi-he-lao-ya-fen-si-tang",
@@ -15501,25 +16127,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "秦淮区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "致和老鸭粉丝汤 南京",
+    "poiQuery": "致和老鸭粉丝汤(建康新村店) 南京",
     "position": [
-      118.799819484535,
-      32.022498506158
+      118.794025,
+      32.024712
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%87%B4%E5%92%8C%E8%80%81%E9%B8%AD%E7%B2%89%E4%B8%9D%E6%B1%A4%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%87%B4%E5%92%8C%E8%80%81%E9%B8%AD%E7%B2%89%E4%B8%9D%E6%B1%A4(%E5%BB%BA%E5%BA%B7%E6%96%B0%E6%9D%91%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ed7874ba77994697b6592876bf51910d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/zhi-he-lao-ya-fen-si-tang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长白街51-53号",
+    "amapPoiId": "B0J3OAS2XP"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-gu-jia-bao-zi",
@@ -15528,7 +16156,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "秦淮区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -15537,16 +16165,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "点心",
     "poiQuery": "顾家包子 南京",
     "position": [
-      118.77733114795,
-      32.019622486199
+      118.77211,
+      32.021594
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A1%BE%E5%AE%B6%E5%8C%85%E5%AD%90%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/906622fce24b405da3844343cde374b4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/gu-jia-bao-zi",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "五福街49号",
+    "amapPoiId": "B0FFJLZ0J7"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-hua-yue-dou-xiang",
@@ -15555,25 +16185,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "常州",
     "province": "江苏",
     "country": "中国",
-    "district": "常州",
+    "district": "新北区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "花悦豆香 常州",
+    "poiQuery": "花悦豆香(府琛大厦店) 常州",
     "position": [
-      119.97823775352,
-      31.813639586565
+      119.973204,
+      31.815696
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%B1%E6%82%A6%E8%B1%86%E9%A6%99%20%E5%B8%B8%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8A%B1%E6%82%A6%E8%B1%86%E9%A6%99(%E5%BA%9C%E7%90%9B%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E5%B8%B8%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bf995c0b52d44b108689c5720f8b52e5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/changzhou_1025968/restaurant/hua-yue-dou-xiang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "太湖东路8号府琛大厦F1层",
+    "amapPoiId": "B0FFHRDPS3"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-san-xing-yang-rou-guan",
@@ -15582,7 +16214,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "吴中区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -15591,16 +16223,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "江苏菜",
     "poiQuery": "三星羊肉馆 苏州",
     "position": [
-      120.454060308419,
-      31.274016669435
+      120.449456,
+      31.275996
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%89%E6%98%9F%E7%BE%8A%E8%82%89%E9%A6%86%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/22555cb4ee2240c08b1fb419a78f7df3.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/san-xing-yang-rou-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "穹灵路2411号",
+    "amapPoiId": "B020015ZHU"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-san-bai-wan-bao-ying-chang-yu-mian",
@@ -15636,25 +16270,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "玄武区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "迟慢厨房 南京",
+    "poiQuery": "迟慢厨房·土菜(后宰门店) 南京",
     "position": [
-      118.825026647245,
-      32.045603586447
+      118.819876,
+      32.0477
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BF%9F%E6%85%A2%E5%8E%A8%E6%88%BF%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%BF%9F%E6%85%A2%E5%8E%A8%E6%88%BF%C2%B7%E5%9C%9F%E8%8F%9C(%E5%90%8E%E5%AE%B0%E9%97%A8%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f3c18ec889434b82baa54dcce5a551b9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/chi-man",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "北安门街后宰门西村95号南京科技金融园",
+    "amapPoiId": "B0FFIQGOU5"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-xin-fang-yuan",
@@ -15717,25 +16353,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "秦淮区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "金陵汪家馄饨 (集庆路) 南京",
+    "poiQuery": "汪家馄饨 南京",
     "position": [
-      118.780408571373,
-      32.01678681664
+      118.775195,
+      32.018777
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E9%99%B5%E6%B1%AA%E5%AE%B6%E9%A6%84%E9%A5%A8%20(%E9%9B%86%E5%BA%86%E8%B7%AF)%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%AA%E5%AE%B6%E9%A6%84%E9%A5%A8%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/349074ff275246d8892b5ba790c87c63.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/jin-ling-wang-jia-hun-tun-jiqing-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "集庆路124号(泽天大酒店对面)",
+    "amapPoiId": "B0FFJ45W1X"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-xu-jian-ping-tang-bao-rehe-south-road",
@@ -15744,25 +16382,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "鼓楼区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "徐建萍汤包 (热河南路) 南京",
+    "poiQuery": "徐建萍汤包(热河南路总店) 南京",
     "position": [
-      118.74731749941,
-      32.078853408939
+      118.742121,
+      32.080889
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%90%E5%BB%BA%E8%90%8D%E6%B1%A4%E5%8C%85%20(%E7%83%AD%E6%B2%B3%E5%8D%97%E8%B7%AF)%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BE%90%E5%BB%BA%E8%90%8D%E6%B1%A4%E5%8C%85(%E7%83%AD%E6%B2%B3%E5%8D%97%E8%B7%AF%E6%80%BB%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3d31b51e155d443b9559cea9a4a170d6.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/xu-jian-ping-tang-bao-rehe-south-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "热河南路37号-1(热河南路幼儿园对面)",
+    "amapPoiId": "B0FFF4BPV7"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-yu-mian-tang",
@@ -15771,25 +16411,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "姑苏区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "裕面堂 (南新路) 苏州",
+    "poiQuery": "裕面堂·红尘首驿(山塘店) 苏州",
     "position": [
-      120.60992354343,
-      31.310609220998
+      120.605851,
+      31.312549
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A3%95%E9%9D%A2%E5%A0%82%20(%E5%8D%97%E6%96%B0%E8%B7%AF)%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A3%95%E9%9D%A2%E5%A0%82%C2%B7%E7%BA%A2%E5%B0%98%E9%A6%96%E9%A9%BF(%E5%B1%B1%E5%A1%98%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a87051b13647441a8278eda23b51af4b.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/yu-mian-tang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "南新路",
+    "amapPoiId": "B0FFL0WD7C"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-su-cheng-jia-yan-ligongdi-road",
@@ -15798,25 +16440,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "吴中区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "苏城家宴 (李公堤路) 苏州",
+    "poiQuery": "苏城家宴(李公堤店) 苏州",
     "position": [
-      120.693204679067,
-      31.308786998949
+      120.688965,
+      31.302267
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%9F%8E%E5%AE%B6%E5%AE%B4%20(%E6%9D%8E%E5%85%AC%E5%A0%A4%E8%B7%AF)%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%9F%8E%E5%AE%B6%E5%AE%B4(%E6%9D%8E%E5%85%AC%E5%A0%A4%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ec5676ed66ed42138bf62aefe14ad1e0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/su-cheng-jia-yan-ligongdi-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "李公堤路43-45号",
+    "amapPoiId": "B020017QP1"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-ya-ba-sheng-jian-wenjia-an",
@@ -15933,25 +16577,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "姑苏区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "六宜楼 (南新路) 苏州",
+    "poiQuery": "六宜楼菜馆 苏州",
     "position": [
-      120.609851000216,
-      31.311448812891
+      120.605653,
+      31.313489
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%AD%E5%AE%9C%E6%A5%BC%20(%E5%8D%97%E6%96%B0%E8%B7%AF)%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%AD%E5%AE%9C%E6%A5%BC%E8%8F%9C%E9%A6%86%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a1bb7248dbc640b9b5c484c7b9cfab4d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/liu-yi-lou-nanxin-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "南新路91号",
+    "amapPoiId": "B02001AMWH"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-lao-hu-mian-guan",
@@ -15960,25 +16606,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "邗江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "老虎面馆 扬州",
+    "poiQuery": "老虎面馆(四季园新村春竹苑店) 扬州",
     "position": [
-      119.414592912106,
-      32.390140791294
+      119.409059,
+      32.392046
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E8%99%8E%E9%9D%A2%E9%A6%86%20%E6%89%AC%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E8%99%8E%E9%9D%A2%E9%A6%86(%E5%9B%9B%E5%AD%A3%E5%9B%AD%E6%96%B0%E6%9D%91%E6%98%A5%E7%AB%B9%E8%8B%91%E5%BA%97)%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e125e0da21cd4ec79bcfc08307c13dbd.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/lao-hu-mian-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "维扬路246-9号",
+    "amapPoiId": "B020201INU"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-liu-jia-you-meng-mei",
@@ -15987,25 +16635,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "姑苏区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "柳家有梦梅 苏州",
+    "poiQuery": "柳家有梦梅鲍鱼馄饨王(南林苑店) 苏州",
     "position": [
-      120.631662154887,
-      31.296950583857
+      120.627477,
+      31.299031
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B3%E5%AE%B6%E6%9C%89%E6%A2%A6%E6%A2%85%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9F%B3%E5%AE%B6%E6%9C%89%E6%A2%A6%E6%A2%85%E9%B2%8D%E9%B1%BC%E9%A6%84%E9%A5%A8%E7%8E%8B(%E5%8D%97%E6%9E%97%E8%8B%91%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cfacfd1e3d644d0388affc7bda5e1a1d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/liu-jia-you-meng-mei",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "沧浪街道平桥直街8号",
+    "amapPoiId": "B0JUCC61GB"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-sheng-xing-mian-guan",
@@ -16014,7 +16664,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "常州",
     "province": "江苏",
     "country": "中国",
-    "district": "常州",
+    "district": "天宁区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -16023,16 +16673,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "盛兴面馆 常州",
     "position": [
-      119.968012956019,
-      31.777394039417
+      119.963485,
+      31.779459
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%9B%9B%E5%85%B4%E9%9D%A2%E9%A6%86%20%E5%B8%B8%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dfe3417a9d284658b55abf4569cea375.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/changzhou_1025968/restaurant/sheng-xing-mian-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "盛兴面馆县学街87号",
+    "amapPoiId": "B020705NO5"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-tang-yuan",
@@ -16068,25 +16720,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "秦淮区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "金陵杨家馄饨店 (曹都巷) 南京",
+    "poiQuery": "金陵杨家馄饨店(总店) 南京",
     "position": [
-      118.78632913433,
-      32.031782380038
+      118.780998,
+      32.033889
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E9%99%B5%E6%9D%A8%E5%AE%B6%E9%A6%84%E9%A5%A8%E5%BA%97%20(%E6%9B%B9%E9%83%BD%E5%B7%B7)%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E9%99%B5%E6%9D%A8%E5%AE%B6%E9%A6%84%E9%A5%A8%E5%BA%97(%E6%80%BB%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4881983aa604437db094bffdf049b528.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/jin-ling-yang-jia-hun-tun-dian-caodu-alley",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "曹都巷1-3号曹都巷小区",
+    "amapPoiId": "B0FFKPP6AH"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-zheng-qing-niu-rou-guo-tie-dian",
@@ -16095,7 +16749,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "鼓楼区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -16104,16 +16758,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "点心",
     "poiQuery": "正清牛肉锅贴店 南京",
     "position": [
-      118.787611734768,
-      32.079381051076
+      118.782403,
+      32.081496
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AD%A3%E6%B8%85%E7%89%9B%E8%82%89%E9%94%85%E8%B4%B4%E5%BA%97%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7dda4692508249f5bfde5c4fa363e23e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/zheng-qing-niu-rou-guo-tie-dian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "许府巷江西路2-1",
+    "amapPoiId": "B00190B1L6"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-guang-ying-ju-e2-80-a2-lao-zheng-xing",
@@ -16122,25 +16778,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "秦淮区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "广迎居 · 老正兴 南京",
+    "poiQuery": "广迎居老正兴菜馆(秦虹路店) 南京",
     "position": [
-      118.817037729984,
-      32.008027725894
+      118.8117,
+      32.010055
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E8%BF%8E%E5%B1%85%20%C2%B7%20%E8%80%81%E6%AD%A3%E5%85%B4%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E8%BF%8E%E5%B1%85%E8%80%81%E6%AD%A3%E5%85%B4%E8%8F%9C%E9%A6%86(%E7%A7%A6%E8%99%B9%E8%B7%AF%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/56910bae368f4dc886595cd40f3243bf.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/guang-ying-ju-%E2%80%A2-lao-zheng-xing",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "大明路102号",
+    "amapPoiId": "B0FFMCIXME"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-du-shi-li-de-xiang-cun",
@@ -16149,25 +16807,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "鼓楼区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "都市里的乡村 南京",
+    "poiQuery": "都市里的乡村(青云巷24号院店) 南京",
     "position": [
-      118.78504308853,
-      32.064260622847
+      118.779792,
+      32.066336
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%83%BD%E5%B8%82%E9%87%8C%E7%9A%84%E4%B9%A1%E6%9D%91%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%83%BD%E5%B8%82%E9%87%8C%E7%9A%84%E4%B9%A1%E6%9D%91(%E9%9D%92%E4%BA%91%E5%B7%B724%E5%8F%B7%E9%99%A2%E5%BA%97)%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/efdc5e385ab64bfa8e7f88415fa013f2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/du-shi-li-de-xiang-cun",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "青云巷26-1号",
+    "amapPoiId": "B0FFH0I9N8"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-hu-yuan-mei-shi",
@@ -16176,25 +16836,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "广陵区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "壶园美食 扬州",
+    "poiQuery": "壶园美食(东圈门店) 扬州",
     "position": [
-      119.447757521465,
-      32.39336199244
+      119.442305,
+      32.39526
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A3%B6%E5%9B%AD%E7%BE%8E%E9%A3%9F%20%E6%89%AC%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A3%B6%E5%9B%AD%E7%BE%8E%E9%A3%9F(%E4%B8%9C%E5%9C%88%E9%97%A8%E5%BA%97)%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/716b68fa560749f0990c08bc44a13659.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/hu-yuan-mei-shi",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东圈门52号五谷巷(原五福巷)叉口",
+    "amapPoiId": "B02020I9V1"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-xiao-pan-ji-ya-xie-fen-si-tang",
@@ -16311,25 +16973,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "虎丘区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "扬州宴 · 趣园 苏州",
+    "poiQuery": "扬州宴·趣园 苏州",
     "position": [
-      120.576668750242,
-      31.283458548907
+      120.572407,
+      31.285535
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%AC%E5%B7%9E%E5%AE%B4%20%C2%B7%20%E8%B6%A3%E5%9B%AD%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%AC%E5%B7%9E%E5%AE%B4%C2%B7%E8%B6%A3%E5%9B%AD%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4f1a68ca56c446978bdf9e8bc3d0b921.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/yangzhou-yan-qu-yuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "竹园路6号运河铂湾金融广场8号楼裙楼2楼",
+    "amapPoiId": "B0JDV9X258"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-jia-yuan-xiao-guan",
@@ -16338,7 +17002,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "常州",
     "province": "江苏",
     "country": "中国",
-    "district": "常州",
+    "district": "钟楼区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -16347,16 +17011,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "淮扬菜",
     "poiQuery": "嘉园小馆 常州",
     "position": [
-      119.944145446858,
-      31.785772841921
+      119.939369,
+      31.787951
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%98%89%E5%9B%AD%E5%B0%8F%E9%A6%86%20%E5%B8%B8%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/444419e2305e4440bb49f720962f3c76.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/changzhou_1025968/restaurant/jia-yuan-xiao-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "五星街道西仓桥横街三堡街63号",
+    "amapPoiId": "B0KD3RSC9H"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-suxiangyuan",
@@ -16365,25 +17031,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "玄武区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "丁老爷子苏香圆 南京",
+    "poiQuery": "丁老爷子苏香圆鱼馆 南京",
     "position": [
-      118.818717543908,
-      32.061628323317
+      118.813142,
+      32.064849
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%81%E8%80%81%E7%88%B7%E5%AD%90%E8%8B%8F%E9%A6%99%E5%9C%86%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%81%E8%80%81%E7%88%B7%E5%AD%90%E8%8B%8F%E9%A6%99%E5%9C%86%E9%B1%BC%E9%A6%86%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/595f3672d93a4ed9b51c393854cda6ad.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/suxiangyuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "阳光路3号太阳宫剧场旁边",
+    "amapPoiId": "B0IRGAD3QU"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-yuxiu",
@@ -16392,25 +17060,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "常州",
     "province": "江苏",
     "country": "中国",
-    "district": "常州",
+    "district": "钟楼区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "毓秀舫 常州",
+    "poiQuery": "中吴·毓秀舫 常州",
     "position": [
-      119.911983244695,
-      31.75605966671
+      119.906533,
+      31.758531
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AF%93%E7%A7%80%E8%88%AB%20%E5%B8%B8%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%90%B4%C2%B7%E6%AF%93%E7%A7%80%E8%88%AB%20%E5%B8%B8%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fe73d7d60e9e4f28a80861aa3dd29b4c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/changzhou_1025968/restaurant/yuxiu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中吴大道1899号",
+    "amapPoiId": "B0LBF7ZAY4"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-tingsonglou",
@@ -16419,25 +17089,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "常州",
     "province": "江苏",
     "country": "中国",
-    "district": "常州",
+    "district": "天宁区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "听松楼 常州",
+    "poiQuery": "听松楼花园酒店 常州",
     "position": [
-      119.974496456828,
-      31.775392151495
+      119.969822,
+      31.777302
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%AC%E6%9D%BE%E6%A5%BC%20%E5%B8%B8%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%AC%E6%9D%BE%E6%A5%BC%E8%8A%B1%E5%9B%AD%E9%85%92%E5%BA%97%20%E5%B8%B8%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/22c02a5f121e457cad78a63e79057fce.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/changzhou_1025968/restaurant/tingsonglou",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "罗汉路1号",
+    "amapPoiId": "B02070SU7T"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-pin-wei-jiang-nan",
@@ -16527,7 +17199,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "玄武区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -16536,16 +17208,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "江浙菜",
     "poiQuery": "元景宴 南京",
     "position": [
-      118.84739562188,
-      32.042258146369
+      118.84229,
+      32.0445
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%83%E6%99%AF%E5%AE%B4%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d0b2b47b21954031bce571c62b7abf7c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/yuan-space-feast",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "十朝历史文化园四方城一号七号楼",
+    "amapPoiId": "B0H3VH94PM"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-jin-jing-ge",
@@ -16581,25 +17255,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "姑苏区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "新聚丰菜馆 (太监弄) 苏州",
+    "poiQuery": "新聚丰菜馆(观前店) 苏州",
     "position": [
-      120.630281141059,
-      31.308319005852
+      120.626176,
+      31.310491
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%81%9A%E4%B8%B0%E8%8F%9C%E9%A6%86%20(%E5%A4%AA%E7%9B%91%E5%BC%84)%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%81%9A%E4%B8%B0%E8%8F%9C%E9%A6%86(%E8%A7%82%E5%89%8D%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1b7b567f7ad64b509bce0ba52f598aa4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/xin-jun-feng-cai-guan-taijianlane",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "观前街太监弄13号2层",
+    "amapPoiId": "B0FFFFW0Y9"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-quyuan-plus",
@@ -16608,25 +17284,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "邗江区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "趣园Plus 扬州",
+    "poiQuery": "淮扬晓宴&趣园PLUS 扬州",
     "position": [
-      119.434153365365,
-      32.406617464414
+      119.428691,
+      32.408499
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B6%A3%E5%9B%ADPlus%20%E6%89%AC%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B7%AE%E6%89%AC%E6%99%93%E5%AE%B4%26%E8%B6%A3%E5%9B%ADPLUS%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/16afc2654d0f4d0c99450f5c7a8b4f39.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/quyuan-plus",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长春路3号",
+    "amapPoiId": "B0JAO4VZ3X"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-xizhou-hall",
@@ -16635,25 +17313,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "吴中区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "西洲轩 苏州",
+    "poiQuery": "苏州柏悦酒店·西洲轩 苏州",
     "position": [
-      120.722772012396,
-      31.31203958962
+      120.719043,
+      31.313899
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E6%B4%B2%E8%BD%A9%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%B7%9E%E6%9F%8F%E6%82%A6%E9%85%92%E5%BA%97%C2%B7%E8%A5%BF%E6%B4%B2%E8%BD%A9%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bc9aab212c714b98a553739a877e82e0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/xizhou-hall",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "西洲路69号苏州柏悦酒店一楼",
+    "amapPoiId": "B0LDXZGIYZ"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-quyuan-teahouse-changchun-road",
@@ -16689,25 +17369,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "吴中区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "晶采轩 苏州",
+    "poiQuery": "晶采轩(李公堤店) 苏州",
     "position": [
-      120.693691451825,
-      31.30050278536
+      120.689627,
+      31.302522
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%99%B6%E9%87%87%E8%BD%A9%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%99%B6%E9%87%87%E8%BD%A9(%E6%9D%8E%E5%85%AC%E5%A0%A4%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f1207a62e2ef4abe9c15a0fd0bd3245e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/exquisite-bocuse-1216500",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "李公堤内(西侧)",
+    "amapPoiId": "B0IR6RRF1A"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-mountain-restaurant",
@@ -16797,25 +17479,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "扬州",
     "province": "江苏",
     "country": "中国",
-    "district": "扬州",
+    "district": "广陵区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "扬州院子 扬州",
+    "poiQuery": "扬州院子·淮扬土菜庭院餐厅(大运河博物馆何园店) 扬州",
     "position": [
-      119.435933615117,
-      32.369495025667
+      119.437338,
+      32.37736
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%AC%E5%B7%9E%E9%99%A2%E5%AD%90%20%E6%89%AC%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%89%AC%E5%B7%9E%E9%99%A2%E5%AD%90%C2%B7%E6%B7%AE%E6%89%AC%E5%9C%9F%E8%8F%9C%E5%BA%AD%E9%99%A2%E9%A4%90%E5%8E%85(%E5%A4%A7%E8%BF%90%E6%B2%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E4%BD%95%E5%9B%AD%E5%BA%97)%20%E6%89%AC%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1c91158f6512419396bae46c153e84b9.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/yangzhou_1032329/restaurant/yangzhou-yuanzi",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "文峰路与快速路交汇处也今南旧改区内2号楼",
+    "amapPoiId": "B0LALCPDA7"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-song-yun",
@@ -16824,7 +17508,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "常州",
     "province": "江苏",
     "country": "中国",
-    "district": "常州",
+    "district": "天宁区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -16833,16 +17517,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "江苏菜",
     "poiQuery": "松筠小筑 常州",
     "position": [
-      119.964752878182,
-      31.773860092816
+      119.96007,
+      31.775773
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%BE%E7%AD%A0%E5%B0%8F%E7%AD%91%20%E5%B8%B8%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1da3fc2c015547059b57518f0cb509d8.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/changzhou_1025968/restaurant/song-yun",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "延陵西路53号周线里",
+    "amapPoiId": "B0I1XSOHEX"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-hong-kong-old-restaurant-wujin",
@@ -16905,25 +17591,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "江宁区",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "丰 · 松竹 南京",
+    "poiQuery": "FONG SENSE豐·松竹 南京",
     "position": [
-      118.827378577881,
-      31.93436956714
+      118.822044,
+      31.936791
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%B0%20%C2%B7%20%E6%9D%BE%E7%AB%B9%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=FONG%20SENSE%E8%B1%90%C2%B7%E6%9D%BE%E7%AB%B9%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/00c637c966c444eaa029fde5349909b0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/fong-sense",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "双龙大道1519号",
+    "amapPoiId": "B0J6RHOMZF"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-la-mome",
@@ -16959,7 +17647,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "吴中区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -16968,16 +17656,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "江苏菜",
     "poiQuery": "和顺羊肉馆 苏州",
     "position": [
-      120.455202122038,
-      31.273893586039
+      120.450551,
+      31.275798
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%92%8C%E9%A1%BA%E7%BE%8A%E8%82%89%E9%A6%86%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c30e81fc8d41410381f4afee91f06395.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/he-shun-yang-rou-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "穹灵路2270号",
+    "amapPoiId": "B020016EW4"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-hui-lao-tang",
@@ -17013,25 +17703,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "吴中区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "半庭嘉宴 (苏州工业园区) 苏州",
+    "poiQuery": "半庭嘉宴·非遗苏州菜(苏州托尼洛·兰博基尼书苑酒店店) 苏州",
     "position": [
-      120.686321327149,
-      31.318399859582
+      120.682169,
+      31.320751
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%8A%E5%BA%AD%E5%98%89%E5%AE%B4%20(%E8%8B%8F%E5%B7%9E%E5%B7%A5%E4%B8%9A%E5%9B%AD%E5%8C%BA)%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%8A%E5%BA%AD%E5%98%89%E5%AE%B4%C2%B7%E9%9D%9E%E9%81%97%E8%8B%8F%E5%B7%9E%E8%8F%9C(%E8%8B%8F%E5%B7%9E%E6%89%98%E5%B0%BC%E6%B4%9B%C2%B7%E5%85%B0%E5%8D%9A%E5%9F%BA%E5%B0%BC%E4%B9%A6%E8%8B%91%E9%85%92%E5%BA%97%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/204f757221d844a7aab40381187f3739.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/ban-ting-jia-yan-suzhou-industrial-park",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "苏州工业园区星港街168号",
+    "amapPoiId": "B0G0V5LRK7"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-man-ho-1216552",
@@ -17040,25 +17732,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "江宁区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "万豪·南京景枫 南京",
+    "poiQuery": "南京景枫万豪酒店万豪中餐厅 南京",
     "position": [
-      118.827251447359,
-      31.934369605441
+      118.822113,
+      31.936447
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%87%E8%B1%AA%C2%B7%E5%8D%97%E4%BA%AC%E6%99%AF%E6%9E%AB%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E4%BA%AC%E6%99%AF%E6%9E%AB%E4%B8%87%E8%B1%AA%E9%85%92%E5%BA%97%E4%B8%87%E8%B1%AA%E4%B8%AD%E9%A4%90%E5%8E%85%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fb09a8b9e651438098cfe7fe1a94842d.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/man-ho-1216552",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "双龙大道1519号景枫万豪酒店27楼",
+    "amapPoiId": "B0G0BKZ15B"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-ban-lan-huqiu",
@@ -17094,25 +17788,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "常州",
     "province": "江苏",
     "country": "中国",
-    "district": "常州",
+    "district": "天宁区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "青果艺风荟 常州",
+    "poiQuery": "青果艺风荟(青果巷店) 常州",
     "position": [
-      119.965317613068,
-      31.771092753244
+      119.960514,
+      31.773129
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9D%92%E6%9E%9C%E8%89%BA%E9%A3%8E%E8%8D%9F%20%E5%B8%B8%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9D%92%E6%9E%9C%E8%89%BA%E9%A3%8E%E8%8D%9F(%E9%9D%92%E6%9E%9C%E5%B7%B7%E5%BA%97)%20%E5%B8%B8%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2d5a63354c4c48fabe6d30f8f3a80574.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/changzhou_1025968/restaurant/qingguo-art-restaurant",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "青果巷二期·古村5弄27号古村5弄23-2号-3号",
+    "amapPoiId": "B0K1J5FOZN"
   },
   {
     "id": "cn-jiang-su-changzhou-1025968-xi-jiu",
@@ -17229,25 +17925,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "南京",
     "province": "江苏",
     "country": "中国",
-    "district": "南京",
+    "district": "鼓楼区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "淮扬菜"
     ],
     "cuisine": "淮扬菜",
-    "poiQuery": "江南灶 南京",
+    "poiQuery": "江南灶·云府 南京",
     "position": [
-      118.788116283579,
-      32.076097377128
+      118.78283,
+      32.078332
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%9F%E5%8D%97%E7%81%B6%20%E5%8D%97%E4%BA%AC",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%9F%E5%8D%97%E7%81%B6%C2%B7%E4%BA%91%E5%BA%9C%20%E5%8D%97%E4%BA%AC",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9395bbeb1c994495ad7c3e80f2211634.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/nanjing_1029511/restaurant/jiangnan-wok",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中央路329号香格里拉42层",
+    "amapPoiId": "B0I1ZUN7VA"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-longyin-shanfang-jiangning",
@@ -17310,25 +18008,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "虎丘区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "悦山房 (虎丘) 苏州",
+    "poiQuery": "悦山房·CHAI COURT(狮山店) 苏州",
     "position": [
-      120.57237403999,
-      31.289510133157
+      120.568165,
+      31.291679
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%82%A6%E5%B1%B1%E6%88%BF%20(%E8%99%8E%E4%B8%98)%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%82%A6%E5%B1%B1%E6%88%BF%C2%B7CHAI%20COURT(%E7%8B%AE%E5%B1%B1%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4abf225296a049ada52ef128c3f281e0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/chai-court",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "虎丘区高新区滨河路999号万枫酒店15楼",
+    "amapPoiId": "B0G0KART0P"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-xiu",
@@ -17364,25 +18064,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "吴中区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "悦食东方 (旺墩路） 苏州",
+    "poiQuery": "金海华·悦食东方(洲际店) 苏州",
     "position": [
-      120.714647309366,
-      31.3173610893
+      120.710317,
+      31.319381
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%82%A6%E9%A3%9F%E4%B8%9C%E6%96%B9%20(%E6%97%BA%E5%A2%A9%E8%B7%AF%EF%BC%89%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E6%B5%B7%E5%8D%8E%C2%B7%E6%82%A6%E9%A3%9F%E4%B8%9C%E6%96%B9(%E6%B4%B2%E9%99%85%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7bce5ff58d3244b489aa89f4d58ac8fa.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/chao-27",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "苏州工业园区旺墩路288号洲际酒店27楼",
+    "amapPoiId": "B0G13Z27L3"
   },
   {
     "id": "cn-jiang-su-suzhou-1031079-gu-su-qiao-diyi-tianmen",
@@ -17391,25 +18093,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "姑苏区",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "姑苏桥 (第一天门) 苏州",
+    "poiQuery": "姑苏桥·文人苏式面馆(观前街店) 苏州",
     "position": [
-      120.630365378306,
-      31.307649645129
+      120.626143,
+      31.309789
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A7%91%E8%8B%8F%E6%A1%A5%20(%E7%AC%AC%E4%B8%80%E5%A4%A9%E9%97%A8)%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A7%91%E8%8B%8F%E6%A1%A5%C2%B7%E6%96%87%E4%BA%BA%E8%8B%8F%E5%BC%8F%E9%9D%A2%E9%A6%86(%E8%A7%82%E5%89%8D%E8%A1%97%E5%BA%97)%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c08a0deea8f04b43b726269313473a34.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/gu-su-qiao-diyi-tianmen",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "第一天门12号",
+    "amapPoiId": "B0FFK0EO0R"
   },
   {
     "id": "cn-jiang-su-nanjing-1029511-wan-guo-chun-garden-restaurant",
@@ -17472,25 +18176,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "苏州",
     "province": "江苏",
     "country": "中国",
-    "district": "苏州",
+    "district": "吴中区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江苏菜"
     ],
     "cuisine": "江苏菜",
-    "poiQuery": "华池88 苏州",
+    "poiQuery": "苏州凯悦酒店-华池88 苏州",
     "position": [
-      120.717778713695,
-      31.321671228117
+      120.71344,
+      31.32369
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%8E%E6%B1%A088%20%E8%8B%8F%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%B7%9E%E5%87%AF%E6%82%A6%E9%85%92%E5%BA%97-%E5%8D%8E%E6%B1%A088%20%E8%8B%8F%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/07c79568b4ab416183ca5f6263f708b6.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/jiang-su/suzhou_1031079/restaurant/hua-chi-88",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "华池街88号凯悦酒店2楼(时代广场3号口出)",
+    "amapPoiId": "B0FFF9KNSF"
   },
   {
     "id": "cn-jiang-su-yangzhou-1032329-yi-yuan-siwangting-road",
@@ -17553,25 +18259,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "拱墅区",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "玉芝兰 杭州",
+    "poiQuery": "杭州玉芝兰餐厅 杭州",
     "position": [
-      120.16505996952,
-      30.257451171537
+      120.16021,
+      30.259758
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8E%89%E8%8A%9D%E5%85%B0%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E7%8E%89%E8%8A%9D%E5%85%B0%E9%A4%90%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dc0f873256834253a9fb965b2f9fa01d.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/yu-zhi-lan-1217657",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "武林路梅鹤堂林界林安里2号",
+    "amapPoiId": "B0K22CHLGG"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-guiyu",
@@ -17688,25 +18396,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "余杭区",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "西溪良辰 杭州",
+    "poiQuery": "西溪良辰·精致潮汕菜 杭州",
     "position": [
-      120.052348389369,
-      30.266294219248
+      120.04756,
+      30.268849
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E6%BA%AA%E8%89%AF%E8%BE%B0%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E6%BA%AA%E8%89%AF%E8%BE%B0%C2%B7%E7%B2%BE%E8%87%B4%E6%BD%AE%E6%B1%95%E8%8F%9C%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d8dde66a55d34d0d8b6cc39c0e322405.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/xi-xi-liang-chen",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "五常街道邬家湾停车场入口访溪路8号西溪良辰",
+    "amapPoiId": "B0JGMS4RSM"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-la-lune",
@@ -17715,25 +18425,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "时尚中国菜"
     ],
     "cuisine": "时尚中国菜",
-    "poiQuery": "一痕月 杭州",
+    "poiQuery": "一痕月 by Seven Villas 杭州",
     "position": [
-      120.220107690455,
-      30.249357786699
+      120.216217,
+      30.251388
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%80%E7%97%95%E6%9C%88%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%80%E7%97%95%E6%9C%88%20by%20Seven%20Villas%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7884ebad13164662b1e9d378a91ffb83.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/la-lune",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "富春路701号F6空中花园L628",
+    "amapPoiId": "B0IKCHK4KC"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-la-villa-1206896",
@@ -17742,25 +18454,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "三嚥阁 杭州",
+    "poiQuery": "三嚥阁La Villa Restaurant 杭州",
     "position": [
-      120.138153155219,
-      30.226838010371
+      120.133504,
+      30.229232
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%89%E5%9A%A5%E9%98%81%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%89%E5%9A%A5%E9%98%81La%20Villa%20Restaurant%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fa56413e5796445ab6fe3ced332324be.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/la-villa-1206896",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "八盘岭路1号(近杨公堤)",
+    "amapPoiId": "B0FFFEGSUY"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-shuiyang",
@@ -17796,25 +18510,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "临平区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "万丽轩 (临平) 杭州",
+    "poiQuery": "杭州临平万丽酒店·万丽轩中餐厅 杭州",
     "position": [
-      120.314765193583,
-      30.412800298193
+      120.310334,
+      30.415323
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%87%E4%B8%BD%E8%BD%A9%20(%E4%B8%B4%E5%B9%B3)%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E4%B8%B4%E5%B9%B3%E4%B8%87%E4%B8%BD%E9%85%92%E5%BA%97%C2%B7%E4%B8%87%E4%B8%BD%E8%BD%A9%E4%B8%AD%E9%A4%90%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/88d00bfcda9f40a9a0de1d735e9e3551.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/wan-li",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "南苑街道人民大道607号杭州临平万丽酒店16层",
+    "amapPoiId": "B0LG6LII4N"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-grand-dragon",
@@ -17850,25 +18566,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "湖滨28 杭州",
+    "poiQuery": "杭州君悦酒店·湖滨28中餐厅 杭州",
     "position": [
-      120.166585322435,
-      30.252354822699
+      120.161906,
+      30.254843
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%96%E6%BB%A828%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E5%90%9B%E6%82%A6%E9%85%92%E5%BA%97%C2%B7%E6%B9%96%E6%BB%A828%E4%B8%AD%E9%A4%90%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/64ec2f2545ff47748accc993e94127c2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/28-hubin-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "湖滨路28号君悦酒店1层(近平海路)",
+    "amapPoiId": "B023B09VKF"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-li-an",
@@ -17931,25 +18649,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "新荣记 (椒江) 台州",
+    "poiQuery": "新荣记(椒江店) 台州",
     "position": [
-      121.41561131431,
-      28.657738993397
+      121.411203,
+      28.660678
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0%20(%E6%A4%92%E6%B1%9F)%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0(%E6%A4%92%E6%B1%9F%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c1709639dbf24d078a27bf989f9f03c8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/xin-rong-ji-jiaojiang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "经济开发区中心大道411号",
+    "amapPoiId": "B024005DB0"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-l-eclat-19",
@@ -17985,25 +18705,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "金沙厅 杭州",
+    "poiQuery": "杭州西子湖四季酒店金沙厅 杭州",
     "position": [
-      120.134414428501,
-      30.249601722021
+      120.129637,
+      30.251887
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E6%B2%99%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%E8%A5%BF%E5%AD%90%E6%B9%96%E5%9B%9B%E5%AD%A3%E9%85%92%E5%BA%97%E9%87%91%E6%B2%99%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6ed3e7d0830140a8871078efb0bc33a7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/jin-sha",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "灵隐路5号杭州西子湖四季酒店1层(近曲院风荷)",
+    "amapPoiId": "B0FFF5R93K"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-longjing-manor",
@@ -18012,7 +18734,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -18021,16 +18743,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "浙江菜",
     "poiQuery": "龙井草堂 杭州",
     "position": [
-      120.120822562383,
-      30.222676871928
+      120.116079,
+      30.224969
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%BE%99%E4%BA%95%E8%8D%89%E5%A0%82%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/003675b9065e426da318ecc410cb0765.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/longjing-manor",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "龙井路399号",
+    "amapPoiId": "B023B09I51"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-ambre-ciel",
@@ -18120,25 +18844,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "临海市",
     "level": "one-star",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "新荣记 (临海) 台州",
+    "poiQuery": "新荣记(临海店) 台州",
     "position": [
-      121.169372675423,
-      28.853539571461
+      121.165047,
+      28.856464
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0%20(%E4%B8%B4%E6%B5%B7)%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E8%8D%A3%E8%AE%B0(%E4%B8%B4%E6%B5%B7%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9db1065516634fe0b70db160cfbea800.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/xin-rong-ji-linhai",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "临海大道239号(近灵湖公园)",
+    "amapPoiId": "B02400TTKZ"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-carved-dragons-jiaojiang",
@@ -18201,25 +18927,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "滨江区",
     "level": "one-star",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "创新菜"
     ],
     "cuisine": "创新菜",
-    "poiQuery": "Sense 杭州",
+    "poiQuery": "SENSE 餐厅 杭州",
     "position": [
-      120.214467689543,
-      30.134769437873
+      120.209923,
+      30.137215
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Sense%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=SENSE%20%E9%A4%90%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/50fd5d29aae14e5fbb559239bd9e0152.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/sense-1216520",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "湘湖国家旅游度假区越王路2077号内街C4-1",
+    "amapPoiId": "B0JK655LKE"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-shen-ji-mai-xia-mian-pi-dian",
@@ -18228,7 +18956,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "临海市",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18237,16 +18965,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "沈记麦虾面皮店 台州",
     "position": [
-      121.127841788604,
-      28.841404807609
+      121.124795,
+      28.842137
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B2%88%E8%AE%B0%E9%BA%A6%E8%99%BE%E9%9D%A2%E7%9A%AE%E5%BA%97%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d25ee96218b544a099715ad50c50775d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/shen-ji-mai-xia-mian-pi-dian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "望洋路2号",
+    "amapPoiId": "B02400TH2U"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-xiao-bai-cai",
@@ -18255,7 +18985,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -18264,16 +18994,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "浙江菜",
     "poiQuery": "小柏菜 杭州",
     "position": [
-      120.044726129631,
-      30.163702745299
+      120.040048,
+      30.166127
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B0%8F%E6%9F%8F%E8%8F%9C%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/661ae642b0ed47ee92df0080a1191316.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/xiao-bai-cai",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长埭路北23号",
+    "amapPoiId": "B0LGP5N80S"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-hong-da-xing-li-fan-dian",
@@ -18282,7 +19014,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -18291,16 +19023,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "台州菜",
     "poiQuery": "鸿达兴利饭店 台州",
     "position": [
-      121.438006945756,
-      28.67071095455
+      121.437014,
+      28.677411
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%B8%BF%E8%BE%BE%E5%85%B4%E5%88%A9%E9%A5%AD%E5%BA%97%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3a9eb20a19e747b9bae6e559107516b5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/hong-da-xing-li-fan-dian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山西路东风巷8号101-104室",
+    "amapPoiId": "B0240046MR"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-heng-qian-kou-huang-zhu-ying-san-xian-mian",
@@ -18309,7 +19043,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "乐清市",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18318,16 +19052,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "亨乾口黄珠英三鲜面 温州",
     "position": [
-      121.105499072678,
-      28.241113613758
+      121.101167,
+      28.24417
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%A8%E4%B9%BE%E5%8F%A3%E9%BB%84%E7%8F%A0%E8%8B%B1%E4%B8%89%E9%B2%9C%E9%9D%A2%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c611f042d1644dd98186868c45c2d643.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/heng-qian-kou-huang-zhu-ying-san-xian-mian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "清江镇交通西路11号",
+    "amapPoiId": "B0I3F7QQYK"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-little-pigtail-noodle-shop",
@@ -18336,7 +19072,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18345,16 +19081,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "小辫子面店 杭州",
     "position": [
-      120.049084797699,
-      30.16571355943
+      120.044095,
+      30.168415
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B0%8F%E8%BE%AB%E5%AD%90%E9%9D%A2%E5%BA%97%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/402f182af3284000a8c4179550a763ab.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/little-pigtail-noodle-shop",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长埭村路南10号",
+    "amapPoiId": "B0IRKZTTVD"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-he-wei-xiao-chao",
@@ -18363,7 +19101,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "天台县",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18372,16 +19110,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "台州菜",
     "poiQuery": "何炜小炒 台州",
     "position": [
-      121.048131170826,
-      29.155348246384
+      121.043793,
+      29.157985
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BD%95%E7%82%9C%E5%B0%8F%E7%82%92%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/944328a1fd5348de814c910db99d0998.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/he-wei-xiao-chao",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "和合街1号天台山国家级风景名胜区内(南侧)",
+    "amapPoiId": "B0FFKLPQVH"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-jiu-wei",
@@ -18417,25 +19157,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "临海市",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "老黄炒麻糍 台州",
+    "poiQuery": "临海小吃老黄炒麻糍(东湖店) 台州",
     "position": [
-      121.127817543422,
-      28.841796626762
+      121.123405,
+      28.844674
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E9%BB%84%E7%82%92%E9%BA%BB%E7%B3%8D%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%B4%E6%B5%B7%E5%B0%8F%E5%90%83%E8%80%81%E9%BB%84%E7%82%92%E9%BA%BB%E7%B3%8D(%E4%B8%9C%E6%B9%96%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9cb249aa68b64c4d9dabb5182d69271e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/lao-huang-chao-ma-ci",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东湖路9号",
+    "amapPoiId": "B0FFHE11SZ"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-ma-er-si-fang-cai",
@@ -18444,7 +19186,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -18453,16 +19195,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "杭州菜",
     "poiQuery": "马儿私房菜 杭州",
     "position": [
-      120.176332301503,
-      30.222175495845
+      120.171652,
+      30.224509
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A9%AC%E5%84%BF%E7%A7%81%E6%88%BF%E8%8F%9C%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9b919d2daada4fec9951a81d19d83673.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/ma-er-si-fang-cai",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "凤山路157号(候潮门地铁站C口步行430米)",
+    "amapPoiId": "B0FFK98ZB5"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-sun-guo-hua-qing-jiang-san-xian-mian-renmin-north-road",
@@ -18471,25 +19215,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "乐清市",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "孙国花清江三鲜面 (人民北路) 温州",
+    "poiQuery": "孙国花清江三鲜面(总店) 温州",
     "position": [
-      121.111256776575,
-      28.269423574913
+      121.106905,
+      28.272538
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AD%99%E5%9B%BD%E8%8A%B1%E6%B8%85%E6%B1%9F%E4%B8%89%E9%B2%9C%E9%9D%A2%20(%E4%BA%BA%E6%B0%91%E5%8C%97%E8%B7%AF)%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AD%99%E5%9B%BD%E8%8A%B1%E6%B8%85%E6%B1%9F%E4%B8%89%E9%B2%9C%E9%9D%A2(%E6%80%BB%E5%BA%97)%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/abe12b12fcd146c0a45cab27539ee089.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/sun-guo-hua-qing-jiang-san-xian-mian-renmin-north-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "清江镇人民北路21号",
+    "amapPoiId": "B02410XAPR"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-zhang-ren-hun-tun-pu",
@@ -18498,7 +19244,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18507,16 +19253,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "点心",
     "poiQuery": "长人馄饨铺 温州",
     "position": [
-      120.664045086971,
-      28.011141730985
+      120.660108,
+      28.014522
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%95%BF%E4%BA%BA%E9%A6%84%E9%A5%A8%E9%93%BA%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c781231185044b758055ab94088c3aa5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/zhang-ren-hun-tun-pu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "解放北路195号",
+    "amapPoiId": "B0241023L0"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-juan-juan-zao-dian-dian",
@@ -18525,7 +19273,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18534,16 +19282,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "小吃",
     "poiQuery": "娟娟早点店 温州",
     "position": [
-      120.675226904641,
-      28.012638242251
+      120.671196,
+      28.01586
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A8%9F%E5%A8%9F%E6%97%A9%E7%82%B9%E5%BA%97%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/383da7ef7c0f481393276dcab2b472fd.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/juan-juan-zao-dian-dian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东明路124号",
+    "amapPoiId": "B0FFKT21LG"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-ma-lu-qiao-jiang-tang-mian",
@@ -18552,25 +19302,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "马路桥姜汤面 台州",
+    "poiQuery": "马路桥姜汤面(江城大楼店) 台州",
     "position": [
-      121.447947634869,
-      28.674845316762
+      121.44352,
+      28.677883
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A9%AC%E8%B7%AF%E6%A1%A5%E5%A7%9C%E6%B1%A4%E9%9D%A2%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A9%AC%E8%B7%AF%E6%A1%A5%E5%A7%9C%E6%B1%A4%E9%9D%A2(%E6%B1%9F%E5%9F%8E%E5%A4%A7%E6%A5%BC%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/856c69d7029b4b5792d5cfa614591d93.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/ma-lu-qiao-jiang-tang-mian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山东路306号、306-1号",
+    "amapPoiId": "B024003345"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-xiu-cai-yang-rou-mian",
@@ -18579,7 +19331,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18588,16 +19340,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "秀才羊肉面 杭州",
     "position": [
-      120.174395214023,
-      30.247107951424
+      120.169612,
+      30.249538
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%A7%80%E6%89%8D%E7%BE%8A%E8%82%89%E9%9D%A2%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c0bb111c65924fdb935aa17ca483b686.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/xiu-cai-yang-rou-mian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东平巷3-9号",
+    "amapPoiId": "B0JRTA0EY2"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-ge-lang-guan",
@@ -18660,25 +19414,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "素食"
     ],
     "cuisine": "素食",
-    "poiQuery": "庆春朴门 杭州",
+    "poiQuery": "庆春朴门(灵隐店) 杭州",
     "position": [
-      120.113874640055,
-      30.242348412673
+      120.109073,
+      30.244621
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BA%86%E6%98%A5%E6%9C%B4%E9%97%A8%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BA%86%E6%98%A5%E6%9C%B4%E9%97%A8(%E7%81%B5%E9%9A%90%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d7994b5c36b34f75983c171b0cd6857f.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/qing-chun-perma",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "白乐桥181号",
+    "amapPoiId": "B0GKVZ1O4T"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-hui-pu-pai-dang",
@@ -18714,25 +19470,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "天台县",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "国平海鲜 台州",
+    "poiQuery": "国平海鲜(国大新天地店) 台州",
     "position": [
-      121.02649127358,
-      29.146720859605
+      121.022229,
+      29.149479
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9B%BD%E5%B9%B3%E6%B5%B7%E9%B2%9C%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9B%BD%E5%B9%B3%E6%B5%B7%E9%B2%9C(%E5%9B%BD%E5%A4%A7%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/44bf558f88b84f1396f0f03a93090bf9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/guoping-seafood",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "寒山路466号国大新天地F1层",
+    "amapPoiId": "B0IB2SV37G"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-yan-ji-gao-tou-pu",
@@ -18741,7 +19499,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "乐清市",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18750,16 +19508,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "小吃",
     "poiQuery": "颜记糕头铺 温州",
     "position": [
-      120.972050791551,
-      28.105575296243
+      120.968042,
+      28.108953
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A2%9C%E8%AE%B0%E7%B3%95%E5%A4%B4%E9%93%BA%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/384ebcd9d03e4fa3a73412e6d3b935ad.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/yan-ji-gao-tou-pu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "城南街道望河路68号",
+    "amapPoiId": "B0FFMHNJOL"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-dou-lai-fan-dian",
@@ -18768,25 +19528,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "萧山区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "杭州菜"
     ],
     "cuisine": "杭州菜",
-    "poiQuery": "都来饭店 杭州",
+    "poiQuery": "都来饭店(晨晖路店) 杭州",
     "position": [
-      120.258020847365,
-      30.131261801785
+      120.255703,
+      30.137005
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%83%BD%E6%9D%A5%E9%A5%AD%E5%BA%97%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%83%BD%E6%9D%A5%E9%A5%AD%E5%BA%97(%E6%99%A8%E6%99%96%E8%B7%AF%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f19de8e14b6844a3a9d2e3aa914b0016.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/dou-lai-fan-dian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "晨晖路666号",
+    "amapPoiId": "B0FFJ2KZL0"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-tang-a-yi-bian-shi",
@@ -18795,7 +19557,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "临海市",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -18804,16 +19566,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "点心",
     "poiQuery": "汤阿姨扁食 台州",
     "position": [
-      121.126003025032,
-      28.842649830576
+      121.121717,
+      28.84545
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%A4%E9%98%BF%E5%A7%A8%E6%89%81%E9%A3%9F%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/05157f244a3d448691f9f5594735fd0c.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/tang-a-yi-bian-shi",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "回浦路55号",
+    "amapPoiId": "B02400VNZH"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-rong-cun-gucheng-street",
@@ -18849,7 +19613,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -18858,16 +19622,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "浙江菜",
     "poiQuery": "满仓渔家 台州",
     "position": [
-      121.412774004103,
-      28.672343950092
+      121.408323,
+      28.675124
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BB%A1%E4%BB%93%E6%B8%94%E5%AE%B6%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1adfecb8ad3340d5bc60eb7500e198c7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/fullie-s-seafood-house",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "葭沚街道葭沚老街1-7号A幢B幢",
+    "amapPoiId": "B0K60Y1RV4"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-ayu-renjiashao",
@@ -18876,7 +19642,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "龙湾区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -18885,16 +19651,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "浙江菜",
     "poiQuery": "阿玉人家烧 温州",
     "position": [
-      120.86007088248,
-      27.922690470946
+      120.856119,
+      27.926071
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E7%8E%89%E4%BA%BA%E5%AE%B6%E7%83%A7%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/199be8f30dfd45d1bc2912830a0e3754.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/ayu-renjiashao",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "滨海大道北段5199号1幢副楼",
+    "amapPoiId": "B0H16ZXUOT"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-zheng-zhengliang-seafood-nantang-street",
@@ -18957,25 +19725,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "永嘉山头麦面老店 (沧河巷) 温州",
+    "poiQuery": "温州非遗-永嘉山头麦面老店 温州",
     "position": [
-      120.657378717871,
-      28.010962740787
+      120.653232,
+      28.017274
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E5%98%89%E5%B1%B1%E5%A4%B4%E9%BA%A6%E9%9D%A2%E8%80%81%E5%BA%97%20(%E6%B2%A7%E6%B2%B3%E5%B7%B7)%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B8%A9%E5%B7%9E%E9%9D%9E%E9%81%97-%E6%B0%B8%E5%98%89%E5%B1%B1%E5%A4%B4%E9%BA%A6%E9%9D%A2%E8%80%81%E5%BA%97%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/94ee9dfb3a674218b5dbaa78fe2dbd31.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/yangjia-shantou-mai-mian-lao-dian-canghe-lane",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "沧河巷23号",
+    "amapPoiId": "B0FFK6548W"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-he-jiu-jia",
@@ -18984,7 +19754,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -18993,16 +19763,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "浙江菜",
     "poiQuery": "和酒家 温州",
     "position": [
-      120.687473653241,
-      27.990798183243
+      120.684787,
+      27.996874
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%92%8C%E9%85%92%E5%AE%B6%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fa3b407c0140416cb9b2364b8dd96e9e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/he-jiu-jia",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "车站大道286号龙华大厦F1层",
+    "amapPoiId": "B0JDNC5K8A"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-jin-hong-lao-zi-hao-zhu-zang-fen",
@@ -19011,25 +19783,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "锦泓老字号猪脏粉 温州",
+    "poiQuery": "锦泓老字号猪脏粉(东联大厦店) 温州",
     "position": [
-      120.668232827153,
-      28.006585037509
+      120.66391,
+      28.010046
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%94%A6%E6%B3%93%E8%80%81%E5%AD%97%E5%8F%B7%E7%8C%AA%E8%84%8F%E7%B2%89%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%94%A6%E6%B3%93%E8%80%81%E5%AD%97%E5%8F%B7%E7%8C%AA%E8%84%8F%E7%B2%89(%E4%B8%9C%E8%81%94%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4ed7ef27ffa84b2c8313e34c009be0dc.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/jin-hong-lao-zi-hao-zhu-zang-fen",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "花柳塘59号东联大厦F1层",
+    "amapPoiId": "B0FFFGTYEY"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-wang-ri-shun-hao",
@@ -19038,25 +19812,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "王日顺号 (上城) 杭州",
+    "poiQuery": "王日順號·烧饼包子铺 杭州",
     "position": [
-      120.175743418338,
-      30.233477074176
+      120.171068,
+      30.235792
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8E%8B%E6%97%A5%E9%A1%BA%E5%8F%B7%20(%E4%B8%8A%E5%9F%8E)%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%8E%8B%E6%97%A5%E9%A0%86%E8%99%9F%C2%B7%E7%83%A7%E9%A5%BC%E5%8C%85%E5%AD%90%E9%93%BA%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d227dfe87cb64b92aa4d87b7cd22cdd2.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/wang-ri-shun-hao",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山南路418号",
+    "amapPoiId": "B0KG7AVWKP"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-bai-nian-hun-tun-lao-dian",
@@ -19065,7 +19841,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "龙湾区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -19074,16 +19850,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "点心",
     "poiQuery": "百年馄饨老店 温州",
     "position": [
-      120.830202747138,
-      27.919654823157
+      120.826187,
+      27.922935
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%99%BE%E5%B9%B4%E9%A6%84%E9%A5%A8%E8%80%81%E5%BA%97%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/73fde5e9be764354b5d924a1be603ef0.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/bai-nian-hun-tun-lao-dian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "永中街道北头桥东巷12-13号",
+    "amapPoiId": "B02410XAA8"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-yi-qin-shou-da-mian",
@@ -19092,7 +19870,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -19101,16 +19879,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "宜沁手打面 台州",
     "position": [
-      121.432882646961,
-      28.674860976763
+      121.428467,
+      28.677837
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%9C%E6%B2%81%E6%89%8B%E6%89%93%E9%9D%A2%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/892672a69a8b45f99172cc58b88a8f96.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/yi-qin-shou-da-mian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "白云街道花园新村28号楼",
+    "amapPoiId": "B0FFFYYK9G"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-li-ji-gu-tou-tang",
@@ -19119,25 +19899,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "李记骨头汤 台州",
+    "poiQuery": "李记骨头汤店 台州",
     "position": [
-      121.432564999411,
-      28.673857649479
+      121.42817,
+      28.676792
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%8E%E8%AE%B0%E9%AA%A8%E5%A4%B4%E6%B1%A4%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%8E%E8%AE%B0%E9%AA%A8%E5%A4%B4%E6%B1%A4%E5%BA%97%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b167ba12872d4bac819fd4873ca8dad1.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/li-ji-gu-tou-tang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "花园路花园新村16号楼",
+    "amapPoiId": "B0240031OW"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-nan-feng-fan-dian",
@@ -19146,7 +19928,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "萧山区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -19155,16 +19937,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "杭州菜",
     "poiQuery": "南丰饭店 杭州",
     "position": [
-      120.294832621941,
-      30.157861706986
+      120.290247,
+      30.16029
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E4%B8%B0%E9%A5%AD%E5%BA%97%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/af30b88a28ac4f429d64b74090d5bd10.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/nan-feng-fan-dian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "人民路819号",
+    "amapPoiId": "B0GKTSP4WK"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-yue-ji",
@@ -19200,25 +19984,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "杭州菜"
     ],
     "cuisine": "杭州菜",
-    "poiQuery": "大头隐食小馆 杭州",
+    "poiQuery": "大头隐食小馆(馒头山社区店) 杭州",
     "position": [
-      120.174198556883,
-      30.215515915507
+      120.169546,
+      30.217798
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E5%A4%B4%E9%9A%90%E9%A3%9F%E5%B0%8F%E9%A6%86%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E5%A4%B4%E9%9A%90%E9%A3%9F%E5%B0%8F%E9%A6%86(%E9%A6%92%E5%A4%B4%E5%B1%B1%E7%A4%BE%E5%8C%BA%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/78364bcb8dd142318a3976f88537de86.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/datou-yingshi-xiaoguan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "梵天寺路笤帚湾45号7幢",
+    "amapPoiId": "B0FFKGLGWB"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-bao-zhong-bao-shi-fu",
@@ -19227,7 +20013,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -19236,16 +20022,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "杭州菜",
     "poiQuery": "宝中宝食府 杭州",
     "position": [
-      120.185155620003,
-      30.24504052108
+      120.180539,
+      30.247432
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%AE%9D%E4%B8%AD%E5%AE%9D%E9%A3%9F%E5%BA%9C%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ae64f16a0da54640b5f9b615281d7e15.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/bao-zhong-bao-shi-fu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "清泰街224号",
+    "amapPoiId": "B023B05S48"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-fu-yuan-ju-shangcheng",
@@ -19308,25 +20096,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "荣鲜面馆 (钱江路) 杭州",
+    "poiQuery": "荣鲜面馆(钱江路店) 杭州",
     "position": [
-      120.199880637308,
-      30.232698023019
+      120.195515,
+      30.235106
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E9%B2%9C%E9%9D%A2%E9%A6%86%20(%E9%92%B1%E6%B1%9F%E8%B7%AF)%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E9%B2%9C%E9%9D%A2%E9%A6%86(%E9%92%B1%E6%B1%9F%E8%B7%AF%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5e9a9a202b89472b8c8cf0c8b9d07acc.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/rong-xian-mian-guan-qianjiang-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "钱江路555号日信国际1层",
+    "amapPoiId": "B0FFIPS9J1"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-zhi-zhu-xihu",
@@ -19335,7 +20125,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -19344,16 +20134,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "素食",
     "poiQuery": "知竹 杭州",
     "position": [
-      120.110849374363,
-      30.236770795968
+      120.106008,
+      30.238977
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%9F%A5%E7%AB%B9%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/592a0eed97dd45288d5e6acf9424d3dc.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/zhi-zhu-xihu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "天竺路69号",
+    "amapPoiId": "B0FFKRJ9W6"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-fu-xing-mian-wang",
@@ -19362,25 +20154,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "拱墅区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "复兴面王 (河东路) 杭州",
+    "poiQuery": "复兴面王(河东路店) 杭州",
     "position": [
-      120.165164310963,
-      30.285355476595
+      120.160486,
+      30.287523
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%8D%E5%85%B4%E9%9D%A2%E7%8E%8B%20(%E6%B2%B3%E4%B8%9C%E8%B7%AF)%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%8D%E5%85%B4%E9%9D%A2%E7%8E%8B(%E6%B2%B3%E4%B8%9C%E8%B7%AF%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ed6e4e5d4d2b47a99ec2f83c094a5c3d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/fu-xing-mian-wang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "河东路178号(潮王路地铁站E2口步行120米)",
+    "amapPoiId": "B0FFJJ7GJR"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-xiao-dian-huang",
@@ -19389,25 +20183,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "拱墅区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "笑典皇 杭州",
+    "poiQuery": "笑典皇餐饮(杭州绿地中央广场店) 杭州",
     "position": [
-      120.14792534234,
-      30.301517209373
+      120.143157,
+      30.30375
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%AC%91%E5%85%B8%E7%9A%87%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%AC%91%E5%85%B8%E7%9A%87%E9%A4%90%E9%A5%AE(%E6%9D%AD%E5%B7%9E%E7%BB%BF%E5%9C%B0%E4%B8%AD%E5%A4%AE%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8ce25dfb523d4a51a329f13718949fab.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/xiao-dian-huang",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "大关路绿地中央广场7号楼二楼",
+    "amapPoiId": "B0FFL03DZ2"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-fang-lao-da",
@@ -19443,25 +20239,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "杭州菜"
     ],
     "cuisine": "杭州菜",
-    "poiQuery": "金仲帮 (虎玉路) 杭州",
+    "poiQuery": "金仲帮中餐厅 杭州",
     "position": [
-      120.155152205444,
-      30.203934289751
+      120.150424,
+      30.206313
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E4%BB%B2%E5%B8%AE%20(%E8%99%8E%E7%8E%89%E8%B7%AF)%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E4%BB%B2%E5%B8%AE%E4%B8%AD%E9%A4%90%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/77340b32c3e34f65871f2b70922bffc4.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/king-s-choice",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "虎玉路38号b幢102",
+    "amapPoiId": "B0FFLBNKNS"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-mr-liang-seafood",
@@ -19524,25 +20322,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "天台县",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "北门牛血羹 台州",
+    "poiQuery": "北门牛血羹(飞鹤路店) 台州",
     "position": [
-      121.042042943126,
-      29.142321986893
+      121.037643,
+      29.14503
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E9%97%A8%E7%89%9B%E8%A1%80%E7%BE%B9%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8C%97%E9%97%A8%E7%89%9B%E8%A1%80%E7%BE%B9(%E9%A3%9E%E9%B9%A4%E8%B7%AF%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2765cc70e5a04d799f7388fe616759f5.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/bei-men-niu-xie-geng",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "赤城路555号",
+    "amapPoiId": "B0FFFDAOE4"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-yu-ji-seafood",
@@ -19551,25 +20351,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "乐清市",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "余记海鲜 温州",
+    "poiQuery": "余记海鲜(乐清店) 温州",
     "position": [
-      121.003995159795,
-      28.124164514552
+      120.999855,
+      28.127463
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BD%99%E8%AE%B0%E6%B5%B7%E9%B2%9C%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BD%99%E8%AE%B0%E6%B5%B7%E9%B2%9C(%E4%B9%90%E6%B8%85%E5%BA%97)%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/07bea4b7de724ab3a2912054ea5d3b2e.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/yu-ji-seafood",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "乐成镇坝头村四环路收费站",
+    "amapPoiId": "B0241054PU"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-lao-tai-zhou",
@@ -19578,25 +20380,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "老台州 台州",
+    "poiQuery": "老台州(时间广场一店) 台州",
     "position": [
-      121.419773338973,
-      28.65070775149
+      121.414942,
+      28.653643
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%8F%B0%E5%B7%9E%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%80%81%E5%8F%B0%E5%B7%9E(%E6%97%B6%E9%97%B4%E5%B9%BF%E5%9C%BA%E4%B8%80%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/51da87a7e5334d21ac6287ef98130589.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/lao-tai-zhou",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "市府大道535号第一时间生活广场101号商铺",
+    "amapPoiId": "B0FFGWJC6G"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-xiao-cai-yuan",
@@ -19686,25 +20490,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "bib-gourmand",
     "michelinPrice": "¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "也龙井 杭州",
+    "poiQuery": "也龙井餐厅 杭州",
     "position": [
-      120.12521581576,
-      30.225934096037
+      120.120342,
+      30.228126
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B9%9F%E9%BE%99%E4%BA%95%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B9%9F%E9%BE%99%E4%BA%95%E9%A4%90%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/575e1679636040259f38317e10c5131d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/ye-long-jing",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "龙井路98号",
+    "amapPoiId": "B0L16US2KU"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-shuang-jing-tou",
@@ -19848,25 +20654,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "润丰和牛杂 温州",
+    "poiQuery": "润丰和牛杂(飞霞南路) 温州",
     "position": [
-      120.671978706457,
-      28.00174375766
+      120.667891,
+      28.00524
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B6%A6%E4%B8%B0%E5%92%8C%E7%89%9B%E6%9D%82%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B6%A6%E4%B8%B0%E5%92%8C%E7%89%9B%E6%9D%82(%E9%A3%9E%E9%9C%9E%E5%8D%97%E8%B7%AF)%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ea37ef4fde20499fa0a7acbe5bca9aa9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/run-feng-he-niu-za",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "飞霞南路499号(近马鞍池东路)",
+    "amapPoiId": "B02410WKLS"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-wei-chen-xiao-chi",
@@ -19875,25 +20683,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "黄岩区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "味晨小吃 台州",
+    "poiQuery": "味晨小吃·特色姜汤面 台州",
     "position": [
-      121.272370677564,
-      28.63908081283
+      121.268186,
+      28.642276
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%91%B3%E6%99%A8%E5%B0%8F%E5%90%83%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%91%B3%E6%99%A8%E5%B0%8F%E5%90%83%C2%B7%E7%89%B9%E8%89%B2%E5%A7%9C%E6%B1%A4%E9%9D%A2%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/08cc547e82c44121adf8b488af00ebd3.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/wei-chen-xiao-chi",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "横街路移动营业厅后面",
+    "amapPoiId": "B0FFF4JWZ9"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-zhang-yuan-chui-fan-yanyu-road",
@@ -19902,25 +20712,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "璋园炊饭 (岩屿路) 台州",
+    "poiQuery": "璋园炊饭(岩屿路店) 台州",
     "position": [
-      121.429246605581,
-      28.675129395896
+      121.424822,
+      28.678065
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%92%8B%E5%9B%AD%E7%82%8A%E9%A5%AD%20(%E5%B2%A9%E5%B1%BF%E8%B7%AF)%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%92%8B%E5%9B%AD%E7%82%8A%E9%A5%AD(%E5%B2%A9%E5%B1%BF%E8%B7%AF%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/477d399be0fa4a14ad9473d58b8dbd73.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/zhang-yuan-chui-fan-yanyu-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "工人西路303号翠华小区",
+    "amapPoiId": "B0FFKIQP3G"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-rong-jia-xiao-chi-ziyang-street",
@@ -19929,25 +20741,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "临海市",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "荣家小吃 (紫阳街) 台州",
+    "poiQuery": "荣家小吃 台州",
     "position": [
-      121.121400348744,
-      28.83736489718
+      121.116944,
+      28.840161
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E5%AE%B6%E5%B0%8F%E5%90%83%20(%E7%B4%AB%E9%98%B3%E8%A1%97)%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%8D%A3%E5%AE%B6%E5%B0%8F%E5%90%83%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0d253a60ae0940438ba96134e38fc6a7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/rong-jia-xiao-chi-ziyang-street",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "紫阳街76号",
+    "amapPoiId": "B0FFKX4E30"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-xue-miao-zhu-zang-fen",
@@ -19956,25 +20770,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "雪苗猪脏粉 温州",
+    "poiQuery": "雪苗猪脏粉(下吕浦2区冬宁组团店) 温州",
     "position": [
-      120.682365631705,
-      27.989524293313
+      120.678377,
+      27.992822
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9B%AA%E8%8B%97%E7%8C%AA%E8%84%8F%E7%B2%89%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%9B%AA%E8%8B%97%E7%8C%AA%E8%84%8F%E7%B2%89(%E4%B8%8B%E5%90%95%E6%B5%A62%E5%8C%BA%E5%86%AC%E5%AE%81%E7%BB%84%E5%9B%A2%E5%BA%97)%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ff769a3ecc354e7da9d9d1888543188b.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/xue-miao-zhu-zang-fen",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "下吕浦二区(吕浦农贸对面)",
+    "amapPoiId": "B0FFJPYK6D"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-lai-cui-mian-guan-ji-mao-road",
@@ -20010,25 +20826,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "锦文鱼圆 (汇源路) 温州",
+    "poiQuery": "锦文鱼圆(新城店) 温州",
     "position": [
-      120.718055884507,
-      27.998902032948
+      120.713948,
+      28.002189
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%94%A6%E6%96%87%E9%B1%BC%E5%9C%86%20(%E6%B1%87%E6%BA%90%E8%B7%AF)%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%94%A6%E6%96%87%E9%B1%BC%E5%9C%86(%E6%96%B0%E5%9F%8E%E5%BA%97)%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/8203c6a37c944645856d831a9f6f2976.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/jin-wen-yu-yuan-huiyuan-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "汇源路83号新世纪花园(竹园西北)",
+    "amapPoiId": "B0FFFGSX10"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-mao-chang-lao-mian-guan",
@@ -20037,7 +20855,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "瓯海区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -20046,16 +20864,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "毛昌佬面馆 温州",
     "position": [
-      120.678497763997,
-      27.961926267816
+      120.674572,
+      27.965301
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AF%9B%E6%98%8C%E4%BD%AC%E9%9D%A2%E9%A6%86%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a492f2070b584ea98ffd56fbb455a9ca.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/mao-chang-lao-mian-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "龙霞路34号",
+    "amapPoiId": "B0KG0SK280"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-definitely-fresh",
@@ -20091,7 +20911,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
@@ -20100,16 +20920,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "素食",
     "poiQuery": "贰捌玖素面馆 杭州",
     "position": [
-      120.108335388157,
-      30.232245778174
+      120.103514,
+      30.234592
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%B4%B0%E6%8D%8C%E7%8E%96%E7%B4%A0%E9%9D%A2%E9%A6%86%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c52f7eba1a4b4d8992f6c81203d09d1d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/er-ba-jiu-su-mian-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "天竺路与中法路交叉口西南40米",
+    "amapPoiId": "B0JBRCPZTX"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-hui-xin-xiao-chi-dian",
@@ -20118,25 +20940,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "拱墅区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "点心"
     ],
     "cuisine": "点心",
-    "poiQuery": "蕙心小吃店 (德苑路) 杭州",
+    "poiQuery": "蕙心小吃店 杭州",
     "position": [
-      120.165707752069,
-      30.29899680352
+      120.161055,
+      30.301283
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%95%99%E5%BF%83%E5%B0%8F%E5%90%83%E5%BA%97%20(%E5%BE%B7%E8%8B%91%E8%B7%AF)%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%95%99%E5%BF%83%E5%B0%8F%E5%90%83%E5%BA%97%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/937372161a2e42db9f28de388995389b.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/hui-xin-xiao-chi-dian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "德苑路83-1号(近杭州十一中)",
+    "amapPoiId": "B023B1D56Y"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-wu-zi-mian-guan",
@@ -20145,25 +20969,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "bib-gourmand",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "伍子面馆 杭州",
+    "poiQuery": "伍子面馆(浣纱路店) 杭州",
     "position": [
-      120.171268545675,
-      30.247625788958
+      120.166558,
+      30.249865
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BC%8D%E5%AD%90%E9%9D%A2%E9%A6%86%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BC%8D%E5%AD%90%E9%9D%A2%E9%A6%86(%E6%B5%A3%E7%BA%B1%E8%B7%AF%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/78e903a5b39f41c7b117acbabaaefc3c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/wu-zi-mian-guan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "吴山商圈浣纱路116号(定安路地铁站B口步行440米)",
+    "amapPoiId": "B0FFK4VI4X"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-arch",
@@ -20172,25 +20998,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "云台阁 台州",
+    "poiQuery": "云台阁中餐厅-台州希尔顿酒店 台州",
     "position": [
-      121.407927594624,
-      28.65118345986
+      121.4087,
+      28.657367
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%91%E5%8F%B0%E9%98%81%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BA%91%E5%8F%B0%E9%98%81%E4%B8%AD%E9%A4%90%E5%8E%85-%E5%8F%B0%E5%B7%9E%E5%B8%8C%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%97%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/94b4eb611cd04f24b3d207e6f09e6534.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/arch",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "闻学路88号台州希尔顿酒店2楼",
+    "amapPoiId": "B0KRLY2HJ3"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-lin-jia-tai-cai-henghu-north-road",
@@ -20199,25 +21027,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "温岭市",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "台州菜"
     ],
     "cuisine": "台州菜",
-    "poiQuery": "林家台菜 (横湖北路) 台州",
+    "poiQuery": "林家台菜(温岭九龙湖店) 台州",
     "position": [
-      121.366382381881,
-      28.397988205744
+      121.361993,
+      28.401239
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9E%97%E5%AE%B6%E5%8F%B0%E8%8F%9C%20(%E6%A8%AA%E6%B9%96%E5%8C%97%E8%B7%AF)%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9E%97%E5%AE%B6%E5%8F%B0%E8%8F%9C(%E6%B8%A9%E5%B2%AD%E4%B9%9D%E9%BE%99%E6%B9%96%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ddfd8472356f42bca6c7dc00a2b408e9.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/lin-jia-tai-cai-henghu-north-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "横湖北路96号九龙湖国际一楼",
+    "amapPoiId": "B0FFLNL4WY"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-zhan-bi-lou",
@@ -20226,25 +21056,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "湛碧楼 杭州",
+    "poiQuery": "湛碧楼·西湖湖景餐厅 杭州",
     "position": [
-      120.138266705718,
-      30.244772960202
+      120.133313,
+      30.247279
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%9B%E7%A2%A7%E6%A5%BC%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%9B%E7%A2%A7%E6%A5%BC%C2%B7%E8%A5%BF%E6%B9%96%E6%B9%96%E6%99%AF%E9%A4%90%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/83c9cf96b606482d8a6585fc9fad0089.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/zhan-bi-lou",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中国杭州西湖风景名胜区杨公堤30号(曲院风荷公园内)",
+    "amapPoiId": "B0K27C42LO"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-mei-s-cuisine",
@@ -20334,25 +21166,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "夫妻鱼圆 温州",
+    "poiQuery": "夫妻鱼圆店 温州",
     "position": [
-      120.669434723788,
-      28.001406078881
+      120.665353,
+      28.004733
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%AB%E5%A6%BB%E9%B1%BC%E5%9C%86%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%AB%E5%A6%BB%E9%B1%BC%E5%9C%86%E5%BA%97%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e6e215a76eb64ecab2de8441120ff7e8.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/fu-qi-yu-yuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "马鞍池东路81号(近马鞍池公园)",
+    "amapPoiId": "B0241026KC"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-ou-jiang-nan",
@@ -20361,25 +21195,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "鹿城区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "瓯江南 温州",
+    "poiQuery": "瓯江南·新派瓯菜(光影码头店) 温州",
     "position": [
-      120.711071311788,
-      28.015054444888
+      120.707003,
+      28.018394
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%93%AF%E6%B1%9F%E5%8D%97%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%93%AF%E6%B1%9F%E5%8D%97%C2%B7%E6%96%B0%E6%B4%BE%E7%93%AF%E8%8F%9C(%E5%85%89%E5%BD%B1%E7%A0%81%E5%A4%B4%E5%BA%97)%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0b0a8b33016545bfaa71fd20a25c636b.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/ou-jiang-nan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "瓯江路1号光影码头",
+    "amapPoiId": "B0G09SOLYX"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-the-elm-banquet",
@@ -20415,7 +21251,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
@@ -20424,16 +21260,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "浙江菜",
     "poiQuery": "湉园 杭州",
     "position": [
-      120.143318909066,
-      30.228420631313
+      120.138736,
+      30.230681
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B9%89%E5%9B%AD%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b0e18b2dbf404bd89d5a531d3979ffa7.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/sweet-spring",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "杨公堤花港观鱼10号",
+    "amapPoiId": "B0IUAAUWFV"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-in-villa",
@@ -20469,25 +21307,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "临海市",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "小吃"
     ],
     "cuisine": "小吃",
-    "poiQuery": "杜记麦饼 台州",
+    "poiQuery": "杜记麦饼(台州府路店) 台州",
     "position": [
-      121.142238120204,
-      28.844293748333
+      121.137874,
+      28.847128
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%9C%E8%AE%B0%E9%BA%A6%E9%A5%BC%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%9C%E8%AE%B0%E9%BA%A6%E9%A5%BC(%E5%8F%B0%E5%B7%9E%E5%BA%9C%E8%B7%AF%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/85181c9adc46458d94a59f10c7492694.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/du-ji-mai-bing",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "台州府路288号升辉装饰城",
+    "amapPoiId": "B0FFHH77XD"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-creative-japanese-restaurant-bar",
@@ -20550,25 +21390,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "粤榕轩-君宴 杭州",
+    "poiQuery": "粤榕轩·君宴 杭州",
     "position": [
-      120.217083532724,
-      30.246127077431
+      120.212506,
+      30.248438
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B2%A4%E6%A6%95%E8%BD%A9-%E5%90%9B%E5%AE%B4%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B2%A4%E6%A6%95%E8%BD%A9%C2%B7%E5%90%9B%E5%AE%B4%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cabf06fcfc26479b96b46a2764c8a48d.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/the-yue-hall",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "来福士中心1幢5801室",
+    "amapPoiId": "B0HKCUD6MK"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-hang-s-delicacy",
@@ -20631,25 +21473,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "观言鎏金 杭州",
+    "poiQuery": "观言·鎏金(湖滨银泰in77A区北区店) 杭州",
     "position": [
-      120.167149431503,
-      30.250988463445
+      120.162653,
+      30.253696
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A7%82%E8%A8%80%E9%8E%8F%E9%87%91%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A7%82%E8%A8%80%C2%B7%E9%8E%8F%E9%87%91(%E6%B9%96%E6%BB%A8%E9%93%B6%E6%B3%B0in77A%E5%8C%BA%E5%8C%97%E5%8C%BA%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/45fa77381f28480b9344bad62d5f3587.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/guan-yan-liu-jin",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "延安路233号杭州湖滨银泰IN77A区三楼",
+    "amapPoiId": "B0HR1HCJMW"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-jiang-nan-yu-ge",
@@ -20658,25 +21502,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "宁波菜"
     ],
     "cuisine": "宁波菜",
-    "poiQuery": "江南渔哥 杭州",
+    "poiQuery": "江南渔哥(吴山景区店) 杭州",
     "position": [
-      120.174529388285,
-      30.234914172386
+      120.169808,
+      30.237211
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%9F%E5%8D%97%E6%B8%94%E5%93%A5%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B1%9F%E5%8D%97%E6%B8%94%E5%93%A5(%E5%90%B4%E5%B1%B1%E6%99%AF%E5%8C%BA%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/869f4ada4aa44f25ade988dff72ab8d7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/jiang-nan-yu-ge",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "十五奎巷49-53号(近杭州艺苑)",
+    "amapPoiId": "B023B1945Z"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-dining-room-1199390",
@@ -20712,7 +21558,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
@@ -20721,16 +21567,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "杭州菜",
     "poiQuery": "虎哥私房菜 杭州",
     "position": [
-      120.17402960167,
-      30.21476558959
+      120.169437,
+      30.217081
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%99%8E%E5%93%A5%E7%A7%81%E6%88%BF%E8%8F%9C%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4ed8ad813b05449da3b5a9c727595b2c.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/hu-ge-si-fang-cai",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "笤帚湾44号",
+    "amapPoiId": "B0FFKBCZWC"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-kui-yuan-guan-jiefang-road",
@@ -20739,25 +21587,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "奎元馆 (解放路) 杭州",
+    "poiQuery": "奎元馆(解放路店) 杭州",
     "position": [
-      120.174704296294,
-      30.248436373939
+      120.170208,
+      30.250933
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A5%8E%E5%85%83%E9%A6%86%20(%E8%A7%A3%E6%94%BE%E8%B7%AF)%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A5%8E%E5%85%83%E9%A6%86(%E8%A7%A3%E6%94%BE%E8%B7%AF%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f1a71904367c405bac5f1854f7ff05d5.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/kui-yuan-guan-jiefang-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "解放路154号",
+    "amapPoiId": "B023B08YIW"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-tian-lun-inn-xihu",
@@ -20820,25 +21670,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "金丝 · 听海 杭州",
+    "poiQuery": "金丝·听海GOLDEN SILK 杭州",
     "position": [
-      120.143292625727,
-      30.251452200328
+      120.138232,
+      30.253561
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E4%B8%9D%20%C2%B7%20%E5%90%AC%E6%B5%B7%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E4%B8%9D%C2%B7%E5%90%AC%E6%B5%B7GOLDEN%20SILK%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d3b101e6466247f1ad837e386773c80e.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/golden-silk",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "西湖街道北山街78号杭州香格里拉饭店·水知心居一楼",
+    "amapPoiId": "B0LDJAWE7J"
   },
   {
     "id": "cn-zhe-jiang-wenzhou-1031793-a-wai-lou",
@@ -20847,25 +21699,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "温州",
     "province": "浙江",
     "country": "中国",
-    "district": "温州",
+    "district": "瓯海区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "阿外楼 温州",
+    "poiQuery": "温州阿外楼大酒店(新南站店) 温州",
     "position": [
-      120.682927752348,
-      27.978577050267
+      120.679032,
+      27.981989
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E5%A4%96%E6%A5%BC%20%E6%B8%A9%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B8%A9%E5%B7%9E%E9%98%BF%E5%A4%96%E6%A5%BC%E5%A4%A7%E9%85%92%E5%BA%97(%E6%96%B0%E5%8D%97%E7%AB%99%E5%BA%97)%20%E6%B8%A9%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/17c8cbf5befa44ea8707149fa70d1b03.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/wenzhou_1031793/restaurant/a-wai-lou",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "温州火车站广场瓯江大厦三层平面",
+    "amapPoiId": "B02410VZAA"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-lin-ji-lao-chu",
@@ -20874,25 +21728,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "临记老厨 杭州",
+    "poiQuery": "临记老厨(文苑店) 杭州",
     "position": [
-      120.104343820556,
-      30.273351577107
+      120.099527,
+      30.27558
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%B4%E8%AE%B0%E8%80%81%E5%8E%A8%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%B8%B4%E8%AE%B0%E8%80%81%E5%8E%A8(%E6%96%87%E8%8B%91%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6537a57ec84d4111bdb71c089bd770f7.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/lin-ji-lao-chu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "文三西路299号(五联地铁站D口步行70米)",
+    "amapPoiId": "B023B05MTG"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-yan-zhu-chao",
@@ -20901,25 +21757,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "滨江区",
     "level": "selected",
     "michelinPrice": "¥¥¥¥",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "燕筑潮 杭州",
+    "poiQuery": "燕筑潮•现代潮菜 杭州",
     "position": [
-      120.214240918278,
-      30.19047946675
+      120.209891,
+      30.193063
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%87%95%E7%AD%91%E6%BD%AE%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%87%95%E7%AD%91%E6%BD%AE%E2%80%A2%E7%8E%B0%E4%BB%A3%E6%BD%AE%E8%8F%9C%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3661ab6fce6a4696a0c59f9d94a7d400.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/yan-zhu-chao",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "长河街道众创路30号中赢星海C幢1单元101室",
+    "amapPoiId": "B0J3AMHQHE"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-hotwoods",
@@ -21009,7 +21867,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
@@ -21018,16 +21876,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "面食",
     "poiQuery": "桂语家面 杭州",
     "position": [
-      120.132513877193,
-      30.217095652428
+      120.128171,
+      30.219523
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%A1%82%E8%AF%AD%E5%AE%B6%E9%9D%A2%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6477148c5c354256a85dd705fec41d08.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/gui-yu-jia-mian-xihu",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "下满觉陇路74号",
+    "amapPoiId": "B0HAVRBDW6"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-wang-shi-shao-bing",
@@ -21090,25 +21950,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "椒江区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "粤菜"
     ],
     "cuisine": "粤菜",
-    "poiQuery": "鑫叶轩 台州",
+    "poiQuery": "鑫叶轩(台州腾达中心店) 台州",
     "position": [
-      121.407927594624,
-      28.65118345986
+      121.404266,
+      28.651105
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%91%AB%E5%8F%B6%E8%BD%A9%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%91%AB%E5%8F%B6%E8%BD%A9(%E5%8F%B0%E5%B7%9E%E8%85%BE%E8%BE%BE%E4%B8%AD%E5%BF%83%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/98f295a3cb6244f69a24f51eeaff0894.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/xinye-xuan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "东海大道1800号腾达中心8号门2F",
+    "amapPoiId": "B0IU6SFPX2"
   },
   {
     "id": "cn-zhe-jiang-taizhou-7770462-tu-zao-tou-yulong-road",
@@ -21117,25 +21979,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "台州",
     "province": "浙江",
     "country": "中国",
-    "district": "台州",
+    "district": "天台县",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "江浙菜"
     ],
     "cuisine": "江浙菜",
-    "poiQuery": "土灶头 (玉龙路) 台州",
+    "poiQuery": "土灶头(始丰里店) 台州",
     "position": [
-      121.001597374216,
-      29.139205831942
+      120.997813,
+      29.141881
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9C%9F%E7%81%B6%E5%A4%B4%20(%E7%8E%89%E9%BE%99%E8%B7%AF)%20%E5%8F%B0%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%9C%9F%E7%81%B6%E5%A4%B4(%E5%A7%8B%E4%B8%B0%E9%87%8C%E5%BA%97)%20%E5%8F%B0%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/3d42ce5c21f5459892e5ba3d78a88c55.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/taizhou_7770462/restaurant/tu-zao-tou-yulong-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "始丰街道玉龙路99号久合广场4楼",
+    "amapPoiId": "B0L2DM82OW"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-a-bing-bao-shan-mian",
@@ -21144,25 +22008,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥",
     "topDishes": [
       "面食"
     ],
     "cuisine": "面食",
-    "poiQuery": "阿炳爆鳝面 杭州",
+    "poiQuery": "阿炳爆鳝面(清河坊历史文化特色街区店) 杭州",
     "position": [
-      120.176573832677,
-      30.237185671539
+      120.171983,
+      30.239607
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E7%82%B3%E7%88%86%E9%B3%9D%E9%9D%A2%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E9%98%BF%E7%82%B3%E7%88%86%E9%B3%9D%E9%9D%A2(%E6%B8%85%E6%B2%B3%E5%9D%8A%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E7%89%B9%E8%89%B2%E8%A1%97%E5%8C%BA%E5%BA%97)%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e801533ca1b24831ba5c7ccf411464dd.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/a-bing-bao-shan-mian",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中河中路21号新丰小吃向前30米(靠高架)",
+    "amapPoiId": "B0GUO757IP"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-shui-mo-hui",
@@ -21225,25 +22091,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "拱墅区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "杭州菜"
     ],
     "cuisine": "杭州菜",
-    "poiQuery": "武林坊 杭州",
+    "poiQuery": "武林坊·精致杭帮菜 杭州",
     "position": [
-      120.160733464609,
-      30.269476625779
+      120.156054,
+      30.271585
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E6%9E%97%E5%9D%8A%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E6%9E%97%E5%9D%8A%C2%B7%E7%B2%BE%E8%87%B4%E6%9D%AD%E5%B8%AE%E8%8F%9C%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9857c0fd0a89462f948e1391e706e183.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/wulin",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "混堂桥4号(武林门地铁站A2口步行230米)",
+    "amapPoiId": "B0FFGY67ZZ"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-wu-ming-mian-guan",
@@ -21306,25 +22174,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "西湖区",
     "level": "selected",
     "michelinPrice": "¥¥¥",
     "topDishes": [
       "浙江菜"
     ],
     "cuisine": "浙江菜",
-    "poiQuery": "紫薇厅 杭州",
+    "poiQuery": "西湖国宾馆紫薇厅 杭州",
     "position": [
-      120.137793916263,
-      30.232859196447
+      120.133019,
+      30.234669
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%B4%AB%E8%96%87%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E6%B9%96%E5%9B%BD%E5%AE%BE%E9%A6%86%E7%B4%AB%E8%96%87%E5%8E%85%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/951c826390704ad594de6a3937129fcf.jpeg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/zi-wei-hall",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "杨公堤18号西湖国宾馆8号楼",
+    "amapPoiId": "B0FFI2T2FE"
   },
   {
     "id": "cn-zhe-jiang-hangzhou-1027184-hu-qing-yu-tang-yao-shan",
@@ -21333,25 +22203,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "杭州",
     "province": "浙江",
     "country": "中国",
-    "district": "杭州",
+    "district": "上城区",
     "level": "selected",
     "michelinPrice": "¥¥",
     "topDishes": [
       "杭州菜"
     ],
     "cuisine": "杭州菜",
-    "poiQuery": "胡庆余堂药膳 杭州",
+    "poiQuery": "胡庆余堂药膳馆 杭州",
     "position": [
-      120.174661342763,
-      30.225978604286
+      120.170039,
+      30.228372
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%83%A1%E5%BA%86%E4%BD%99%E5%A0%82%E8%8D%AF%E8%86%B3%20%E6%9D%AD%E5%B7%9E",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%83%A1%E5%BA%86%E4%BD%99%E5%A0%82%E8%8D%AF%E8%86%B3%E9%A6%86%20%E6%9D%AD%E5%B7%9E",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/72b43b5634884d61bb5a613f3690ba72.jpg",
     "sourceUrl": "https://guide.michelin.com/sg/zh_CN/zhe-jiang/hangzhou_1027184/restaurant/hu-qing-yu-tang-yao-shan",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-shanghai-jiangsu-zhejiang",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中山南路90-100号(候潮门地铁站B口步行460米)",
+    "amapPoiId": "B0G03RFLUI"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-octavium",
@@ -21360,25 +22232,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "two-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Octavium 香港",
+    "poiQuery": "Octavium Italian Restaurant 香港",
     "position": [
-      114.162115383643,
-      22.279831913564
+      114.162246,
+      22.279765
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Octavium%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Octavium%20Italian%20Restaurant%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/fd4f05e982094a40b67bc351e33ddaab.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/octavium",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "8/F,One Chinachem Central,22 Des Voeux Rd Central,Central,香港",
+    "amapPoiId": "B0FFICG4DC"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-kicho",
@@ -21441,25 +22315,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "two-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
       "時尚法國菜"
     ],
     "cuisine": "時尚法國菜",
-    "poiQuery": "Cristal Room by Anne-Sophie Pic 香港",
+    "poiQuery": "Cristal Room By Anne-Sophie Pic(置地广场) 香港",
     "position": [
-      114.162638710184,
-      22.278407640506
+      114.162756,
+      22.278699
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Cristal%20Room%20by%20Anne-Sophie%20Pic%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Cristal%20Room%20By%20Anne-Sophie%20Pic(%E7%BD%AE%E5%9C%B0%E5%B9%BF%E5%9C%BA)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ba1d8c4a00764d4380929a3d3165bc62.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/cristal-room-by-anne-sophie-pic",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环皇后大道中15号置地广场告罗士打大厦四十五(Forty-Five)内",
+    "amapPoiId": "B0JK6Z4B3W"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-citrino-da-yoshinaga-jinbo",
@@ -21468,25 +22344,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
       "時尚意大利菜"
     ],
     "cuisine": "時尚意大利菜",
-    "poiQuery": "Citrino da Yoshinaga Jinbo 香港",
+    "poiQuery": "CITRINO da YOSHINAGA JINBO 香港",
     "position": [
-      114.161896647397,
-      22.278066079251
+      114.161709,
+      22.277892
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Citrino%20da%20Yoshinaga%20Jinbo%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=CITRINO%20da%20YOSHINAGA%20JINBO%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/01965316a42f4b7798e935dfc4933ef0.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/citrino-da-yoshinaga-jinbo",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "2F,On Lan 18,18 On Lan St,Central,香港",
+    "amapPoiId": "B0KU274L70"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-luk-yu-tea-house",
@@ -21549,7 +22427,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
@@ -21558,16 +22436,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚歐陸菜",
     "poiQuery": "Arcane 香港",
     "position": [
-      114.161772863087,
-      22.277902647032
+      114.161701,
+      22.277912
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Arcane%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/900616e888fe4e80afa2cfacc7004e21.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/arcane",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环安兰街18号3楼",
+    "amapPoiId": "B0FFHCC9XO"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-ryota-kappou-modern",
@@ -21576,7 +22456,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
@@ -21585,16 +22465,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "日本菜",
     "poiQuery": "Ryota Kappou Modern 香港",
     "position": [
-      114.161777450956,
-      22.277901938915
+      114.16171,
+      22.277889
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Ryota%20Kappou%20Modern%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/52c7480f75ad4bd5bbeedd6d6fc0aa2c.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/ryota-kappou-modern",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "21F,18 On Lan St,Central,香港",
+    "amapPoiId": "B0FFL3GB9V"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-nagamoto",
@@ -21711,25 +22593,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
       "拉丁美洲菜"
     ],
     "cuisine": "拉丁美洲菜",
-    "poiQuery": "Mono 香港",
+    "poiQuery": "MONO 香港",
     "position": [
-      114.161783035062,
-      22.277883433742
+      114.161713,
+      22.277902
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Mono%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=MONO%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/35d963ff611f4fc789d2337f3668069f.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/mono-1191514",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环安兰街18号5层",
+    "amapPoiId": "B0LUYUU91U"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-arbor",
@@ -21738,7 +22622,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "two-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -21747,16 +22631,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "創新菜",
     "poiQuery": "Arbor 香港",
     "position": [
-      114.16026048462,
-      22.280281339363
+      114.160352,
+      22.28033
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Arbor%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7d87486e8ed24577aa4e036461a6213f.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/arbor",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "皇后大道中80号H Queen's 25层",
+    "amapPoiId": "B0FFJCC232"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-sushi-shikon",
@@ -21765,7 +22651,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "three-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -21774,16 +22660,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "壽司",
     "poiQuery": "志魂 香港",
     "position": [
-      114.162785089985,
-      22.277892211282
+      114.162704,
+      22.277869
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%BF%97%E9%AD%82%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4e37c10b49ca4753bd00e102558bf048.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/sushi-shikon",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环皇后大道中15号置地文华东方酒店7楼",
+    "amapPoiId": "B0I0COLVFT"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-amber569032",
@@ -21792,25 +22680,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "three-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
       "時尚法國菜"
     ],
     "cuisine": "時尚法國菜",
-    "poiQuery": "Amber 香港",
+    "poiQuery": "Amber(置地广场店) 香港",
     "position": [
-      114.162702503419,
-      22.277813182816
+      114.162652,
+      22.278115
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Amber%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Amber(%E7%BD%AE%E5%9C%B0%E5%B9%BF%E5%9C%BA%E5%BA%97)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/446711d3e4af49138dff15b5b7d44282.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/amber569032",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "岛中环皇后大道中15号置地文华东方酒店7楼",
+    "amapPoiId": "B073C0TVV8"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-8-c2-bd-otto-e-mezzo-bombana",
@@ -21873,7 +22763,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
@@ -21882,16 +22772,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "東南亞菜",
     "poiQuery": "Uncle Quek 香港",
     "position": [
-      114.159824191085,
-      22.279766855723
+      114.159746,
+      22.279638
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Uncle%20Quek%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/365ea3e056014437a60610d7734679a1.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/uncle-quek",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "6/F,8 Lyndhurst Terrace,Central,Hong Kong",
+    "amapPoiId": "B0L1ONNUHL"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-sol-1243884",
@@ -21900,25 +22792,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
       "時尚韓國菜"
     ],
     "cuisine": "時尚韓國菜",
-    "poiQuery": "Sol 香港",
+    "poiQuery": "SOL Restaurant 香港",
     "position": [
-      114.159838554089,
-      22.279774228124
+      114.159795,
+      22.279678
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Sol%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=SOL%20Restaurant%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/50a02154ceb2417c93ddd601baf9af44.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/sol-1243884",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环摆花街8号5/F",
+    "amapPoiId": "B0K279A4D3"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-kappo-rin",
@@ -21954,7 +22848,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -21963,16 +22857,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚法國菜",
     "poiQuery": "Plaisance by Mauro Colagreco 香港",
     "position": [
-      114.162218064312,
-      22.277514043631
+      114.162253,
+      22.277533
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Plaisance%20by%20Mauro%20Colagreco%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e9dd949a90324d4f9529207aae3f53b2.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/plaisance-by-mauro-colagreco",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "都爹利街1号1楼",
+    "amapPoiId": "B0KKUR4USC"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-art-taste",
@@ -21981,25 +22877,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
       "台灣菜"
     ],
     "cuisine": "台灣菜",
-    "poiQuery": "Art & Taste 香港",
+    "poiQuery": "Art&Taste(美食台湾餐厅) 香港",
     "position": [
-      114.159773783496,
-      22.279157007371
+      114.159771,
+      22.279129
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Art%20%26%20Taste%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Art%26Taste(%E7%BE%8E%E9%A3%9F%E5%8F%B0%E6%B9%BE%E9%A4%90%E5%8E%85)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a81ccd1b26c04b7cab87c1b60e156a87.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/art-taste",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "香港中环云咸街75及77号嘉兆商业大厦地下A铺",
+    "amapPoiId": "B0K0XZ9STG"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-china-tang-446675",
@@ -22089,7 +22987,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -22098,16 +22996,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "意大利菜",
     "poiQuery": "Estro 香港",
     "position": [
-      114.162199905982,
-      22.277416302724
+      114.162344,
+      22.277543
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Estro%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f003280ac8f845898d52310a459198e3.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/estro-1198381",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "都爹利街1号2楼",
+    "amapPoiId": "B0I1RM3ANY"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-ying-jee-club",
@@ -22143,25 +23043,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "Beefbar 香港",
+    "poiQuery": "Beefbar Hong Kong 香港",
     "position": [
-      114.162659487272,
-      22.277345686044
+      114.162423,
+      22.277263
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Beefbar%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Beefbar%20Hong%20Kong%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cea9ab57eebf4f6481719b82b83f488d.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/beefbar",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "2/F,16 Ice House St,Central,香港",
+    "amapPoiId": "B0FFHKO24A"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-mandarin-grill-bar",
@@ -22225,25 +23127,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
       "德國菜"
     ],
     "cuisine": "德國菜",
-    "poiQuery": "Heimat 香港",
+    "poiQuery": "Heimat by Peter Find 香港",
     "position": [
-      114.160137343396,
-      22.277735036115
+      114.160131,
+      22.277723
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Heimat%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Heimat%20by%20Peter%20Find%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b3be4f176eca421eaef57e51cc2e79be.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/heimat-1202583",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "兰桂坊云咸街33号LKF Tower 8楼",
+    "amapPoiId": "B0JDH1C2AH"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-prince-and-the-peacock",
@@ -22252,25 +23156,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
       "印度菜"
     ],
     "cuisine": "印度菜",
-    "poiQuery": "Prince and the Peacock 香港",
+    "poiQuery": "Prince and The Peacock 香港",
     "position": [
-      114.159512326127,
-      22.278552334274
+      114.159507,
+      22.2785
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Prince%20and%20the%20Peacock%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Prince%20and%20The%20Peacock%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7c6680d5bb604958ab16bc7b83528e53.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/prince-and-the-peacock",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环亚毕诺道1号大馆09座中央裁判司署2楼",
+    "amapPoiId": "B0K2D49QE2"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-magistracy-dining-room",
@@ -22279,7 +23185,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -22288,16 +23194,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "歐陸菜",
     "poiQuery": "Magistracy Dining Room 香港",
     "position": [
-      114.159509729648,
-      22.27850175236
+      114.159481,
+      22.278532
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Magistracy%20Dining%20Room%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e6498cc12a6644f1ba5c160ffb2acd2b.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/magistracy-dining-room",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环阿巴斯诺道1号大观中区裁判法院地下",
+    "amapPoiId": "B0J0FRNX4L"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-yuan-1215508",
@@ -22468,7 +23376,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
@@ -22477,16 +23385,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "印度菜",
     "poiQuery": "New Punjab Club 香港",
     "position": [
-      114.160196559006,
-      22.277272153819
+      114.160197,
+      22.277259
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=New%20Punjab%20Club%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9e2c8d5c83954182acd6532865e79256.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/new-punjab-club",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环云咸街34号",
+    "amapPoiId": "B0FFITIMD7"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-toritama",
@@ -22495,7 +23405,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -22504,16 +23414,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "雞肉串燒",
     "poiQuery": "酉玉 香港",
     "position": [
-      114.160207507826,
-      22.276919828535
+      114.160072,
+      22.277048
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%85%89%E7%8E%89%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a327a64fbe6d41ed9fa68978424b5735.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/toritama",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "Toritama,Ground Floor,2 Glenealy,Central,香港",
+    "amapPoiId": "B0H3S6IQNX"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-neighborhood",
@@ -22522,7 +23434,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$",
     "topDishes": [
@@ -22531,16 +23443,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚歐陸菜",
     "poiQuery": "Neighborhood 香港",
     "position": [
-      114.157923262728,
-      22.280376263533
+      114.157865,
+      22.280367
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Neighborhood%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5e309b2cb9da4476b27b73726b83d2be.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/neighborhood",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环荷李活道61-63号",
+    "amapPoiId": "B0J0T5WUWC"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-fiata",
@@ -22549,25 +23463,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港",
+    "district": "中西区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
       "薄餅"
     ],
     "cuisine": "薄餅",
-    "poiQuery": "Fiata 香港",
+    "poiQuery": "Fiata Pizza 香港",
     "position": [
-      114.15788068946,
-      22.279079281816
+      114.158145,
+      22.278874
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Fiata%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Fiata%20Pizza%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/de141f1dfd764813bc5e2634cca08a0f.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/fiata",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环士丹顿街2号",
+    "amapPoiId": "B0J0TUYRZ6"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-tasty-central",
@@ -22711,7 +23627,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "东区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
@@ -22720,16 +23636,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粵菜",
     "poiQuery": "蛇王良 香港",
     "position": [
-      114.199175393775,
-      22.287198128218
+      114.199403,
+      22.287343
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%9B%87%E7%8E%8B%E8%89%AF%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0c706af8f08d48bdbd43985da636d2a0.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/she-wong-leung",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "电气道298A",
+    "amapPoiId": "B073C04FPM"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-belon-1197395",
@@ -22738,7 +23656,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -22747,16 +23665,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚法國菜",
     "poiQuery": "Belon 香港",
     "position": [
-      114.157560693096,
-      22.280309917643
+      114.157482,
+      22.280322
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Belon%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2a914c45bab0441587b76e75663ec71d.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/belon-1197395",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环伊利近街1-5号",
+    "amapPoiId": "B0JG2UFW1F"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-shugetsu-ramen-central",
@@ -22792,7 +23712,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -22801,16 +23721,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粵菜",
     "poiQuery": "口利福 香港",
     "position": [
-      114.157496362727,
-      22.280372613825
+      114.157431,
+      22.280197
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8F%A3%E5%88%A9%E7%A6%8F%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/94027fa7bee64ec08201ac5cb1380f4d.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/ho-lee-fook",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环伊利近街3-5号地下",
+    "amapPoiId": "B0FFHI493G"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-the-chairman",
@@ -22846,25 +23768,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
       "創新菜"
     ],
     "cuisine": "創新菜",
-    "poiQuery": "Roucou 香港",
+    "poiQuery": "ROUCOU 香港",
     "position": [
-      114.157210497135,
-      22.280361217053
+      114.15719,
+      22.280367
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Roucou%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=ROUCOU%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/490b8043e9974fa4bd489662d4b8d324.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/roucou",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "SoHo,28 Aberdeen St,Central,香港",
+    "amapPoiId": "B0LKJ521HS"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-godenya",
@@ -22873,7 +23797,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -22882,16 +23806,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "日本菜",
     "poiQuery": "Godenya 香港",
     "position": [
-      114.158098414504,
-      22.281999228197
+      114.158069,
+      22.281974
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Godenya%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c09b26f6fb10441bb1b1a39a3f96284c.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/godenya",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环威灵顿街182号",
+    "amapPoiId": "B0FFJ1UGFH"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-louise",
@@ -22900,7 +23826,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
@@ -22909,16 +23835,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚法國菜",
     "poiQuery": "Louise 香港",
     "position": [
-      114.157236256907,
-      22.280766265152
+      114.157172,
+      22.280788
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Louise%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4eb94f3c2b584444ad6a78223908db8b.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/louise",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环鸭巴甸街35号,PMQ-Staunton",
+    "amapPoiId": "B0I19SU3Y6"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-noi-1204599",
@@ -22927,25 +23855,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "two-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
       "時尚意大利菜"
     ],
     "cuisine": "時尚意大利菜",
-    "poiQuery": "Noi by Paulo Airaudo 香港",
+    "poiQuery": "Noi 香港",
     "position": [
-      114.161675204273,
-      22.28390034359
+      114.161574,
+      22.28398
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Noi%20by%20Paulo%20Airaudo%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Noi%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b6083313cb984b65a4809efa87637c97.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/noi-1204599",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环金融街8号四季酒店5层",
+    "amapPoiId": "B0KA5C8H19"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-caprice",
@@ -22954,25 +23884,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "three-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
       "時尚法國菜"
     ],
     "cuisine": "時尚法國菜",
-    "poiQuery": "Caprice 香港",
+    "poiQuery": "Caprice(中环店) 香港",
     "position": [
-      114.161608980597,
-      22.28393135531
+      114.161563,
+      22.283956
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Caprice%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Caprice(%E4%B8%AD%E7%8E%AF%E5%BA%97)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/be6a3470c7a143c09887b9d6ae34fcd1.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/caprice",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环金融街8号香港四季酒店6层",
+    "amapPoiId": "B0J17CHMMF"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-kau-kee",
@@ -23008,7 +23940,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
@@ -23017,16 +23949,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚亞洲菜",
     "poiQuery": "Whey 香港",
     "position": [
-      114.157921492717,
-      22.282333252004
+      114.157908,
+      22.282207
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Whey%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/434f022149654e6b80bd3b2c9404851f.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/whey",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环威灵顿街198号The Wellington UG层",
+    "amapPoiId": "B0ID7ZXP8S"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-vea",
@@ -23062,7 +23996,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -23071,16 +24005,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "創新菜",
     "poiQuery": "永 香港",
     "position": [
-      114.157926976553,
-      22.282301850584
+      114.157881,
+      22.282204
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c26301855ebf467bbcc496da28c52f1b.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/wing",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环威灵顿街198号THE WELLINGTON,29楼",
+    "amapPoiId": "B073C0RFZB"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-feuille",
@@ -23089,7 +24025,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -23098,16 +24034,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚法國菜",
     "poiQuery": "Feuille 香港",
     "position": [
-      114.157897447296,
-      22.282216724806
+      114.157825,
+      22.282181
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Feuille%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/a5d0398b5dbd40cda22091976ec98f00.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/feuille",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "皇后大道中与威灵顿街交叉口西南20米",
+    "amapPoiId": "B0JKZUNU4X"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-snack-baby",
@@ -23170,7 +24108,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -23179,16 +24117,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "韓國菜",
     "poiQuery": "Hansik Goo 香港",
     "position": [
-      114.157900146374,
-      22.282310995366
+      114.157995,
+      22.282208
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Hansik%20Goo%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9ace7055ac494c0cabc0acad11d329c7.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/hansik-goo-1198262",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "惠灵顿街198号The Wellington1层",
+    "amapPoiId": "B0IDCSVYRX"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-ippoh",
@@ -23224,7 +24164,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -23233,16 +24173,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "法國菜",
     "poiQuery": "Jean-Pierre 香港",
     "position": [
-      114.156134680582,
-      22.280810569486
+      114.156123,
+      22.280817
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Jean-Pierre%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1b653f9ec2734496acf6880894a8ac7b.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/jean-pierre",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "中环必列者士街9号地铺",
+    "amapPoiId": "B0LUHKBSAQ"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-an-choi",
@@ -23305,7 +24247,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港",
+    "district": "中西区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
@@ -23314,16 +24256,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "地中海菜",
     "poiQuery": "Juno 香港",
     "position": [
-      114.156063652323,
-      22.28378231397
+      114.156172,
+      22.283709
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Juno%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/7d2e1aeb34ea421bb63ba9dbd78955ea.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/juno-1215650",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "香港上环永乐街88号",
+    "amapPoiId": "B0JK1UJK5D"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-chiu-ka-banquet",
@@ -23332,25 +24276,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港",
+    "district": "中西区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
       "潮州菜"
     ],
     "cuisine": "潮州菜",
-    "poiQuery": "潮家宴 香港",
+    "poiQuery": "潮家宴(长达大厦店) 香港",
     "position": [
-      114.156334307466,
-      22.284500258758
+      114.156306,
+      22.284295
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BD%AE%E5%AE%B6%E5%AE%B4%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%BD%AE%E5%AE%B6%E5%AE%B4(%E9%95%BF%E8%BE%BE%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f2aa8599bd76481abe267b30affc7890.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/chiu-ka-banquet",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "上环干诺道中144号",
+    "amapPoiId": "B0FFHTP8SD"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-mora",
@@ -23413,25 +24359,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
       "時尚法國菜"
     ],
     "cuisine": "時尚法國菜",
-    "poiQuery": "Racines 香港",
+    "poiQuery": "racines 香港",
     "position": [
-      114.153301529777,
-      22.282238328564
+      114.153329,
+      22.28223
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Racines%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=racines%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0f5e7dbbaeb44c1bb415365b1054b1d1.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/racines-1210713",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "香港上环差馆上街22号",
+    "amapPoiId": "B0JDU5G79Y"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-yardbird",
@@ -23440,25 +24388,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "one-star",
     "michelinPrice": "$$",
     "topDishes": [
       "雞肉串燒"
     ],
     "cuisine": "雞肉串燒",
-    "poiQuery": "Yardbird 香港",
+    "poiQuery": "Yardbird(永乐大厦店) 香港",
     "position": [
-      114.154248086633,
-      22.284294492728
+      114.154125,
+      22.284581
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Yardbird%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Yardbird(%E6%B0%B8%E4%B9%90%E5%A4%A7%E5%8E%A6%E5%BA%97)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bd052ab3823848fab4b533acc520aedf.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/yardbird",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "上环永乐街154-158号永生大厦",
+    "amapPoiId": "B073C0U3ED"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-summer-palace",
@@ -23494,25 +24444,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "two-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
       "創新菜"
     ],
     "cuisine": "創新菜",
-    "poiQuery": "Tate 香港",
+    "poiQuery": "TATE Dining Room 香港",
     "position": [
-      114.152741168491,
-      22.282873901398
+      114.152773,
+      22.282807
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Tate%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=TATE%20Dining%20Room%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9eea43cb9d5b4bbc9e95db95e9c79991.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/tate",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "香港上环荷李活道210号",
+    "amapPoiId": "B073C0U30S"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-man-ho",
@@ -23737,7 +24689,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "湾仔区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -23746,16 +24698,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "意大利菜",
     "poiQuery": "Trattoria Felino 香港",
     "position": [
-      114.17576684133,
-      22.27401364658
+      114.17583,
+      22.273636
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Trattoria%20Felino%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ad0d9ae9f10b47609e1707d495ec7a98.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/trattoria-felino",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "G/F,1-7 Ship St,Wan Chai,香港",
+    "amapPoiId": "B0KUSO2TZE"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-one-harbour-road",
@@ -23791,25 +24745,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "湾仔区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
       "薄餅"
     ],
     "cuisine": "薄餅",
-    "poiQuery": "Little Napoli 香港",
+    "poiQuery": "Little Napoli Pizzeria 香港",
     "position": [
-      114.176421313871,
-      22.273293198242
+      114.176311,
+      22.273009
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Little%20Napoli%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Little%20Napoli%20Pizzeria%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f0f9b96fc1234e3da245cf700330d06d.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/little-napoli",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "大王东街6-16号安东大厦6号铺",
+    "amapPoiId": "B0L1YCECN9"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-xin-rong-ji",
@@ -23845,25 +24801,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Lucale 香港",
+    "poiQuery": "LucAle Tasting Italy 香港",
     "position": [
-      114.145510598074,
-      22.282833052063
+      114.145105,
+      22.283189
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Lucale%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=LucAle%20Tasting%20Italy%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ab3c8daf959d49a1bae5bc6b010a8ffa.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/lucale",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "西营盘薄扶林道28-32号恒辉大厦",
+    "amapPoiId": "B0JA9OJ5I9"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-ship-kee",
@@ -23980,7 +24938,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "中西区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -23989,16 +24947,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "法國菜",
     "poiQuery": "Le Colvert 香港",
     "position": [
-      114.143979065031,
-      22.284934097006
+      114.143985,
+      22.285036
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Le%20Colvert%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/4fd9d65ca70144ed80ffac5b0db008ab.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/le-colvert-1243327",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "香港西营盘德辅道西321号3号铺",
+    "amapPoiId": "B0LUKAVB5Q"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-epure",
@@ -24142,7 +25102,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "湾仔区",
     "level": "two-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -24151,16 +25111,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚法國菜",
     "poiQuery": "L'Envol 香港",
     "position": [
-      114.181077801838,
-      22.277148217346
+      114.17989,
+      22.277118
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=L'Envol%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0c15cd0297294d009aaed2297d93a1c6.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/l-envol",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "香港湾仔港湾径1号",
+    "amapPoiId": "B0FFKT0TYJ"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-cafe-bau",
@@ -24277,7 +25239,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -24286,16 +25248,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "法國菜",
     "poiQuery": "吉地士 香港",
     "position": [
-      114.176749030148,
-      22.292244023587
+      114.17682,
+      22.292439
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%89%E5%9C%B0%E5%A3%AB%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bb275d4bddcb4df283fb10dfe96afe71.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/gaddi-s",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "香港半岛酒店1层",
+    "amapPoiId": "B0FFIQV41E"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-spring-moon",
@@ -24574,25 +25538,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "one-star",
     "michelinPrice": "$$",
     "topDishes": [
       "滬菜"
     ],
     "cuisine": "滬菜",
-    "poiQuery": "夜上海 (尖沙咀) 香港",
+    "poiQuery": "夜上海(K11 Musea店) 香港",
     "position": [
-      114.179117629788,
-      22.291365743483
+      114.179391,
+      22.291217
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%9C%E4%B8%8A%E6%B5%B7%20(%E5%B0%96%E6%B2%99%E5%92%80)%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A4%9C%E4%B8%8A%E6%B5%B7(K11%20Musea%E5%BA%97)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/eac3db5281c1449bb04b2b2521f03694.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/ye-shanghai-tsim-sha-tsui-1191719",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "尖沙咀梳士巴利道18号K11 Musea7F层",
+    "amapPoiId": "B0IDDM7QDK"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-sushi-wadatsumi-1197866",
@@ -24601,25 +25567,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
       "壽司"
     ],
     "cuisine": "壽司",
-    "poiQuery": "Sushi Wadatsumi 香港",
+    "poiQuery": "Sushi Wadatsumi(K11 Musea) 香港",
     "position": [
-      114.179351909014,
-      22.291617235465
+      114.179373,
+      22.29177
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Sushi%20Wadatsumi%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Sushi%20Wadatsumi(K11%20Musea)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/18330b5bb47a40328630839ab3879773.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/sushi-wadatsumi-1197866",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "尖沙咀梳士巴利道18号K11 Musea6F层",
+    "amapPoiId": "B0KA5CB8BU"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-tuber-umberto-bombana",
@@ -24790,25 +25758,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Tosca di Angelo 香港",
+    "poiQuery": "Tosca Di Angelo 香港",
     "position": [
-      114.164922355376,
-      22.300481753029
+      114.165408,
+      22.300643
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Tosca%20di%20Angelo%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Tosca%20Di%20Angelo%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bde5d963f73d422885d664f7b97ddcce.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/tosca352519",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "尖沙咀柯士甸道西1号环球贸易广场丽思卡尔顿酒店102楼",
+    "amapPoiId": "B0FFHCADQ9"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-chaat",
@@ -24817,25 +25787,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "one-star",
     "michelinPrice": "$$",
     "topDishes": [
       "印度菜"
     ],
     "cuisine": "印度菜",
-    "poiQuery": "Chaat 香港",
+    "poiQuery": "CHAAT 香港",
     "position": [
-      114.180663172976,
-      22.292009549845
+      114.180743,
+      22.292085
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Chaat%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=CHAAT%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/9b4d38902b754953a7591559fc28958c.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/chaat",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "瑰丽酒店5层",
+    "amapPoiId": "B0J17CFKKE"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-the-steak-house",
@@ -24844,25 +25816,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "selected",
     "michelinPrice": "$$$$",
     "topDishes": [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "The Steak House 香港",
+    "poiQuery": "The Steak House(香港丽晶酒店) 香港",
     "position": [
-      114.18064842034,
-      22.292124648935
+      114.178486,
+      22.290672
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=The%20Steak%20House%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=The%20Steak%20House(%E9%A6%99%E6%B8%AF%E4%B8%BD%E6%99%B6%E9%85%92%E5%BA%97)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ca84274950a3446d8af0de88ef49d84e.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/the-steak-house",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "尖沙咀梳士巴利道18号香港丽晶酒店地下",
+    "amapPoiId": "B0FFIB2X2Y"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-the-legacy-house",
@@ -24952,25 +25926,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "Carna by Dario Cecchini 香港",
+    "poiQuery": "Carna by Dario Cecchini 牛排馆 香港",
     "position": [
-      114.179522654167,
-      22.294899092749
+      114.179771,
+      22.294888
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Carna%20by%20Dario%20Cecchini%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Carna%20by%20Dario%20Cecchini%20%E7%89%9B%E6%8E%92%E9%A6%86%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/01e720ff6d88439285410ba059e86865.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/carna-by-dario-cecchini",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "赫德道与么地道交叉口东北60米",
+    "amapPoiId": "B0KGOZCJVV"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-ankoma",
@@ -25114,25 +26090,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "湾仔区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "Involtini 香港",
+    "poiQuery": "Involtini Italian cuisine 香港",
     "position": [
-      114.18653162153,
-      22.277472374196
+      114.186588,
+      22.277538
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Involtini%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Involtini%20Italian%20cuisine%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1f602e0a03d543809fd6a02caa8ae2ca.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/involtini",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "铜锣湾The LSquare 459-461 Lockhart Road11/F",
+    "amapPoiId": "B0FFHLQ9SA"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-hau-tak",
@@ -25222,25 +26200,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "selected",
     "michelinPrice": "$",
     "topDishes": [
       "街頭小吃"
     ],
     "cuisine": "街頭小吃",
-    "poiQuery": "Twist & Buckle 香港",
+    "poiQuery": "Twist&Buckle Churros Specialists Tsim Sha Tsui 香港",
     "position": [
-      114.180337860377,
-      22.295218867241
+      114.180258,
+      22.295147
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Twist%20%26%20Buckle%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Twist%26Buckle%20Churros%20Specialists%20Tsim%20Sha%20Tsui%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e4811617d57a4b1783c5bcf8031d44fe.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/twist-buckle",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "尖沙咀漆咸道南29-31号",
+    "amapPoiId": "B0FFJS490Y"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-forum",
@@ -25276,25 +26256,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "selected",
     "michelinPrice": "$",
     "topDishes": [
       "街頭小吃"
     ],
     "cuisine": "街頭小吃",
-    "poiQuery": "第三代肥仔 香港",
+    "poiQuery": "第三代肥仔小食店 香港",
     "position": [
-      114.178970870567,
-      22.296727589536
+      114.178972,
+      22.296704
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%AC%AC%E4%B8%89%E4%BB%A3%E8%82%A5%E4%BB%94%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%AC%AC%E4%B8%89%E4%BB%A3%E8%82%A5%E4%BB%94%E5%B0%8F%E9%A3%9F%E5%BA%97%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ebb3373fe28946e1975c690c1c705fd4.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/fat-boy",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "九龙尖沙咀厚福街3号华博商业大厦G1",
+    "amapPoiId": "B0FFGE27DK"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-tai-woo-causeway-bay",
@@ -25411,7 +26393,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "湾仔区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -25420,16 +26402,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粵菜",
     "poiQuery": "蛇王熙 香港",
     "position": [
-      114.187818138391,
-      22.276705188462
+      114.187769,
+      22.276606
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E8%9B%87%E7%8E%8B%E7%86%99%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/798bac09e9ae4687b840362a2bb2e1f8.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/she-wong-hei",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "波斯富街59号地铺",
+    "amapPoiId": "B0HB2RWZM9"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-putien-causeway-bay",
@@ -25546,25 +26530,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港",
+    "district": "湾仔区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
       "意大利菜"
     ],
     "cuisine": "意大利菜",
-    "poiQuery": "La Volta 香港",
+    "poiQuery": "la volta 香港",
     "position": [
-      114.189038149656,
-      22.275964033116
+      114.189017,
+      22.275952
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=La%20Volta%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=la%20volta%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/986b5dab84564b9fa792308c97e3eed8.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/la-volta",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "兰芳道5号",
+    "amapPoiId": "B0L3GHHWZN"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-yuan-is-here-western-district",
@@ -25654,25 +26640,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "湾仔区",
     "level": "one-star",
     "michelinPrice": "$$$",
     "topDishes": [
       "時尚歐陸菜"
     ],
     "cuisine": "時尚歐陸菜",
-    "poiQuery": "Roganic 香港",
+    "poiQuery": "Roganic Hong Kong 香港",
     "position": [
-      114.189638242458,
-      22.275671108202
+      114.18966,
+      22.27568
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Roganic%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Roganic%20Hong%20Kong%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/67be05bfd30a4573bbecea1b48e8d8d6.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/roganic1185143",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "铜锣湾希慎道33号李花园一号4楼402及403号铺",
+    "amapPoiId": "B0J2ZP9A83"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-leela",
@@ -25681,7 +26669,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "湾仔区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
@@ -25690,16 +26678,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "印度菜",
     "poiQuery": "Leela 香港",
     "position": [
-      114.190004446912,
-      22.275228155766
+      114.190005,
+      22.275221
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Leela%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/57e68b3974a34547b853b847f9988451.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/leela",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "铜锣湾新宁道1号利园三期3楼301-310号铺",
+    "amapPoiId": "B0K6M6DQGR"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-farm-house",
@@ -25816,25 +26806,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "bib-gourmand",
     "michelinPrice": "$",
     "topDishes": [
       "街頭小吃"
     ],
     "cuisine": "街頭小吃",
-    "poiQuery": "佳佳甜品 (佐敦) 香港",
+    "poiQuery": "佳佳甜品(佐敦总店) 香港",
     "position": [
-      114.17581182497,
-      22.303893263412
+      114.1759,
+      22.303878
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BD%B3%E4%BD%B3%E7%94%9C%E5%93%81%20(%E4%BD%90%E6%95%A6)%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E4%BD%B3%E4%BD%B3%E7%94%9C%E5%93%81(%E4%BD%90%E6%95%A6%E6%80%BB%E5%BA%97)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/6e07dd9306474b5e9302bc4c02438658.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/kai-kai",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "佐敦白加士街113-115号地铺",
+    "amapPoiId": "B073C03S9L"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-above-beyond",
@@ -25924,7 +26916,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "湾仔区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
@@ -25933,16 +26925,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "時尚中菜",
     "poiQuery": "壹玖捌叁 香港",
     "position": [
-      114.190632953947,
-      22.266779023786
+      114.190646,
+      22.266748
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A3%B9%E7%8E%96%E6%8D%8C%E5%8F%81%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ad2450aaa10a41db83ab9f2bec5e1dfb.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/hong-kong-cuisine",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "跑马地载德街2-4号1楼",
+    "amapPoiId": "B0I1RD2KKN"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-temple-street-beef-offal",
@@ -26086,25 +27080,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "香港島",
+    "district": "南区",
     "level": "bib-gourmand",
     "michelinPrice": "$",
     "topDishes": [
       "點心"
     ],
     "cuisine": "點心",
-    "poiQuery": "Lulu Baobao (Wong Chuk Hang) 香港",
+    "poiQuery": "lulu BAOBAO手工拉面小笼包(Wong Chuk Hang) 香港",
     "position": [
-      114.171368122845,
-      22.24615875645
+      114.171361,
+      22.246095
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Lulu%20Baobao%20(Wong%20Chuk%20Hang)%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=lulu%20BAOBAO%E6%89%8B%E5%B7%A5%E6%8B%89%E9%9D%A2%E5%B0%8F%E7%AC%BC%E5%8C%85(Wong%20Chuk%20Hang)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ae55124025e246e085537d4ad4756c84.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/lulu-baobao",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "黄竹坑道出口与南朗山道交叉口西北20米",
+    "amapPoiId": "B0KDY11I4I"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-hung-hom-pancake",
@@ -26140,7 +27136,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "九龙城区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
@@ -26149,16 +27145,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "日本菜",
     "poiQuery": "竹家 香港",
     "position": [
-      114.193156276245,
-      22.303373790147
+      114.193359,
+      22.303211
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E7%AB%B9%E5%AE%B6%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/aa68f58244aa4bafb0efd358ff194b0e.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/takeya",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "红磡黄埔新村德民街31C1号安华楼1号",
+    "amapPoiId": "B0KA5CBUW1"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-mak-kee",
@@ -26221,7 +27219,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "油尖旺区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
@@ -26230,16 +27228,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "泰國菜",
     "poiQuery": "Saya 香港",
     "position": [
-      114.166280710649,
-      22.317496805098
+      114.16621,
+      22.317438
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=Saya%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f551336095ea4aec8a5766ee8b439656.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/saya",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "大角咀嘉善街18号利奥坊二期地下G701号",
+    "amapPoiId": "B0JDZKDAVJ"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-chiuchow-delicacies",
@@ -26599,25 +27599,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "深水埗区",
     "level": "selected",
     "michelinPrice": "$",
     "topDishes": [
       "街頭小吃"
     ],
     "cuisine": "街頭小吃",
-    "poiQuery": "合益泰小食 香港",
+    "poiQuery": "合益泰小食(顺兴楼店) 香港",
     "position": [
-      114.166259715448,
-      22.327622665478
+      114.166219,
+      22.327747
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%88%E7%9B%8A%E6%B3%B0%E5%B0%8F%E9%A3%9F%20%E9%A6%99%E6%B8%AF",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%90%88%E7%9B%8A%E6%B3%B0%E5%B0%8F%E9%A3%9F(%E9%A1%BA%E5%85%B4%E6%A5%BC%E5%BA%97)%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ecb24a367b7c4ee6af9659e02678e2fe.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/hop-yik-tai",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "深水埗桂林街121号地铺",
+    "amapPoiId": "B073C0RCKR"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-kung-wo-tofu",
@@ -26707,7 +27709,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "九龍西",
+    "district": "深水埗区",
     "level": "selected",
     "michelinPrice": "$",
     "topDishes": [
@@ -26716,16 +27718,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "街頭小吃",
     "poiQuery": "深深甜品 香港",
     "position": [
-      114.167878371366,
-      22.329291403514
+      114.167928,
+      22.329371
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B7%B1%E6%B7%B1%E7%94%9C%E5%93%81%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5ce7501d298a4ca08785630fd660a59c.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/shum-shum-desserts",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "桂林街与福荣街交叉口东北20米",
+    "amapPoiId": "B0I1B6K84E"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-te-bo",
@@ -27139,7 +28143,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "香港",
     "province": "香港特别行政区",
     "country": "中国",
-    "district": "新界西",
+    "district": "元朗区",
     "level": "bib-gourmand",
     "michelinPrice": "$",
     "topDishes": [
@@ -27148,16 +28152,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "街頭小吃",
     "poiQuery": "香蕉仔 香港",
     "position": [
-      114.038774278585,
-      22.440922520239
+      114.038911,
+      22.441104
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%A6%99%E8%95%89%E4%BB%94%20%E9%A6%99%E6%B8%AF",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/23c835c44ddd4cf685bbca567e3e4935.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/banana-boy",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "元朗凤攸北街18号",
+    "amapPoiId": "B0JDH9BMPY"
   },
   {
     "id": "cn-hong-kong-region-hong-kong-tin-hung",
@@ -27274,25 +28280,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "澳門",
+    "district": "大堂区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
       "印度菜"
     ],
     "cuisine": "印度菜",
-    "poiQuery": "印象派 澳门",
+    "poiQuery": "JUSTINDIA印象派 澳门",
     "position": [
-      113.56159979202,
-      22.183892246089
+      113.556537,
+      22.186877
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%8D%B0%E8%B1%A1%E6%B4%BE%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=JUSTINDIA%E5%8D%B0%E8%B1%A1%E6%B4%BE%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d15279bca0fc4feb9f267f1dc6bf9d51.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/justindia",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "澳门布鲁塞尔街59号AK座(汉伦记和武二中间地下AK座)",
+    "amapPoiId": "B0KD0R14S0"
   },
   {
     "id": "cn-macau-region-macau-feng-wei-ju",
@@ -27409,7 +28417,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "澳門",
+    "district": "大堂区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -27418,16 +28426,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粵菜",
     "poiQuery": "金殿堂 澳门",
     "position": [
-      113.558621906235,
-      22.180058685062
+      113.5537,
+      22.182977
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E9%87%91%E6%AE%BF%E5%A0%82%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/261c19b4df8641c38e9c40039147c5d4.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/imperial-court",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "澳门美高梅1楼",
+    "amapPoiId": "B0FFFBJHGT"
   },
   {
     "id": "cn-macau-region-macau-robuchon-au-dome",
@@ -27518,25 +28528,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "澳门",
+    "district": "望德堂区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
       "葡萄牙菜"
     ],
     "cuisine": "葡萄牙菜",
-    "poiQuery": "婆仔屋 澳门",
+    "poiQuery": "ALBERGUE 1601婆仔屋葡国餐厅 澳门",
     "position": [
-      113.554613971486,
-      22.191812268007
+      113.549541,
+      22.19453
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A9%86%E4%BB%94%E5%B1%8B%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=ALBERGUE%201601%E5%A9%86%E4%BB%94%E5%B1%8B%E8%91%A1%E5%9B%BD%E9%A4%90%E5%8E%85%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dbcd1b46beef4b98ba385dc771b45554.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/albergue-1601",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "疯堂斜巷8号",
+    "amapPoiId": "B0FFF32WD5"
   },
   {
     "id": "cn-macau-region-macau-kika",
@@ -27844,25 +28856,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "澳门",
+    "district": "花地玛堂区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
       "時尚法國菜"
     ],
     "cuisine": "時尚法國菜",
-    "poiQuery": "Twelve25 澳门",
+    "poiQuery": "Twelve25餐厅 澳门",
     "position": [
-      113.5473554744,
-      22.200342925005
+      113.542418,
+      22.203002
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=Twelve25%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=Twelve25%E9%A4%90%E5%8E%85%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/04c9d7a76d184e53afb76fdf17381021.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/twelve25",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "筷子基一街擎天半岛半岛地下A-F室",
+    "amapPoiId": "B0JA9YJI67"
   },
   {
     "id": "cn-macau-region-macau-ying",
@@ -27898,7 +28912,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "氹仔",
+    "district": "嘉模堂区",
     "level": "bib-gourmand",
     "michelinPrice": "$$",
     "topDishes": [
@@ -27907,16 +28921,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "粵菜",
     "poiQuery": "六棉酒家 澳门",
     "position": [
-      113.565506208274,
-      22.155524263759
+      113.560422,
+      22.158404
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%85%AD%E6%A3%89%E9%85%92%E5%AE%B6%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/2d55788d4a184f9b8792323637e24264.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/kapok",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "澳门特别行政区嘉模堂区澳门特别行政区嘉模堂区杭州街60号地下海怡花园",
+    "amapPoiId": "B073D0M3JH"
   },
   {
     "id": "cn-macau-region-macau-manuel-cozinha-portuguesa",
@@ -28062,25 +29078,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "氹仔",
+    "district": "嘉模堂区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
       "葡萄牙菜"
     ],
     "cuisine": "葡萄牙菜",
-    "poiQuery": "葡多利 澳门",
+    "poiQuery": "葡多利正宗葡国菜 澳门",
     "position": [
-      113.567049579066,
-      22.14737822156
+      113.561958,
+      22.150346
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%91%A1%E5%A4%9A%E5%88%A9%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%91%A1%E5%A4%9A%E5%88%A9%E6%AD%A3%E5%AE%97%E8%91%A1%E5%9B%BD%E8%8F%9C%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/42c6f29820a54ec0b73ae082749cfb2f.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/portugalia",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "凼仔买卖街5号地铺",
+    "amapPoiId": "B0FFIZWTOX"
   },
   {
     "id": "cn-macau-region-macau-restaurant-litoral-taipa",
@@ -28170,7 +29188,7 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "路氹",
+    "district": "路氹填海区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
@@ -28179,16 +29197,18 @@ export const restaurants: Restaurant[] = [
     "cuisine": "泰國菜",
     "poiQuery": "尚坊 澳门",
     "position": [
-      113.562841423286,
-      22.143476284714
+      113.557751,
+      22.145786
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B0%9A%E5%9D%8A%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/91d39272f4e94f8bbd108327dd9d5889.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/saffron-1210588",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "悦榕庄酒店31层",
+    "amapPoiId": "B0FFF2WFBJ"
   },
   {
     "id": "cn-macau-region-macau-sushi-kinetsu",
@@ -28251,25 +29271,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "路氹",
+    "district": "路氹填海区",
     "level": "two-stars",
     "michelinPrice": "$$$$",
     "topDishes": [
       "時尚法國菜"
     ],
     "cuisine": "時尚法國菜",
-    "poiQuery": "杜卡斯 澳门",
+    "poiQuery": "杜卡斯餐厅 澳门",
     "position": [
-      113.577061890333,
-      22.144241402049
+      113.571793,
+      22.146914
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%9C%E5%8D%A1%E6%96%AF%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%9D%9C%E5%8D%A1%E6%96%AF%E9%A4%90%E5%8E%85%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/30be43af50cc4be097e8052bf83ff3c7.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/alain-ducasse-at-morpheus",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "路氹连贯公路新濠天地摩珀斯酒店3层",
+    "amapPoiId": "B0FFKYK0NR"
   },
   {
     "id": "cn-macau-region-macau-yi",
@@ -28360,8 +29382,8 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "路氹",
-    "address": "路氹路氹城大馬路銀河綜合度假城時尚匯1樓1031號舖, Macau, Macau",
+    "district": "路氹填海区",
+    "address": "莲花海滨大马路e1010铺",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
@@ -28370,16 +29392,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "意大利菜",
     "poiQuery": "8 1/2 Otto e Mezzo - Bombana 澳门",
     "position": [
-      113.565526716804,
-      22.140614340986
+      113.559181,
+      22.143845
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=8%201%2F2%20Otto%20e%20Mezzo%20-%20Bombana%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/0dd0cca00af04fe08d8ab94c51f3114f.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/8-1-2-otto-e-mezzo-bombana",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0HKXMOBLN"
   },
   {
     "id": "cn-macau-region-macau-lai-heen",
@@ -28416,8 +29439,8 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "路氹",
-    "address": "路氹連貫公路倫敦人1樓, Macau, Macau",
+    "district": "路氹填海区",
+    "address": "路凼城路凼连贯公路澳门康莱德酒店一层",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
@@ -28426,16 +29449,17 @@ export const restaurants: Restaurant[] = [
     "cuisine": "泰國菜",
     "poiQuery": "妙泰 澳门",
     "position": [
-      113.576349113546,
-      22.14062026404
+      113.569771,
+      22.143696
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
+    "coordinateSource": "amap",
     "mapsUrl": "https://uri.amap.com/search?keyword=%E5%A6%99%E6%B3%B0%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/23b425f0e1734277b5a01a77ee804ff8.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/the-mews",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "amapPoiId": "B0HG75LAUU"
   },
   {
     "id": "cn-macau-region-macau-lakeview-palace",
@@ -28499,25 +29523,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "路氹",
+    "district": "路氹填海区",
     "level": "selected",
     "michelinPrice": "$$",
     "topDishes": [
       "葡萄牙菜"
     ],
     "cuisine": "葡萄牙菜",
-    "poiQuery": "希雅度 澳门",
+    "poiQuery": "希雅度葡国餐厅(澳门伦敦人店) 澳门",
     "position": [
-      113.575445664749,
-      22.139936325366
+      113.570558,
+      22.144356
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B8%8C%E9%9B%85%E5%BA%A6%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E5%B8%8C%E9%9B%85%E5%BA%A6%E8%91%A1%E5%9B%BD%E9%A4%90%E5%8E%85(%E6%BE%B3%E9%97%A8%E4%BC%A6%E6%95%A6%E4%BA%BA%E5%BA%97)%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/97360335776f418db83dd7f1c36ff5ab.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/chiado",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "澳门伦敦人2楼2206号",
+    "amapPoiId": "B0FFKQLOOK"
   },
   {
     "id": "cn-macau-region-macau-chef-tam-s-seasons",
@@ -28553,25 +29579,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "路氹",
+    "district": "路氹填海区",
     "level": "selected",
     "michelinPrice": "$$$",
     "topDishes": [
       "扒房"
     ],
     "cuisine": "扒房",
-    "poiQuery": "永利扒房 澳门",
+    "poiQuery": "永利扒房(永利皇宫店) 澳门",
     "position": [
-      113.582392335501,
-      22.141442272346
+      113.576241,
+      22.144594
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E5%88%A9%E6%89%92%E6%88%BF%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E6%B0%B8%E5%88%A9%E6%89%92%E6%88%BF(%E6%B0%B8%E5%88%A9%E7%9A%87%E5%AE%AB%E5%BA%97)%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/d6acb149698a493697b6ce1ccaaeef32.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/sw-steakhouse",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "澳门路凼城体育馆大马路永利皇宫北名店街地面层",
+    "amapPoiId": "B0FFHWT028"
   },
   {
     "id": "cn-macau-region-macau-five-foot-road",
@@ -28580,25 +29608,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "路氹",
+    "district": "路氹填海区",
     "level": "one-star",
     "michelinPrice": "$$",
     "topDishes": [
       "川菜"
     ],
     "cuisine": "川菜",
-    "poiQuery": "蜀道 澳门",
+    "poiQuery": "蜀道 Five Foot Road 澳门",
     "position": [
-      113.578126829599,
-      22.139796248661
+      113.573753,
+      22.143735
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%9C%80%E9%81%93%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E8%9C%80%E9%81%93%20Five%20Foot%20Road%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/023a103efaff4f72bb2bda33746f4da5.jpeg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/five-foot-road",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "美狮美高梅G楼",
+    "amapPoiId": "B0I0UZ7QEH"
   },
   {
     "id": "cn-macau-region-macau-mizumi-1215974",
@@ -28797,25 +29827,27 @@ export const restaurants: Restaurant[] = [
     "cityName": "澳门",
     "province": "澳门特别行政区",
     "country": "中国",
-    "district": "路氹",
+    "district": "路氹填海区",
     "level": "one-star",
     "michelinPrice": "$$$$",
     "topDishes": [
       "日本菜"
     ],
     "cuisine": "日本菜",
-    "poiQuery": "瑞兆 澳门",
+    "poiQuery": "瑞兆(上葡京店) 澳门",
     "position": [
-      113.585408464552,
-      22.138267663103
+      113.57989,
+      22.141045
     ],
     "coorSys": "GCJ-02",
-    "coordinateSource": "michelin",
-    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%91%9E%E5%85%86%20%E6%BE%B3%E9%97%A8",
+    "coordinateSource": "amap",
+    "mapsUrl": "https://uri.amap.com/search?keyword=%E7%91%9E%E5%85%86(%E4%B8%8A%E8%91%A1%E4%BA%AC%E5%BA%97)%20%E6%BE%B3%E9%97%A8",
     "coverImageUrl": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ce25c9a3095348c0bb4a15cd5106ee76.jpg",
     "sourceUrl": "https://guide.michelin.com/hk/zh_HK/macau-region/macau/restaurant/zuicho-1214683",
     "sourceEditionUrl": "https://www.michelin.com/en/publications/products-and-services/the-michelin-guide-hong-kong-macau-18th-edition",
-    "coordinateSystem": "GCJ-02"
+    "coordinateSystem": "GCJ-02",
+    "address": "上葡京综合度假村3层",
+    "amapPoiId": "B0J6MMG3JZ"
   },
   {
     "id": "cn-macau-region-macau-lord-stow-s-bakery-rua-do-tassara",
