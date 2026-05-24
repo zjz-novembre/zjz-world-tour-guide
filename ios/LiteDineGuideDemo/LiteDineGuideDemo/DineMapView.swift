@@ -9,6 +9,8 @@ struct DineMapView: View {
     private static let restoredMarkerScaleKilometers: CLLocationDistance = 2
     private static let minimumMarkerScale: CGFloat = 0.7
     private static let maximumMarkerScale: CGFloat = 1
+    fileprivate static let cityCameraAnimationDuration: CFTimeInterval = 0.68
+    fileprivate static let selectionCameraAnimationDuration: CFTimeInterval = 0.76
     private static let webMobileMaxWidth: CGFloat = 760
     private static let webMobileCityScaleRatio: CGFloat = 0.92
     private static let kilometersPerLatitudeDegree: CLLocationDistance = 111.32
@@ -436,7 +438,7 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
                 return
             }
             guard !userHasMovedCamera else { return }
-            syncCamera(on: mapView, force: true, animated: false)
+            syncCamera(on: mapView)
             notifyMapReadyIfPossible(on: mapView)
         }
 
@@ -480,9 +482,12 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
                 viewportSize: parent.viewportSize,
                 focusInsets: parent.mapFocusInsets
             )
-            parent.visibleLongitudeDelta = nextRegion.span.longitudeDelta
-            mapView.setUserTrackingMode(.none, animated: false)
-            mapView.setRegion(nextRegion, animated: shouldAnimate)
+            applyCameraRegion(
+                nextRegion,
+                on: mapView,
+                animated: shouldAnimate,
+                duration: DineMapView.cityCameraAnimationDuration
+            )
             notifyMapReadyIfPossible(on: mapView)
         }
 
@@ -546,7 +551,11 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
             didFinishLoadingMap = true
             if !didApplyLoadedCamera, !userHasMovedCamera {
                 didApplyLoadedCamera = true
-                syncCamera(on: mapView, force: true, animated: false)
+                syncCamera(
+                    on: mapView,
+                    force: true,
+                    animated: cameraSignature != nil
+                )
             }
             notifyMapReadyIfPossible(on: mapView)
         }
@@ -639,9 +648,12 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
                 viewportSize: parent.viewportSize,
                 focusInsets: parent.mapFocusInsets
             )
-            parent.visibleLongitudeDelta = nextRegion.span.longitudeDelta
-            mapView.setUserTrackingMode(.none, animated: false)
-            mapView.setRegion(nextRegion, animated: true)
+            applyCameraRegion(
+                nextRegion,
+                on: mapView,
+                animated: true,
+                duration: DineMapView.selectionCameraAnimationDuration
+            )
         }
 
         func mapView(_ mapView: MAMapView!, didSingleTappedAt coordinate: CLLocationCoordinate2D) {
@@ -672,6 +684,28 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
             DispatchQueue.main.async {
                 self.parent.onMapReady()
             }
+        }
+
+        private func applyCameraRegion(
+            _ region: MACoordinateRegion,
+            on mapView: MAMapView,
+            animated: Bool,
+            duration: CFTimeInterval
+        ) {
+            parent.visibleLongitudeDelta = region.span.longitudeDelta
+            mapView.setUserTrackingMode(.none, animated: false)
+
+            guard animated else {
+                mapView.setRegion(region, animated: false)
+                return
+            }
+
+            mapView.setVisibleMapRect(
+                MAMapRectForCoordinateRegion(region),
+                edgePadding: .zero,
+                animated: true,
+                duration: duration
+            )
         }
 
         private func zPosition(
