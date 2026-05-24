@@ -34,7 +34,11 @@ struct ContentView: View {
 
     var body: some View {
         GeometryReader { proxy in
-            let layout = DineLayout(size: proxy.size, isListCollapsed: isListCollapsed)
+            let layout = DineLayout(
+                size: proxy.size,
+                safeAreaInsets: proxy.safeAreaInsets,
+                isListCollapsed: isListCollapsed
+            )
 
             DineMapView(
                 guide: activeGuide,
@@ -362,6 +366,7 @@ private struct DineLayout {
     private static let landscapePanelGutter: CGFloat = 14
 
     let size: CGSize
+    let safeAreaInsets: EdgeInsets
     let isListCollapsed: Bool
 
     var isWebLandscape: Bool {
@@ -373,15 +378,27 @@ private struct DineLayout {
     }
 
     var chromeTopInset: CGFloat {
-        isWebLandscape ? Self.landscapePanelGutter : DineMetric.portraitTopInset
+        isWebLandscape ? landscapeTopGutter : DineMetric.portraitTopInset
     }
 
     private var panelTrailingGutter: CGFloat {
         isWebLandscape ? Self.landscapePanelGutter : DineMetric.edge
     }
 
-    private var panelVerticalGutter: CGFloat {
-        isWebLandscape ? Self.landscapePanelGutter : DineMetric.edge
+    private var landscapeTopGutter: CGFloat {
+        Self.landscapePanelGutter - safeAreaInsets.top
+    }
+
+    private var landscapeBottomGutter: CGFloat {
+        Self.landscapePanelGutter - safeAreaInsets.bottom
+    }
+
+    private var panelTopGutter: CGFloat {
+        isWebLandscape ? landscapeTopGutter : DineMetric.edge
+    }
+
+    private var panelBottomGutter: CGFloat {
+        isWebLandscape ? landscapeBottomGutter : DineMetric.edge
     }
 
     private var listLeading: CGFloat {
@@ -404,7 +421,7 @@ private struct DineLayout {
 
     var expandedListHeight: CGFloat {
         if isWebLandscape {
-            return max(size.height - panelVerticalGutter * 2, 1)
+            return max(size.height - panelTopGutter - panelBottomGutter, 1)
         }
         return max(size.height * Self.portraitSheetRatio, DineMetric.minimumSheetHeight)
     }
@@ -423,9 +440,9 @@ private struct DineLayout {
     var listCenterY: CGFloat {
         if isWebLandscape {
             if isListCollapsed {
-                return size.height - panelVerticalGutter - DineMetric.collapsedSheetHeight / 2
+                return size.height - panelBottomGutter - DineMetric.collapsedSheetHeight / 2
             }
-            return panelVerticalGutter + expandedListHeight / 2
+            return panelTopGutter + expandedListHeight / 2
         }
         return size.height - DineMetric.edge - listHeight / 2
     }
