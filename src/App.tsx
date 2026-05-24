@@ -3,7 +3,7 @@ import { FilterControl } from "./components/FilterControl";
 import { ChevronDownIcon, ExternalLinkIcon, MapPinIcon, TagIcon } from "./components/icons";
 import { MapView } from "./components/MapView";
 import { RestaurantList } from "./components/RestaurantList";
-import { cityOptions, costOptions } from "./data/options";
+import { cityOptions, costOptionsByGuide } from "./data/options";
 import { guideConfigs, resolveGuideConfig } from "./data/guides";
 import { wgs84ToGcj02 } from "./lib/coordinates";
 import { filterRestaurants } from "./lib/filtering";
@@ -50,6 +50,7 @@ export function App() {
   const [dataStatus, setDataStatus] = useState<"loading" | "ready" | "failed">("loading");
   const alternateGuide = guide.id === "black-pearl" ? guideConfigs.michelin : guideConfigs["black-pearl"];
   const alternateGuideIcon = guide.id === "black-pearl" ? michelinGuideIcon : blackPearlLogoIcon;
+  const costOptions = useMemo(() => costOptionsByGuide[guide.id], [guide.id]);
   const alternateGuideHref = useMemo(() => {
     const baseUrl = new URL(import.meta.env.BASE_URL, window.location.origin);
     if (guide.id === "black-pearl") return baseUrl.pathname;
@@ -112,6 +113,15 @@ export function App() {
     activeCityOptions[0] ??
     cityOptions[0];
   const selectedId = selectedMarker?.id ?? null;
+
+  useEffect(() => {
+    const allowedCostBands = new Set(costOptions.map((option) => option.value));
+    setFilters((current) => {
+      const nextCostBands = current.costBands.filter((costBand) => allowedCostBands.has(costBand));
+      if (nextCostBands.length === current.costBands.length) return current;
+      return { ...current, costBands: nextCostBands };
+    });
+  }, [costOptions]);
 
   useEffect(() => {
     if (!restaurants.length) return;

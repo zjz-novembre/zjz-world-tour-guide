@@ -9,12 +9,35 @@ export function getCostBand(cost: number): Exclude<CostBand, "all"> {
   return "500-plus";
 }
 
+export function matchesCostBand(cost: number, band: Exclude<CostBand, "all">) {
+  switch (band) {
+    case "under-50":
+      return cost < 50;
+    case "50-100":
+      return cost >= 50 && cost < 100;
+    case "100-200":
+      return cost >= 100 && cost < 200;
+    case "under-200":
+      return cost < 200;
+    case "200-500":
+      return cost >= 200 && cost < 500;
+    case "500-1000":
+      return cost >= 500 && cost < 1000;
+    case "500-plus":
+      return cost >= 500;
+    case "1000-plus":
+      return cost >= 1000;
+  }
+}
+
 export function filterRestaurants(
   restaurants: Restaurant[],
   filters: RestaurantFilters,
   rank: Record<MichelinLevel, number> = levelRank,
 ) {
-  const activeCostBands = filters.costBands.filter((costBand) => costBand !== "all");
+  const activeCostBands = filters.costBands.filter(
+    (costBand): costBand is Exclude<CostBand, "all"> => costBand !== "all",
+  );
   const activeLevels = filters.levels;
 
   return restaurants
@@ -22,7 +45,7 @@ export function filterRestaurants(
     .filter((restaurant) => {
       if (!activeCostBands.length) return true;
       if (!restaurant.costPerPersonCny) return false;
-      return activeCostBands.includes(getCostBand(restaurant.costPerPersonCny));
+      return activeCostBands.some((costBand) => matchesCostBand(restaurant.costPerPersonCny!, costBand));
     })
     .filter((restaurant) => {
       if (!activeLevels.length) return true;

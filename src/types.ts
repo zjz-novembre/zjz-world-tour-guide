@@ -10,8 +10,11 @@ export type CostBand =
   | "under-50"
   | "50-100"
   | "100-200"
+  | "under-200"
   | "200-500"
-  | "500-plus";
+  | "500-1000"
+  | "500-plus"
+  | "1000-plus";
 
 export type CityCode = string;
 

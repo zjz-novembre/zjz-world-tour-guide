@@ -1,4 +1,4 @@
-import type { CityCode, CityOption, CostBand, MichelinLevel } from "../types";
+import type { CityCode, CityOption, CostBand, GuideId, MichelinLevel } from "../types";
 
 export const cityOptions: CityOption[] = [
   {
@@ -198,14 +198,29 @@ export const cityByCode = cityOptions.reduce(
   {} as Record<CityCode, CityOption>,
 );
 
-export const costOptions: { value: CostBand; label: string }[] = [
+export const michelinCostOptions: { value: CostBand; label: string }[] = [
   { value: "all", label: "不限" },
-  { value: "under-50", label: "¥50-" },
+  { value: "under-50", label: "¥0-50" },
   { value: "50-100", label: "¥50-100" },
   { value: "100-200", label: "¥100-200" },
   { value: "200-500", label: "¥200-500" },
   { value: "500-plus", label: "¥500+" },
 ];
+
+export const blackPearlCostOptions: { value: CostBand; label: string }[] = [
+  { value: "all", label: "不限" },
+  { value: "under-200", label: "¥0-200" },
+  { value: "200-500", label: "¥200-500" },
+  { value: "500-1000", label: "¥500-1000" },
+  { value: "1000-plus", label: "¥1000+" },
+];
+
+export const costOptionsByGuide = {
+  michelin: michelinCostOptions,
+  "black-pearl": blackPearlCostOptions,
+} satisfies Record<GuideId, { value: CostBand; label: string }[]>;
+
+export const costOptions = michelinCostOptions;
 
 export const levelOptions: { value: MichelinLevel | "all"; label: string }[] = [
   { value: "all", label: "全榜" },

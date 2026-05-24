@@ -75,6 +75,9 @@ struct ContentView: View {
         .onChange(of: activeGuide) {
             clearMapSelection()
             selectedLevels = []
+            if !costOptions.contains(selectedCost) {
+                selectedCost = .all
+            }
             activeDropdown = nil
         }
     }
@@ -165,6 +168,10 @@ struct ContentView: View {
         }
     }
 
+    private var costOptions: [DineCostBand] {
+        DineCostBand.options(for: activeGuide)
+    }
+
     @ViewBuilder
     private func dropdownLayer(in size: CGSize) -> some View {
         if let activeDropdown {
@@ -204,7 +211,7 @@ struct ContentView: View {
             }
         case .cost:
             DropdownOptions {
-                ForEach(DineCostBand.allCases) { cost in
+                ForEach(costOptions) { cost in
                     DropdownOption(label: cost.label, guide: activeGuide, isSelected: cost == selectedCost) {
                         selectedCost = cost
                         clearMapSelection()
@@ -357,30 +364,48 @@ private enum FilterDropdownKind {
     }
 }
 
-private enum DineCostBand: String, CaseIterable, Identifiable {
+private enum DineCostBand: String, Identifiable {
     case all
     case under50
     case between50And100
     case between100And200
+    case under200
     case between200And500
+    case between500And1000
     case over500
+    case over1000
 
     var id: String { rawValue }
+
+    static func options(for guide: GuideKind) -> [DineCostBand] {
+        switch guide {
+        case .michelin:
+            return [.all, .under50, .between50And100, .between100And200, .between200And500, .over500]
+        case .blackPearl:
+            return [.all, .under200, .between200And500, .between500And1000, .over1000]
+        }
+    }
 
     var label: String {
         switch self {
         case .all:
             return "不限"
         case .under50:
-            return "¥50-"
+            return "¥0-50"
         case .between50And100:
             return "¥50-100"
         case .between100And200:
             return "¥100-200"
+        case .under200:
+            return "¥0-200"
         case .between200And500:
             return "¥200-500"
+        case .between500And1000:
+            return "¥500-1000"
         case .over500:
             return "¥500+"
+        case .over1000:
+            return "¥1000+"
         }
     }
 
@@ -394,10 +419,16 @@ private enum DineCostBand: String, CaseIterable, Identifiable {
             return price.map { $0 >= 50 && $0 < 100 } ?? false
         case .between100And200:
             return price.map { $0 >= 100 && $0 < 200 } ?? false
+        case .under200:
+            return price.map { $0 < 200 } ?? false
         case .between200And500:
             return price.map { $0 >= 200 && $0 < 500 } ?? false
+        case .between500And1000:
+            return price.map { $0 >= 500 && $0 < 1000 } ?? false
         case .over500:
             return price.map { $0 >= 500 } ?? false
+        case .over1000:
+            return price.map { $0 >= 1000 } ?? false
         }
     }
 }
