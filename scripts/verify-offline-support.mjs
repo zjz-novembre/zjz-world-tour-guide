@@ -186,6 +186,13 @@ try {
   assert(mapSource.includes("OfflineCityMap"), "Offline city map component is missing");
   assert(styleSource.includes(".offline-city-map"), "Offline city map styles are missing");
   assert(
+    mapSource.includes("getOfflineMapMetrics") &&
+      mapSource.includes("getVisibleCityCenter(city, element, zoom)") &&
+      styleSource.includes("--offline-focus-x") &&
+      styleSource.includes("--offline-focus-y"),
+    "Offline/cold-start map is not projected from the same city viewport as the live map",
+  );
+  assert(
     guidesSource.includes("michelin-star-white.svg") &&
       mapSource.includes("michelin-bib-gourmand-white.svg") &&
       mapSource.includes("restaurant-selected-white.svg") &&

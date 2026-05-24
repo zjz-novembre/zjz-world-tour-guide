@@ -1,4 +1,4 @@
-const CACHE_NAME = "lite-michelin-v20260516-5";
+const CACHE_NAME = "lite-michelin-v20260524-coldstart-1";
 const SCOPE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, "");
 const scoped = (path) => `${SCOPE_PATH}${path}`;
 const APP_SHELL = [

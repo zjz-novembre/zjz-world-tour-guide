@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import {
   getAmapConfig,
   loadAmap,
@@ -130,6 +130,9 @@ export function MapView({
       if (cancelled) return;
       window.cancelAnimationFrame(readinessFrame);
       window.clearTimeout(readinessTimeout);
+      if (map.current) {
+        applyCityView(map.current, cityRef.current, mapNode.current);
+      }
       map.current?.setFeatures?.(AMAP_FEATURES);
       map.current?.setMapStyle?.(AMAP_STYLE);
       setZoomBand(getZoomBand(map.current?.getZoom?.() ?? 12));
@@ -349,6 +352,7 @@ export function MapView({
           restaurants={restaurants}
           selectedId={selectedId}
           onSelect={onSelect}
+          surfaceElement={surfaceNode.current}
         />
       )}
     </div>
@@ -611,15 +615,23 @@ function OfflineCityMap({
   restaurants,
   selectedId,
   onSelect,
+  surfaceElement,
 }: {
   city: CityOption;
   guide: GuideConfig;
   restaurants: Restaurant[];
   selectedId: string | null;
   onSelect: (restaurantId: string) => void;
+  surfaceElement: HTMLElement | null;
 }) {
+  const metrics = getOfflineMapMetrics(city, surfaceElement);
+  const offlineStyle = {
+    "--offline-focus-x": `${metrics.focusXPercent}%`,
+    "--offline-focus-y": `${metrics.focusYPercent}%`,
+  } as CSSProperties;
+
   return (
-    <div className="offline-city-map" aria-hidden={false}>
+    <div className="offline-city-map" style={offlineStyle} aria-hidden={false}>
       <span className="offline-city-map__water offline-city-map__water--one" aria-hidden="true" />
       <span className="offline-city-map__water offline-city-map__water--two" aria-hidden="true" />
       <span className="offline-city-map__park offline-city-map__park--one" aria-hidden="true" />
@@ -640,7 +652,9 @@ function OfflineCityMap({
       {restaurants
         .filter((restaurant) => restaurant.position)
         .map((restaurant) => {
-          const [x, y] = getOfflinePoint(city, restaurant.position!);
+          const point = getOfflinePoint(restaurant.position!, metrics);
+          if (!point) return null;
+          const [x, y] = point;
           return (
             <button
               key={restaurant.id}
@@ -672,13 +686,44 @@ function createOfflinePinGlyph(level: Restaurant["level"], guide: GuideConfig) {
   return <img alt="" aria-hidden="true" className="map-marker__pin-icon map-marker__pin-icon--selected" src={SELECTED_PIN_ICON} />;
 }
 
-function getOfflinePoint(city: CityOption, position: [number, number]) {
-  const [centerLng, centerLat] = city.center;
-  const [lng, lat] = position;
-  const x = clamp(30 + (lng - centerLng) * city.offlineScale, 6, 56);
-  const y = clamp(50 - (lat - centerLat) * city.offlineScale, 10, 90);
+type OfflineMapMetrics = {
+  center: [number, number];
+  focusXPercent: number;
+  focusYPercent: number;
+  height: number;
+  width: number;
+  worldPixels: number;
+};
 
-  return [x, y];
+function getOfflineMapMetrics(city: CityOption, element: HTMLElement | null): OfflineMapMetrics {
+  const width = element?.clientWidth || window.innerWidth;
+  const height = element?.clientHeight || window.innerHeight;
+  const zoom = getVisibleCityZoom(city, element);
+  const center = getVisibleCityCenter(city, element, zoom);
+  const focus = getMapFocus(element, width, height);
+
+  return {
+    center,
+    focusXPercent: clamp((focus.x / width) * 100, 0, 100),
+    focusYPercent: clamp((focus.y / height) * 100, 0, 100),
+    height,
+    width,
+    worldPixels: MAP_TILE_SIZE * 2 ** zoom,
+  };
+}
+
+function getOfflinePoint(position: [number, number], metrics: OfflineMapMetrics) {
+  const [centerLng, centerLat] = metrics.center;
+  const [lng, lat] = position;
+  const latitudeFactor = Math.max(Math.cos((centerLat * Math.PI) / 180), 0.2);
+  const xPixels = ((lng - centerLng) * metrics.worldPixels * latitudeFactor) / 360;
+  const yPixels = (-(lat - centerLat) * metrics.worldPixels) / (360 * latitudeFactor);
+  const x = ((metrics.width / 2 + xPixels) / metrics.width) * 100;
+  const y = ((metrics.height / 2 + yPixels) / metrics.height) * 100;
+
+  if (x < -8 || x > 108 || y < -8 || y > 108) return null;
+
+  return [x, y] as const;
 }
 
 function clamp(value: number, min: number, max: number) {

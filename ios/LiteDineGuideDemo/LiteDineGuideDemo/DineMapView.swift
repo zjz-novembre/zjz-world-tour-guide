@@ -18,7 +18,7 @@ struct DineMapView: View {
     let mapFocusInsets: EdgeInsets
 
     @State private var visibleLongitudeDelta: CLLocationDegrees = DineCity.shanghai.span.longitudeDelta
-    @State private var isLiveMapReady = false
+    @State private var liveMapReadyCityID: String?
 
     var body: some View {
         ZStack {
@@ -35,13 +35,13 @@ struct DineMapView: View {
                 markerScale: markerScale,
                 onMapReady: {
                     withAnimation(.easeOut(duration: 0.18)) {
-                        isLiveMapReady = true
+                        liveMapReadyCityID = city.id
                     }
                 }
             )
             .ignoresSafeArea()
 
-            if !isLiveMapReady {
+            if liveMapReadyCityID != city.id {
                 ColdStartMapPlaceholder(
                     guide: guide,
                     city: city,
@@ -54,6 +54,9 @@ struct DineMapView: View {
                 .transition(.opacity)
                 .zIndex(1000)
             }
+        }
+        .onChange(of: city.id) {
+            liveMapReadyCityID = nil
         }
     }
 
@@ -415,6 +418,7 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
             )
             if signature.cityID != cameraSignature?.cityID {
                 didApplyLoadedCamera = false
+                didNotifyMapReady = false
                 userHasMovedCamera = false
             }
             guard force || signature != cameraSignature else { return }

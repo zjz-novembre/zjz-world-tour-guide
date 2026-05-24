@@ -496,11 +496,13 @@ button {
   opacity: 0;
   position: absolute;
   transition: opacity 180ms ease;
+  visibility: hidden;
   z-index: 0;
 }
 
 .amap-surface--ready .amap-live-layer {
   opacity: 1;
+  visibility: visible;
 }
 
 .amap-surface--missing-key::before,
@@ -986,8 +988,8 @@ button {
   border: 0.125rem solid color-mix(in srgb, var(--color-map-line) 72%, transparent);
   border-radius: 999px;
   height: 14rem;
-  left: calc(30% - 7rem);
-  top: calc(50% - 7rem);
+  left: calc(var(--offline-focus-x, 30%) - 7rem);
+  top: calc(var(--offline-focus-y, 50%) - 7rem);
   width: 14rem;
 }
 
@@ -995,9 +997,9 @@ button {
   color: var(--color-muted);
   font-size: 0.82rem;
   font-weight: var(--weight-strong);
-  left: 30%;
+  left: var(--offline-focus-x, 30%);
   position: absolute;
-  top: 50%;
+  top: var(--offline-focus-y, 50%);
   transform: translate(-50%, -50%);
 }
 
@@ -1486,11 +1488,11 @@ button {
   }
 
   .offline-city-map__ring {
-    left: calc(50% - 7rem);
+    left: calc(var(--offline-focus-x, 50%) - 7rem);
   }
 
   .offline-city-map__center {
-    left: 50%;
+    left: var(--offline-focus-x, 50%);
   }
 }
 

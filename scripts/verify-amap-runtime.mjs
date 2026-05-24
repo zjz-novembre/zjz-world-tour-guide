@@ -84,6 +84,12 @@ try {
     "Cached city map is not shown before the live AMap layer becomes ready",
   );
   assert(
+    mapViewSource.includes("applyCityView(map.current, cityRef.current") &&
+      stylesSource.includes("visibility: hidden") &&
+      stylesSource.includes("visibility: visible"),
+    "Live AMap layer can become visible before the city camera is reapplied",
+  );
+  assert(
     stylesSource.includes(".offline-city-map__road") &&
       stylesSource.includes(".offline-city-map__water"),
     "Cached city map does not include local road and water layers",
