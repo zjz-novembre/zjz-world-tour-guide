@@ -121,12 +121,10 @@ struct RestaurantMarker: View {
                 case .smallTag:
                     MarkerSmallTag(restaurant: restaurant)
                         .position(tagCenter)
-                        .transition(.opacity.combined(with: .scale(scale: 0.96, anchor: .leading)))
                         .zIndex(1)
                 case .detailTag:
                     MarkerDetail(restaurant: restaurant)
                         .position(tagCenter)
-                        .transition(.opacity.combined(with: .scale(scale: 0.96, anchor: .leading)))
                         .zIndex(1)
                 case .pinOnly:
                     EmptyView()
@@ -138,7 +136,6 @@ struct RestaurantMarker: View {
                 .zIndex(2)
         }
         .frame(width: layout.size.width, height: layout.size.height)
-        .animation(.snappy(duration: 0.18), value: presentation)
     }
 
 }

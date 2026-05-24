@@ -36,6 +36,7 @@ struct ContentView: View {
         GeometryReader { proxy in
             let expandedSheetHeight = max(proxy.size.height * 0.43, DineMetric.minimumSheetHeight)
             let sheetHeight = isListCollapsed ? DineMetric.collapsedSheetHeight : expandedSheetHeight
+            let mapReservedSheetHeight = expandedSheetHeight
 
             DineMapView(
                 guide: activeGuide,
@@ -47,7 +48,7 @@ struct ContentView: View {
                 mapFocusInsets: EdgeInsets(
                     top: DineMetric.topInset + DineMetric.headerHeight + DineMetric.chromeGap + DineMetric.filterHeight,
                     leading: 0,
-                    bottom: sheetHeight + DineMetric.edge,
+                    bottom: mapReservedSheetHeight + DineMetric.edge,
                     trailing: 0
                 )
             )
@@ -266,14 +267,12 @@ struct ContentView: View {
                                 }
                             }
                             .onTapGesture {
-                                withAnimation(.snappy(duration: 0.18)) {
-                                    if selectedRestaurant?.id == restaurant.id,
-                                       selectedMarkerPresentation == .smallTag {
-                                        clearMapSelection()
-                                    } else {
-                                        selectedRestaurant = restaurant
-                                        selectedMarkerPresentation = .smallTag
-                                    }
+                                if selectedRestaurant?.id == restaurant.id,
+                                   selectedMarkerPresentation == .smallTag {
+                                    clearMapSelection()
+                                } else {
+                                    selectedRestaurant = restaurant
+                                    selectedMarkerPresentation = .smallTag
                                 }
                             }
                         }
@@ -285,23 +284,27 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             }
 
-            Button {
-                withAnimation(.snappy(duration: 0.18)) {
-                    isListCollapsed.toggle()
-                }
-            } label: {
-                WebIcon(kind: .chevronDown, tint: activeGuide.secondaryText)
-                    .frame(width: 16, height: 16)
-                    .rotationEffect(.degrees(isListCollapsed ? 180 : 0))
-                    .frame(width: 32, height: 32)
-                    .background(activeGuide.panelSurface, in: Circle())
-                    .overlay {
-                        Circle().stroke(activeGuide.panelStroke, lineWidth: 0.8)
+            VStack {
+                Spacer(minLength: 0)
+                Button {
+                    withAnimation(.snappy(duration: 0.18)) {
+                        isListCollapsed.toggle()
                     }
+                } label: {
+                    WebIcon(kind: .chevronDown, tint: activeGuide.secondaryText)
+                        .frame(width: 14, height: 14)
+                        .rotationEffect(.degrees(isListCollapsed ? 180 : 0))
+                        .frame(width: 54, height: 24)
+                        .background(activeGuide.panelSurface, in: Capsule())
+                        .overlay {
+                            Capsule().stroke(activeGuide.panelStroke, lineWidth: 0.8)
+                        }
+                }
+                .buttonStyle(.plain)
+                .padding(.bottom, 7)
+                .accessibilityLabel(isListCollapsed ? "展开列表" : "收起列表")
             }
-            .buttonStyle(.plain)
-            .padding(8)
-            .accessibilityLabel(isListCollapsed ? "展开列表" : "收起列表")
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(activeGuide.panelSurface, in: RoundedRectangle(cornerRadius: DineMetric.panelRadius, style: .continuous))

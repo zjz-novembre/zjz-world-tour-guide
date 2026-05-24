@@ -701,10 +701,8 @@ button {
   pointer-events: none;
   position: absolute;
   top: 50%;
-  transform: translate(-0.25rem, -50%);
-  transition:
-    opacity 160ms ease,
-    transform 160ms ease;
+  transform: translate(0, -50%);
+  transition: opacity 120ms ease;
   white-space: nowrap;
   width: max-content;
 }
@@ -719,7 +717,6 @@ button {
 .map-marker--selected-small .map-marker__tag {
   opacity: 1;
   pointer-events: auto;
-  transform: translate(0, -50%);
 }
 
 .map-marker__tag-name,
@@ -793,7 +790,6 @@ button {
   opacity: 1;
   padding: var(--space-3);
   pointer-events: auto;
-  transform: translate(0, -50%);
   width: var(--size-map-tag-detail);
 }
 
@@ -1048,7 +1044,7 @@ button {
 
 .list-section {
   bottom: var(--layout-edge);
-  overflow: hidden;
+  overflow: visible;
   padding: 0;
   position: absolute;
   right: var(--layout-edge);
@@ -1071,20 +1067,22 @@ button {
   color: var(--color-muted);
   cursor: pointer;
   display: inline-flex;
-  height: 2rem;
+  height: 1.55rem;
   justify-content: center;
   padding: 0;
   position: absolute;
-  right: var(--space-2);
-  top: var(--space-2);
-  width: 2rem;
+  right: 50%;
+  top: auto;
+  bottom: calc(var(--space-3) * -1);
+  transform: translateX(50%);
+  width: 3.4rem;
   z-index: 4;
 }
 
 .restaurant-list-toggle svg {
-  height: 1rem;
+  height: 0.9rem;
   transition: transform 160ms ease;
-  width: 1rem;
+  width: 0.9rem;
 }
 
 .list-section--collapsed .restaurant-list-toggle svg {

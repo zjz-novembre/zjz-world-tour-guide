@@ -548,25 +548,21 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
             lastAnnotationTapID = restaurant.id
             lastAnnotationTapTime = now
 
-            withAnimation(.snappy(duration: 0.18)) {
-                if parent.selectedRestaurant?.id == restaurant.id,
-                   parent.selectedMarkerPresentation == .detailTag {
-                    parent.selectedRestaurant = nil
-                    parent.selectedMarkerPresentation = .pinOnly
-                } else {
-                    parent.selectedRestaurant = restaurant
-                    parent.selectedMarkerPresentation = .detailTag
-                }
+            if parent.selectedRestaurant?.id == restaurant.id,
+               parent.selectedMarkerPresentation == .detailTag {
+                parent.selectedRestaurant = nil
+                parent.selectedMarkerPresentation = .pinOnly
+            } else {
+                parent.selectedRestaurant = restaurant
+                parent.selectedMarkerPresentation = .detailTag
             }
             syncSelection(on: mapView)
         }
 
         func mapView(_ mapView: MAMapView!, didSingleTappedAt coordinate: CLLocationCoordinate2D) {
             guard parent.selectedRestaurant != nil else { return }
-            withAnimation(.snappy(duration: 0.18)) {
-                parent.selectedRestaurant = nil
-                parent.selectedMarkerPresentation = .pinOnly
-            }
+            parent.selectedRestaurant = nil
+            parent.selectedMarkerPresentation = .pinOnly
             syncSelection(on: mapView)
         }
 

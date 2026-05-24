@@ -84,6 +84,10 @@ assert(
   optionsSource.includes("center: [118.5938671, 24.9116056]"),
   "Quanzhou city center is not anchored to 德文虾仔面",
 );
+assert(
+  mapViewSource.includes("listIsCollapsed") && mapViewSource.includes("stableListTop"),
+  "Collapsed list state can still change the web map focus calculation",
+);
 
 function getFreePort() {
   return new Promise((resolve, reject) => {
@@ -474,7 +478,15 @@ try {
       returnByValue: true,
     });
     tagZoomBand = band.result.value;
-    if (tagZoomBand === "tag") break;
+    if (tagZoomBand === "tag") {
+      await delay(450);
+      const stableBand = await cdp.send("Runtime.evaluate", {
+        expression: `document.querySelector(".amap-surface")?.getAttribute("data-amap-zoom-band") ?? "missing"`,
+        returnByValue: true,
+      });
+      tagZoomBand = stableBand.result.value;
+      if (tagZoomBand === "tag") break;
+    }
   }
   assert(tagZoomBand === "tag", `Map did not reach tag-only zoom before click: ${tagZoomBand}`);
 
@@ -489,7 +501,13 @@ try {
 
       for (let attempt = 0; attempt < 20; attempt += 1) {
         const activeTag = document.querySelector(".map-marker--active .map-marker__tag");
-        if (activeTag && activeTag.getBoundingClientRect().width > collapsedWidth + 24) break;
+        if (
+          activeTag &&
+          activeTag.getBoundingClientRect().width > collapsedWidth + 24 &&
+          getComputedStyle(activeTag).opacity === "1"
+        ) {
+          break;
+        }
         await wait(180);
       }
 
@@ -505,6 +523,8 @@ try {
       const activeMetaDisplay = activeMeta ? getComputedStyle(activeMeta).display : "none";
       const activeDishesDisplay = activeDishes ? getComputedStyle(activeDishes).display : "none";
       const activeDishesText = activeDishes?.textContent?.trim() ?? "";
+      const zoomAfterFirstClick = document.querySelector(".amap-surface")?.getAttribute("data-amap-zoom-band");
+      const tagOpacityAfterFirstClick = firstTag ? getComputedStyle(firstTag).opacity : "0";
 
       activeTag?.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
 
@@ -531,9 +551,9 @@ try {
 
       return {
         zoomBeforeClick,
-        zoomBand: document.querySelector(".amap-surface")?.getAttribute("data-amap-zoom-band"),
+        zoomAfterFirstClick,
         tagCount: document.querySelectorAll(".map-marker__tag").length,
-        tagOpacity: firstTag ? getComputedStyle(firstTag).opacity : "0",
+        tagOpacityAfterFirstClick,
         activeMarkers,
         detailPopovers,
         collapsedWidth,
@@ -555,9 +575,9 @@ try {
 
   const mapTagValue = mapTagInteraction.result.value;
   assert(mapTagValue.zoomBeforeClick === "tag", `Map was not in tag-only state before click: ${JSON.stringify(mapTagValue)}`);
-  assert(mapTagValue.zoomBand === "tag", `Clicking a restaurant tag zoomed the map instead of expanding the tag: ${JSON.stringify(mapTagValue)}`);
+  assert(mapTagValue.zoomAfterFirstClick === "tag", `Clicking a restaurant tag zoomed the map instead of expanding the tag: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.tagCount > 0, "Restaurant map tags are missing");
-  assert(mapTagValue.tagOpacity === "1", `Restaurant map tags are not visible after zoom: ${JSON.stringify(mapTagValue)}`);
+  assert(mapTagValue.tagOpacityAfterFirstClick === "1", `Restaurant map tags are not visible after zoom: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.activeMarkers === 1, `Clicking a restaurant tag did not select exactly one marker: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.detailPopovers === 0, `Clicking a restaurant tag rendered a larger detail popup: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.expandedWidth > mapTagValue.collapsedWidth + 24, `Clicking a restaurant tag did not expand the tag: ${JSON.stringify(mapTagValue)}`);
@@ -847,6 +867,51 @@ try {
     })}`,
   );
 
+  const collapsedListMap = await cdp.send("Runtime.evaluate", {
+    expression: `(async () => {
+      const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+      await wait(550);
+      const anchorBefore = document.querySelector(".map-city-anchor")?.getBoundingClientRect();
+      const toggle = document.querySelector(".restaurant-list-toggle");
+      const listBefore = document.querySelector(".list-section")?.getBoundingClientRect();
+      toggle?.click();
+      await wait(450);
+      const anchorAfter = document.querySelector(".map-city-anchor")?.getBoundingClientRect();
+      const listAfter = document.querySelector(".list-section")?.getBoundingClientRect();
+      const toggleAfter = document.querySelector(".restaurant-list-toggle")?.getBoundingClientRect();
+
+      return {
+        collapsed: document.querySelector(".list-section")?.classList.contains("list-section--collapsed") ?? false,
+        anchorBefore: anchorBefore
+          ? { x: anchorBefore.left + anchorBefore.width / 2, y: anchorBefore.top + anchorBefore.height / 2 }
+          : null,
+        anchorAfter: anchorAfter
+          ? { x: anchorAfter.left + anchorAfter.width / 2, y: anchorAfter.top + anchorAfter.height / 2 }
+          : null,
+        listHeightBefore: listBefore?.height ?? 0,
+        listHeightAfter: listAfter?.height ?? 0,
+        toggleBelowSheet: Boolean(listAfter && toggleAfter && toggleAfter.top >= listAfter.bottom - 18)
+      };
+    })()`,
+    awaitPromise: true,
+    returnByValue: true,
+  });
+  const collapsedListMapValue = collapsedListMap.result.value;
+  assert(
+    collapsedListMapValue.collapsed &&
+      collapsedListMapValue.anchorBefore &&
+      collapsedListMapValue.anchorAfter &&
+      Math.abs(collapsedListMapValue.anchorBefore.x - collapsedListMapValue.anchorAfter.x) <= 2 &&
+      Math.abs(collapsedListMapValue.anchorBefore.y - collapsedListMapValue.anchorAfter.y) <= 2 &&
+      collapsedListMapValue.listHeightAfter < collapsedListMapValue.listHeightBefore &&
+      collapsedListMapValue.toggleBelowSheet,
+    `Collapsing the list moved the map or did not render as a bottom roller handle: ${JSON.stringify(collapsedListMapValue)}`,
+  );
+  await cdp.send("Runtime.evaluate", {
+    expression: `document.querySelector(".restaurant-list-toggle")?.click()`,
+  });
+  await delay(450);
+
   await cdp.send("Emulation.setDeviceMetricsOverride", {
     width: 844,
     height: 390,
@@ -1003,7 +1068,7 @@ try {
 	  );
 
 	  console.log(
-	    `Layout verification passed: ${desktopValue.brandText}, favicon=${desktopValue.faviconHref}, default ${desktopValue.defaultCityValue}, shared map scale ${desktopValue.mapScaleKm}km, floating map chrome, list ratio ${desktopValue.ratio.toFixed(3)}, desktop gaps ${JSON.stringify(desktopValue.listGaps)}, cityAnchorX=${Math.round(desktopValue.cityAnchorX)}, leftFocusX=${Math.round(desktopValue.expectedMapFocusX)}, tag click expands ${Math.round(mapTagValue.collapsedWidth)}->${Math.round(mapTagValue.expandedWidth)} then collapses by tag and map background, zoom stays ${mapTagValue.zoomBand}, detailPopovers=${mapTagValue.detailPopovers}, city switches ${JSON.stringify(citySwitchValue)}, portrait filters ${value.filterHeight}px/${value.filterLabelFontSize}/${value.filterValueFontSize}, landscape filters ${landscapeValue.filterHeight}px/${landscapeValue.filterLabelFontSize}/${landscapeValue.filterValueFontSize}, Chengdu centered at ${Math.round(landscapeValue.cityAnchorCenter.x)}/${Math.round(landscapeValue.cityAnchorCenter.y)}, mobile cost/star/link aligned; AMap status=${value.amapStatus}, liveNodes=${value.liveAmapNodes}, markers=${value.storedMapMarkers}.`,
+	    `Layout verification passed: ${desktopValue.brandText}, favicon=${desktopValue.faviconHref}, default ${desktopValue.defaultCityValue}, shared map scale ${desktopValue.mapScaleKm}km, floating map chrome, list ratio ${desktopValue.ratio.toFixed(3)}, desktop gaps ${JSON.stringify(desktopValue.listGaps)}, cityAnchorX=${Math.round(desktopValue.cityAnchorX)}, leftFocusX=${Math.round(desktopValue.expectedMapFocusX)}, tag click expands ${Math.round(mapTagValue.collapsedWidth)}->${Math.round(mapTagValue.expandedWidth)} then collapses by tag and map background, zoom stays ${mapTagValue.zoomAfterFirstClick}, detailPopovers=${mapTagValue.detailPopovers}, city switches ${JSON.stringify(citySwitchValue)}, portrait filters ${value.filterHeight}px/${value.filterLabelFontSize}/${value.filterValueFontSize}, landscape filters ${landscapeValue.filterHeight}px/${landscapeValue.filterLabelFontSize}/${landscapeValue.filterValueFontSize}, Chengdu centered at ${Math.round(landscapeValue.cityAnchorCenter.x)}/${Math.round(landscapeValue.cityAnchorCenter.y)}, mobile cost/star/link aligned; AMap status=${value.amapStatus}, liveNodes=${value.liveAmapNodes}, markers=${value.storedMapMarkers}.`,
 	  );
 
   await Promise.race([

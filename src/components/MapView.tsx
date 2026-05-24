@@ -413,12 +413,15 @@ function getMapFocus(element: HTMLElement | null, width: number, height: number)
   const mapRect = element?.getBoundingClientRect();
   const stageRect = document.querySelector(".content-shell")?.getBoundingClientRect();
   const chromeRect = document.querySelector(".chrome-layer")?.getBoundingClientRect();
-  const listRect = document.querySelector(".list-section")?.getBoundingClientRect();
+  const listElement = document.querySelector(".list-section");
+  const listRect = listElement?.getBoundingClientRect();
+  const listIsCollapsed = listElement?.classList.contains("list-section--collapsed") ?? false;
   const stageLeft = stageRect?.left ?? mapRect?.left ?? 0;
   const stageTop = stageRect?.top ?? mapRect?.top ?? 0;
   const stageRight = stageRect?.right ?? stageLeft + width;
   const stageBottom = stageRect?.bottom ?? stageTop + height;
   const stageWidth = stageRight - stageLeft;
+  const stageHeight = stageBottom - stageTop;
   const isLandscapeMobile = width <= MOBILE_LANDSCAPE_MAX_WIDTH && height <= MOBILE_LANDSCAPE_MAX_HEIGHT;
   const isPortraitMobile = width <= MOBILE_MAX_WIDTH;
   let visibleLeft = stageLeft;
@@ -437,7 +440,8 @@ function getMapFocus(element: HTMLElement | null, width: number, height: number)
     if (listIsRightRail) {
       visibleRight = Math.min(visibleRight, listRect.left);
     } else if (isPortraitMobile) {
-      visibleBottom = Math.min(visibleBottom, listRect.top);
+      const stableListTop = listIsCollapsed ? listRect.bottom - stageHeight * 0.43 : listRect.top;
+      visibleBottom = Math.min(visibleBottom, stableListTop);
     }
   }
 
