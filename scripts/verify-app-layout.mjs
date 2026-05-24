@@ -88,6 +88,17 @@ assert(
   mapViewSource.includes("listIsCollapsed") && mapViewSource.includes("stableListTop"),
   "Collapsed list state can still change the web map focus calculation",
 );
+assert(
+  mapViewSource.includes("const RESTORED_MARKER_SCALE_KM = 2") &&
+    mapViewSource.includes("const MIN_MARKER_SCALE = 0.5") &&
+    stylesSource.includes("scale(var(--map-marker-scale))"),
+  "Map pins are not scaled from 50% at the initial 14km scale back to full size at 2km",
+);
+assert(
+  stylesSource.includes(".list-section--collapsed .restaurant-list") &&
+    stylesSource.includes("display: none;"),
+  "Collapsed restaurant list still renders an empty panel instead of only the bottom handle",
+);
 
 function getFreePort() {
   return new Promise((resolve, reject) => {
@@ -389,6 +400,8 @@ try {
         amapMounted: Boolean(document.querySelector(".amap-surface")),
         amapStatus,
         mapScaleKm: mapSurface?.getAttribute("data-map-scale-km") ?? "",
+        markerFullScaleKm: mapSurface?.getAttribute("data-marker-full-scale-km") ?? "",
+        markerScale: mapSurface ? Number(getComputedStyle(mapSurface).getPropertyValue("--map-marker-scale")) : 0,
         mapZoom: window.AMap && mapSurface ? window.__michelinMapZoom ?? null : null,
         hasWindowAmap: Boolean(window.AMap),
         liveAmapNodes,
@@ -440,6 +453,11 @@ try {
   assert(desktopValue.amapMounted, "AMap surface is not mounted");
   assert(desktopValue.amapStatus === "ready", `AMap did not reach ready status on desktop: ${desktopValue.amapStatus}`);
   assert(desktopValue.mapScaleKm === "14", `Map scale is not Shanghai-inner-ring span: ${desktopValue.mapScaleKm}`);
+  assert(desktopValue.markerFullScaleKm === "2", `Map marker full scale is not pinned to 2km: ${desktopValue.markerFullScaleKm}`);
+  assert(
+    desktopValue.markerScale >= 0.49 && desktopValue.markerScale <= 0.51,
+    `Initial map pin scale is not 50% at 14km: ${JSON.stringify(desktopValue)}`,
+  );
   assert(desktopValue.realAmapMounted, `Live AMap DOM did not mount on desktop: ${JSON.stringify({ hasWindowAmap: desktopValue.hasWindowAmap, liveAmapNodes: desktopValue.liveAmapNodes })}`);
   assert(desktopValue.readyWithoutPlaceholder, "Ready AMap is still showing the CSS placeholder background");
   assert(desktopValue.storedMapMarkers > 0, `Expected stored AMap markers after ready, got ${desktopValue.storedMapMarkers}`);
@@ -496,6 +514,7 @@ try {
       const zoomBeforeClick = document.querySelector(".amap-surface")?.getAttribute("data-amap-zoom-band");
 
       const firstTag = document.querySelector(".map-marker__tag");
+      const anchorBeforeClick = document.querySelector(".map-city-anchor")?.getBoundingClientRect();
       const collapsedWidth = firstTag?.getBoundingClientRect().width ?? 0;
       firstTag?.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
 
@@ -525,6 +544,7 @@ try {
       const activeDishesText = activeDishes?.textContent?.trim() ?? "";
       const zoomAfterFirstClick = document.querySelector(".amap-surface")?.getAttribute("data-amap-zoom-band");
       const tagOpacityAfterFirstClick = firstTag ? getComputedStyle(firstTag).opacity : "0";
+      const anchorAfterClick = document.querySelector(".map-city-anchor")?.getBoundingClientRect();
 
       activeTag?.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
 
@@ -552,6 +572,12 @@ try {
       return {
         zoomBeforeClick,
         zoomAfterFirstClick,
+        anchorBeforeClick: anchorBeforeClick
+          ? { x: anchorBeforeClick.left + anchorBeforeClick.width / 2, y: anchorBeforeClick.top + anchorBeforeClick.height / 2 }
+          : null,
+        anchorAfterClick: anchorAfterClick
+          ? { x: anchorAfterClick.left + anchorAfterClick.width / 2, y: anchorAfterClick.top + anchorAfterClick.height / 2 }
+          : null,
         tagCount: document.querySelectorAll(".map-marker__tag").length,
         tagOpacityAfterFirstClick,
         activeMarkers,
@@ -575,7 +601,13 @@ try {
 
   const mapTagValue = mapTagInteraction.result.value;
   assert(mapTagValue.zoomBeforeClick === "tag", `Map was not in tag-only state before click: ${JSON.stringify(mapTagValue)}`);
-  assert(mapTagValue.zoomAfterFirstClick === "tag", `Clicking a restaurant tag zoomed the map instead of expanding the tag: ${JSON.stringify(mapTagValue)}`);
+  assert(
+    mapTagValue.anchorBeforeClick &&
+      mapTagValue.anchorAfterClick &&
+      Math.abs(mapTagValue.anchorBeforeClick.x - mapTagValue.anchorAfterClick.x) <= 2 &&
+      Math.abs(mapTagValue.anchorBeforeClick.y - mapTagValue.anchorAfterClick.y) <= 2,
+    `Clicking a restaurant tag moved the map instead of only expanding the tag: ${JSON.stringify(mapTagValue)}`,
+  );
   assert(mapTagValue.tagCount > 0, "Restaurant map tags are missing");
   assert(mapTagValue.tagOpacityAfterFirstClick === "1", `Restaurant map tags are not visible after zoom: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.activeMarkers === 1, `Clicking a restaurant tag did not select exactly one marker: ${JSON.stringify(mapTagValue)}`);
@@ -879,6 +911,7 @@ try {
       const anchorAfter = document.querySelector(".map-city-anchor")?.getBoundingClientRect();
       const listAfter = document.querySelector(".list-section")?.getBoundingClientRect();
       const toggleAfter = document.querySelector(".restaurant-list-toggle")?.getBoundingClientRect();
+      const restaurantListAfter = document.querySelector(".restaurant-list");
 
       return {
         collapsed: document.querySelector(".list-section")?.classList.contains("list-section--collapsed") ?? false,
@@ -890,7 +923,8 @@ try {
           : null,
         listHeightBefore: listBefore?.height ?? 0,
         listHeightAfter: listAfter?.height ?? 0,
-        toggleBelowSheet: Boolean(listAfter && toggleAfter && toggleAfter.top >= listAfter.bottom - 18)
+        restaurantListDisplay: restaurantListAfter ? getComputedStyle(restaurantListAfter).display : "missing",
+        toggleVisible: Boolean(toggleAfter && toggleAfter.width > 0 && toggleAfter.height > 0)
       };
     })()`,
     awaitPromise: true,
@@ -903,9 +937,10 @@ try {
       collapsedListMapValue.anchorAfter &&
       Math.abs(collapsedListMapValue.anchorBefore.x - collapsedListMapValue.anchorAfter.x) <= 2 &&
       Math.abs(collapsedListMapValue.anchorBefore.y - collapsedListMapValue.anchorAfter.y) <= 2 &&
-      collapsedListMapValue.listHeightAfter < collapsedListMapValue.listHeightBefore &&
-      collapsedListMapValue.toggleBelowSheet,
-    `Collapsing the list moved the map or did not render as a bottom roller handle: ${JSON.stringify(collapsedListMapValue)}`,
+      collapsedListMapValue.listHeightAfter <= 1 &&
+      collapsedListMapValue.restaurantListDisplay === "none" &&
+      collapsedListMapValue.toggleVisible,
+    `Collapsing the list moved the map or left an empty list panel instead of only the handle: ${JSON.stringify(collapsedListMapValue)}`,
   );
   await cdp.send("Runtime.evaluate", {
     expression: `document.querySelector(".restaurant-list-toggle")?.click()`,

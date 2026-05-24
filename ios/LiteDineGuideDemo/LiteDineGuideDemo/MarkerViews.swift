@@ -161,6 +161,7 @@ private struct PinBadge: View {
             LevelGlyph(restaurant: restaurant, pinSize: pinSize)
                 .offset(iconOffset)
         }
+        .scaleEffect(markerScale, anchor: .bottom)
         .accessibilityLabel("\(restaurant.name), \(restaurant.levelLabel)")
     }
 

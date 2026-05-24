@@ -301,18 +301,21 @@ struct ContentView: View {
                         }
                 }
                 .buttonStyle(.plain)
-                .padding(.bottom, 7)
+                .padding(.bottom, isListCollapsed ? 0 : 7)
                 .accessibilityLabel(isListCollapsed ? "展开列表" : "收起列表")
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .background(activeGuide.panelSurface, in: RoundedRectangle(cornerRadius: DineMetric.panelRadius, style: .continuous))
+        .background(
+            isListCollapsed ? Color.clear : activeGuide.panelSurface,
+            in: RoundedRectangle(cornerRadius: DineMetric.panelRadius, style: .continuous)
+        )
         .overlay {
             RoundedRectangle(cornerRadius: DineMetric.panelRadius, style: .continuous)
-                .stroke(activeGuide.panelStroke, lineWidth: 0.8)
+                .stroke(isListCollapsed ? Color.clear : activeGuide.panelStroke, lineWidth: 0.8)
         }
-        .shadow(color: .black.opacity(0.13), radius: 22, y: 10)
+        .shadow(color: .black.opacity(isListCollapsed ? 0 : 0.13), radius: 22, y: 10)
     }
 
     private func clearMapSelection() {
@@ -331,7 +334,7 @@ private enum DineMetric {
     static let dropdownGap: CGFloat = 8
     static let panelRadius: CGFloat = 8
     static let minimumSheetHeight: CGFloat = 252
-    static let collapsedSheetHeight: CGFloat = 48
+    static let collapsedSheetHeight: CGFloat = 24
     static let rowThumb: CGFloat = 44
     static let rowHorizontalPadding: CGFloat = 12
     static let rowVerticalPadding: CGFloat = 8

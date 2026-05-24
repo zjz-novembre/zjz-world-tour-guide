@@ -5,6 +5,9 @@ import UIKit
 
 struct DineMapView: View {
     private static let webCityScaleKilometers: CLLocationDistance = 14
+    private static let restoredMarkerScaleKilometers: CLLocationDistance = 2
+    private static let minimumMarkerScale: CGFloat = 0.5
+    private static let maximumMarkerScale: CGFloat = 1
     private static let webMobileMaxWidth: CGFloat = 760
     private static let webMobileCityScaleRatio: CGFloat = 0.92
     private static let kilometersPerLatitudeDegree: CLLocationDistance = 111.32
@@ -66,9 +69,18 @@ struct DineMapView: View {
     }
 
     private var markerScale: CGFloat {
-        let delta = max(visibleLongitudeDelta, 0.012)
-        let rawScale = 1 - log2(delta / DineCity.shanghai.span.longitudeDelta) * 0.12
-        return min(max(rawScale, 0.78), 1.18)
+        guard viewportSize.width > 1 else { return Self.minimumMarkerScale }
+
+        let latitudeFactor = max(cos(city.center.latitude * .pi / 180), 0.2)
+        let mapWidthKilometers = visibleLongitudeDelta * Self.kilometersPerLatitudeDegree * latitudeFactor
+        let focus = Self.webMapFocus(viewportSize: viewportSize, focusInsets: mapFocusInsets)
+        let visibleScaleKilometers = mapWidthKilometers * CLLocationDistance(focus.scaleWidth / viewportSize.width)
+        let progress = (Self.webCityScaleKilometers - visibleScaleKilometers) /
+            (Self.webCityScaleKilometers - Self.restoredMarkerScaleKilometers)
+        let scale = Self.minimumMarkerScale +
+            CGFloat(progress) * (Self.maximumMarkerScale - Self.minimumMarkerScale)
+
+        return min(max(scale, Self.minimumMarkerScale), Self.maximumMarkerScale)
     }
 
     fileprivate static func region(for city: DineCity, viewportSize: CGSize, focusInsets: EdgeInsets) -> MACoordinateRegion {

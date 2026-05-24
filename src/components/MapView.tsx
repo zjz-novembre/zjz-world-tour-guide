@@ -48,6 +48,9 @@ const MOBILE_LANDSCAPE_MAX_HEIGHT = 520;
 const SHANGHAI_INNER_RING_SPAN_KM = 14;
 const EARTH_CIRCUMFERENCE_METERS = 40_075_016.686;
 const MAP_TILE_SIZE = 256;
+const RESTORED_MARKER_SCALE_KM = 2;
+const MIN_MARKER_SCALE = 0.5;
+const MAX_MARKER_SCALE = 1;
 const RESTAURANT_MARKER_Z_INDEX = 30;
 const ACTIVE_RESTAURANT_MARKER_Z_INDEX = 10000;
 const PUBLIC_ASSET_BASE = new URL(import.meta.env.BASE_URL, window.location.origin);
@@ -77,6 +80,7 @@ export function MapView({
   const amapSecurityCode = mapConfig?.securityCode?.trim();
   const [mapStatus, setMapStatus] = useState<MapStatus>("loading");
   const [zoomBand, setZoomBand] = useState<ZoomBand>("pin");
+  const [markerScale, setMarkerScale] = useState(MIN_MARKER_SCALE);
 
   const restaurantKey = useMemo(
     () => restaurants.map((restaurant) => restaurant.id).join("|"),
@@ -121,21 +125,29 @@ export function MapView({
     }
 
     let cancelled = false;
+    let didMarkReady = false;
     let readinessFrame = 0;
     let readinessTimeout = 0;
     setMapStatus("loading");
     setZoomBand("pin");
+    setMarkerScale(MIN_MARKER_SCALE);
+
+    const syncZoomState = (zoom: number) => {
+      setZoomBand(getZoomBand(zoom));
+      setMarkerScale(getMarkerScale(zoom, cityRef.current, mapNode.current));
+    };
 
     const markReady = () => {
       if (cancelled) return;
       window.cancelAnimationFrame(readinessFrame);
       window.clearTimeout(readinessTimeout);
-      if (map.current) {
+      if (!didMarkReady && map.current) {
         applyCityView(map.current, cityRef.current, mapNode.current);
       }
+      didMarkReady = true;
       map.current?.setFeatures?.(AMAP_FEATURES);
       map.current?.setMapStyle?.(AMAP_STYLE);
-      setZoomBand(getZoomBand(map.current?.getZoom?.() ?? 12));
+      syncZoomState(map.current?.getZoom?.() ?? 12);
       setMapStatus("ready");
     };
 
@@ -172,11 +184,11 @@ export function MapView({
         nextMap.setFeatures?.(AMAP_FEATURES);
         nextMap.setMapStyle?.(AMAP_STYLE);
         setMapReady(true);
-        setZoomBand(getZoomBand(nextMap.getZoom?.() ?? 12));
+        syncZoomState(nextMap.getZoom?.() ?? initialZoom);
 
-        const syncZoomBand = () => setZoomBand(getZoomBand(nextMap.getZoom?.() ?? 12));
-        nextMap.on("zoomchange", syncZoomBand);
-        nextMap.on("zoomend", syncZoomBand);
+        const syncZoom = () => syncZoomState(nextMap.getZoom?.() ?? 12);
+        nextMap.on("zoomchange", syncZoom);
+        nextMap.on("zoomend", syncZoom);
         nextMap.on("complete", markReady);
         readinessFrame = window.requestAnimationFrame(watchLiveAmapDom);
         readinessTimeout = window.setTimeout(() => {
@@ -245,7 +257,9 @@ export function MapView({
 
       map.current.add([cityAnchor, ...nextMarkers, ...(userMarker ? [userMarker] : [])]);
       applyCityView(map.current, city, mapNode.current);
-      setZoomBand(getZoomBand(map.current.getZoom?.() ?? getVisibleCityZoom(city, mapNode.current)));
+      const zoom = map.current.getZoom?.() ?? getVisibleCityZoom(city, mapNode.current);
+      setZoomBand(getZoomBand(zoom));
+      setMarkerScale(getMarkerScale(zoom, city, mapNode.current));
     });
 
     return () => {
@@ -301,7 +315,9 @@ export function MapView({
       resizeFrame = window.requestAnimationFrame(() => {
         if (!map.current) return;
         applyCityView(map.current, city, mapNode.current);
-        setZoomBand(getZoomBand(map.current.getZoom?.() ?? getVisibleCityZoom(city, mapNode.current)));
+        const zoom = map.current.getZoom?.() ?? getVisibleCityZoom(city, mapNode.current);
+        setZoomBand(getZoomBand(zoom));
+        setMarkerScale(getMarkerScale(zoom, city, mapNode.current));
       });
     };
 
@@ -342,7 +358,9 @@ export function MapView({
       data-map-city={city.value}
       data-amap-zoom-band={zoomBand}
       data-map-scale-km={SHANGHAI_INNER_RING_SPAN_KM}
+      data-marker-full-scale-km={RESTORED_MARKER_SCALE_KM}
       data-cached-map={mapStatus === "ready" ? "hidden" : "visible"}
+      style={{ "--map-marker-scale": markerScale } as CSSProperties}
     >
       <div ref={mapNode} className="amap-live-layer" aria-hidden={mapStatus !== "ready"} />
       {mapStatus !== "ready" && (
@@ -371,6 +389,14 @@ function getZoomBand(zoom: number): ZoomBand {
   if (zoom >= 17.5) return "detail";
   if (zoom >= 14.5) return "tag";
   return "pin";
+}
+
+function getMarkerScale(zoom: number, city: CityOption, element: HTMLElement | null) {
+  const initialZoom = getVisibleCityZoom(city, element);
+  const fullScaleZoom = initialZoom + Math.log2(SHANGHAI_INNER_RING_SPAN_KM / RESTORED_MARKER_SCALE_KM);
+  const progress = (zoom - initialZoom) / Math.max(fullScaleZoom - initialZoom, 0.0001);
+
+  return clamp(MIN_MARKER_SCALE + progress * (MAX_MARKER_SCALE - MIN_MARKER_SCALE), MIN_MARKER_SCALE, MAX_MARKER_SCALE);
 }
 
 function applyCityView(activeMap: AMapMap, city: CityOption, element: HTMLElement | null) {

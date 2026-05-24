@@ -454,6 +454,7 @@ button {
 }
 
 .amap-surface {
+  --map-marker-scale: 0.5;
   background-color: var(--color-map-ground);
   height: 100%;
   min-height: 100vh;
@@ -599,7 +600,8 @@ button {
   height: var(--size-map-pin);
   justify-content: center;
   padding: 0;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) scale(var(--map-marker-scale));
+  transform-origin: 50% 100%;
   width: var(--size-map-pin);
 }
 
@@ -1012,7 +1014,8 @@ button {
   justify-content: center;
   padding: 0;
   position: absolute;
-  transform: translate(-50%, -100%) rotate(-45deg);
+  transform: translate(-50%, -100%) rotate(-45deg) scale(var(--map-marker-scale));
+  transform-origin: 50% 100%;
   width: var(--size-map-pin);
 }
 
@@ -1054,7 +1057,7 @@ button {
 }
 
 .list-section--collapsed {
-  height: 3rem;
+  height: 0;
   top: auto;
 }
 
@@ -1089,6 +1092,10 @@ button {
   transform: rotate(180deg);
 }
 
+.list-section--collapsed .restaurant-list-toggle {
+  bottom: 0;
+}
+
 .restaurant-list {
   background: color-mix(in srgb, var(--color-surface) 96%, transparent);
   border: 0.0625rem solid var(--color-line);
@@ -1102,6 +1109,10 @@ button {
 
 .list-section--collapsed .restaurant-list__head,
 .list-section--collapsed .restaurant-list__body {
+  display: none;
+}
+
+.list-section--collapsed .restaurant-list {
   display: none;
 }
 
