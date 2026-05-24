@@ -1,6 +1,6 @@
-# Lite Dine Guide iOS Demo
+# Dine Guide iOS Demo
 
-Native SwiftUI + MapKit demo for a lightweight Michelin / Black Pearl guide.
+Native SwiftUI + MapKit demo for Dine Guide, a lightweight Michelin / Black Pearl guide.
 
 ## What This Proves
 
