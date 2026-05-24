@@ -162,7 +162,7 @@ struct ContentView: View {
             .frame(width: layout.chromeWidth, height: DineMetric.chromeHeight, alignment: .top)
             .position(
                 x: layout.chromeLeading + layout.chromeWidth / 2,
-                y: DineMetric.topInset + DineMetric.chromeHeight / 2
+                y: layout.chromeTopInset + DineMetric.chromeHeight / 2
             )
     }
 
@@ -181,7 +181,7 @@ struct ContentView: View {
         if let activeDropdown {
             let chipWidth = (layout.chromeWidth - DineMetric.filterGap * 2) / 3
             let x = layout.chromeLeading + CGFloat(activeDropdown.index) * (chipWidth + DineMetric.filterGap)
-            let y = DineMetric.topInset + DineMetric.headerHeight + DineMetric.chromeGap + DineMetric.filterHeight + DineMetric.dropdownGap
+            let y = layout.chromeTopInset + DineMetric.headerHeight + DineMetric.chromeGap + DineMetric.filterHeight + DineMetric.dropdownGap
 
             ZStack(alignment: .topLeading) {
                 Color.clear
@@ -337,7 +337,7 @@ struct ContentView: View {
 
 private enum DineMetric {
     static let edge: CGFloat = 16
-    static let topInset: CGFloat = 2
+    static let portraitTopInset: CGFloat = 2
     static let headerHeight: CGFloat = 30
     static let chromeGap: CGFloat = 10
     static let filterHeight: CGFloat = 59
@@ -370,6 +370,10 @@ private struct DineLayout {
 
     var chromeLeading: CGFloat {
         isWebLandscape ? Self.landscapeChromeLeading : DineMetric.edge
+    }
+
+    var chromeTopInset: CGFloat {
+        isWebLandscape ? Self.landscapePanelGutter : DineMetric.portraitTopInset
     }
 
     private var panelTrailingGutter: CGFloat {
@@ -429,14 +433,14 @@ private struct DineLayout {
     var mapFocusInsets: EdgeInsets {
         if isWebLandscape {
             return EdgeInsets(
-                top: DineMetric.topInset + DineMetric.chromeHeight,
+                top: chromeTopInset + DineMetric.chromeHeight,
                 leading: 0,
                 bottom: 0,
                 trailing: size.width - listLeading
             )
         }
         return EdgeInsets(
-            top: DineMetric.topInset + DineMetric.chromeHeight,
+            top: chromeTopInset + DineMetric.chromeHeight,
             leading: 0,
             bottom: expandedListHeight + DineMetric.edge,
             trailing: 0
