@@ -34,11 +34,7 @@ struct ContentView: View {
 
     var body: some View {
         GeometryReader { proxy in
-            let layout = DineLayout(
-                size: proxy.size,
-                safeAreaInsets: proxy.safeAreaInsets,
-                isListCollapsed: isListCollapsed
-            )
+            let layout = DineLayout(size: proxy.size, isListCollapsed: isListCollapsed)
 
             DineMapView(
                 guide: activeGuide,
@@ -165,8 +161,8 @@ struct ContentView: View {
         topChrome
             .frame(width: layout.chromeWidth, height: DineMetric.chromeHeight, alignment: .top)
             .position(
-                x: layout.chromeLeading + layout.chromeWidth / 2,
-                y: layout.chromeTopInset + DineMetric.chromeHeight / 2
+                x: DineMetric.edge + layout.chromeWidth / 2,
+                y: DineMetric.topInset + DineMetric.chromeHeight / 2
             )
     }
 
@@ -184,8 +180,8 @@ struct ContentView: View {
     private func dropdownLayer(layout: DineLayout) -> some View {
         if let activeDropdown {
             let chipWidth = (layout.chromeWidth - DineMetric.filterGap * 2) / 3
-            let x = layout.chromeLeading + CGFloat(activeDropdown.index) * (chipWidth + DineMetric.filterGap)
-            let y = layout.chromeTopInset + DineMetric.headerHeight + DineMetric.chromeGap + DineMetric.filterHeight + DineMetric.dropdownGap
+            let x = DineMetric.edge + CGFloat(activeDropdown.index) * (chipWidth + DineMetric.filterGap)
+            let y = DineMetric.topInset + DineMetric.headerHeight + DineMetric.chromeGap + DineMetric.filterHeight + DineMetric.dropdownGap
 
             ZStack(alignment: .topLeading) {
                 Color.clear
@@ -341,7 +337,7 @@ struct ContentView: View {
 
 private enum DineMetric {
     static let edge: CGFloat = 16
-    static let portraitTopInset: CGFloat = 2
+    static let topInset: CGFloat = 2
     static let headerHeight: CGFloat = 30
     static let chromeGap: CGFloat = 10
     static let filterHeight: CGFloat = 59
@@ -360,54 +356,20 @@ private enum DineMetric {
 }
 
 private struct DineLayout {
+    private static let webLandscapeChromeRatio: CGFloat = 0.58
     private static let webLandscapeListRatio: CGFloat = 0.40
     private static let portraitSheetRatio: CGFloat = 0.43
-    private static let landscapeChromeLeading: CGFloat = 12
-    private static let landscapePanelGutter: CGFloat = 14
 
     let size: CGSize
-    let safeAreaInsets: EdgeInsets
     let isListCollapsed: Bool
 
     var isWebLandscape: Bool {
         size.width > size.height
     }
 
-    var chromeLeading: CGFloat {
-        isWebLandscape ? Self.landscapeChromeLeading : DineMetric.edge
-    }
-
-    var chromeTopInset: CGFloat {
-        isWebLandscape ? landscapeTopGutter : DineMetric.portraitTopInset
-    }
-
-    private var panelTrailingGutter: CGFloat {
-        isWebLandscape ? Self.landscapePanelGutter : DineMetric.edge
-    }
-
-    private var landscapeTopGutter: CGFloat {
-        Self.landscapePanelGutter - safeAreaInsets.top
-    }
-
-    private var landscapeBottomGutter: CGFloat {
-        Self.landscapePanelGutter - safeAreaInsets.bottom
-    }
-
-    private var panelTopGutter: CGFloat {
-        isWebLandscape ? landscapeTopGutter : DineMetric.edge
-    }
-
-    private var panelBottomGutter: CGFloat {
-        isWebLandscape ? landscapeBottomGutter : DineMetric.edge
-    }
-
-    private var listLeading: CGFloat {
-        size.width - panelTrailingGutter - listWidth
-    }
-
     var chromeWidth: CGFloat {
         if isWebLandscape {
-            return max(listLeading - DineMetric.filterGap - chromeLeading, 1)
+            return max(size.width * Self.webLandscapeChromeRatio - DineMetric.edge, 1)
         }
         return max(size.width - DineMetric.edge * 2, 1)
     }
@@ -421,7 +383,7 @@ private struct DineLayout {
 
     var expandedListHeight: CGFloat {
         if isWebLandscape {
-            return max(size.height - panelTopGutter - panelBottomGutter, 1)
+            return max(size.height - DineMetric.edge * 2, 1)
         }
         return max(size.height * Self.portraitSheetRatio, DineMetric.minimumSheetHeight)
     }
@@ -432,7 +394,7 @@ private struct DineLayout {
 
     var listCenterX: CGFloat {
         if isWebLandscape {
-            return size.width - panelTrailingGutter - listWidth / 2
+            return size.width - DineMetric.edge - listWidth / 2
         }
         return size.width / 2
     }
@@ -440,9 +402,9 @@ private struct DineLayout {
     var listCenterY: CGFloat {
         if isWebLandscape {
             if isListCollapsed {
-                return size.height - panelBottomGutter - DineMetric.collapsedSheetHeight / 2
+                return size.height - DineMetric.edge - DineMetric.collapsedSheetHeight / 2
             }
-            return panelTopGutter + expandedListHeight / 2
+            return DineMetric.edge + expandedListHeight / 2
         }
         return size.height - DineMetric.edge - listHeight / 2
     }
@@ -450,14 +412,14 @@ private struct DineLayout {
     var mapFocusInsets: EdgeInsets {
         if isWebLandscape {
             return EdgeInsets(
-                top: chromeTopInset + DineMetric.chromeHeight,
+                top: DineMetric.topInset + DineMetric.chromeHeight,
                 leading: 0,
                 bottom: 0,
-                trailing: size.width - listLeading
+                trailing: size.width - (size.width - DineMetric.edge - listWidth)
             )
         }
         return EdgeInsets(
-            top: chromeTopInset + DineMetric.chromeHeight,
+            top: DineMetric.topInset + DineMetric.chromeHeight,
             leading: 0,
             bottom: expandedListHeight + DineMetric.edge,
             trailing: 0
