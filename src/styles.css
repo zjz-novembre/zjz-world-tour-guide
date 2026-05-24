@@ -79,6 +79,7 @@
   --size-user-location-arrow: 0.86rem;
   --size-map-tag-max: 11rem;
   --size-map-tag-detail: 18rem;
+  --size-map-tag-detail-expanded: 23rem;
   --size-map-tag-image: 3.2rem;
   --size-map-tag-gap: var(--space-1);
   --size-guide-switch: 2rem;
@@ -789,11 +790,12 @@ button {
   align-items: center;
   gap: var(--space-3);
   grid-template-columns: auto minmax(0, 1fr);
-  max-width: var(--size-map-tag-detail);
+  max-width: min(var(--size-map-tag-detail-expanded), calc(100vw - var(--space-8)));
+  min-width: var(--size-map-tag-detail);
   opacity: 1;
   padding: var(--space-3);
   pointer-events: auto;
-  width: var(--size-map-tag-detail);
+  width: max-content;
 }
 
 .map-marker--active .map-marker__tag-image,
@@ -808,11 +810,13 @@ button {
 
 .map-marker--active .map-marker__tag-name {
   font-size: 0.86rem;
-  max-width: calc(var(--size-map-tag-detail) - var(--size-map-tag-image) - var(--space-8));
+  max-width: calc(min(var(--size-map-tag-detail-expanded), calc(100vw - var(--space-8))) - var(--size-map-tag-image) - var(--space-8));
 }
 
 .map-marker--active .map-marker__tag-dishes {
   line-height: 1.35;
+  overflow: visible;
+  text-overflow: clip;
   white-space: normal;
 }
 

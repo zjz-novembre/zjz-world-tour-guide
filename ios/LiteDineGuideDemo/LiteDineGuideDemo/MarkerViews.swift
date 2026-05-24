@@ -33,7 +33,14 @@ struct RestaurantMarkerLayout {
     static let smallTagHorizontalPadding: CGFloat = 12
     static let smallTagVerticalPadding: CGFloat = 8
     static let detailTagWidth: CGFloat = 288
-    static let detailTagHeight: CGFloat = 75.2
+    static let detailTagMinimumHeight: CGFloat = 75.2
+    static let detailTagImageSize: CGFloat = 51.2
+    static let detailTagPadding: CGFloat = 12
+    static let detailTagSpacing: CGFloat = 12
+    static let detailTagTextSpacing: CGFloat = 5
+    static let detailTagNameFontSize: CGFloat = 13.76
+    static let detailTagMetaFontSize: CGFloat = 10.88
+    static let detailTagDishesFontSize: CGFloat = 10.88
 
     let size: CGSize
     let pinCenter: CGPoint
@@ -78,9 +85,10 @@ struct RestaurantMarkerLayout {
             return RestaurantMarkerLayout(size: size, pinCenter: pinCenter, tagCenter: tagCenter)
         case .detailTag:
             let visualPinRight = pinSize / 2 + pinSize * markerScale / 2
+            let tagHeight = detailTagHeight(for: restaurant)
             let size = CGSize(
                 width: visualPinRight + tagGap + detailTagWidth,
-                height: detailTagHeight
+                height: tagHeight
             )
             let pinY = size.height / 2
             let pinCenter = CGPoint(
@@ -110,6 +118,55 @@ struct RestaurantMarkerLayout {
             context: nil
         ).width
         return min(ceil(measured), smallTagTextMaxWidth)
+    }
+
+    static func detailTagHeight(for restaurant: Restaurant) -> CGFloat {
+        let textWidth = detailTagTextWidth
+        let dishes = restaurant.dishes.joined(separator: " / ")
+        let dishHeight = measuredHeight(
+            text: dishes,
+            fontName: "OpenAISans-Regular",
+            fontSize: detailTagDishesFontSize,
+            width: textWidth,
+            lineHeightMultiple: 1.35
+        )
+        let textHeight =
+            ceil(detailTagNameFontSize * 1.25) +
+            detailTagTextSpacing +
+            ceil(detailTagMetaFontSize * 1.25) +
+            detailTagTextSpacing +
+            dishHeight
+        let contentHeight = max(detailTagImageSize, textHeight)
+        return max(detailTagMinimumHeight, ceil(contentHeight + detailTagPadding * 2))
+    }
+
+    static var detailTagTextWidth: CGFloat {
+        detailTagWidth - detailTagPadding * 2 - detailTagImageSize - detailTagSpacing
+    }
+
+    private static func measuredHeight(
+        text: String,
+        fontName: String,
+        fontSize: CGFloat,
+        width: CGFloat,
+        lineHeightMultiple: CGFloat
+    ) -> CGFloat {
+        guard !text.isEmpty,
+              let font = UIFont(name: fontName, size: fontSize) else {
+            return ceil(fontSize * lineHeightMultiple)
+        }
+        let paragraph = NSMutableParagraphStyle()
+        paragraph.lineHeightMultiple = lineHeightMultiple
+        let measured = (text as NSString).boundingRect(
+            with: CGSize(width: width, height: CGFloat.greatestFiniteMagnitude),
+            options: [.usesLineFragmentOrigin, .usesFontLeading],
+            attributes: [
+                .font: font,
+                .paragraphStyle: paragraph
+            ],
+            context: nil
+        ).height
+        return ceil(measured)
     }
 }
 
@@ -291,7 +348,7 @@ private struct MarkerDetail: View {
             VStack(alignment: .leading, spacing: 5) {
                 HStack(spacing: 7) {
                     Text(restaurant.name)
-                        .font(DineFont.semibold(13.76))
+                        .font(DineFont.semibold(RestaurantMarkerLayout.detailTagNameFontSize))
                         .foregroundStyle(primaryText)
                         .lineLimit(1)
 
@@ -299,29 +356,30 @@ private struct MarkerDetail: View {
 
                 HStack(spacing: 4) {
                     Text(restaurant.levelLabel)
-                        .font(DineFont.medium(10.88))
+                        .font(DineFont.medium(RestaurantMarkerLayout.detailTagMetaFontSize))
                         .foregroundStyle(levelColor)
                         .lineLimit(1)
 
                     Text("·")
-                        .font(DineFont.medium(10.88))
+                        .font(DineFont.medium(RestaurantMarkerLayout.detailTagMetaFontSize))
                         .foregroundStyle(secondaryText)
 
                     Text(restaurant.costDisplay)
-                        .font(DineFont.medium(10.88))
+                        .font(DineFont.medium(RestaurantMarkerLayout.detailTagMetaFontSize))
                         .foregroundStyle(secondaryText)
                         .lineLimit(1)
                 }
 
                 Text(restaurant.dishes.joined(separator: " / "))
-                    .font(DineFont.regular(10.88))
+                    .font(DineFont.regular(RestaurantMarkerLayout.detailTagDishesFontSize))
                     .foregroundStyle(secondaryText)
-                    .lineLimit(2)
+                    .lineLimit(nil)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            .frame(minWidth: 0)
+            .frame(width: RestaurantMarkerLayout.detailTagTextWidth, alignment: .leading)
         }
-        .padding(12)
-        .frame(width: 288, alignment: .leading)
+        .padding(RestaurantMarkerLayout.detailTagPadding)
+        .frame(width: RestaurantMarkerLayout.detailTagWidth, alignment: .leading)
         .background(detailSurface, in: RoundedRectangle(cornerRadius: 6, style: .continuous))
         .overlay {
             RoundedRectangle(cornerRadius: 6, style: .continuous)
@@ -376,7 +434,7 @@ private struct MarkerDetailImage: View {
                     .foregroundStyle(restaurant.guide.accentColor.opacity(0.82))
             }
         }
-        .frame(width: 51.2, height: 51.2)
+        .frame(width: RestaurantMarkerLayout.detailTagImageSize, height: RestaurantMarkerLayout.detailTagImageSize)
         .clipped()
     }
 }
