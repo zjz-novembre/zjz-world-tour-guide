@@ -46,6 +46,7 @@ const MOBILE_MAX_WIDTH = 760;
 const MOBILE_LANDSCAPE_MAX_WIDTH = 960;
 const MOBILE_LANDSCAPE_MAX_HEIGHT = 520;
 const SHANGHAI_INNER_RING_SPAN_KM = 14;
+const SELECTED_RESTAURANT_SCALE_KM = 1;
 const EARTH_CIRCUMFERENCE_METERS = 40_075_016.686;
 const MAP_TILE_SIZE = 256;
 const RESTORED_MARKER_SCALE_KM = 2;
@@ -85,6 +86,10 @@ export function MapView({
   const restaurantKey = useMemo(
     () => restaurants.map((restaurant) => restaurant.id).join("|"),
     [restaurants],
+  );
+  const selectedRestaurant = useMemo(
+    () => restaurants.find((restaurant) => restaurant.id === selectedId) ?? null,
+    [restaurants, selectedId],
   );
 
   useEffect(() => {
@@ -349,6 +354,23 @@ export function MapView({
     marker.setzIndex?.(ACTIVE_RESTAURANT_MARKER_Z_INDEX);
   }, [selectedId, selectedMode]);
 
+  useEffect(() => {
+    if (!map.current || !mapReady || selectedMode !== "small" || !selectedRestaurant?.position) {
+      return;
+    }
+
+    const zoom = getVisibleScaleZoom(
+      selectedRestaurant.position[1],
+      SELECTED_RESTAURANT_SCALE_KM,
+      mapNode.current,
+    );
+    const center = getVisibleCoordinateCenter(selectedRestaurant.position, mapNode.current, zoom);
+
+    applyMapView(map.current, zoom, center);
+    setZoomBand(getZoomBand(zoom));
+    setMarkerScale(getMarkerScale(zoom, city, mapNode.current));
+  }, [city, mapReady, selectedMode, selectedRestaurant]);
+
   return (
     <div
       ref={surfaceNode}
@@ -403,6 +425,10 @@ function applyCityView(activeMap: AMapMap, city: CityOption, element: HTMLElemen
   const zoom = getVisibleCityZoom(city, element);
   const center = getVisibleCityCenter(city, element, zoom);
 
+  applyMapView(activeMap, zoom, center);
+}
+
+function applyMapView(activeMap: AMapMap, zoom: number, center: [number, number]) {
   if (activeMap.setZoomAndCenter) {
     activeMap.setZoomAndCenter(zoom, center, true);
     return;
@@ -413,23 +439,39 @@ function applyCityView(activeMap: AMapMap, city: CityOption, element: HTMLElemen
 }
 
 function getVisibleCityCenter(city: CityOption, element: HTMLElement | null, zoom: number): [number, number] {
+  return getVisibleCoordinateCenter(city.center, element, zoom);
+}
+
+function getVisibleCoordinateCenter(
+  coordinate: [number, number],
+  element: HTMLElement | null,
+  zoom: number,
+): [number, number] {
   const width = element?.clientWidth ?? window.innerWidth;
   const height = element?.clientHeight ?? window.innerHeight;
   const focus = getMapFocus(element, width, height);
   const horizontalPixels = width / 2 - focus.x;
   const verticalPixels = height / 2 - focus.y;
-  const lngShift = getLongitudeShiftForPixels(horizontalPixels, city.center[1], zoom);
-  const latShift = getLatitudeShiftForPixels(verticalPixels, city.center[1], zoom);
+  const lngShift = getLongitudeShiftForPixels(horizontalPixels, coordinate[1], zoom);
+  const latShift = getLatitudeShiftForPixels(verticalPixels, coordinate[1], zoom);
 
-  return [city.center[0] + lngShift, city.center[1] + latShift];
+  return [coordinate[0] + lngShift, coordinate[1] + latShift];
 }
 
 function getVisibleCityZoom(city: CityOption, element: HTMLElement | null) {
+  return getVisibleScaleZoom(city.center[1], SHANGHAI_INNER_RING_SPAN_KM, element);
+}
+
+function getVisibleScaleZoom(
+  latitude: number,
+  focusWidthKilometers: number,
+  element: HTMLElement | null,
+) {
   const width = element?.clientWidth ?? window.innerWidth;
   const height = element?.clientHeight ?? window.innerHeight;
   const { scaleWidth } = getMapFocus(element, width, height);
-  const metersPerPixel = (SHANGHAI_INNER_RING_SPAN_KM * 1000) / scaleWidth;
-  const latitudeFactor = Math.max(Math.cos((city.center[1] * Math.PI) / 180), 0.2);
+  const metersPerPixel = (focusWidthKilometers * 1000) / scaleWidth;
+  const latitudeFactor = Math.max(Math.cos((latitude * Math.PI) / 180), 0.2);
   const worldPixels = (EARTH_CIRCUMFERENCE_METERS * latitudeFactor) / metersPerPixel;
 
   return Math.log2(worldPixels / MAP_TILE_SIZE);
