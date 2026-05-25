@@ -12,6 +12,8 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Dine Guide</string>
+	<key>DineGuideCommercialVersion</key>
+	<string>1.0.0-202605250602</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

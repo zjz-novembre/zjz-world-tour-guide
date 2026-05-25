@@ -1,6 +1,6 @@
 {
   "name": "michelin-list",
-  "version": "0.1.0",
+  "version": "1.0.0-202605250602",
   "private": true,
   "type": "module",
   "scripts": {
