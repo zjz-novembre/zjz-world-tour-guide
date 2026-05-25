@@ -233,9 +233,7 @@ export function App() {
                 options={activeCityOptions.map((option) => ({
                   value: option.value,
                   label: option.label,
-                  searchText: `${option.label} ${option.cityName} ${option.province} ${option.country}`,
                 }))}
-                searchable
                 value={filters.city}
               />
             </div>
