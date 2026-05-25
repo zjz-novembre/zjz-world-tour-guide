@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { ExternalLinkIcon, MapPinIcon } from "./icons";
 import { LevelMark } from "./LevelMark";
 import { formatCost } from "../lib/format";
@@ -64,6 +65,14 @@ export function RestaurantList({
   onSelect,
   guide,
 }: RestaurantListProps) {
+  const bodyRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (!selectedId || restaurants[0]?.id !== selectedId) return;
+    if (!bodyRef.current) return;
+    bodyRef.current.scrollTop = 0;
+  }, [restaurants, selectedId]);
+
   return (
     <div className="restaurant-list" role="table" aria-label="餐厅列表">
       <div className="restaurant-list__head" role="row">
@@ -74,7 +83,7 @@ export function RestaurantList({
         <span role="columnheader" aria-label="定位" />
       </div>
 
-      <div className="restaurant-list__body">
+      <div ref={bodyRef} className="restaurant-list__body">
         {restaurants.map((restaurant) => {
           const cost = formatCost(restaurant.costPerPersonCny, restaurant.michelinPrice);
           const dishes = dishesLabel(restaurant);

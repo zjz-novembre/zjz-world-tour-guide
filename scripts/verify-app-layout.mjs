@@ -545,6 +545,9 @@ try {
       const zoomAfterFirstClick = document.querySelector(".amap-surface")?.getAttribute("data-amap-zoom-band");
       const tagOpacityAfterFirstClick = firstTag ? getComputedStyle(firstTag).opacity : "0";
       const anchorAfterClick = document.querySelector(".map-city-anchor")?.getBoundingClientRect();
+      const firstRowName = document.querySelector(".restaurant-row:first-child .restaurant-row__name")?.textContent?.trim() ?? "";
+      const activeMarkerWrapper = activeTag?.closest(".amap-marker");
+      const activeMarkerWrapperZIndex = activeMarkerWrapper ? getComputedStyle(activeMarkerWrapper).zIndex : "";
 
       activeTag?.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
 
@@ -589,6 +592,8 @@ try {
         activeDishesText,
         activeMarkerName,
         activeRowName,
+        firstRowName,
+        activeMarkerWrapperZIndex,
         activeMarkersAfterSecondClick,
         activeRowsAfterSecondClick,
         activeMarkersAfterMapClick: document.querySelectorAll(".map-marker--active").length,
@@ -616,6 +621,11 @@ try {
   assert(mapTagValue.activeMetaDisplay !== "none", `Expanded restaurant tag did not show cost/star detail: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.activeDishesDisplay !== "none" && mapTagValue.activeDishesText, `Expanded restaurant tag did not show dishes: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.activeMarkerName === mapTagValue.activeRowName, `Map marker and list selection are out of sync: ${JSON.stringify(mapTagValue)}`);
+  assert(mapTagValue.activeRowName === mapTagValue.firstRowName, `Clicked map marker restaurant was not promoted to the top of the list: ${JSON.stringify(mapTagValue)}`);
+  assert(
+    Number.parseInt(mapTagValue.activeMarkerWrapperZIndex, 10) >= 10000,
+    `Expanded map marker tag is not in the foreground stacking layer: ${JSON.stringify(mapTagValue)}`,
+  );
   assert(
     mapTagValue.activeMarkersAfterSecondClick === 0 && mapTagValue.activeRowsAfterSecondClick === 0,
     `Second click on an expanded tag did not collapse selection: ${JSON.stringify(mapTagValue)}`,

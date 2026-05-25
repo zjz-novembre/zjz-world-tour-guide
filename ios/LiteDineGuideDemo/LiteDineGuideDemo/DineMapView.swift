@@ -540,6 +540,9 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
                     markerScale: parent.markerScale
                 )
                 view.layer.zPosition = zPosition(for: annotation.restaurant, presentation: presentation, isFocused: isSelected)
+                if isSelected {
+                    view.superview?.bringSubviewToFront(view)
+                }
                 if !isSelected {
                     mapView.deselectAnnotation(annotation, animated: false)
                 }
@@ -716,11 +719,11 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
             if isFocused {
                 switch presentation {
                 case .detailTag:
-                    return 1000
+                    return 100_000
                 case .smallTag:
-                    return 900
+                    return 90_000
                 case .pinOnly:
-                    return 800
+                    return 80_000
                 }
             }
 
@@ -848,11 +851,11 @@ private final class DineRestaurantAnnotationView: MAAnnotationView {
         if isFocused {
             switch presentation {
             case .detailTag:
-                return 1000
+                return 100_000
             case .smallTag:
-                return 900
+                return 90_000
             case .pinOnly:
-                return 800
+                return 80_000
             }
         }
 

@@ -548,7 +548,12 @@ button {
 }
 
 .amap-surface .amap-marker {
-  z-index: 2 !important;
+  z-index: 2;
+}
+
+.amap-surface .amap-marker:has(.map-marker--active),
+.amap-surface .amap-marker:has(.map-marker--selected-small) {
+  z-index: var(--z-active-marker) !important;
 }
 
 .map-city-anchor {
@@ -591,6 +596,11 @@ button {
   justify-content: center;
   line-height: 1;
   position: relative;
+}
+
+.map-marker--active,
+.map-marker--selected-small {
+  z-index: var(--z-active-marker);
 }
 
 .map-marker__pin {
@@ -1036,6 +1046,7 @@ button {
   box-shadow:
     0 0 0 0.25rem color-mix(in srgb, var(--color-brand) 18%, transparent),
     0 0.5rem 1.4rem rgb(36 36 36 / 0.18);
+  z-index: var(--z-active-marker);
 }
 
 .offline-city-map__marker--bib-gourmand {

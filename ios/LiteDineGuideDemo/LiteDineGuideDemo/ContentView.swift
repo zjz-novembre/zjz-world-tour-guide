@@ -32,6 +32,19 @@ struct ContentView: View {
             }
     }
 
+    private var listedRestaurants: [Restaurant] {
+        guard selectedMarkerPresentation == .detailTag,
+              let selectedRestaurant,
+              let selectedIndex = filteredRestaurants.firstIndex(where: { $0.id == selectedRestaurant.id }),
+              selectedIndex > 0 else {
+            return filteredRestaurants
+        }
+
+        var nextRestaurants = filteredRestaurants
+        let focusedRestaurant = nextRestaurants.remove(at: selectedIndex)
+        return [focusedRestaurant] + nextRestaurants
+    }
+
     var body: some View {
         GeometryReader { proxy in
             let layout = DineLayout(
@@ -266,37 +279,44 @@ struct ContentView: View {
     private var restaurantSheet: some View {
         ZStack(alignment: .topTrailing) {
             if !isListCollapsed {
-                ScrollView(.vertical, showsIndicators: false) {
-                    LazyVStack(spacing: 0) {
-                        ForEach(Array(filteredRestaurants.enumerated()), id: \.element.id) { index, restaurant in
-                            RestaurantRow(
-                                restaurant: restaurant,
-                                isSelected: selectedRestaurant?.id == restaurant.id,
-                                guide: activeGuide
-                            )
-                            .overlay(alignment: .bottom) {
-                                if index < filteredRestaurants.count - 1 {
-                                    Rectangle()
-                                        .fill(activeGuide.rowDivider)
-                                        .frame(height: 0.5)
+                ScrollViewReader { scrollProxy in
+                    ScrollView(.vertical, showsIndicators: false) {
+                        LazyVStack(spacing: 0) {
+                            ForEach(Array(listedRestaurants.enumerated()), id: \.element.id) { index, restaurant in
+                                RestaurantRow(
+                                    restaurant: restaurant,
+                                    isSelected: selectedRestaurant?.id == restaurant.id,
+                                    guide: activeGuide
+                                )
+                                .id(restaurant.id)
+                                .overlay(alignment: .bottom) {
+                                    if index < listedRestaurants.count - 1 {
+                                        Rectangle()
+                                            .fill(activeGuide.rowDivider)
+                                            .frame(height: 0.5)
+                                    }
                                 }
-                            }
-                            .onTapGesture {
-                                if selectedRestaurant?.id == restaurant.id,
-                                   selectedMarkerPresentation == .smallTag {
-                                    clearMapSelection()
-                                } else {
-                                    selectedRestaurant = restaurant
-                                    selectedMarkerPresentation = .smallTag
+                                .onTapGesture {
+                                    if selectedRestaurant?.id == restaurant.id,
+                                       selectedMarkerPresentation == .smallTag {
+                                        clearMapSelection()
+                                    } else {
+                                        selectedRestaurant = restaurant
+                                        selectedMarkerPresentation = .smallTag
+                                    }
                                 }
                             }
                         }
                     }
+                    .onChange(of: focusedListRestaurantID) {
+                        guard let focusedListRestaurantID else { return }
+                        scrollProxy.scrollTo(focusedListRestaurantID, anchor: .top)
+                    }
+                    .transaction { transaction in
+                        transaction.animation = nil
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                 }
-                .transaction { transaction in
-                    transaction.animation = nil
-                }
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             }
 
             VStack {
@@ -336,6 +356,10 @@ struct ContentView: View {
     private func clearMapSelection() {
         selectedRestaurant = nil
         selectedMarkerPresentation = .pinOnly
+    }
+
+    private var focusedListRestaurantID: String? {
+        selectedMarkerPresentation == .detailTag ? selectedRestaurant?.id : nil
     }
 }
 
