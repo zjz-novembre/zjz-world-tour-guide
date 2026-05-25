@@ -32,19 +32,6 @@ struct ContentView: View {
             }
     }
 
-    private var listedRestaurants: [Restaurant] {
-        guard selectedMarkerPresentation == .detailTag,
-              let selectedRestaurant,
-              let selectedIndex = filteredRestaurants.firstIndex(where: { $0.id == selectedRestaurant.id }),
-              selectedIndex > 0 else {
-            return filteredRestaurants
-        }
-
-        var nextRestaurants = filteredRestaurants
-        let focusedRestaurant = nextRestaurants.remove(at: selectedIndex)
-        return [focusedRestaurant] + nextRestaurants
-    }
-
     var body: some View {
         GeometryReader { proxy in
             let layout = DineLayout(
@@ -282,7 +269,7 @@ struct ContentView: View {
                 ScrollViewReader { scrollProxy in
                     ScrollView(.vertical, showsIndicators: false) {
                         LazyVStack(spacing: 0) {
-                            ForEach(Array(listedRestaurants.enumerated()), id: \.element.id) { index, restaurant in
+                            ForEach(Array(filteredRestaurants.enumerated()), id: \.element.id) { index, restaurant in
                                 RestaurantRow(
                                     restaurant: restaurant,
                                     isSelected: selectedRestaurant?.id == restaurant.id,
@@ -290,7 +277,7 @@ struct ContentView: View {
                                 )
                                 .id(restaurant.id)
                                 .overlay(alignment: .bottom) {
-                                    if index < listedRestaurants.count - 1 {
+                                    if index < filteredRestaurants.count - 1 {
                                         Rectangle()
                                             .fill(activeGuide.rowDivider)
                                             .frame(height: 0.5)
@@ -310,7 +297,11 @@ struct ContentView: View {
                     }
                     .onChange(of: focusedListRestaurantID) {
                         guard let focusedListRestaurantID else { return }
-                        scrollProxy.scrollTo(focusedListRestaurantID, anchor: .top)
+                        DispatchQueue.main.async {
+                            withAnimation(.snappy(duration: 0.22)) {
+                                scrollProxy.scrollTo(focusedListRestaurantID, anchor: .top)
+                            }
+                        }
                     }
                     .transaction { transaction in
                         transaction.animation = nil

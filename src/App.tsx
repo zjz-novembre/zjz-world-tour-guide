@@ -113,14 +113,6 @@ export function App() {
     activeCityOptions[0] ??
     cityOptions[0];
   const selectedId = selectedMarker?.id ?? null;
-  const listedRestaurants = useMemo(
-    () =>
-      promoteSelectedRestaurant(
-        filteredRestaurants,
-        selectedMarker?.mode === "detail" ? selectedMarker.id : null,
-      ),
-    [filteredRestaurants, selectedMarker],
-  );
 
   useEffect(() => {
     const allowedCostBands = new Set(costOptions.map((option) => option.value));
@@ -279,7 +271,7 @@ export function App() {
           </button>
           <RestaurantList
             onSelect={handleListSelect}
-            restaurants={listedRestaurants}
+            restaurants={filteredRestaurants}
             selectedId={selectedId}
             guide={guide}
           />
@@ -287,17 +279,6 @@ export function App() {
       </section>
     </main>
   );
-}
-
-function promoteSelectedRestaurant(restaurants: Restaurant[], selectedId: string | null) {
-  if (!selectedId) return restaurants;
-
-  const selectedIndex = restaurants.findIndex((restaurant) => restaurant.id === selectedId);
-  if (selectedIndex <= 0) return restaurants;
-
-  const nextRestaurants = restaurants.slice();
-  const [selectedRestaurant] = nextRestaurants.splice(selectedIndex, 1);
-  return [selectedRestaurant, ...nextRestaurants];
 }
 
 function buildCityOptions(restaurants: Restaurant[]): CityOption[] {

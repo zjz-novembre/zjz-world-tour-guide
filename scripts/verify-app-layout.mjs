@@ -513,9 +513,17 @@ try {
       const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       const zoomBeforeClick = document.querySelector(".amap-surface")?.getAttribute("data-amap-zoom-band");
 
-      const firstTag = document.querySelector(".map-marker__tag");
+      const firstRowNameBeforeClick = document.querySelector(".restaurant-row:first-child .restaurant-row__name")?.textContent?.trim() ?? "";
+      const rowNames = [...document.querySelectorAll(".restaurant-row__name")]
+        .map((row) => row.textContent?.trim() ?? "");
+      const lowerListNames = new Set(rowNames.slice(Math.min(30, Math.max(rowNames.length - 1, 0))));
+      const tags = [...document.querySelectorAll(".map-marker__tag")];
+      const firstTag = tags.find((tag) => lowerListNames.has(tag.querySelector(".map-marker__tag-name")?.textContent?.trim() ?? ""))
+        ?? tags.find((tag) => tag.querySelector(".map-marker__tag-name")?.textContent?.trim() !== firstRowNameBeforeClick)
+        ?? document.querySelector(".map-marker__tag");
       const anchorBeforeClick = document.querySelector(".map-city-anchor")?.getBoundingClientRect();
       const collapsedWidth = firstTag?.getBoundingClientRect().width ?? 0;
+      const targetTagName = firstTag?.querySelector(".map-marker__tag-name")?.textContent?.trim() ?? "";
       firstTag?.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
 
       for (let attempt = 0; attempt < 20; attempt += 1) {
@@ -528,6 +536,16 @@ try {
           break;
         }
         await wait(180);
+      }
+
+      for (let attempt = 0; attempt < 24; attempt += 1) {
+        const listBody = document.querySelector(".restaurant-list__body");
+        const activeRow = document.querySelector(".restaurant-row--active");
+        if (listBody && activeRow) {
+          const rowTopDelta = activeRow.getBoundingClientRect().top - listBody.getBoundingClientRect().top;
+          if (Math.abs(rowTopDelta) <= 8 || listBody.scrollTop > 0) break;
+        }
+        await wait(120);
       }
 
       const activeRow = document.querySelector(".restaurant-row--active");
@@ -548,6 +566,11 @@ try {
       const firstRowName = document.querySelector(".restaurant-row:first-child .restaurant-row__name")?.textContent?.trim() ?? "";
       const activeMarkerWrapper = activeTag?.closest(".amap-marker");
       const activeMarkerWrapperZIndex = activeMarkerWrapper ? getComputedStyle(activeMarkerWrapper).zIndex : "";
+      const listBody = document.querySelector(".restaurant-list__body");
+      const listBodyRect = listBody?.getBoundingClientRect();
+      const activeRowRect = activeRow?.getBoundingClientRect();
+      const activeRowTopDelta = listBodyRect && activeRowRect ? activeRowRect.top - listBodyRect.top : null;
+      const listScrollTop = listBody?.scrollTop ?? 0;
 
       activeTag?.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true }));
 
@@ -592,7 +615,11 @@ try {
         activeDishesText,
         activeMarkerName,
         activeRowName,
+        firstRowNameBeforeClick,
         firstRowName,
+        targetTagName,
+        activeRowTopDelta,
+        listScrollTop,
         activeMarkerWrapperZIndex,
         activeMarkersAfterSecondClick,
         activeRowsAfterSecondClick,
@@ -621,7 +648,12 @@ try {
   assert(mapTagValue.activeMetaDisplay !== "none", `Expanded restaurant tag did not show cost/star detail: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.activeDishesDisplay !== "none" && mapTagValue.activeDishesText, `Expanded restaurant tag did not show dishes: ${JSON.stringify(mapTagValue)}`);
   assert(mapTagValue.activeMarkerName === mapTagValue.activeRowName, `Map marker and list selection are out of sync: ${JSON.stringify(mapTagValue)}`);
-  assert(mapTagValue.activeRowName === mapTagValue.firstRowName, `Clicked map marker restaurant was not promoted to the top of the list: ${JSON.stringify(mapTagValue)}`);
+  assert(mapTagValue.activeMarkerName === mapTagValue.targetTagName, `Clicked map marker did not become the active marker: ${JSON.stringify(mapTagValue)}`);
+  assert(mapTagValue.firstRowName === mapTagValue.firstRowNameBeforeClick, `Map selection reordered the restaurant list instead of preserving rank order: ${JSON.stringify(mapTagValue)}`);
+  assert(
+    mapTagValue.listScrollTop > 0 && Math.abs(mapTagValue.activeRowTopDelta) <= 24,
+    `Clicked map marker did not scroll the selected restaurant into view at the top of the list: ${JSON.stringify(mapTagValue)}`,
+  );
   assert(
     Number.parseInt(mapTagValue.activeMarkerWrapperZIndex, 10) >= 10000,
     `Expanded map marker tag is not in the foreground stacking layer: ${JSON.stringify(mapTagValue)}`,

@@ -68,9 +68,19 @@ export function RestaurantList({
   const bodyRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (!selectedId || restaurants[0]?.id !== selectedId) return;
     if (!bodyRef.current) return;
-    bodyRef.current.scrollTop = 0;
+    if (!selectedId) return;
+
+    const selectedRow = [...bodyRef.current.querySelectorAll<HTMLElement>(".restaurant-row")]
+      .find((row) => row.dataset.restaurantId === selectedId);
+    if (!selectedRow) return;
+
+    const bodyRect = bodyRef.current.getBoundingClientRect();
+    const rowRect = selectedRow.getBoundingClientRect();
+    bodyRef.current.scrollTo({
+      behavior: "auto",
+      top: bodyRef.current.scrollTop + rowRect.top - bodyRect.top,
+    });
   }, [restaurants, selectedId]);
 
   return (
@@ -96,6 +106,7 @@ export function RestaurantList({
                   ? "restaurant-row restaurant-row--active"
                   : "restaurant-row"
               }
+              data-restaurant-id={restaurant.id}
               role="row"
               type="button"
               onClick={() => onSelect(restaurant.id)}
