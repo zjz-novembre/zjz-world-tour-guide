@@ -13,7 +13,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Dine Guide</string>
 	<key>DineGuideCommercialVersion</key>
-	<string>1.0.0-202605250602</string>
+	<string>1.1.0-202605252101</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

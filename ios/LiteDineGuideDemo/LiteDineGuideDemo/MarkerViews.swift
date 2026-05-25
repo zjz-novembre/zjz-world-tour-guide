@@ -225,6 +225,14 @@ private struct PinBadge: View {
                 .rotationEffect(.degrees(-45))
                 .shadow(color: shadowColor, radius: isFocused ? 12 : 10, y: 5)
 
+            if let pinWashColor {
+                PinShape()
+                    .inset(by: 1)
+                    .fill(pinWashColor)
+                    .frame(width: pinSize, height: pinSize)
+                    .rotationEffect(.degrees(-45))
+            }
+
             LevelGlyph(restaurant: restaurant, pinSize: pinSize)
                 .offset(iconOffset)
         }
@@ -246,6 +254,10 @@ private struct PinBadge: View {
         case .blackPearl:
             return DineStyle.blackPearl
         }
+    }
+
+    private var pinWashColor: Color? {
+        restaurant.guide == .michelin ? .white.opacity(0.24) : nil
     }
 
     private var strokeColor: Color {

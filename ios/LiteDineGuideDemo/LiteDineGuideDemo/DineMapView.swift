@@ -271,6 +271,14 @@ private struct ColdStartPin: View {
                 .rotationEffect(.degrees(-45))
                 .shadow(color: .black.opacity(0.14), radius: 7, y: 3)
 
+            if let pinWashColor {
+                PinShape()
+                    .inset(by: 1)
+                    .fill(pinWashColor)
+                    .frame(width: 21, height: 21)
+                    .rotationEffect(.degrees(-45))
+            }
+
             ColdStartGlyph(restaurant: restaurant)
                 .frame(width: 11.6, height: 11.6)
                 .offset(iconOffset)
@@ -292,6 +300,10 @@ private struct ColdStartPin: View {
                 return DineStyle.michelinRed
             }
         }
+    }
+
+    private var pinWashColor: Color? {
+        restaurant.guide == .michelin ? .white.opacity(0.24) : nil
     }
 
     private var strokeColor: Color {
@@ -331,6 +343,10 @@ private struct ColdStartGlyph: View {
 }
 
 private struct AMapDineMapRepresentable: UIViewRepresentable {
+    private static let primaryStyleResource = "mystyle_sdk_1779742383_0100"
+    private static let legacyStyleResource = "amap-white-smoke"
+    private static let legacyExtraStyleResource = "amap-white-smoke-extra"
+
     let guide: GuideKind
     let city: DineCity
     let restaurants: [Restaurant]
@@ -391,13 +407,15 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
             hasCustomStyle = true
         }
 
-        if let styleURL = Bundle.main.url(forResource: "amap-white-smoke", withExtension: "data"),
-           let styleData = try? Data(contentsOf: styleURL) {
+        if let styleData = bundledStyleData(
+            resourceNames: [Self.primaryStyleResource, Self.legacyStyleResource],
+            extensions: [nil, "data"]
+        ) {
             options.styleData = styleData
             hasCustomStyle = true
         }
 
-        if let extraURL = Bundle.main.url(forResource: "amap-white-smoke-extra", withExtension: "data"),
+        if let extraURL = Bundle.main.url(forResource: Self.legacyExtraStyleResource, withExtension: "data"),
            let extraData = try? Data(contentsOf: extraURL) {
             options.styleExtraData = extraData
             hasCustomStyle = true
@@ -406,6 +424,21 @@ private struct AMapDineMapRepresentable: UIViewRepresentable {
         guard hasCustomStyle else { return }
         mapView.setCustomMapStyleOptions(options)
         mapView.customMapStyleEnabled = true
+    }
+
+    private func bundledStyleData(resourceNames: [String], extensions: [String?]) -> Data? {
+        for resourceName in resourceNames {
+            for fileExtension in extensions {
+                guard let url = Bundle.main.url(forResource: resourceName, withExtension: fileExtension),
+                      let data = try? Data(contentsOf: url) else {
+                    continue
+                }
+
+                return data
+            }
+        }
+
+        return nil
     }
 
     final class Coordinator: NSObject, MAMapViewDelegate {

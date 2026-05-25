@@ -1,6 +1,7 @@
 {
-  "version": "1.0.0-202605250602",
-  "baseVersion": "1.0.0",
-  "timestamp": "202605250602",
-  "releaseDate": "2026-05-25T06:02:00Z"
+  "version": "1.1.0-202605252101",
+  "baseVersion": "1.1.0",
+  "timestamp": "202605252101",
+  "releaseDate": "2026-05-25T21:01:00Z",
+  "releaseSummary": "Applies a custom minimalist AMap base layer to the native app and aligns Michelin marker tonality with the white-smoke map presentation."
 }
