@@ -49,7 +49,7 @@ let server = null;
 try {
   assert(chromeBin, "Chrome or Chromium is required for runtime verification");
   assert(
-    mapViewSource.includes('"amap://styles/whitesmoke"') &&
+    mapViewSource.includes('"amap://styles/653152ed110317541d8e1dabfa110aae"') &&
       mapViewSource.includes("setMapStyle"),
     "AMap white smoke style is not configured in MapView",
   );

@@ -33,6 +33,9 @@
 		2D00000000000000000000E2 /* Data/black-pearl-restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F2 /* Data/black-pearl-restaurants.json */; };
 		2D00000000000000000000E3 /* Assets/black-pearl-diamond-official-52.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F3 /* Assets/black-pearl-diamond-official-52.png */; };
 		2D00000000000000000000E4 /* Assets/black-pearl-logo-official.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F4 /* Assets/black-pearl-logo-official.png */; };
+		2D00000000000000000000E5 /* amap-white-smoke.data in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F5 /* amap-white-smoke.data */; };
+		2D00000000000000000000E6 /* amap-white-smoke-extra.data in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F6 /* amap-white-smoke-extra.data */; };
+		2D00000000000000000000E7 /* Assets/black-pearl-switch-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D00000000000000000000F7 /* Assets/black-pearl-switch-logo.png */; };
 		58378005B0C1494EFA3A9EAC /* Pods_LiteDineGuideDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F6B17BCBCBBC38AA7A4002 /* Pods_LiteDineGuideDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,9 @@
 		2D00000000000000000000F2 /* Data/black-pearl-restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Data/black-pearl-restaurants.json"; sourceTree = "<group>"; };
 		2D00000000000000000000F3 /* Assets/black-pearl-diamond-official-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-diamond-official-52.png"; sourceTree = "<group>"; };
 		2D00000000000000000000F4 /* Assets/black-pearl-logo-official.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-logo-official.png"; sourceTree = "<group>"; };
+		2D00000000000000000000F5 /* amap-white-smoke.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "amap-white-smoke.data"; sourceTree = "<group>"; };
+		2D00000000000000000000F6 /* amap-white-smoke-extra.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = "amap-white-smoke-extra.data"; sourceTree = "<group>"; };
+		2D00000000000000000000F7 /* Assets/black-pearl-switch-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets/black-pearl-switch-logo.png"; sourceTree = "<group>"; };
 		7DE7536667170329DD9B08CB /* Pods-LiteDineGuideDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiteDineGuideDemo.release.xcconfig"; path = "Target Support Files/Pods-LiteDineGuideDemo/Pods-LiteDineGuideDemo.release.xcconfig"; sourceTree = "<group>"; };
 		80FC7E7F177CF35CC020211E /* Pods-LiteDineGuideDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiteDineGuideDemo.debug.xcconfig"; path = "Target Support Files/Pods-LiteDineGuideDemo/Pods-LiteDineGuideDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,12 +120,15 @@
 				2D00000000000000000000B9 /* Assets/web-check.svg */,
 				2D00000000000000000000F3 /* Assets/black-pearl-diamond-official-52.png */,
 				2D00000000000000000000F4 /* Assets/black-pearl-logo-official.png */,
+				2D00000000000000000000F7 /* Assets/black-pearl-switch-logo.png */,
 				2D00000000000000000000D1 /* Fonts/openai-sans-v2-regular.ttf */,
 				2D00000000000000000000D2 /* Fonts/openai-sans-v2-medium.ttf */,
 				2D00000000000000000000D3 /* Fonts/openai-sans-v2-semibold.ttf */,
 				2D00000000000000000000D4 /* Fonts/openai-sans-v2-bold.ttf */,
 				2D00000000000000000000F1 /* Data/michelin-restaurants.json */,
 				2D00000000000000000000F2 /* Data/black-pearl-restaurants.json */,
+				2D00000000000000000000F5 /* amap-white-smoke.data */,
+				2D00000000000000000000F6 /* amap-white-smoke-extra.data */,
 			);
 			path = LiteDineGuideDemo;
 			sourceTree = "<group>";
@@ -226,6 +235,9 @@
 				2D00000000000000000000E2 /* Data/black-pearl-restaurants.json in Resources */,
 				2D00000000000000000000E3 /* Assets/black-pearl-diamond-official-52.png in Resources */,
 				2D00000000000000000000E4 /* Assets/black-pearl-logo-official.png in Resources */,
+				2D00000000000000000000E7 /* Assets/black-pearl-switch-logo.png in Resources */,
+				2D00000000000000000000E5 /* amap-white-smoke.data in Resources */,
+				2D00000000000000000000E6 /* amap-white-smoke-extra.data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,14 +433,14 @@
 				AMAP_IOS_API_KEY = 8924dbb00daef3035dc6a5872f425efb;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 202605252101;
+				CURRENT_PROJECT_VERSION = 202605252212;
 				DEVELOPMENT_TEAM = BAFB8AR23V;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LiteDineGuideDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = world.zjz.LiteDineGuideDemo;
 				PRODUCT_NAME = "Dine Guide";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -447,14 +459,14 @@
 				AMAP_IOS_API_KEY = 8924dbb00daef3035dc6a5872f425efb;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 202605252101;
+				CURRENT_PROJECT_VERSION = 202605252212;
 				DEVELOPMENT_TEAM = BAFB8AR23V;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LiteDineGuideDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = world.zjz.LiteDineGuideDemo;
 				PRODUCT_NAME = "Dine Guide";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

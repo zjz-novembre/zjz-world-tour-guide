@@ -87,7 +87,8 @@
   --size-map-tag-y-offset: 0.27rem;
   --size-guide-switch: 2rem;
   --size-guide-switch-logo: 1.25rem;
-  --size-guide-switch-black-pearl-logo: 2.35rem;
+  --size-guide-switch-black-pearl-logo-width: 5rem;
+  --size-guide-switch-black-pearl-logo-height: 1.22rem;
   --size-guide-switch-icon: 0.9rem;
   --z-active-marker: 10000;
   --weight-medium: 520;
@@ -144,7 +145,7 @@ button {
   --color-map-park: #dfece0;
   --color-map-artery: #f8f7f4;
   --filter-map-whitesmoke: saturate(0.34) contrast(0.86) brightness(1.08);
-  --overlay-map-whitesmoke: rgb(255 255 255 / 0.24);
+  --overlay-map-whitesmoke: transparent;
   --shadow-panel: 0 1rem 3rem rgb(0 0 0 / 0.42);
 }
 
@@ -235,8 +236,8 @@ button {
 }
 
 .guide-switch__logo--black-pearl {
-  height: var(--size-guide-switch-black-pearl-logo);
-  width: var(--size-guide-switch-black-pearl-logo);
+  height: var(--size-guide-switch-black-pearl-logo-height);
+  width: var(--size-guide-switch-black-pearl-logo-width);
 }
 
 .guide-switch__icon {
@@ -1305,7 +1306,8 @@ button {
     --size-thumb: 2.75rem;
     --size-guide-switch: 1.75rem;
     --size-guide-switch-logo: 1.05rem;
-    --size-guide-switch-black-pearl-logo: 1.95rem;
+    --size-guide-switch-black-pearl-logo-width: 4.35rem;
+    --size-guide-switch-black-pearl-logo-height: 1.06rem;
     --size-guide-switch-icon: 0.8rem;
   }
 

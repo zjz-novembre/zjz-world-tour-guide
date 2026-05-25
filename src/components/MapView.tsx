@@ -37,7 +37,7 @@ type MapFocus = {
   y: number;
   scaleWidth: number;
 };
-const AMAP_STYLE = "amap://styles/whitesmoke";
+const AMAP_STYLE = "amap://styles/653152ed110317541d8e1dabfa110aae";
 const AMAP_FEATURES = ["bg", "road"];
 const DESKTOP_MAP_FOCUS_RATIO = 0.3;
 const DESKTOP_CITY_SCALE_RATIO = 0.6;

@@ -570,8 +570,8 @@ private struct GuideLogo: View {
                 SVGVectorIcon(name: "michelin-guide", tint: DineStyle.michelinRed)
                     .frame(width: 18, height: 18)
             case .blackPearl:
-                BundledPNG(name: "black-pearl-logo-official")
-                    .frame(width: 28, height: 28)
+                BundledPNG(name: "black-pearl-switch-logo")
+                    .frame(width: 82, height: 20)
             }
         }
     }

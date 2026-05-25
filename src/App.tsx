@@ -29,7 +29,7 @@ const blackPearlDiamondIcon = new URL(
   new URL(import.meta.env.BASE_URL, window.location.origin),
 ).pathname;
 const blackPearlLogoIcon = new URL(
-  "black-pearl-logo-official.png",
+  "black-pearl-switch-logo.png",
   new URL(import.meta.env.BASE_URL, window.location.origin),
 ).pathname;
 type SelectedMarker = {

@@ -1,4 +1,4 @@
-const CACHE_NAME = "lite-michelin-v20260524-coldstart-1";
+const CACHE_NAME = "lite-michelin-v20260525-v111-map-style";
 const SCOPE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, "");
 const scoped = (path) => `${SCOPE_PATH}${path}`;
 const APP_SHELL = [
@@ -20,6 +20,7 @@ const APP_SHELL = [
   scoped("/black-pearl-official-diamond.png"),
   scoped("/black-pearl-diamond-official-52.png"),
   scoped("/black-pearl-logo-official.png"),
+  scoped("/black-pearl-switch-logo.png"),
 ];
 
 self.addEventListener("install", (event) => {
